@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Tennis ball yellow circle background -->
+  <circle cx="50" cy="50" r="48" fill="#F3EB38" stroke="#16A34A" stroke-width="2"/>
+  
+  <!-- Tennis racket -->
+  <g transform="translate(50, 50)">
+    <!-- Racket head circle -->
+    <circle cx="0" cy="-20" r="18" fill="none" stroke="#16A34A" stroke-width="3"/>
+    <!-- Racket strings pattern -->
+    <line x1="-12" y1="-20" x2="12" y2="-20" stroke="#16A34A" stroke-width="1.5"/>
+    <line x1="-12" y1="-12" x2="12" y2="-12" stroke="#16A34A" stroke-width="1.5"/>
+    <line x1="-12" y1="-4" x2="12" y2="-4" stroke="#16A34A" stroke-width="1.5"/>
+    <line x1="-14" y1="-20" x2="-14" y2="4" stroke="#16A34A" stroke-width="1.5"/>
+    <line x1="-6" y1="-20" x2="-6" y2="4" stroke="#16A34A" stroke-width="1.5"/>
+    <line x1="2" y1="-20" x2="2" y2="4" stroke="#16A34A" stroke-width="1.5"/>
+    <line x1="10" y1="-20" x2="10" y2="4" stroke="#16A34A" stroke-width="1.5"/>
+    <!-- Racket handle -->
+    <rect x="-4" y="6" width="8" height="18" fill="#16A34A" rx="2"/>
+  </g>
+  
+  <!-- Heart accent -->
+  <g transform="translate(75, 25) scale(0.8)">
+    <path d="M0,-5 C0,-8 -3,-10 -5,-10 C-7,-10 -10,-8 -10,-5 C-10,0 0,8 0,8 C0,8 10,0 10,-5 C10,-8 7,-10 5,-10 C3,-10 0,-8 0,-5" fill="#DC2626" stroke="#DC2626" stroke-width="0.5"/>
+  </g>
+</svg>

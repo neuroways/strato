@@ -1,0 +1,1 @@
+import{j as e}from"./index-BNiUh06T.js";import{P as t}from"./PageTemplate-D3q3LrAI.js";import"./createLucideIcon-DPJ7bZ7V.js";function i(){return e.jsx(t,{title:"Selbstregulation",pageKey:"neurobalance.regulation.overview"})}export{i as RegulationOverviewPage};

@@ -1,0 +1,98 @@
+[
+  {
+    "build_id": "eazyl1ighs6lc2t",
+    "collectionId": "pbc_1458615629",
+    "collectionName": "pkg_build_logs",
+    "created": "2026-07-23 20:01:49.838Z",
+    "id": "k9f2et2bxeoyyny",
+    "level": "INFO",
+    "message": "Artefakt gespeichert: z9z6bktovz224qw",
+    "step": "STORE",
+    "updated": "2026-07-23 20:01:49.838Z",
+    "user_id": "lwyoee3opzvkiq2"
+  },
+  {
+    "build_id": "eazyl1ighs6lc2t",
+    "collectionId": "pbc_1458615629",
+    "collectionName": "pkg_build_logs",
+    "created": "2026-07-23 20:01:49.836Z",
+    "id": "c0a8kd7hekavcz7",
+    "level": "INFO",
+    "message": "JSON-Manifest erzeugt: 73534 Bytes, SHA-256: cd3435d3d04119a3...",
+    "step": "GENERATE",
+    "updated": "2026-07-23 20:01:49.836Z",
+    "user_id": "lwyoee3opzvkiq2"
+  },
+  {
+    "build_id": "eazyl1ighs6lc2t",
+    "collectionId": "pbc_1458615629",
+    "collectionName": "pkg_build_logs",
+    "created": "2026-07-23 20:01:49.833Z",
+    "id": "005ztvlake7x9kp",
+    "level": "INFO",
+    "message": "Dateien deterministisch sortiert nach install_order und version_type",
+    "step": "MERGE",
+    "updated": "2026-07-23 20:01:49.833Z",
+    "user_id": "lwyoee3opzvkiq2"
+  },
+  {
+    "build_id": "eazyl1ighs6lc2t",
+    "collectionId": "pbc_1458615629",
+    "collectionName": "pkg_build_logs",
+    "created": "2026-07-23 20:01:49.831Z",
+    "id": "1e8kgxb75fk1hp6",
+    "level": "INFO",
+    "message": "Kein geheimhaltungsbedürftiger Inhalt gefunden",
+    "step": "SECRET_SCAN",
+    "updated": "2026-07-23 20:01:49.831Z",
+    "user_id": "lwyoee3opzvkiq2"
+  },
+  {
+    "build_id": "eazyl1ighs6lc2t",
+    "collectionId": "pbc_1458615629",
+    "collectionName": "pkg_build_logs",
+    "created": "2026-07-23 20:01:49.829Z",
+    "id": "1qbymik8pjujqe3",
+    "level": "INFO",
+    "message": "Keine Pfadkonflikte — 19 eindeutige Pfade",
+    "step": "CHECK_PATHS",
+    "updated": "2026-07-23 20:01:49.829Z",
+    "user_id": "lwyoee3opzvkiq2"
+  },
+  {
+    "build_id": "eazyl1ighs6lc2t",
+    "collectionId": "pbc_1458615629",
+    "collectionName": "pkg_build_logs",
+    "created": "2026-07-23 20:01:49.827Z",
+    "id": "o6770iz9yhjg8mk",
+    "level": "INFO",
+    "message": "ENERGY_NAVIGATOR v1.1.0 kompatibel mit NW-CORE v0.1.0 (compatible_base_versions: >=v0.1.0)",
+    "step": "CHECK_DEPS",
+    "updated": "2026-07-23 20:01:49.827Z",
+    "user_id": "lwyoee3opzvkiq2"
+  },
+  {
+    "build_id": "eazyl1ighs6lc2t",
+    "collectionId": "pbc_1458615629",
+    "collectionName": "pkg_build_logs",
+    "created": "2026-07-23 20:01:49.825Z",
+    "id": "t3z68fht6xw6za8",
+    "level": "INFO",
+    "message": "8 Moduldateien geladen",
+    "step": "LOAD_MODULES",
+    "updated": "2026-07-23 20:01:49.825Z",
+    "user_id": "lwyoee3opzvkiq2"
+  },
+  {
+    "build_id": "eazyl1ighs6lc2t",
+    "collectionId": "pbc_1458615629",
+    "collectionName": "pkg_build_logs",
+    "created": "2026-07-23 20:01:49.823Z",
+    "id": "w3sbl2jsb7to2q8",
+    "level": "INFO",
+    "message": "11 Basisdateien geladen",
+    "step": "LOAD_BASE",
+    "updated": "2026-07-23 20:01:49.823Z",
+    "user_id": "lwyoee3opzvkiq2"
+  }
+]

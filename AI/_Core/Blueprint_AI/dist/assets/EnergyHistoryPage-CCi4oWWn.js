@@ -1,0 +1,1 @@
+import{j as e}from"./index-BNiUh06T.js";import{P as r}from"./PageTemplate-D3q3LrAI.js";import"./createLucideIcon-DPJ7bZ7V.js";function i(){return e.jsx(r,{title:"Energieverlauf",pageKey:"neurobalance.energy.history"})}export{i as EnergyHistoryPage};

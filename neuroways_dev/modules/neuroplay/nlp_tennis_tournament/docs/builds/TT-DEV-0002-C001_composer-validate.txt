@@ -1,0 +1,1 @@
+Composer CLI not installed in build environment; composer.json validated by JSON/configuration test only.

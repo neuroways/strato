@@ -1,0 +1,850 @@
+{
+  "collections": [
+    {
+      "id": "publishers",
+      "name": "publishers",
+      "type": "base",
+      "system": false,
+      "schema": [
+        {
+          "id": "text_p1",
+          "name": "publisher_code",
+          "type": "text",
+          "system": false,
+          "required": true,
+          "unique": true,
+          "options": {}
+        },
+        {
+          "id": "text_p2",
+          "name": "name_de",
+          "type": "text",
+          "system": false,
+          "required": true,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "number_p1",
+          "name": "priority",
+          "type": "number",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "min": null,
+            "max": null,
+            "noDecimal": false
+          }
+        },
+        {
+          "id": "text_p3",
+          "name": "country",
+          "type": "text",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "url_p1",
+          "name": "website",
+          "type": "url",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "text_p4",
+          "name": "notes",
+          "type": "text",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "text_p5",
+          "name": "original_record_id",
+          "type": "text",
+          "system": false,
+          "required": false,
+          "unique": true,
+          "options": {}
+        },
+        {
+          "id": "relation_p1",
+          "name": "import_batch",
+          "type": "relation",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "collectionId": "import_batches",
+            "cascadeDelete": false,
+            "minSelect": null,
+            "maxSelect": 1,
+            "displayFields": []
+          }
+        }
+      ],
+      "indexes": [
+        "CREATE UNIQUE INDEX `idx_publisher_code` on `publishers` (`publisher_code`)",
+        "CREATE UNIQUE INDEX `idx_original_record_id_publishers` on `publishers` (`original_record_id`)"
+      ],
+      "listRule": null,
+      "viewRule": null,
+      "createRule": "user.verified = true",
+      "updateRule": "user.verified = true",
+      "deleteRule": null,
+      "options": {}
+    },
+    {
+      "id": "games",
+      "name": "games",
+      "type": "base",
+      "system": false,
+      "schema": [
+        {
+          "id": "text_g1",
+          "name": "title_de",
+          "type": "text",
+          "system": false,
+          "required": true,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "text_g2",
+          "name": "title_normalized",
+          "type": "text",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "relation_g1",
+          "name": "publisher",
+          "type": "relation",
+          "system": false,
+          "required": true,
+          "unique": false,
+          "options": {
+            "collectionId": "publishers",
+            "cascadeDelete": false,
+            "minSelect": null,
+            "maxSelect": 1,
+            "displayFields": []
+          }
+        },
+        {
+          "id": "text_g3",
+          "name": "category_primary",
+          "type": "text",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "text_g4",
+          "name": "category_secondary",
+          "type": "text",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "select_g1",
+          "name": "language",
+          "type": "select",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "maxSelect": 1,
+            "values": ["de", "en", "fr", "mixed"]
+          }
+        },
+        {
+          "id": "number_g1",
+          "name": "year_published",
+          "type": "number",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "min": null,
+            "max": null,
+            "noDecimal": true
+          }
+        },
+        {
+          "id": "number_g2",
+          "name": "players_min",
+          "type": "number",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "min": 1,
+            "max": null,
+            "noDecimal": true
+          }
+        },
+        {
+          "id": "number_g3",
+          "name": "players_max",
+          "type": "number",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "min": 1,
+            "max": null,
+            "noDecimal": true
+          }
+        },
+        {
+          "id": "number_g4",
+          "name": "duration_minutes",
+          "type": "number",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "min": 0,
+            "max": null,
+            "noDecimal": true
+          }
+        },
+        {
+          "id": "number_g5",
+          "name": "age_min",
+          "type": "number",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "min": 0,
+            "max": null,
+            "noDecimal": true
+          }
+        },
+        {
+          "id": "text_g5",
+          "name": "original_record_id",
+          "type": "text",
+          "system": false,
+          "required": false,
+          "unique": true,
+          "options": {}
+        },
+        {
+          "id": "relation_g2",
+          "name": "import_batch",
+          "type": "relation",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "collectionId": "import_batches",
+            "cascadeDelete": false,
+            "minSelect": null,
+            "maxSelect": 1,
+            "displayFields": []
+          }
+        }
+      ],
+      "indexes": [
+        "CREATE INDEX `idx_publisher_games` on `games` (`publisher`)",
+        "CREATE UNIQUE INDEX `idx_original_record_id_games` on `games` (`original_record_id`)"
+      ],
+      "listRule": null,
+      "viewRule": null,
+      "createRule": "user.verified = true",
+      "updateRule": "user.verified = true",
+      "deleteRule": null,
+      "options": {}
+    },
+    {
+      "id": "game_editions",
+      "name": "game_editions",
+      "type": "base",
+      "system": false,
+      "schema": [
+        {
+          "id": "relation_e1",
+          "name": "game",
+          "type": "relation",
+          "system": false,
+          "required": true,
+          "unique": false,
+          "options": {
+            "collectionId": "games",
+            "cascadeDelete": false,
+            "minSelect": null,
+            "maxSelect": 1,
+            "displayFields": []
+          }
+        },
+        {
+          "id": "relation_e2",
+          "name": "publisher",
+          "type": "relation",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "collectionId": "publishers",
+            "cascadeDelete": false,
+            "minSelect": null,
+            "maxSelect": 1,
+            "displayFields": []
+          }
+        },
+        {
+          "id": "text_e1",
+          "name": "edition_name",
+          "type": "text",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "number_e1",
+          "name": "edition_year",
+          "type": "number",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "min": 1900,
+            "max": 2100,
+            "noDecimal": true
+          }
+        },
+        {
+          "id": "text_e2",
+          "name": "ean_13",
+          "type": "text",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "text_e3",
+          "name": "article_number",
+          "type": "text",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "select_e1",
+          "name": "identification_status",
+          "type": "select",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "maxSelect": 1,
+            "values": ["complete", "incomplete", "needs_review"]
+          }
+        },
+        {
+          "id": "text_e4",
+          "name": "notes",
+          "type": "text",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "text_e5",
+          "name": "original_record_id",
+          "type": "text",
+          "system": false,
+          "required": false,
+          "unique": true,
+          "options": {}
+        },
+        {
+          "id": "relation_e3",
+          "name": "import_batch",
+          "type": "relation",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "collectionId": "import_batches",
+            "cascadeDelete": false,
+            "minSelect": null,
+            "maxSelect": 1,
+            "displayFields": []
+          }
+        }
+      ],
+      "indexes": [
+        "CREATE INDEX `idx_game_editions` on `game_editions` (`game`)",
+        "CREATE UNIQUE INDEX `idx_original_record_id_editions` on `game_editions` (`original_record_id`)"
+      ],
+      "listRule": null,
+      "viewRule": null,
+      "createRule": "user.verified = true",
+      "updateRule": "user.verified = true",
+      "deleteRule": null,
+      "options": {}
+    },
+    {
+      "id": "rule_sources",
+      "name": "rule_sources",
+      "type": "base",
+      "system": false,
+      "schema": [
+        {
+          "id": "relation_r1",
+          "name": "game",
+          "type": "relation",
+          "system": false,
+          "required": true,
+          "unique": false,
+          "options": {
+            "collectionId": "games",
+            "cascadeDelete": false,
+            "minSelect": null,
+            "maxSelect": 1,
+            "displayFields": []
+          }
+        },
+        {
+          "id": "relation_r2",
+          "name": "edition",
+          "type": "relation",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "collectionId": "game_editions",
+            "cascadeDelete": false,
+            "minSelect": null,
+            "maxSelect": 1,
+            "displayFields": []
+          }
+        },
+        {
+          "id": "select_r1",
+          "name": "source_type",
+          "type": "select",
+          "system": false,
+          "required": true,
+          "unique": false,
+          "options": {
+            "maxSelect": 1,
+            "values": ["official_rule_pdf", "official_product_page", "official_rule_archive", "unknown"]
+          }
+        },
+        {
+          "id": "select_r2",
+          "name": "language",
+          "type": "select",
+          "system": false,
+          "required": true,
+          "unique": false,
+          "options": {
+            "maxSelect": 1,
+            "values": ["de", "en", "fr", "mixed"]
+          }
+        },
+        {
+          "id": "url_r1",
+          "name": "url",
+          "type": "url",
+          "system": false,
+          "required": true,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "text_r1",
+          "name": "link_label",
+          "type": "text",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "select_r3",
+          "name": "verification_status",
+          "type": "select",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "maxSelect": 1,
+            "values": ["verified", "unverified", "broken"]
+          }
+        },
+        {
+          "id": "date_r1",
+          "name": "verified_at",
+          "type": "date",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "text_r2",
+          "name": "original_record_id",
+          "type": "text",
+          "system": false,
+          "required": false,
+          "unique": true,
+          "options": {}
+        },
+        {
+          "id": "relation_r3",
+          "name": "import_batch",
+          "type": "relation",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "collectionId": "import_batches",
+            "cascadeDelete": false,
+            "minSelect": null,
+            "maxSelect": 1,
+            "displayFields": []
+          }
+        }
+      ],
+      "indexes": [
+        "CREATE INDEX `idx_game_rule_sources` on `rule_sources` (`game`)",
+        "CREATE INDEX `idx_edition_rule_sources` on `rule_sources` (`edition`)",
+        "CREATE UNIQUE INDEX `idx_original_record_id_rule_sources` on `rule_sources` (`original_record_id`)"
+      ],
+      "listRule": null,
+      "viewRule": null,
+      "createRule": "user.verified = true",
+      "updateRule": "user.verified = true",
+      "deleteRule": null,
+      "options": {}
+    },
+    {
+      "id": "import_batches",
+      "name": "import_batches",
+      "type": "base",
+      "system": false,
+      "schema": [
+        {
+          "id": "text_ib1",
+          "name": "import_name",
+          "type": "text",
+          "system": false,
+          "required": true,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "text_ib2",
+          "name": "source_file_name",
+          "type": "text",
+          "system": false,
+          "required": true,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "text_ib3",
+          "name": "source_version",
+          "type": "text",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "date_ib1",
+          "name": "started_at",
+          "type": "date",
+          "system": false,
+          "required": true,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "date_ib2",
+          "name": "completed_at",
+          "type": "date",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "select_ib1",
+          "name": "status",
+          "type": "select",
+          "system": false,
+          "required": true,
+          "unique": false,
+          "options": {
+            "maxSelect": 1,
+            "values": ["running", "completed", "failed"]
+          }
+        },
+        {
+          "id": "number_ib1",
+          "name": "publisher_rows_found",
+          "type": "number",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "min": 0,
+            "max": null,
+            "noDecimal": true
+          }
+        },
+        {
+          "id": "number_ib2",
+          "name": "publisher_rows_created",
+          "type": "number",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "min": 0,
+            "max": null,
+            "noDecimal": true
+          }
+        },
+        {
+          "id": "number_ib3",
+          "name": "game_source_rows_found",
+          "type": "number",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "min": 0,
+            "max": null,
+            "noDecimal": true
+          }
+        },
+        {
+          "id": "number_ib4",
+          "name": "games_created",
+          "type": "number",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "min": 0,
+            "max": null,
+            "noDecimal": true
+          }
+        },
+        {
+          "id": "number_ib5",
+          "name": "editions_created",
+          "type": "number",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "min": 0,
+            "max": null,
+            "noDecimal": true
+          }
+        },
+        {
+          "id": "number_ib6",
+          "name": "rule_sources_created",
+          "type": "number",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "min": 0,
+            "max": null,
+            "noDecimal": true
+          }
+        },
+        {
+          "id": "number_ib7",
+          "name": "records_skipped",
+          "type": "number",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "min": 0,
+            "max": null,
+            "noDecimal": true
+          }
+        },
+        {
+          "id": "number_ib8",
+          "name": "records_with_warnings",
+          "type": "number",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "min": 0,
+            "max": null,
+            "noDecimal": true
+          }
+        },
+        {
+          "id": "number_ib9",
+          "name": "records_with_errors",
+          "type": "number",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "min": 0,
+            "max": null,
+            "noDecimal": true
+          }
+        },
+        {
+          "id": "json_ib1",
+          "name": "error_log",
+          "type": "json",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "json_ib2",
+          "name": "warning_log",
+          "type": "json",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {}
+        }
+      ],
+      "indexes": [],
+      "listRule": null,
+      "viewRule": null,
+      "createRule": "user.verified = true",
+      "updateRule": "user.verified = true",
+      "deleteRule": null,
+      "options": {}
+    },
+    {
+      "id": "source_verification_history",
+      "name": "source_verification_history",
+      "type": "base",
+      "system": false,
+      "schema": [
+        {
+          "id": "relation_sv1",
+          "name": "rule_source",
+          "type": "relation",
+          "system": false,
+          "required": true,
+          "unique": false,
+          "options": {
+            "collectionId": "rule_sources",
+            "cascadeDelete": false,
+            "minSelect": null,
+            "maxSelect": 1,
+            "displayFields": []
+          }
+        },
+        {
+          "id": "date_sv1",
+          "name": "verified_at",
+          "type": "date",
+          "system": false,
+          "required": true,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "number_sv1",
+          "name": "http_status",
+          "type": "number",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "min": 100,
+            "max": 599,
+            "noDecimal": true
+          }
+        },
+        {
+          "id": "select_sv1",
+          "name": "verification_status",
+          "type": "select",
+          "system": false,
+          "required": true,
+          "unique": false,
+          "options": {
+            "maxSelect": 1,
+            "values": ["verified", "broken", "redirected"]
+          }
+        },
+        {
+          "id": "text_sv1",
+          "name": "notes",
+          "type": "text",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {}
+        },
+        {
+          "id": "text_sv2",
+          "name": "original_record_id",
+          "type": "text",
+          "system": false,
+          "required": false,
+          "unique": true,
+          "options": {}
+        },
+        {
+          "id": "relation_sv2",
+          "name": "import_batch",
+          "type": "relation",
+          "system": false,
+          "required": false,
+          "unique": false,
+          "options": {
+            "collectionId": "import_batches",
+            "cascadeDelete": false,
+            "minSelect": null,
+            "maxSelect": 1,
+            "displayFields": []
+          }
+        }
+      ],
+      "indexes": [
+        "CREATE INDEX `idx_rule_source_history` on `source_verification_history` (`rule_source`)",
+        "CREATE UNIQUE INDEX `idx_original_record_id_history` on `source_verification_history` (`original_record_id`)"
+      ],
+      "listRule": null,
+      "viewRule": null,
+      "createRule": "user.verified = true",
+      "updateRule": "user.verified = true",
+      "deleteRule": null,
+      "options": {}
+    }
+  ]
+}

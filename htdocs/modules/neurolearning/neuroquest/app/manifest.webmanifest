@@ -1,0 +1,18 @@
+{
+  "name": "NeuroWays",
+  "short_name": "NeuroWays",
+  "description": "NeuroWays Development Preview",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f7f3",
+  "theme_color": "#1f355e",
+  "lang": "de",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

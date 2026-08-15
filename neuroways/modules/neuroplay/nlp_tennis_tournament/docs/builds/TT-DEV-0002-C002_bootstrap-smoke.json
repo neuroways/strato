@@ -1,0 +1,13 @@
+{
+    "application": {
+        "name": "Tennisturnier Neindorf",
+        "environment": "test",
+        "version": "0.0.1-dev"
+    },
+    "runtime": {
+        "php_version": "8.4.23",
+        "sapi": "cli"
+    },
+    "status": "ok",
+    "timestamp_utc": "2026-08-08T20:33:48+00:00"
+}

@@ -1,0 +1,183 @@
+{
+  "publishers": [
+    {"id": "P001", "external_id": "V01", "name": "Schmidt Spiele", "country": "Deutschland", "website": "https://www.schmidtspiele.de", "priority": 1, "status": "active"},
+    {"id": "P002", "external_id": "V02", "name": "Pegasus Spiele", "country": "Deutschland", "website": "https://www.pegasus.de", "priority": 2, "status": "active"},
+    {"id": "P003", "external_id": "V03", "name": "KOSMOS", "country": "Deutschland", "website": "https://www.kosmos.de", "priority": 3, "status": "active"},
+    {"id": "P004", "external_id": "V04", "name": "Ravensburger", "country": "Deutschland", "website": "https://www.ravensburger.de", "priority": 4, "status": "active"},
+    {"id": "P005", "external_id": "V05", "name": "Asmodée", "country": "Frankreich", "website": "https://www.asmodeena.com", "priority": 5, "status": "active"}
+  ],
+  "games": [
+    {
+      "id": "G0001",
+      "external_id": "G0001",
+      "title": "Kniffel",
+      "original_title": "Yahtzee",
+      "publisher_id": "P001",
+      "category": "Würfelspiel",
+      "game_type": "Klassisches Würfelspiel",
+      "min_players": 2,
+      "max_players": 6,
+      "min_duration": 20,
+      "max_duration": 30,
+      "min_age": 8,
+      "complexity": "Einfach",
+      "description": "Der Klassiker unter den Würfelspielen. Mit fünf Würfeln und etwas Glück zum Sieg. Kombinationen, Kniffeln und Augensummen bestimmen das Spiel.",
+      "year_published": 1956,
+      "has_rules": true,
+      "rule_status": "complete"
+    },
+    {
+      "id": "G0002",
+      "external_id": "G0002",
+      "title": "Geistertreppe",
+      "original_title": "Spooky Stairs",
+      "publisher_id": "P004",
+      "category": "Kinderbildungsspiel",
+      "game_type": "Kooperativ",
+      "min_players": 2,
+      "max_players": 4,
+      "min_duration": 15,
+      "max_duration": 20,
+      "min_age": 4,
+      "complexity": "Sehr einfach",
+      "description": "Gemeinsam erklimmen die Spieler die bunte Geistertreppe. Ein spannendes, einfaches Kooperationsspiel für die ganze Familie.",
+      "year_published": 2004,
+      "has_rules": true,
+      "rule_status": "complete"
+    },
+    {
+      "id": "G0004",
+      "external_id": "G0004",
+      "title": "Mensch ärgere Dich nicht – Jubiläumsausgabe",
+      "original_title": "Don't Worry, Be Happy",
+      "publisher_id": "P001",
+      "category": "Brettspiel",
+      "game_type": "Wettbewerb",
+      "min_players": 2,
+      "max_players": 6,
+      "min_duration": 45,
+      "max_duration": 60,
+      "min_age": 8,
+      "complexity": "Einfach",
+      "description": "Das beliebteste Brettspiel in Deutschland - zum 125. Jubiläum eine aufwendige Neuausgabe mit erweitertem Spielmaterial und Varianten.",
+      "year_published": 2024,
+      "has_rules": true,
+      "rule_status": "complete"
+    },
+    {
+      "id": "G0035",
+      "external_id": "G0035",
+      "title": "The Gang",
+      "original_title": "The Gang",
+      "publisher_id": "P002",
+      "category": "Kooperatives Abenteuer",
+      "game_type": "Kooperativ",
+      "min_players": 2,
+      "max_players": 5,
+      "min_duration": 60,
+      "max_duration": 90,
+      "min_age": 12,
+      "complexity": "Mittel",
+      "description": "Ein kooperatives Abenteuer, in dem die Spieler eine bunte Bande darstellen und gemeinsam Abenteuer bestehen.",
+      "year_published": 2023,
+      "has_rules": true,
+      "rule_status": "partial"
+    }
+  ],
+  "game_knowledge": [
+    {
+      "id": "K001",
+      "game_id": "G0001",
+      "type": "objective",
+      "content": "Das Ziel ist es, mit fünf Würfeln die höchst mögliche Augensumme zu erreichen oder bestimmte Kombinationen zu bilden."
+    },
+    {
+      "id": "K002",
+      "game_id": "G0001",
+      "type": "core_loop",
+      "content": "Spieler werfen nacheinander ihre Würfel, versuchen die besten Kombinationen zu bilden und tragen Punkte in ihren Spielblock ein."
+    },
+    {
+      "id": "K003",
+      "game_id": "G0002",
+      "type": "objective",
+      "content": "Alle Spieler spielen zusammen gegen das Spiel. Sie versuchen, gemeinsam die Geistertreppe hinaufzuklettern, bevor der Gespenst-Würfel zu oft fällt."
+    }
+  ],
+  "phases": [
+    {
+      "id": "Ph001",
+      "game_id": "G0001",
+      "name": "Vorbereitung",
+      "description": "Jeder Spieler erhält einen Spielblock. Der erste Spieler wird bestimmt.",
+      "order": 1
+    },
+    {
+      "id": "Ph002",
+      "game_id": "G0001",
+      "name": "Spielerzug",
+      "description": "Der aktive Spieler wirft bis zu dreimal die fünf Würfel, um die beste Kombination zu erreichen.",
+      "order": 2
+    },
+    {
+      "id": "Ph003",
+      "game_id": "G0001",
+      "name": "Punktung",
+      "description": "Der Spieler trägt seine erreichte Kombination in den Spielblock ein und gibt die Würfel weiter.",
+      "order": 3
+    },
+    {
+      "id": "Ph004",
+      "game_id": "G0001",
+      "name": "Spielende",
+      "description": "Wenn alle Spieler alle Runden gespielt haben, addiert jeder seine Punkte. Der höchste Punktewert gewinnt.",
+      "order": 4
+    }
+  ],
+  "rules": [
+    {
+      "id": "R001",
+      "game_id": "G0001",
+      "title": "Würfelwurf",
+      "content": "Ein Spieler wirft alle fünf Würfel. Er darf seine Würfel bis zu zwei weitere Male teilweise oder ganz neu werfen.",
+      "validity": "active",
+      "source": "Spielanleitung S. 3",
+      "quality_status": "verified"
+    },
+    {
+      "id": "R002",
+      "game_id": "G0001",
+      "title": "Kombinationen",
+      "content": "Es gibt folgende Kombinationen: Einer bis Sechser (Augensumme), Dreier Pasch, Vierer Pasch, Full House (3+2), Kleine Straße (4 Zahlen), Große Straße (5 Zahlen), Kniffel (5 gleich), Chance (beliebig).",
+      "validity": "active",
+      "source": "Spielanleitung S. 4-5",
+      "quality_status": "verified"
+    }
+  ],
+  "collection": [
+    {
+      "id": "C001",
+      "external_id": "C001",
+      "game_id": "G0001",
+      "status": "VORHANDEN",
+      "publisher_id": "P001",
+      "notes": "Original Kniffel von Schmidt Spiele, sehr guter Zustand"
+    },
+    {
+      "id": "C002",
+      "external_id": "C002",
+      "game_id": "G0002",
+      "status": "VORHANDEN",
+      "publisher_id": "P004",
+      "notes": "Ravensburger Ausgabe, leicht bespielt"
+    },
+    {
+      "id": "C003",
+      "external_id": "C003",
+      "title": "Villa Paletti",
+      "status": "HINZUFÜGEN",
+      "publisher_id": "P001",
+      "notes": "Möchte gerne hinzufügen, noch nicht vorhanden"
+    }
+  ]
+}

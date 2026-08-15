@@ -1,0 +1,1 @@
+No syntax errors detected in /mnt/data/TT-DEV-0001-C003-T002/dev/php-pdo-diagnostic.php

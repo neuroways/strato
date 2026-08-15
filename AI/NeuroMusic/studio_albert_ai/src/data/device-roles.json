@@ -1,0 +1,114 @@
+{
+  "rollen": [
+    {
+      "id": "eingabegeräte",
+      "name": "Eingabegeräte",
+      "erklärung": "Geräte, mit denen Menschen Noten oder Steuerbefehle eingeben.",
+      "symbol": "⌨️",
+      "typischeSignalart": "MIDI",
+      "typischeEingänge": [],
+      "typischeAusgänge": ["MIDI Out", "USB-MIDI"],
+      "alltagsvergleich": "Ein Inputgerät ist wie ein Telefonhörer – du sprichst hinein, und die Botschaft wird weitergesendet.",
+      "beispiele": ["Kawai ES920", "Launchpad Pro"]
+    },
+    {
+      "id": "klangerzeuger",
+      "name": "Klangerzeuger",
+      "erklärung": "Geräte, die aus MIDI-Befehlen hörbaren Klang erzeugen.",
+      "symbol": "🎵",
+      "typischeSignalart": "MIDI in, Audio out",
+      "typischeEingänge": ["MIDI In"],
+      "typischeAusgänge": ["Audio Out L/R"],
+      "alltagsvergleich": "Ein Klangerzeuger ist wie eine Stimme ohne eigenen Musiker. Er benötigt Spielanweisungen, bevor er etwas spielt.",
+      "beispiele": ["Roland JV-1010", "Yamaha TG500", "Roland Sound Canvas"]
+    },
+    {
+      "id": "sampler",
+      "name": "Sampler",
+      "erklärung": "Geräte, die aufgenommene Klänge speichern, verändern und abspielen.",
+      "symbol": "📝",
+      "typischeSignalart": "MIDI + Audio",
+      "typischeEingänge": ["MIDI In", "Audio In"],
+      "typischeAusgänge": ["Audio Out L/R"],
+      "alltagsvergleich": "Ein Sampler ist wie ein Aufnahmegerät, das die Klänge merkt und bei Bedarf wiedergibt.",
+      "beispiele": ["Yamaha SU700", "Akai S2000"]
+    },
+    {
+      "id": "misch-routing",
+      "name": "Misch- und Routinggeräte",
+      "erklärung": "Geräte, die Signale sammeln, bearbeiten und verteilen.",
+      "symbol": "🎚️",
+      "typischeSignalart": "Audio",
+      "typischeEingänge": ["Audio In (mehrfach)", "USB In"],
+      "typischeAusgänge": ["Audio Out (mehrfach)", "USB Out"],
+      "alltagsvergleich": "Das X32 ist wie eine Verkehrszentrale. Jedes Auto (Signal) kommt rein, wird sortiert und an sein Ziel weitergeleitet.",
+      "beispiele": ["Behringer X32"]
+    },
+    {
+      "id": "aufnahme",
+      "name": "Aufnahme- und Computersysteme",
+      "erklärung": "Geräte und Software für Aufnahme und Bearbeitung.",
+      "symbol": "💾",
+      "typischeSignalart": "Audio + MIDI",
+      "typischeEingänge": ["Audio In", "MIDI In", "USB In"],
+      "typischeAusgänge": ["Audio Out", "USB Out"],
+      "alltagsvergleich": "Die DAW ist wie ein digitales Aufnahmegerät und Tonstudio in einem.",
+      "beispiele": ["MacBook M1", "Cubase"]
+    },
+    {
+      "id": "mikrofone",
+      "name": "Mikrofone",
+      "erklärung": "Geräte, die Schall in elektrische Audiosignale umwandeln.",
+      "symbol": "🎤",
+      "typischeSignalart": "Audio (schwach)",
+      "typischeEingänge": [],
+      "typischeAusgänge": ["Audio Out (Stereoanlage oder Mischpult)"],
+      "alltagsvergleich": "Ein Mikrofon ist wie dein Ohr – es hört Schall und sendet die Information weiter.",
+      "beispiele": ["Neumann KMS 104", "Audio-Technica AT4035"]
+    },
+    {
+      "id": "wiedergabe",
+      "name": "Wiedergabegeräte",
+      "erklärung": "Geräte, die Audio hörbar machen.",
+      "symbol": "🔊",
+      "typischeSignalart": "Audio",
+      "typischeEingänge": ["Audio In"],
+      "typischeAusgänge": [],
+      "alltagsvergleich": "Ein Lautsprecher ist wie dein Mund – er gibt an, was die Elektronik sagt.",
+      "beispiele": ["PreSonus Eris E5", "Kopfhörer"]
+    },
+    {
+      "id": "steuergeräte",
+      "name": "Steuergeräte",
+      "erklärung": "Geräte, die andere Geräte oder Software bedienen.",
+      "symbol": "🖱️",
+      "typischeSignalart": "MIDI (Steuersignale)",
+      "typischeEingänge": [],
+      "typischeAusgänge": ["MIDI Out", "USB Out"],
+      "alltagsvergleich": "Ein Steuergerät ist wie eine Fernbedienung – es befiehlt anderen Geräten, was sie tun sollen.",
+      "beispiele": ["Steinberg CC121", "Launchpad Pro"]
+    },
+    {
+      "id": "verteiler",
+      "name": "Verteiler",
+      "erklärung": "Geräte, die ein Signal auf mehrere Empfänger verteilen.",
+      "symbol": "🔀",
+      "typischeSignalart": "MIDI oder Audio",
+      "typischeEingänge": ["MIDI In oder Audio In"],
+      "typischeAusgänge": ["MIDI Out (mehrfach) oder Audio Out (mehrfach)"],
+      "alltagsvergleich": "Ein Verteiler ist wie ein Gabelungskreuz – ein Signal kommt rein und wird auf mehrere Wege aufgeteilt.",
+      "beispiele": ["MIDI-Thru-Gerät", "Behringer AMP800"]
+    },
+    {
+      "id": "hilfsgeräte",
+      "name": "Hilfsgeräte",
+      "erklärung": "Geräte, die Signale, Pegel oder Anschlüsse anpassen.",
+      "symbol": "🔧",
+      "typischeSignalart": "Audio oder MIDI",
+      "typischeEingänge": ["Audio oder MIDI"],
+      "typischeAusgänge": ["Audio oder MIDI (angepasst)"],
+      "alltagsvergleich": "Ein Hilfsgerät ist wie ein Adapter – es stellt sicher, dass zwei Geräte zueinander passen.",
+      "beispiele": ["DI-Boxen", "USB-Adapter", "Audiointerface"]
+    }
+  ]
+}

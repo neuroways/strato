@@ -1,0 +1,17 @@
+{
+  "name": "my-site",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --mode preview",
+    "build:prod": "vite build",
+    "preview": "vite preview",
+    "create-collections": "node scripts/create-collections.cjs",
+    "sync-data": "node scripts/sync-to-pocketbase.cjs",
+    "import-sync": "node scripts/import-and-sync.cjs"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

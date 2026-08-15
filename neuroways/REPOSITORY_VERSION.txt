@@ -1,0 +1,4 @@
+repository_id=NW-REPOSITORY
+structure_version=0.1.0
+status=DRAFT
+purpose=Knowledge Preservation & Repository Management

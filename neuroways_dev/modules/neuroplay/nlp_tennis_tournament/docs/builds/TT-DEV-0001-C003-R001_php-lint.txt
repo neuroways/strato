@@ -1,0 +1,12 @@
+TT-DEV-0001-C003-R001 PHP lint
+Runtime: 8.4.23
+No syntax errors detected in /mnt/data/TT-DEV-0001-C003-R001/backend/config/database.php
+No syntax errors detected in /mnt/data/TT-DEV-0001-C003-R001/backend/src/Infrastructure/Config/Configuration.php
+No syntax errors detected in /mnt/data/TT-DEV-0001-C003-R001/backend/src/Infrastructure/Config/Env.php
+No syntax errors detected in /mnt/data/TT-DEV-0001-C003-R001/backend/src/Infrastructure/Health/DatabaseHealthCheck.php
+No syntax errors detected in /mnt/data/TT-DEV-0001-C003-R001/backend/src/Infrastructure/Persistence/PDO/Connection/DatabaseConnection.php
+No syntax errors detected in /mnt/data/TT-DEV-0001-C003-R001/backend/tests/Infrastructure/Config/ConfigurationTest.php
+No syntax errors detected in /mnt/data/TT-DEV-0001-C003-R001/backend/tests/Infrastructure/Health/DatabaseHealthCheckTest.php
+No syntax errors detected in /mnt/data/TT-DEV-0001-C003-R001/backend/tests/Infrastructure/Persistence/PDO/Connection/DatabaseConnectionTest.php
+No syntax errors detected in /mnt/data/TT-DEV-0001-C003-R001/backend/tests/bootstrap.php
+No syntax errors detected in /mnt/data/TT-DEV-0001-C003-R001/backend/tests/run.php

@@ -1,0 +1,47 @@
+[
+  {
+    "account_status": "ACTIVE",
+    "avatar": "",
+    "collectionId": "_pb_users_auth_",
+    "collectionName": "users",
+    "created": "2026-07-24 11:09:12.781Z",
+    "display_name": "Sven ja",
+    "email": "svenja.festerling@googlemail.com",
+    "emailVisibility": false,
+    "id": "lzcoicdl3dnsrrb",
+    "name": "",
+    "preferred_language": "",
+    "updated": "2026-07-24 11:09:12.781Z",
+    "verified": false
+  },
+  {
+    "account_status": "ACTIVE",
+    "avatar": "",
+    "collectionId": "_pb_users_auth_",
+    "collectionName": "users",
+    "created": "2026-07-23 21:37:13.946Z",
+    "display_name": "Svenja 2",
+    "email": "svenja.schriever@googlemail.com",
+    "emailVisibility": false,
+    "id": "0fk139p2ekdhwaj",
+    "name": "",
+    "preferred_language": "",
+    "updated": "2026-07-23 21:37:13.946Z",
+    "verified": false
+  },
+  {
+    "account_status": "ACTIVE",
+    "avatar": "",
+    "collectionId": "_pb_users_auth_",
+    "collectionName": "users",
+    "created": "2026-07-23 20:33:51.129Z",
+    "display_name": "Svenja ",
+    "email": "svenja@festerling.org",
+    "emailVisibility": false,
+    "id": "9z3hxyz1zdp87eq",
+    "name": "",
+    "preferred_language": "",
+    "updated": "2026-07-23 20:33:51.129Z",
+    "verified": false
+  }
+]

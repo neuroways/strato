@@ -1,0 +1,1 @@
+import{j as e}from"./index-BNiUh06T.js";import{P as t}from"./PageTemplate-D3q3LrAI.js";import"./createLucideIcon-DPJ7bZ7V.js";function o(){return e.jsx(t,{title:"Interventionen",pageKey:"neurobalance.interventions.list"})}export{o as InterventionsListPage};

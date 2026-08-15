@@ -1,0 +1,24 @@
+[
+  {
+    "code": "NW_CORE",
+    "collectionId": "pbc_2878380129",
+    "collectionName": "pkg_bases",
+    "created": "2026-07-23 19:58:58.053Z",
+    "description": "Basisplattform: App Shell, Identity, Navigation, Styling, Build",
+    "id": "rlu6t94lzfcv52b",
+    "name": "NeuroWays Core Platform",
+    "status": "ACTIVE",
+    "updated": "2026-07-23 19:58:58.053Z"
+  },
+  {
+    "code": "NW_CORE_TEST",
+    "collectionId": "pbc_2878380129",
+    "collectionName": "pkg_bases",
+    "created": "2026-07-23 19:57:46.805Z",
+    "description": "",
+    "id": "bvqgvhr5h3epcti",
+    "name": "NeuroWays Test Basis",
+    "status": "ACTIVE",
+    "updated": "2026-07-23 19:57:46.805Z"
+  }
+]

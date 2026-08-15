@@ -1,0 +1,154 @@
+{
+  "module": {
+    "id": "neurorplay-coach",
+    "name": "NeuroPlay Brettspielcoach",
+    "version": "0.1.0",
+    "type": "workspace-application",
+    "domain": "game-learning",
+    "subdomain": ["board-games", "rules-coaching", "player-learning"],
+    "description": "Intelligenter Coach für Brettspielverständnis, Regelwerk-Navigation und Spielunterstützung"
+  },
+  "architecture": {
+    "pattern": "modular-workspace",
+    "state-management": "centralized-app-local",
+    "routing": "screen-based",
+    "ui-framework": "react-18",
+    "styling": "tailwind-v4",
+    "build-tool": "vite-v6"
+  },
+  "structure": {
+    "app": "app/",
+    "components": "src/components/",
+    "services": "src/lib/",
+    "data": "src/data/",
+    "styles": "src/index.css"
+  },
+  "submodules": {
+    "coach": {
+      "id": "coach-dialog",
+      "description": "Pattern-matching coach for player questions",
+      "components": ["CoachScreen"],
+      "services": ["gameService.askGameCoach"]
+    },
+    "catalog": {
+      "id": "game-catalog",
+      "description": "Searchable game catalog from Excel data",
+      "components": ["GamesCatalog"],
+      "services": ["catalog-import", "parse-csv"],
+      "data": "src/data/games-catalog.json"
+    },
+    "playback": {
+      "id": "game-playback",
+      "description": "Live game mode tracker and state management",
+      "components": ["GameModeScreen"],
+      "services": []
+    },
+    "rules": {
+      "id": "rules-db",
+      "description": "Searchable rules database and categorization",
+      "components": ["RulesScreen"],
+      "services": []
+    }
+  },
+  "data": {
+    "persistence": "pocketbase-planned",
+    "schema-version": "0.1.0",
+    "migrations": {
+      "phase": "external-development",
+      "target-phase": "neurorways-integrated"
+    },
+    "storage": {
+      "in-memory": ["games (current session)", "currentGame"],
+      "pocketbase-planned": [
+        "publishers",
+        "games",
+        "game_editions",
+        "rule_sources",
+        "import_batches",
+        "source_verification_history"
+      ],
+      "static-assets": ["games-catalog.json (Excel export)"]
+    }
+  },
+  "interfaces": {
+    "external": [
+      {
+        "name": "Game Model Export",
+        "type": "JSON",
+        "version": "1.0",
+        "file": "AGENTS.md"
+      },
+      {
+        "name": "PocketBase Schema",
+        "type": "JSON",
+        "version": "0.1.0",
+        "file": "public/pb_schema_export.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "runtime": [
+      "react@^18",
+      "react-dom@^18",
+      "vite@^6",
+      "tailwind-css@^4",
+      "lucide-react",
+      "pocketbase@^0.27.0"
+    ],
+    "external-modules": []
+  },
+  "migrations": {
+    "pending": [
+      {
+        "id": "M1",
+        "title": "Modul-Identität & Ordnerstruktur",
+        "phase": "foundation",
+        "effort": "2d"
+      },
+      {
+        "id": "M2",
+        "title": "State-Refactor: Modul-State Separation",
+        "phase": "foundation",
+        "effort": "3d"
+      },
+      {
+        "id": "M3",
+        "title": "Game-Modell Versionierung & Audit",
+        "phase": "data-layer",
+        "effort": "3d"
+      },
+      {
+        "id": "M4",
+        "title": "Repository-Pattern & PocketBase-Adapter",
+        "phase": "data-layer",
+        "effort": "4d"
+      },
+      {
+        "id": "M5",
+        "title": "Fehlerbehandlung & Error-Codes",
+        "phase": "robustness",
+        "effort": "2d"
+      },
+      {
+        "id": "M6",
+        "title": "Core-Interface-Vorbereitung",
+        "phase": "integration-prep",
+        "effort": "3d"
+      }
+    ]
+  },
+  "current-status": {
+    "code-complete": false,
+    "data-migration-ready": true,
+    "pocketbase-schema-defined": true,
+    "pocketbase-deployed": false,
+    "test-coverage": "none",
+    "documentation": "partial"
+  },
+  "constraints": {
+    "breaking-changes-forbidden": true,
+    "data-loss-forbidden": true,
+    "backward-compatibility": "required",
+    "migration-atomicity": "required-for-imports"
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "kawai-es920-to-macbook-midi",
+    "source": "kawai-es920",
+    "target": "macbook-pro",
+    "type": "midi",
+    "cableType": "USB",
+    "direction": "out",
+    "description": "MIDI-Daten vom Kawai zum MacBook",
+    "notes": "USB MIDI - 5V powered"
+  },
+  {
+    "id": "kawai-es920-to-x32-audio",
+    "source": "kawai-es920",
+    "target": "behringer-x32",
+    "type": "audio",
+    "cableType": "XLR (Stereo)",
+    "direction": "out",
+    "description": "Audio-Ausgang von Kawai zu X32 Kanal 1-2",
+    "notes": "Balanced audio output"
+  },
+  {
+    "id": "jv1010-to-macbook-midi",
+    "source": "jv1010",
+    "target": "macbook-pro",
+    "type": "midi",
+    "cableType": "5-pin DIN MIDI",
+    "direction": "in",
+    "description": "MIDI-Eingabe zum Roland JV-1010",
+    "notes": "Classic 5-pin MIDI connector"
+  },
+  {
+    "id": "jv1010-to-x32",
+    "source": "jv1010",
+    "target": "behringer-x32",
+    "type": "audio",
+    "cableType": "XLR (Stereo)",
+    "direction": "out",
+    "description": "Audio-Ausgang von JV-1010 zu X32 Kanal 3-4",
+    "notes": "Balanced audio output"
+  },
+  {
+    "id": "tg500-to-macbook-midi",
+    "source": "yamaha-tg500",
+    "target": "macbook-pro",
+    "type": "midi",
+    "cableType": "5-pin DIN MIDI",
+    "direction": "in",
+    "description": "MIDI-Eingabe zum Yamaha TG500",
+    "notes": "Classic 5-pin MIDI connector"
+  },
+  {
+    "id": "tg500-to-x32",
+    "source": "yamaha-tg500",
+    "target": "behringer-x32",
+    "type": "audio",
+    "cableType": "XLR (Stereo)",
+    "direction": "out",
+    "description": "Audio-Ausgang von TG500 zu X32 Kanal 5-6",
+    "notes": "Balanced audio output"
+  },
+  {
+    "id": "x32-to-macbook-usb",
+    "source": "behringer-x32",
+    "target": "macbook-pro",
+    "type": "usb",
+    "cableType": "USB 2.0",
+    "direction": "bidirectional",
+    "description": "USB-Audio-Interface und Datenverbindung",
+    "notes": "32 Kanäle up/down + MIDI über USB"
+  },
+  {
+    "id": "x32-to-presonus",
+    "source": "behringer-x32",
+    "target": "presonus-eris",
+    "type": "audio",
+    "cableType": "XLR (Stereo)",
+    "direction": "out",
+    "description": "Main L/R Ausgang zu Studio Monitoren",
+    "notes": "Main stereo mix output"
+  }
+]

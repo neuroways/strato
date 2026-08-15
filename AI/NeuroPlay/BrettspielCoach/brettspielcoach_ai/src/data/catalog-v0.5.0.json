@@ -1,0 +1,424 @@
+{
+  "file": "7ae5285e-514d-4aa6-89e0-04a81fcb0b7b-NeuroPlay_Brettspielanleitungen_Quellenkatalog_v0.5.0.xlsx",
+  "extraction_timestamp": "2026-07-24T16:35:30.860Z",
+  "sheets": {
+    "Übersicht": {
+      "column_headers": [
+        "NeuroPlay – Quellenkatalog Brettspielanleitungen v0.5.0",
+        null
+      ],
+      "total_rows": 26,
+      "first_3_rows": [
+        {
+          "NeuroPlay – Quellenkatalog Brettspielanleitungen v0.5.0": null,
+          "null": null
+        },
+        {
+          "NeuroPlay – Quellenkatalog Brettspielanleitungen v0.5.0": "Kennzahl",
+          "null": "Stand"
+        },
+        {
+          "NeuroPlay – Quellenkatalog Brettspielanleitungen v0.5.0": "Priorisierte Verlage",
+          "null": 32
+        }
+      ],
+      "detected_data_types": {
+        "NeuroPlay – Quellenkatalog Brettspielanleitungen v0.5.0": [
+          "null",
+          "string"
+        ],
+        "null": [
+          "integer",
+          "null",
+          "string"
+        ]
+      }
+    },
+    "Verlage": {
+      "column_headers": [
+        "Verlag-ID",
+        "Priorität",
+        "Verlag",
+        "Land",
+        "Startseite",
+        "Spieleübersicht",
+        "Anleitungsquelle",
+        "Relevanz",
+        "Status",
+        "Hinweis"
+      ],
+      "total_rows": 32,
+      "first_3_rows": [
+        {
+          "Verlag-ID": "P01",
+          "Priorität": 1,
+          "Verlag": "KOSMOS",
+          "Land": "Deutschland",
+          "Startseite": "https://www.kosmos.de/",
+          "Spieleübersicht": "https://www.kosmos.de/collections/spiele",
+          "Anleitungsquelle": "Produktseiten und CMS-PDFs",
+          "Relevanz": "Sehr hoch",
+          "Status": "Begonnen",
+          "Hinweis": "Großes Familien-, Kenner-, Kinder- und EXIT-Programm"
+        },
+        {
+          "Verlag-ID": "P02",
+          "Priorität": 1,
+          "Verlag": "Ravensburger",
+          "Land": "Deutschland",
+          "Startseite": "https://www.ravensburger.de/de-DE",
+          "Spieleübersicht": "https://www.ravensburger.de/de-DE/produkte/spiele",
+          "Anleitungsquelle": "https://www.ravensburger.de/de-DE/service/spielanleitungen",
+          "Relevanz": "Sehr hoch",
+          "Status": "Portal erfasst",
+          "Hinweis": "Zentrale Suchseite, PDF-Link wird dynamisch ermittelt"
+        },
+        {
+          "Verlag-ID": "P03",
+          "Priorität": 1,
+          "Verlag": "Schmidt Spiele",
+          "Land": "Deutschland",
+          "Startseite": "https://www.schmidtspiele.de/",
+          "Spieleübersicht": "https://www.schmidtspiele.de/produkte.html",
+          "Anleitungsquelle": "https://www.schmidtspiele.de/spielanleitungen.html",
+          "Relevanz": "Sehr hoch",
+          "Status": "Begonnen",
+          "Hinweis": "Sehr gut erschließbares zentrales Regelarchiv"
+        }
+      ],
+      "detected_data_types": {
+        "Verlag-ID": [
+          "string"
+        ],
+        "Priorität": [
+          "integer"
+        ],
+        "Verlag": [
+          "string"
+        ],
+        "Land": [
+          "string"
+        ],
+        "Startseite": [
+          "string"
+        ],
+        "Spieleübersicht": [
+          "string"
+        ],
+        "Anleitungsquelle": [
+          "string"
+        ],
+        "Relevanz": [
+          "string"
+        ],
+        "Status": [
+          "string"
+        ],
+        "Hinweis": [
+          "string"
+        ]
+      }
+    },
+    "Spiele und Anleitungen": {
+      "column_headers": [
+        "Datensatz-ID",
+        "Verlag / Marke",
+        "Spiel",
+        "Kategorie",
+        "Sprache",
+        "Linktyp",
+        "Anleitung / Regelquelle",
+        "Produkt- oder Katalogseite",
+        "Artikelnummer / EAN",
+        "Prüfstatus",
+        "Geprüft am",
+        "Hinweis",
+        "Erscheinungsjahr",
+        "Kurzbeschreibung",
+        "Metadatenquelle",
+        "Metadatenstatus",
+        "Anleitungsstatus"
+      ],
+      "total_rows": 844,
+      "first_3_rows": [
+        {
+          "Datensatz-ID": "G0001",
+          "Verlag / Marke": "Schmidt Spiele",
+          "Spiel": "Kniffel",
+          "Kategorie": "Familienspiel",
+          "Sprache": "Deutsch",
+          "Linktyp": "Direkt-PDF",
+          "Anleitung / Regelquelle": "https://www.schmidtspiele.de/files/Produkte/4/49030%20-%20Kniffel/49030_Kniffel_DE.pdf",
+          "Produkt- oder Katalogseite": "https://www.schmidtspiele.de/spielanleitungen.html",
+          "Artikelnummer / EAN": "49030",
+          "Prüfstatus": "offiziell geprüft",
+          "Geprüft am": "2026-07-24",
+          "Hinweis": "PDF erreichbar",
+          "Erscheinungsjahr": null,
+          "Kurzbeschreibung": null,
+          "Metadatenquelle": null,
+          "Metadatenstatus": "Metadaten noch zu recherchieren",
+          "Anleitungsstatus": "Direktanleitung vorhanden"
+        },
+        {
+          "Datensatz-ID": "G0002",
+          "Verlag / Marke": "Schmidt Spiele",
+          "Spiel": "Geistertreppe",
+          "Kategorie": "Kinderspiel",
+          "Sprache": "DE/FR/GB/IT",
+          "Linktyp": "Direkt-PDF",
+          "Anleitung / Regelquelle": "https://www.schmidtspiele.de/files/Retail/72dpi_PNG/40811_Geistertreppe_DE_FR_GB_IT.pdf",
+          "Produkt- oder Katalogseite": "https://www.schmidtspiele.de/spielanleitungen.html",
+          "Artikelnummer / EAN": "40811",
+          "Prüfstatus": "offiziell geprüft",
+          "Geprüft am": "2026-07-24",
+          "Hinweis": "Mehrsprachige Anleitung",
+          "Erscheinungsjahr": null,
+          "Kurzbeschreibung": null,
+          "Metadatenquelle": null,
+          "Metadatenstatus": "Metadaten noch zu recherchieren",
+          "Anleitungsstatus": "Direktanleitung vorhanden"
+        },
+        {
+          "Datensatz-ID": "G0003",
+          "Verlag / Marke": "Schmidt Spiele",
+          "Spiel": "Tippi Toppi",
+          "Kategorie": "Familienspiel",
+          "Sprache": "Deutsch",
+          "Linktyp": "Direkt-PDF",
+          "Anleitung / Regelquelle": "https://www.schmidtspiele.de/files/Produkte/7/75051%20-%20Tippi%20Toppi/75051_Tippi_Toppi_DE.pdf",
+          "Produkt- oder Katalogseite": "https://www.schmidtspiele.de/spielanleitungen.html",
+          "Artikelnummer / EAN": "75051",
+          "Prüfstatus": "offiziell geprüft",
+          "Geprüft am": "2026-07-24",
+          "Hinweis": "PDF erreichbar",
+          "Erscheinungsjahr": null,
+          "Kurzbeschreibung": null,
+          "Metadatenquelle": null,
+          "Metadatenstatus": "Metadaten noch zu recherchieren",
+          "Anleitungsstatus": "Direktanleitung vorhanden"
+        }
+      ],
+      "detected_data_types": {
+        "Datensatz-ID": [
+          "string"
+        ],
+        "Verlag / Marke": [
+          "string"
+        ],
+        "Spiel": [
+          "string"
+        ],
+        "Kategorie": [
+          "string"
+        ],
+        "Sprache": [
+          "string"
+        ],
+        "Linktyp": [
+          "string"
+        ],
+        "Anleitung / Regelquelle": [
+          "null",
+          "string"
+        ],
+        "Produkt- oder Katalogseite": [
+          "string"
+        ],
+        "Artikelnummer / EAN": [
+          "null",
+          "string"
+        ],
+        "Prüfstatus": [
+          "string"
+        ],
+        "Geprüft am": [
+          "string"
+        ],
+        "Hinweis": [
+          "string"
+        ],
+        "Erscheinungsjahr": [
+          "integer",
+          "null"
+        ],
+        "Kurzbeschreibung": [
+          "null",
+          "string"
+        ],
+        "Metadatenquelle": [
+          "null",
+          "string"
+        ],
+        "Metadatenstatus": [
+          "string"
+        ],
+        "Anleitungsstatus": [
+          "string"
+        ]
+      }
+    },
+    "Datenmodell": {
+      "column_headers": [
+        "Feld",
+        "Bedeutung",
+        "Pflicht im Zielmodell",
+        null,
+        null,
+        null
+      ],
+      "total_rows": 23,
+      "first_3_rows": [
+        {
+          "Feld": "publisher_id",
+          "Bedeutung": "Stabile interne Kennung des Verlags",
+          "Pflicht im Zielmodell": "Ja",
+          "null": null
+        },
+        {
+          "Feld": "publisher_name",
+          "Bedeutung": "Verlag bzw. verantwortliche Marke",
+          "Pflicht im Zielmodell": "Ja",
+          "null": null
+        },
+        {
+          "Feld": "game_title",
+          "Bedeutung": "Titel des Spiels",
+          "Pflicht im Zielmodell": "Ja",
+          "null": null
+        }
+      ],
+      "detected_data_types": {
+        "Feld": [
+          "null",
+          "string"
+        ],
+        "Bedeutung": [
+          "null",
+          "string"
+        ],
+        "Pflicht im Zielmodell": [
+          "null",
+          "string"
+        ],
+        "null": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "Top 200 Abgleich": {
+      "column_headers": [
+        "BGG-Rang",
+        "BGG-Titel",
+        "Katalogtitel vor Abgleich",
+        "Status vor Abgleich",
+        "Aktion v0.4.0",
+        "Status nach Abgleich",
+        "Ranglistenquelle",
+        "Geprüft am",
+        "DACH-Hinweis"
+      ],
+      "total_rows": 200,
+      "first_3_rows": [
+        {
+          "BGG-Rang": 1,
+          "BGG-Titel": "Brass: Birmingham",
+          "Katalogtitel vor Abgleich": "",
+          "Status vor Abgleich": "fehlte",
+          "Aktion v0.4.0": "neu übernommen",
+          "Status nach Abgleich": "im Katalog",
+          "Ranglistenquelle": "https://boardgamegeek.com/browse/boardgame/page/1",
+          "Geprüft am": "2026-07-24",
+          "DACH-Hinweis": "Deutscher Verlag, Edition und Regelquelle noch einzeln zu verifizieren"
+        },
+        {
+          "BGG-Rang": 2,
+          "BGG-Titel": "Ark Nova",
+          "Katalogtitel vor Abgleich": "Arche Nova",
+          "Status vor Abgleich": "vorhanden",
+          "Aktion v0.4.0": "keine Änderung",
+          "Status nach Abgleich": "im Katalog",
+          "Ranglistenquelle": "https://boardgamegeek.com/browse/boardgame/page/1",
+          "Geprüft am": "2026-07-24",
+          "DACH-Hinweis": "Titel-/Editionsabgleich durchgeführt"
+        },
+        {
+          "BGG-Rang": 3,
+          "BGG-Titel": "Pandemic Legacy: Season 1",
+          "Katalogtitel vor Abgleich": "",
+          "Status vor Abgleich": "fehlte",
+          "Aktion v0.4.0": "neu übernommen",
+          "Status nach Abgleich": "im Katalog",
+          "Ranglistenquelle": "https://boardgamegeek.com/browse/boardgame/page/1",
+          "Geprüft am": "2026-07-24",
+          "DACH-Hinweis": "Deutscher Verlag, Edition und Regelquelle noch einzeln zu verifizieren"
+        }
+      ],
+      "detected_data_types": {
+        "BGG-Rang": [
+          "integer"
+        ],
+        "BGG-Titel": [
+          "string"
+        ],
+        "Katalogtitel vor Abgleich": [
+          "null",
+          "string"
+        ],
+        "Status vor Abgleich": [
+          "string"
+        ],
+        "Aktion v0.4.0": [
+          "string"
+        ],
+        "Status nach Abgleich": [
+          "string"
+        ],
+        "Ranglistenquelle": [
+          "string"
+        ],
+        "Geprüft am": [
+          "string"
+        ],
+        "DACH-Hinweis": [
+          "string"
+        ]
+      }
+    },
+    "Metadaten-Abgleich": {
+      "column_headers": [
+        "NeuroPlay – Metadaten- und Anleitungsabgleich v0.5.0",
+        null,
+        null,
+        null
+      ],
+      "total_rows": 23,
+      "first_3_rows": [
+        {
+          "NeuroPlay – Metadaten- und Anleitungsabgleich v0.5.0": null,
+          "null": null
+        },
+        {
+          "NeuroPlay – Metadaten- und Anleitungsabgleich v0.5.0": "Kennzahl",
+          "null": null
+        },
+        {
+          "NeuroPlay – Metadaten- und Anleitungsabgleich v0.5.0": "Katalogeinträge",
+          "null": null
+        }
+      ],
+      "detected_data_types": {
+        "NeuroPlay – Metadaten- und Anleitungsabgleich v0.5.0": [
+          "null",
+          "string"
+        ],
+        "null": [
+          "integer",
+          "null",
+          "string"
+        ]
+      }
+    }
+  }
+}

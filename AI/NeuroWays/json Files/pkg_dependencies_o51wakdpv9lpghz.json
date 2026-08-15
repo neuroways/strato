@@ -1,0 +1,16 @@
+{
+  "collectionId": "pbc_3880309915",
+  "collectionName": "pkg_dependencies",
+  "conflict_rule": "",
+  "created": "2026-07-24 12:36:45.478Z",
+  "id": "o51wakdpv9lpghz",
+  "install_order": 0,
+  "is_required": false,
+  "max_version": "",
+  "min_version": "",
+  "source_id": "dummy",
+  "source_type": "dummy",
+  "target_code": "dummy",
+  "target_type": "dummy",
+  "updated": "2026-07-24 12:36:45.478Z"
+}

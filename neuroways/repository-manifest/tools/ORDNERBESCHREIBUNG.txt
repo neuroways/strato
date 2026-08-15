@@ -1,0 +1,16 @@
+NEUROWAYS REPOSITORY TOOL
+ORDNER: server-inventory
+
+ZWECK
+Dieser Ordner enthält das temporäre Werkzeug zur technischen Erfassung der
+Serverbereiche neuroways und htdocs.
+
+Das Werkzeug gehört nicht zur produktiven Anwendung und darf nicht dauerhaft
+öffentlich erreichbar bleiben.
+
+INHALT
+- nw_server_inventory.php: Inventarskript
+- README.txt: Installations- und Sicherheitsanleitung
+
+STATUS
+Draft-Werkzeug für NW-CONFIG-P2.4.1.

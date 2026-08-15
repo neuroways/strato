@@ -1,0 +1,49 @@
+{
+  "name": "REPLACE_COLLECTION_NAME",
+  "type": "base",
+  "fields": [
+    {
+      "name": "id",
+      "type": "text",
+      "required": true,
+      "id": "text3208210256",
+      "autogeneratePattern": "[a-z0-9]{15}",
+      "max": 15,
+      "min": 15,
+      "pattern": "^[a-z0-9]+$",
+      "primaryKey": true,
+      "presentable": false
+    },
+    {
+      "name": "REPLACE_FIELD_NAME",
+      "type": "text",
+      "required": true,
+      "id": "text5785495831",
+      "max": 0,
+      "min": 0,
+      "pattern": "",
+      "presentable": false
+    },
+    {
+      "name": "created",
+      "type": "autodate",
+      "onCreate": true,
+      "onUpdate": false,
+      "id": "autodate1802035690",
+      "presentable": false
+    },
+    {
+      "name": "updated",
+      "type": "autodate",
+      "onCreate": true,
+      "onUpdate": true,
+      "id": "autodate2908844771",
+      "presentable": false
+    }
+  ],
+  "listRule": null,
+  "viewRule": null,
+  "createRule": null,
+  "updateRule": null,
+  "deleteRule": null
+}

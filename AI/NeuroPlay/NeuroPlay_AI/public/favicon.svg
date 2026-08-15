@@ -1,0 +1,12 @@
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="64" fill="#1F355E"/>
+  
+  <!-- Abstract activity symbol: overlapping circles representing connection -->
+  <circle cx="45" cy="50" r="20" fill="none" stroke="#D4A017" stroke-width="3"/>
+  <circle cx="65" cy="50" r="20" fill="none" stroke="#2A9D8F" stroke-width="3"/>
+  <circle cx="55" cy="70" r="20" fill="none" stroke="#8D6BC5" stroke-width="3"/>
+  
+  <!-- Central dot -->
+  <circle cx="55" cy="60" r="6" fill="#D4A017"/>
+</svg>

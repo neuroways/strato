@@ -1,0 +1,13 @@
+{
+    "application": {
+        "name": "Tennisturnier Test",
+        "environment": "test",
+        "version": "0.0.1-c004"
+    },
+    "runtime": {
+        "php_version": "8.4.23",
+        "sapi": "cli"
+    },
+    "status": "ok",
+    "timestamp_utc": "2026-08-08T20:07:38+00:00"
+}

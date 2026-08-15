@@ -1,0 +1,9 @@
+1cd77367f5b625263915c785298f1ac9160dd527e8664cd39d8b03907fc73ca7  ./backend/composer.json
+c587b75aa00e0977a90938429eae6f9f6921fa760f78646b59f196598ef8f426  ./backend/tests/Foundation/ComposerConfigurationTest.php
+df7967b3a00bbe59a5d8987a9e6bc56bc38972361e7bc016806680a61f87ca12  ./backend/tests/run-c001.php
+af6ed6b5023dadc8b61550c484ea0fc3ddccae1084099466f6775b1e2a57963a  ./docs/builds/TT-DEV-0002-C001_ARTIFACT_INFO.json
+441e9cf2d0c5378080d2ae5d077aea89c97ee6d1fee443369aaa9d34a0c68b7f  ./docs/builds/TT-DEV-0002-C001_BUILD_REPORT.md
+70cef83f97312bc4962755138d7fbe4591101c50c9905d19b1f0d49e3620d815  ./docs/builds/TT-DEV-0002-C001_README.md
+1f6c2cf4b998c9a1fbb10e4d4843e0c7f300796f0ac63219c1310eb4aad70cc5  ./docs/builds/TT-DEV-0002-C001_composer-validate.txt
+5ff2ab511017ff398e069d0e73431bb26a02cb9b68a4850b441907d34c599b82  ./docs/builds/TT-DEV-0002-C001_php-lint.txt
+c29520b1d2b2f10750ad192e54e80df22a30c189e2a80beb87a25c52aebe1ccf  ./docs/builds/TT-DEV-0002-C001_test-results.txt

@@ -1,0 +1,38 @@
+[
+  {
+    "base_version_id": "dpimou6okk6ut22",
+    "collectionId": "pbc_3230603564",
+    "collectionName": "pkg_package_definitions",
+    "created": "2026-07-23 20:01:49.793Z",
+    "description": "NW-CORE v0.1.0 + ENERGY_NAVIGATOR v1.1.0",
+    "id": "hmug0n8erzmlbeq",
+    "name": "NeuroWays Base + Energy Navigator",
+    "status": "COMPLETED",
+    "updated": "2026-07-23 20:01:49.843Z",
+    "user_id": "lwyoee3opzvkiq2"
+  },
+  {
+    "base_version_id": "dpimou6okk6ut22",
+    "collectionId": "pbc_3230603564",
+    "collectionName": "pkg_package_definitions",
+    "created": "2026-07-23 20:01:49.789Z",
+    "description": "",
+    "id": "t6ba4ay1pp6osn6",
+    "name": "Nur Basis Test",
+    "status": "DRAFT",
+    "updated": "2026-07-23 20:01:49.789Z",
+    "user_id": "lwyoee3opzvkiq2"
+  },
+  {
+    "base_version_id": "85ar4ri5801c79t",
+    "collectionId": "pbc_3230603564",
+    "collectionName": "pkg_package_definitions",
+    "created": "2026-07-23 19:57:46.820Z",
+    "description": "",
+    "id": "aw1l5vo2pvi1ozq",
+    "name": "POC Test Paket",
+    "status": "COMPLETED",
+    "updated": "2026-07-23 19:57:46.848Z",
+    "user_id": "9g3w524q4g3txgl"
+  }
+]

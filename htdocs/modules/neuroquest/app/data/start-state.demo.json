@@ -1,0 +1,37 @@
+{
+  "status": "active",
+  "source": "demo",
+  "player": {
+    "id": 1,
+    "displayName": "Mia",
+    "grade": 3
+  },
+  "companion": {
+    "id": 1,
+    "name": "Luna",
+    "illustrationKey": "luna-fox"
+  },
+  "quest": {
+    "id": 4,
+    "title": "Die geheimnisvolle Waldkarte",
+    "currentDay": 1,
+    "dayTitle": "Eine unerwartete Begegnung",
+    "currentRound": 3,
+    "completedRounds": 2,
+    "totalRounds": 5,
+    "progressText": "Ihr seid bereits bis zum dritten Wegstein gekommen."
+  },
+  "scene": {
+    "sceneType": "MISSION_RESUME",
+    "headline": "Willkommen zurück, Mia.",
+    "greeting": "Luna hält die geheimnisvolle Karte noch für dich bereit.",
+    "locationName": "im Zauberwald",
+    "illustrationKey": "forest-map",
+    "ambienceKey": "soft-fireflies"
+  },
+  "nextAction": {
+    "type": "continue_mission",
+    "label": "Mit Satz 3 weitermachen",
+    "url": "mission.html?round=3&step=2"
+  }
+}

@@ -1,0 +1,71 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
+  darkMode: "media",
+  theme: {
+    extend: {
+      colors: {
+        "nw-navy": "#0A1F44",
+        "nw-teal": "#008CA8",
+        "nw-violet": "#7B4BA2",
+        "nw-gold": "#E2A83B",
+        "nw-white": "#FFFFFF",
+        "nw-soft-white": "#F6F4F1",
+        "nw-warm-white": "#F8F7F3",
+        "nw-light-gray": "#E5E5E5",
+        "nw-section-gray": "#F0F1F3",
+        "nw-pale-blue": "#F1F6FA",
+        "nw-sand": "#F6EFE6",
+        "nw-charcoal": "#1A1A1A",
+      },
+      fontFamily: {
+        sans: [
+          "DM Sans",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "Segoe UI",
+          "sans-serif",
+        ],
+      },
+      fontSize: {
+        display: "clamp(2.5rem, 5vw, 4rem)",
+        h1: "clamp(2rem, 4vw, 2.5rem)",
+        h2: "clamp(1.5rem, 3vw, 1.75rem)",
+        h3: "clamp(1.125rem, 2vw, 1.375rem)",
+        "body-lg": "1.125rem",
+        body: "1rem",
+        label: "0.8125rem",
+        button: "0.9375rem",
+      },
+      spacing: {
+        1: "4px",
+        2: "8px",
+        3: "12px",
+        4: "16px",
+        5: "24px",
+        6: "32px",
+        7: "48px",
+        8: "64px",
+        9: "96px",
+      },
+      borderRadius: {
+        small: "6px",
+        medium: "10px",
+        large: "12px",
+      },
+      boxShadow: {
+        sm: "0 1px 2px rgba(0, 0, 0, 0.06)",
+        md: "0 2px 4px rgba(0, 0, 0, 0.08)",
+      },
+      transitionDuration: {
+        fast: "150ms",
+        page: "300ms",
+        progress: "600ms",
+        zone: "800ms",
+      },
+    },
+  },
+  plugins: [],
+};

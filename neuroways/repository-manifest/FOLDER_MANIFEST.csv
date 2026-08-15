@@ -1,0 +1,60 @@
+﻿relative_path;title;purpose;readme_present
+.;Zentrales NeuroWays Repository;Dieses Verzeichnis ist der dauerhafte Wissensspeicher des NeuroWays-Projekts. Es enthält Core-Dokumente, Modulwissen, Snapshots, Register, Releases, Exporte, Vorlagen und Archive.;YES
+archive;Archiv;Enthält ersetzte, historische oder aus dem aktiven Bestand herausgenommene Artefakte. Archivierung erfolgt nur nach dokumentierter Freigabe.;YES
+archive/historical;Historische Artefakte;Enthält historisch relevante Quellen und frühere Projektstände.;YES
+archive/retired;Außer Betrieb;Enthält offiziell außer Betrieb genommene Artefakte und Standards.;YES
+archive/superseded;Ersetzte Artefakte;Enthält Artefakte, die durch eine neuere gültige Version ersetzt wurden.;YES
+core;NeuroWays Core;Enthält modulübergreifende Grundlagen, Standards, Governance, Architektur und Steuerungsdokumente.;YES
+core/architecture;Core Architecture;Enthält modulübergreifende Architekturentscheidungen, Systemgrenzen, Schnittstellen und Architekturmodelle.;YES
+core/configuration;Configuration, Versioning & Release;Enthält Standards und Modelle für Artefakte, Versionen, Builds, Publishing, Releases und Deployments.;YES
+core/design;Core Design;Enthält Designphilosophie, Dokumentdesign, Präsentationsdesign und weitere modulübergreifende Gestaltungsstandards.;YES
+core/documentation;Core Documentation;Enthält Dokumentationsregeln, Dokumentenmodelle, Registerdefinitionen und Konsolidierungsstandards.;YES
+core/foundation;Core Foundation;Enthält Dokumente zum Zweck, Menschenbild, Leitbild und zu den grundlegenden Prinzipien von NeuroWays.;YES
+core/governance;Core Governance;Enthält Governance-Regeln, Zuständigkeiten, Entscheidungsmodelle, Freigaben und Führungsstrukturen.;YES
+core/project-management;Projekt- und Sprintmanagement;Enthält Roadmaps, Sprintdefinitionen, Statusmodelle, Portfolioinformationen und Meilensteinsteuerung.;YES
+core/review;Core Review;Enthält formale Reviewberichte, Qualitätsnachweise, Abnahmen und dokumentierte Prüfentscheidungen.;YES
+core/snapshots;Core Snapshots;Enthält Snapshots aus NeuroWays-Core-Chats und modulübergreifenden Arbeitsständen.;YES
+core/standards;Core Standards;Enthält verbindliche Standards für Benennung, Versionierung, Entwicklung, Dokumentation, Datenbanken und Betrieb.;YES
+exports;Exporte;Enthält erzeugte Exportfassungen, die nicht selbst die führende Source of Truth darstellen.;YES
+exports/docx;DOCX-Exporte;Enthält editierbare DOCX-Master- oder Exportfassungen.;YES
+exports/html;HTML-Exporte;Enthält optionale HTML-Fassungen.;YES
+exports/markdown;Markdown-Exporte;Enthält optionale Markdown-Fassungen.;YES
+exports/pdf;PDF-Exporte;Enthält archivfähige und lesbare PDF-Fassungen.;YES
+incoming;Eingang;Enthält neu hochgeladene oder noch nicht klassifizierte Dateien. Dateien dürfen hier nur vorübergehend liegen und müssen anschließend registriert und zugeordnet werden.;YES
+modules;NeuroWays Module;Enthält die dauerhaften Wissensbestände aller einzelnen NeuroWays-Module.;YES
+modules/flowisaurus;Flowisaurus;Enthält die fachlichen, technischen und dokumentarischen Artefakte des modulübergreifenden Begleiters.;YES
+modules/neurobalance;NeuroBalance;Enthält die fachlichen, technischen und dokumentarischen Artefakte von NeuroBalance.;YES
+modules/neuroknow;NeuroKnow;Enthält die fachlichen, technischen und dokumentarischen Artefakte von NeuroKnow.;YES
+modules/neuroplay;NeuroPlay;Enthält die fachlichen, technischen und dokumentarischen Artefakte von NeuroPlay.;YES
+modules/neuroquest;NeuroQuest;Enthält Architektur, Fachlichkeit, Datenbank, App, Snapshots, Reviews und Releases von NeuroQuest.;YES
+modules/neuroquest/app;NeuroQuest App;Enthält UI-, Frontend-, PWA- und Implementierungsdokumentation.;YES
+modules/neuroquest/core;NeuroQuest Core;Enthält die generische Spielarchitektur, Core Contracts, Zustandsmodelle und Engine-Spezifikationen.;YES
+modules/neuroquest/db;NeuroQuest Datenbank;Enthält Datenmodelle, Datenbankanalysen, Migrationen, DDL-Nachweise und Persistenzspezifikationen.;YES
+modules/neuroquest/fach;NeuroQuest Fachlichkeit;Enthält fachliche Regeln, Inhalte, Navigationslogik, Lern- und Spielmodelle.;YES
+modules/neuroquest/releases;NeuroQuest Releases;Enthält veröffentlichte Releasepakete, Release Notes und zugehörige Artefaktlisten.;YES
+modules/neuroquest/review;NeuroQuest Reviews;Enthält Reviewberichte und Qualitätsnachweise für NeuroQuest-Artefakte.;YES
+modules/neuroquest/snapshots;NeuroQuest Snapshots;Enthält gesicherte Chatstände und Übergaben für NeuroQuest.;YES
+modules/neurorhythm;NeuroRhythm;Enthält die fachlichen, technischen und dokumentarischen Artefakte von NeuroRhythm.;YES
+modules/neurowork;NeuroWork;Enthält die fachlichen, technischen und dokumentarischen Artefakte von NeuroWork.;YES
+registers;Zentrale Register;Enthält die zentralen maschinen- und menschenlesbaren Register für Dokumente, Artefakte, Quellen, Snapshots und Releases.;YES
+registers/artifacts;Artefaktregister;Enthält das zentrale Register aller physischen Artefakte und ihrer Prüfsummen.;YES
+registers/documents;Dokumentenregister;Enthält das zentrale Register aller Dokumentidentitäten, Versionen, Status und Speicherorte.;YES
+registers/publish;Publishregister;Enthält Publish Queue, Publish Jobs, Ergebnisse, Fehler und Veröffentlichungshistorie.;YES
+registers/releases;Releaseregister;Enthält Releases, zugeordnete Artefakte, Zielsysteme und Veröffentlichungsstatus.;YES
+registers/snapshots;Snapshotregister;Enthält Snapshotstatus, Chatbezug, Dokumentübernahme und Wissensabdeckung.;YES
+registers/sources;Quellenregister;Enthält Herkunft, Migration, Ablösung und Löschsperren aller Quellen.;YES
+releases;Projektweite Releases;Enthält veröffentlichte modulübergreifende Releasepakete und deren vollständige Nachweise.;YES
+releases/hotfix;Hotfix-Releases;Enthält dringende Korrekturreleases mit separater Nachvollziehbarkeit.;YES
+releases/planned;Geplante Releases;Enthält vorbereitete, noch nicht veröffentlichte Releases.;YES
+releases/published;Veröffentlichte Releases;Enthält vollständig freigegebene und veröffentlichte Releases.;YES
+repository-manifest;Repository-Manifest;Enthält technische Metadaten zur Repository-Version, Struktur, Integrität und Installation.;YES
+snapshots;Projektweite Snapshots;Enthält modulübergreifende und noch nicht endgültig zugeordnete Wissenssnapshots.;YES
+templates;Vorlagen;Enthält Vorlagen für Dokumente, Snapshots, Reviews, Metadaten, Releases und Register.;YES
+templates/documents;Dokumentvorlagen;Enthält Vorlagen für neue NeuroWays-Dokumente.;YES
+templates/releases;Releasevorlagen;Enthält Vorlagen für Release Notes, Artefaktlisten und Freigaben.;YES
+templates/reviews;Reviewvorlagen;Enthält Vorlagen für Qualitätsprüfung und Abnahme.;YES
+templates/snapshots;Snapshotvorlagen;Enthält Vorlagen für Projekt- und Chatsnapshots.;YES
+work;Arbeitsbereich;Enthält nicht veröffentlichte Arbeitsdateien. Dieser Bereich ist keine Source of Truth.;YES
+work/build;Build-Arbeitsbereich;Enthält temporäre Dateien während automatisierter Build- und Publishprozesse.;YES
+work/drafts;Entwürfe;Enthält aktive Entwürfe vor Review und Freigabe.;YES
+work/failed;Fehlgeschlagene Builds;Enthält technische Protokolle und Ausgaben fehlgeschlagener Builds oder Exporte.;YES

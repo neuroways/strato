@@ -1,0 +1,16 @@
+{
+  "code": "ENERGY_APP_SPEC",
+  "collectionId": "pbc_714074215",
+  "collectionName": "nwo_module_specs",
+  "content_variant_note": "Standard-Variante für App-Nutzung, alle 6 Fragen, Zonendarstellung",
+  "created": "2026-07-24 08:35:06.102Z",
+  "execution_mode_refs": "2ovuuljkmsjr0ii,y1y0vaqphn8lztc,idw9qs87uw6pcvt,iqh4n0fjf1uzami,qytz3057ifvenki,4c4evcqqssnf5zv",
+  "id": "xncwhe4bie9sqcq",
+  "method_ref": "aj6rjst8dftagqg",
+  "migration_version": "MIG-001-P3",
+  "module_ref": "ENERGY_NAVIGATOR",
+  "object_type": "MODULE_SPEC",
+  "status": "PUBLISHED",
+  "updated": "2026-07-24 08:35:06.102Z",
+  "version": "1.0.0"
+}

@@ -1,0 +1,324 @@
+{
+  "id": "pbc_nw_registry",
+  "created": "2026-07-25T12:53:00.000Z",
+  "updated": "2026-07-25T12:53:00.000Z",
+  "name": "nw_collection_registry",
+  "type": "base",
+  "system": false,
+  "listRule": "@request.auth.role ?= \"admin\"",
+  "viewRule": "@request.auth.role ?= \"admin\"",
+  "createRule": "@request.auth.role ?= \"admin\"",
+  "updateRule": "@request.auth.role ?= \"admin\"",
+  "deleteRule": "@request.auth.role ?= \"admin\"",
+  "options": {},
+  "fields": [
+    {
+      "id": "cbwoa8o1",
+      "name": "id",
+      "type": "primary",
+      "system": true,
+      "required": true,
+      "presentable": false,
+      "unique": false,
+      "options": {}
+    },
+    {
+      "id": "registry_id",
+      "name": "registry_id",
+      "type": "text",
+      "system": false,
+      "required": true,
+      "presentable": true,
+      "unique": true,
+      "options": {
+        "min": 1,
+        "max": 255,
+        "pattern": ""
+      }
+    },
+    {
+      "id": "collection_name",
+      "name": "collection_name",
+      "type": "text",
+      "system": false,
+      "required": true,
+      "presentable": true,
+      "unique": true,
+      "options": {
+        "min": 1,
+        "max": 255,
+        "pattern": ""
+      }
+    },
+    {
+      "id": "display_name",
+      "name": "display_name",
+      "type": "text",
+      "system": false,
+      "required": true,
+      "presentable": true,
+      "unique": false,
+      "options": {
+        "min": 1,
+        "max": 255,
+        "pattern": ""
+      }
+    },
+    {
+      "id": "description",
+      "name": "description",
+      "type": "text",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {
+        "min": 0,
+        "max": 1000,
+        "pattern": ""
+      }
+    },
+    {
+      "id": "category",
+      "name": "category",
+      "type": "text",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {
+        "min": 0,
+        "max": 100,
+        "pattern": ""
+      }
+    },
+    {
+      "id": "enabled",
+      "name": "enabled",
+      "type": "bool",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {}
+    },
+    {
+      "id": "visible_in_admin",
+      "name": "visible_in_admin",
+      "type": "bool",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {}
+    },
+    {
+      "id": "allow_create",
+      "name": "allow_create",
+      "type": "bool",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {}
+    },
+    {
+      "id": "allow_update",
+      "name": "allow_update",
+      "type": "bool",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {}
+    },
+    {
+      "id": "allow_delete",
+      "name": "allow_delete",
+      "type": "bool",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {}
+    },
+    {
+      "id": "allow_excel_import",
+      "name": "allow_excel_import",
+      "type": "bool",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {}
+    },
+    {
+      "id": "is_system_collection",
+      "name": "is_system_collection",
+      "type": "bool",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {}
+    },
+    {
+      "id": "requires_neuroways_admin",
+      "name": "requires_neuroways_admin",
+      "type": "bool",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {}
+    },
+    {
+      "id": "searchable_fields",
+      "name": "searchable_fields",
+      "type": "json",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {}
+    },
+    {
+      "id": "editable_fields",
+      "name": "editable_fields",
+      "type": "json",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {}
+    },
+    {
+      "id": "hidden_fields",
+      "name": "hidden_fields",
+      "type": "json",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {}
+    },
+    {
+      "id": "default_columns",
+      "name": "default_columns",
+      "type": "json",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {}
+    },
+    {
+      "id": "default_sort",
+      "name": "default_sort",
+      "type": "text",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {
+        "min": 0,
+        "max": 255,
+        "pattern": ""
+      }
+    },
+    {
+      "id": "page_size",
+      "name": "page_size",
+      "type": "number",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {
+        "min": 1,
+        "max": 500
+      }
+    },
+    {
+      "id": "schema_version",
+      "name": "schema_version",
+      "type": "text",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {
+        "min": 0,
+        "max": 20,
+        "pattern": ""
+      }
+    },
+    {
+      "id": "data_version",
+      "name": "data_version",
+      "type": "text",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {
+        "min": 0,
+        "max": 20,
+        "pattern": ""
+      }
+    },
+    {
+      "id": "display_order",
+      "name": "display_order",
+      "type": "number",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {
+        "min": 0,
+        "max": 10000
+      }
+    },
+    {
+      "id": "last_import",
+      "name": "last_import",
+      "type": "date",
+      "system": false,
+      "required": false,
+      "presentable": true,
+      "unique": false,
+      "options": {
+        "dateFormat": "yyyy-MM-dd"
+      }
+    },
+    {
+      "id": "created_timestamp",
+      "name": "created_timestamp",
+      "type": "autodate",
+      "system": false,
+      "required": false,
+      "presentable": false,
+      "unique": false,
+      "onCreate": true,
+      "onUpdate": false,
+      "options": {}
+    },
+    {
+      "id": "updated_timestamp",
+      "name": "updated_timestamp",
+      "type": "autodate",
+      "system": false,
+      "required": false,
+      "presentable": false,
+      "unique": false,
+      "onCreate": false,
+      "onUpdate": true,
+      "options": {}
+    }
+  ],
+  "indexes": [
+    "CREATE UNIQUE INDEX idx_registry_id on nw_collection_registry (registry_id)",
+    "CREATE UNIQUE INDEX idx_collection_name on nw_collection_registry (collection_name)"
+  ]
+}

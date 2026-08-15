@@ -1,0 +1,151 @@
+[
+  {
+    "id": "kawai-es920",
+    "name": "Kawai ES920",
+    "category": "keyboard",
+    "manufacturer": "Kawai",
+    "year": 2018,
+    "type": "Stage Piano",
+    "description": "88-Tasten gewichtete Konzertflügel-Tastatur mit CFX und Bösendorfer Sounds",
+    "position": { "x": 100, "y": 300 },
+    "connections": ["kawai-es920-to-macbook-midi", "kawai-es920-to-x32-audio"],
+    "specs": {
+      "keys": 88,
+      "weighted": true,
+      "sounds": 38,
+      "effects": true,
+      "recording": true
+    },
+    "image": "/static/kawai-es920.jpg",
+    "inputs": [
+      { "id": "pedals", "name": "Pedal In", "type": "control" },
+      { "id": "usb", "name": "USB", "type": "usb" }
+    ],
+    "outputs": [
+      { "id": "midi-out", "name": "MIDI Out", "type": "midi" },
+      { "id": "audio-out", "name": "Audio Out L/R", "type": "audio" },
+      { "id": "headphones", "name": "Headphones Out", "type": "audio" }
+    ]
+  },
+  {
+    "id": "jv1010",
+    "name": "Roland JV-1010",
+    "category": "sound-module",
+    "manufacturer": "Roland",
+    "year": 1997,
+    "type": "Sound Module (Rompler)",
+    "description": "Klassischer Soundmodul mit über 2000 Sounds und Effekten. Legendäres Stadium der digitalen Synthese.",
+    "position": { "x": 100, "y": 500 },
+    "connections": ["jv1010-to-x32", "jv1010-to-macbook-midi"],
+    "specs": {
+      "sounds": 2050,
+      "effects": true,
+      "polyphony": 64,
+      "memory": "2MB"
+    },
+    "image": "/static/jv1010.jpg",
+    "inputs": [
+      { "id": "midi-in", "name": "MIDI In", "type": "midi" },
+      { "id": "audio-in", "name": "Audio In L/R", "type": "audio" }
+    ],
+    "outputs": [
+      { "id": "audio-out", "name": "Audio Out L/R", "type": "audio" },
+      { "id": "effect-out", "name": "Effect Out L/R", "type": "audio" }
+    ]
+  },
+  {
+    "id": "yamaha-tg500",
+    "name": "Yamaha TG500",
+    "category": "sound-module",
+    "manufacturer": "Yamaha",
+    "year": 1996,
+    "type": "Sound Module (Synthesizer)",
+    "description": "Professioneller Soundmodul mit FM-Synthese und umfangreichen Routing-Möglichkeiten",
+    "position": { "x": 100, "y": 700 },
+    "connections": ["tg500-to-x32", "tg500-to-macbook-midi"],
+    "specs": {
+      "synthesis": "FM",
+      "effects": true,
+      "polyphony": 32
+    },
+    "image": "/static/tg500.jpg",
+    "inputs": [
+      { "id": "midi-in", "name": "MIDI In", "type": "midi" }
+    ],
+    "outputs": [
+      { "id": "audio-out", "name": "Audio Out L/R", "type": "audio" }
+    ]
+  },
+  {
+    "id": "behringer-x32",
+    "name": "Behringer X32",
+    "category": "mixer",
+    "manufacturer": "Behringer",
+    "year": 2012,
+    "type": "Digital Mixer",
+    "description": "32-Kanal digitales Mischpult mit umfangreichem Routing und Effekten",
+    "position": { "x": 600, "y": 400 },
+    "connections": ["kawai-es920-to-x32-audio", "jv1010-to-x32", "tg500-to-x32", "x32-to-macbook-usb"],
+    "specs": {
+      "channels": 32,
+      "effects": "40+",
+      "usb": true,
+      "touchscreen": true
+    },
+    "image": "/static/x32.jpg",
+    "inputs": [
+      { "id": "analog-in-1-16", "name": "Analog In 1-16", "type": "audio" },
+      { "id": "usb-in", "name": "USB In", "type": "usb" }
+    ],
+    "outputs": [
+      { "id": "main-lr", "name": "Main L/R", "type": "audio" },
+      { "id": "usb-out", "name": "USB Out", "type": "usb" }
+    ]
+  },
+  {
+    "id": "macbook-pro",
+    "name": "MacBook Pro",
+    "category": "computer",
+    "manufacturer": "Apple",
+    "year": 2021,
+    "type": "DAW Computer",
+    "description": "Produktions- und Produktionscomputer mit Cubase und Plugins",
+    "position": { "x": 600, "y": 100 },
+    "connections": ["kawai-es920-to-macbook-midi", "jv1010-to-macbook-midi", "tg500-to-macbook-midi", "x32-to-macbook-usb"],
+    "specs": {
+      "cpu": "M1 Pro",
+      "ram": "16GB",
+      "storage": "512GB"
+    },
+    "image": "/static/macbook.jpg",
+    "inputs": [
+      { "id": "usb-c", "name": "USB-C", "type": "usb" },
+      { "id": "midi", "name": "MIDI In", "type": "midi" }
+    ],
+    "outputs": [
+      { "id": "usb-out", "name": "USB Out", "type": "usb" },
+      { "id": "audio-out", "name": "3.5mm Audio Out", "type": "audio" }
+    ]
+  },
+  {
+    "id": "presonus-eris",
+    "name": "PreSonus Eris 5",
+    "category": "speaker",
+    "manufacturer": "PreSonus",
+    "year": 2015,
+    "type": "Studio Monitor",
+    "description": "Aktive Studio-Monitore für genaue Abhören und Monitoring",
+    "position": { "x": 1000, "y": 400 },
+    "connections": ["x32-to-presonus"],
+    "specs": {
+      "wattage": "50W",
+      "frequency": "80Hz - 24kHz",
+      "impedance": "8 Ohm"
+    },
+    "image": "/static/presonus.jpg",
+    "inputs": [
+      { "id": "xlr-in", "name": "XLR In", "type": "audio" }
+    ],
+    "outputs": []
+  }
+]

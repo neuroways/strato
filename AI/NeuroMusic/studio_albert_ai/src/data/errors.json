@@ -1,0 +1,108 @@
+[
+  {
+    "id": "tg500-no-sound-routing",
+    "title": "TG500 zeigt Pegel aber kein Ton",
+    "symptom": "Das Gerät reagiert auf MIDI und zeigt Pegel an, aber es kommt kein Ton aus den Lautsprechern",
+    "causes": [
+      "Routing falsch: Audio geht zu falschem Bus",
+      "Kanal im Mischer nicht geöffnet",
+      "Kabel nicht angeschlossen",
+      "Ausgabepegel auf 0 gestellt"
+    ],
+    "solution": [
+      "1. MIDI-Eingabe kontrollieren: MIDI an TG500 eingehen? LED blinkt?",
+      "2. Audio-Kabel kontrollieren: Kabel angesteckt und nicht beschädigt?",
+      "3. X32 Kanal öffnen: CH5 und 6 (TG500) haben Fader > -∞?",
+      "4. Main Mix: X32 Main Fader offen?",
+      "5. Monitoring: Eris Monitore eingeschaltet?"
+    ],
+    "affectedDevices": ["yamaha-tg500", "behringer-x32"],
+    "relatedErrors": ["general-no-sound", "midi-not-received"],
+    "frequency": "common",
+    "severity": "high"
+  },
+  {
+    "id": "midi-not-received",
+    "title": "MIDI wird nicht empfangen",
+    "symptom": "Gerät reagiert nicht auf MIDI, LED blinkt nicht",
+    "causes": [
+      "MIDI-Kabel nicht angesteckt",
+      "Falscher MIDI-Ausgang im DAW",
+      "MIDI-Gerät auf falschen Kanal eingestellt",
+      "Kabel beschädigt"
+    ],
+    "solution": [
+      "1. Kabel überprüfen: Mit anderen Geräten testen",
+      "2. DAW-Einstellung: MIDI Out im Cubase auf korrektes Gerät?",
+      "3. Gerät-Kanal: TG500/JV1010 auf MIDI-Kanal 1?",
+      "4. MIDI Monitor: Nachrichten sichtbar im DAW?"
+    ],
+    "affectedDevices": ["jv1010", "yamaha-tg500"],
+    "relatedErrors": ["tg500-no-sound-routing"],
+    "frequency": "common",
+    "severity": "high"
+  },
+  {
+    "id": "usb-audio-dropout",
+    "title": "USB-Audio hat Aussetzer",
+    "symptom": "Audio über X32-USB-Verbindung bricht ab, Knacken oder Rauschen",
+    "causes": [
+      "USB-Hub überlastet",
+      "Zu kleine Buffer-Größe",
+      "Andere USB-Geräte konkurrieren",
+      "Kabel zu lang oder beschädigt"
+    ],
+    "solution": [
+      "1. Buffer-Größe erhöhen: Cubase 512 oder 1024 Samples",
+      "2. USB-Geräte reduzieren: Nur nötige Geräte anstecken",
+      "3. Direkter USB: X32 direkt am MacBook (nicht Hub)",
+      "4. Kabel-Test: Mit anderem USB-Kabel versuchen"
+    ],
+    "affectedDevices": ["behringer-x32", "macbook-pro"],
+    "relatedErrors": ["latency-high"],
+    "frequency": "occasional",
+    "severity": "high"
+  },
+  {
+    "id": "latency-high",
+    "title": "Zu viel Latenz beim Spielen",
+    "symptom": "Verzögerung zwischen Spielen und Hören macht Spielen unmöglich",
+    "causes": [
+      "Buffer-Größe zu groß",
+      "Zu viele Plugins in Cubase",
+      "USB-Audio überlastet",
+      "CPU-Last zu hoch"
+    ],
+    "solution": [
+      "1. Buffer klein halten: 128 oder 256 Samples in Cubase",
+      "2. Input Monitoring: In Cubase aktivieren (nicht nur Kopfhörer)",
+      "3. USB-Geräte: Unnötige ausstecken",
+      "4. Plugin-CPU: CPU-Meter in Cubase prüfen"
+    ],
+    "affectedDevices": ["behringer-x32", "macbook-pro"],
+    "relatedErrors": ["usb-audio-dropout"],
+    "frequency": "occasional",
+    "severity": "medium"
+  },
+  {
+    "id": "general-no-sound",
+    "title": "Generell kein Ton im Studio",
+    "symptom": "Keine Musik zu hören, egal welches Gerät gespielt wird",
+    "causes": [
+      "Monitore aus",
+      "Main Fader unten",
+      "Falsche Output-Auswahl",
+      "Alle Kanäle aus"
+    ],
+    "solution": [
+      "1. Eris Monitore prüfen: Sind sie eingeschaltet?",
+      "2. X32 Main Fader: Sollte oben sein (nicht auf -∞)",
+      "3. Master Volume: Sollte 0dB sein",
+      "4. Alle Kanäle: Sollten offen sein (Fader oben)"
+    ],
+    "affectedDevices": ["behringer-x32", "presonus-eris"],
+    "relatedErrors": ["tg500-no-sound-routing"],
+    "frequency": "very-common",
+    "severity": "critical"
+  }
+]

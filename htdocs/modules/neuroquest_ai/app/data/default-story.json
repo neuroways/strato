@@ -1,0 +1,37 @@
+{
+  "code":"caspar-lumi-standard",
+  "title":"Caspar und Lumi im Zauberwald",
+  "version":"1.0.0",
+  "days":[
+    {"day":1,"title":"Das geheimnisvolle Zeichen","image":"static/neuroquest-day1-hero.jpg","intro":"Heute beginnt deine Reise durch den Zauberwald.","fragments":[
+      {"title":"Das geheimnisvolle Zeichen","text":"Caspar findet ein mysteriöses Zeichen im Wald. Es leuchtet sanft. Sein Herz wird schneller. Was bedeutet dieses Zeichen?"},
+      {"title":"Das geheime Licht","text":"Das Licht wird stärker. Zwischen den Blättern erkennt Caspar eine freundliche, warme Gestalt."},
+      {"title":"Lumi erscheint","text":"„Hallo, Caspar“, sagt die Gestalt sanft. „Ich bin Lumi. Ich habe auf dich gewartet.“"},
+      {"title":"Der Anfang einer Freundschaft","text":"Caspar und Lumi schauen sich an. Caspar spürt: Das ist der Anfang von etwas Wunderbarem."},
+      {"title":"Der erste Tag","text":"Sie sitzen zusammen auf einem Stein. Lumi sagt: „Das war erst der Anfang. Morgen entdecken wir noch mehr.“"}]},
+    {"day":2,"title":"Der Weg der fünf Schritte","image":"static/neuroquest-day2-hero.jpg","intro":"Heute entdeckt ihr gemeinsam den Weg der fünf Schritte.","fragments":[
+      {"title":"Der Weg der fünf Schritte","text":"Lumi zeigt Caspar einen verborgenen Pfad, der aus fünf kleinen Abschnitten besteht."},
+      {"title":"Genau hinschauen","text":"Caspar wird langsamer. Plötzlich sieht er Spuren, die vorher verborgen waren."},
+      {"title":"Verstehen","text":"Er beginnt, die Zeichen des Waldes zu lesen."},
+      {"title":"Geduld","text":"Caspar entdeckt: Langsam kann manchmal der schnellste Weg sein."},
+      {"title":"Zuhören und vertrauen","text":"Mit Lumi an seiner Seite fühlt sich Caspar bereit für den nächsten Weg."}]},
+    {"day":3,"title":"Der Wald flüstert","image":"static/neuroquest-day3-hero.jpg","intro":"Heute hörst du genauer hin.","fragments":[
+      {"title":"Ein leises Flüstern","text":"Zwischen den Bäumen hört Caspar ein leises Rascheln, das fast wie eine Stimme klingt."},
+      {"title":"Still werden","text":"Lumi setzt sich ins Moos. Gemeinsam warten sie, ohne etwas erzwingen zu müssen."},
+      {"title":"Die kleine Spur","text":"Ein Blatt bewegt sich gegen den Wind und zeigt ihnen eine schmale Spur."},
+      {"title":"Ein verborgener Ort","text":"Hinter Farnen entdecken sie einen stillen Platz voller warmer Lichtpunkte."},
+      {"title":"Die Botschaft","text":"Caspar versteht: Manche Antworten werden erst hörbar, wenn alles andere leise wird."}]},
+    {"day":4,"title":"Der Stern in der Mitte","image":"static/neuroquest-day4-hero.jpg","intro":"Ein neues Licht zeigt euch den Weg.","fragments":[
+      {"title":"Ein Stern erscheint","text":"Über dem Wald leuchtet ein kleiner goldener Stern."},
+      {"title":"Der Weg nach innen","text":"Der Stern bewegt sich nicht nach vorn, sondern scheint Caspar zu sich selbst zu führen."},
+      {"title":"Ohne Worte","text":"Caspar und Lumi verstehen einander, obwohl niemand etwas sagt."},
+      {"title":"Der ruhige Mittelpunkt","text":"Inmitten des Waldes finden sie einen Platz, an dem alles für einen Moment stillsteht."},
+      {"title":"Ein Licht bleibt","text":"Als sie weitergehen, trägt Caspar das ruhige Leuchten noch immer in sich."}]},
+    {"day":5,"title":"Das Licht in dir","image":"static/neuroquest-day5-hero.jpg","intro":"Heute endet diese Geschichte – und ein neuer Weg beginnt.","fragments":[
+      {"title":"Der letzte Pfad","text":"Caspar und Lumi folgen dem goldenen Licht bis zu einer weiten Lichtung."},
+      {"title":"Kein verborgenes Ziel","text":"Dort wartet kein Schatz und kein Pokal. Nur der Wald, ruhig und offen."},
+      {"title":"Was sich verändert hat","text":"Caspar erkennt, dass er heute anders schaut als am ersten Tag."},
+      {"title":"Das Licht in dir","text":"Lumi lächelt. „Das Licht war die ganze Zeit bei dir.“"},
+      {"title":"Ein neuer Anfang","text":"Caspar geht weiter. Nicht weil er muss, sondern weil er wissen möchte, was hinter dem nächsten Baum wartet."}]}
+  ]
+}

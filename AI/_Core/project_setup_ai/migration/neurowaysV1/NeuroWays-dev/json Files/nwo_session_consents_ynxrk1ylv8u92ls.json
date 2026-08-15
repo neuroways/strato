@@ -1,0 +1,15 @@
+{
+  "collectionId": "pbc_4195913900",
+  "collectionName": "nwo_session_consents",
+  "created": "2026-07-24 12:33:32.251Z",
+  "granted_at": "",
+  "grantee_ref": "",
+  "grantee_type": "dummy",
+  "grantor_id": "dummy",
+  "id": "ynxrk1ylv8u92ls",
+  "revoked_at": "",
+  "scope": "",
+  "session_ref": "dummy",
+  "status": "dummy",
+  "updated": "2026-07-24 12:33:32.251Z"
+}

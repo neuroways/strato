@@ -1,0 +1,10 @@
+{
+  "artifact_id": "TT-DEV-0001-C003-T002",
+  "type": "integration-diagnostic",
+  "target_root": "htdocs/TT-DEV",
+  "target_environment": "STRATO Webhosting / PHP 8.x / MariaDB",
+  "purpose": "Diagnose von PHP-, PDO-, Bootstrap- und MariaDB-Anbindung nach weißer T001-Ausgabe",
+  "contains_secrets": false,
+  "created_at": "2026-08-08",
+  "status": "built-local-target-test-pending"
+}

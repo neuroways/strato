@@ -1,0 +1,21 @@
+{
+  "code": "ENERGY_CHECK",
+  "collectionId": "pbc_1225995855",
+  "collectionName": "nwo_methods",
+  "created": "2026-07-24 08:35:05.982Z",
+  "description_content_ref": "5syoiv9f5wrczvn",
+  "estimated_duration_minutes": 2,
+  "id": "aj6rjst8dftagqg",
+  "max_score": 30,
+  "method_type_ref": "pgsyhh79ak8wjg6",
+  "migration_version": "MIG-001-P3",
+  "min_score": 6,
+  "name_content_ref": "hprvjcv2bph2re2",
+  "object_type": "METHOD",
+  "scoring_type": "SUM",
+  "source_collection": "methods",
+  "source_id": "n30mevlbwbdv5e8",
+  "status": "PUBLISHED",
+  "updated": "2026-07-24 08:35:05.982Z",
+  "version": "1.1.0"
+}

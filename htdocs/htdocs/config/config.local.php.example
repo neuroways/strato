@@ -1,0 +1,9 @@
+<?php
+declare(strict_types=1);
+
+return [
+    'database' => [
+        'user' => 'dbu683992',
+        'password' => 'bernow-waNber-vagfe2',
+    ],
+];

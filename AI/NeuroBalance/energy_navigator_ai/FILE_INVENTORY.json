@@ -1,0 +1,447 @@
+[
+  {
+    "path": "README_RECONSTRUCTION.md",
+    "size": 490,
+    "sha256": "da97696514fa8335a06db3529be07244495324256b40629da157f94fca7451d9"
+  },
+  {
+    "path": "RECONSTRUCTION_MANIFEST.json",
+    "size": 2644,
+    "sha256": "b7fc8bf0449baa13c865d2a8f157434e3355092285027b5515fbb776b0a29321"
+  },
+  {
+    "path": "RECONSTRUCTION_STATUS.json",
+    "size": 425,
+    "sha256": "f93a3260589d4aaeabc5af9407867ff6afe881e1a9b2c327f13ef8121ad5971e"
+  },
+  {
+    "path": "app/.gitignore",
+    "size": 97,
+    "sha256": "df98593df65f9fa6f0f5c75009bfcbdfcd8d033ff9c37535f25f3254411b682a"
+  },
+  {
+    "path": "app/.platform-deps",
+    "size": 164,
+    "sha256": "8ed04505ecd36cfd4b8219399b5d8cacb298355136dd351814de8a5afaa41081"
+  },
+  {
+    "path": "app/.platform_deps",
+    "size": 164,
+    "sha256": "8ed04505ecd36cfd4b8219399b5d8cacb298355136dd351814de8a5afaa41081"
+  },
+  {
+    "path": "app/AGENTS.md",
+    "size": 6988,
+    "sha256": "39471c7b39ec440a6dca7279f632ae03ffacf1538284dfb7515d1ea45c1fa9e7"
+  },
+  {
+    "path": "app/NEUROWAYS_WORLD.md",
+    "size": 14450,
+    "sha256": "8549f658690af7754fbcca4b78d97c7e1fd578181db83022a602dba03c347494"
+  },
+  {
+    "path": "app/NW-DEPLOY-001_DEPLOYMENT_STANDARD.md",
+    "size": 6764,
+    "sha256": "23f5b075688a31d7662dfedef5de23caf827727bc7488d3abf2580809132ce97"
+  },
+  {
+    "path": "app/NW-DS-001_DESIGN_PHILOSOPHY.md",
+    "size": 4307,
+    "sha256": "e3e7d0f0af93aab7559ba49b8e9b623f59c6a597136a4dc15dea589778254588"
+  },
+  {
+    "path": "app/NW-DS-002_LOGO_SYSTEM.md",
+    "size": 4505,
+    "sha256": "09c936e9d758a8bfb3536bc8419bdbb18d59ba474755292e6a448d7059df1770"
+  },
+  {
+    "path": "app/NW-DS-003_COLOR_SYSTEM.md",
+    "size": 4051,
+    "sha256": "a458b98bcf535568c42df4f4188496d13139e489113f771fce0e5f272f1064e3"
+  },
+  {
+    "path": "app/NW-DS-004_TYPOGRAPHY.md",
+    "size": 2668,
+    "sha256": "7b638fbc469f7d47ebaf8c59238ff82a95a1ef5feb3c4e195493dbc5f888a194"
+  },
+  {
+    "path": "app/NW-DS-005_LAYOUT_SYSTEM.md",
+    "size": 1979,
+    "sha256": "359c807bbc2d8e820a594f9060987f2a7bb70b67c0edfbb2c1a7e835b78cee42"
+  },
+  {
+    "path": "app/NW-DS-006_COMPONENT_SYSTEM.md",
+    "size": 4563,
+    "sha256": "993c6f5a2e0f62ce80921e649f3c4f4794cb2eea85ddf1f90d087fa4fbfd9208"
+  },
+  {
+    "path": "app/NW-DS-007_ILLUSTRATION_SYSTEM.md",
+    "size": 3609,
+    "sha256": "ebeb39cdc0a28b0b0ffb3efa2facdd4591e347a52758420c87741eab70e0ec38"
+  },
+  {
+    "path": "app/NW-DS-008_MOTION_SYSTEM.md",
+    "size": 2094,
+    "sha256": "39760506654c40c4146c18a3213a80bb193c9250791ecf22ae0af3ee549f8667"
+  },
+  {
+    "path": "app/NW-DS-009_BRAND_APPLICATIONS.md",
+    "size": 2431,
+    "sha256": "dabd9cd2a10dc0b1e39105bbba6cf6c43f55a1a22d5a8d62e84539310aefc457"
+  },
+  {
+    "path": "app/NW-GOVERNANCE-FOUNDATION-v1.0.md",
+    "size": 5701,
+    "sha256": "8849810ae0f00f399e51632eeb35e74a5b83dfcb509d6333642f1af9fe708411"
+  },
+  {
+    "path": "app/NW-IDENTITY-001_IDENTITY_MEMBERSHIP_SPEC.md",
+    "size": 30573,
+    "sha256": "e98de1439abcfec6af631c34edc7586f1e2b4003959a2094a6f2e78770907485"
+  },
+  {
+    "path": "app/NW-IDENTITY-002_PRODUCTIVE_INTEGRATION.md",
+    "size": 3335,
+    "sha256": "f4abe0edc49a6a210df3b482eeb4d6c3427795b5c00abdcccdfd43a01fb81558"
+  },
+  {
+    "path": "app/NW-IDENTITY-POC-001_REPORT.md",
+    "size": 6401,
+    "sha256": "af431c1b1affdeb5dddc8b5135552bf4765eeedb01008c6b186f32c539121ce2"
+  },
+  {
+    "path": "app/NW-KAS-001_KNOWLEDGE_ASSET_STANDARD.md",
+    "size": 32037,
+    "sha256": "0d721c6d6b787ba9c2a5708535a7411ed3a881911d56bc6536048661de840b7c"
+  },
+  {
+    "path": "app/NW-PKG-001_MODULE_VERSION_PACKAGE_MODEL.md",
+    "size": 38079,
+    "sha256": "f60c00a0ecb7c1c5511e41fcac9d8d9b17cc6ef9601e9be6ca137e008287da24"
+  },
+  {
+    "path": "app/NW-STD-000_STANDARDS_FRAMEWORK.md",
+    "size": 29838,
+    "sha256": "eb183b3d46617078adc154ee91f3b0794e23f4d35d138df18be44cbe8bc4bc45"
+  },
+  {
+    "path": "app/NW-STD-001_NAMING_STANDARD.md",
+    "size": 29653,
+    "sha256": "62a845d66a61dfd3a18e05bc2e64b818ffe8453c649a72b6f494c4224c94b898"
+  },
+  {
+    "path": "app/NW-STD-002-REGISTER.md",
+    "size": 5252,
+    "sha256": "6301d015a79a94f168be977b811e983e6c4388ff089c90f6cc32ea3f03f4c496"
+  },
+  {
+    "path": "app/NW-STD-002_STANDARDS_REGISTRY.md",
+    "size": 32315,
+    "sha256": "cc3cc04a1b02adedf9bec4d6ffc609f1427270b3b02e515cbd8415c3a12b692d"
+  },
+  {
+    "path": "app/NW-STD-003_DATABASE_STANDARD.md",
+    "size": 47555,
+    "sha256": "6e6765af92f294ff65064aec5729cad4fa48c0b05c8d1516ad663fe1e333a417"
+  },
+  {
+    "path": "app/index.html",
+    "size": 1950,
+    "sha256": "38aec54c8b7624aa7fc7e93dfd75b167f1687b65a1eb9afdc761735f8fb99e04"
+  },
+  {
+    "path": "app/nw_migrate.js",
+    "size": 5613,
+    "sha256": "e19735506cc0cff9584624d87aa70c2117f790d51acc17191eb867d5b8164513"
+  },
+  {
+    "path": "app/package-lock.json",
+    "size": 206,
+    "sha256": "b706c88e0553c227261156a011a8a9f7842f1baf1e32edd773ac9488e063bbc1"
+  },
+  {
+    "path": "app/package.json",
+    "size": 275,
+    "sha256": "154f159327655b781c460779364fa6064a03d7fe0beb67564fc0ccc8b4a31215"
+  },
+  {
+    "path": "app/public/apple-touch-icon.png",
+    "size": 61,
+    "sha256": "2d297ab3a29b6b630c2b2eda98a29077ffc70cbbf745e3b2727c03f8c44953c3"
+  },
+  {
+    "path": "app/public/favicon-16x16.png",
+    "size": 59,
+    "sha256": "4583d090cc9b28326370f13066ec44e587793b296afb8e715b34431f2e85cb94"
+  },
+  {
+    "path": "app/public/favicon-32x32.png",
+    "size": 59,
+    "sha256": "7180eca5169fe4b96363dc01644a48e08e750781cea636f9cf0f886d0883987f"
+  },
+  {
+    "path": "app/public/favicon.svg",
+    "size": 269,
+    "sha256": "f11cdc59b8e9418e4b33f17365b20f46195de9ad88fcc0c54822d3a9c1bbcdcc"
+  },
+  {
+    "path": "app/public/icons/icon-128x128.png",
+    "size": 60,
+    "sha256": "39068ba9e2a2bedea0025271877434da04c13f804643f14720bf2c0731f98863"
+  },
+  {
+    "path": "app/public/icons/icon-144x144.png",
+    "size": 60,
+    "sha256": "efd28b69d3bea5a901423d94b618010422fbb6bd77cc141fbc6769df2ef11887"
+  },
+  {
+    "path": "app/public/icons/icon-152x152.png",
+    "size": 60,
+    "sha256": "dc604595b436fdb8b5162ab3c4ed0fa088ac3175532571566566bc6b5520eca0"
+  },
+  {
+    "path": "app/public/icons/icon-167x167.png",
+    "size": 60,
+    "sha256": "af465cecaa31ac64f4f161ee90834dd481d77b889387ece043d793146de9658d"
+  },
+  {
+    "path": "app/public/icons/icon-180x180.png",
+    "size": 61,
+    "sha256": "2d297ab3a29b6b630c2b2eda98a29077ffc70cbbf745e3b2727c03f8c44953c3"
+  },
+  {
+    "path": "app/public/icons/icon-192x192.png",
+    "size": 61,
+    "sha256": "52214011da67c4192516c1f442c6f343611a964ef0fc63f8328b011f44b6179c"
+  },
+  {
+    "path": "app/public/icons/icon-256x256.png",
+    "size": 61,
+    "sha256": "4dc49936b22dcc76b3334842292f6d6e107570b55833fd248a818a27726cf7b5"
+  },
+  {
+    "path": "app/public/icons/icon-384x384.png",
+    "size": 61,
+    "sha256": "6b7ab317cbc69b14af670feb8932202dd844d3fc1c0386a35cb1cf22c9ef639a"
+  },
+  {
+    "path": "app/public/icons/icon-48x48.png",
+    "size": 60,
+    "sha256": "8df93542ac19afad49798f495620e0ee3e1c38d2e1871802100a7343e084b322"
+  },
+  {
+    "path": "app/public/icons/icon-512x512.png",
+    "size": 61,
+    "sha256": "b91608ab48db750357d49b02f882cefd94d493f9cf1501cb59927a90d52509cb"
+  },
+  {
+    "path": "app/public/icons/icon-72x72.png",
+    "size": 60,
+    "sha256": "2c0fdbfe67d85950627a0d2a7b465e2a9ae058f27f98077577b28e36f9ebb41f"
+  },
+  {
+    "path": "app/public/icons/icon-96x96.png",
+    "size": 60,
+    "sha256": "c423d0b68dcbd62900150ee4d3b98f248f0e9b5291a8fe3f2ce5e0071fe3a655"
+  },
+  {
+    "path": "app/public/icons/icon-maskable-192x192.png",
+    "size": 61,
+    "sha256": "8c0d4dbfa25edc8b4fa3512438e46bd104bd0614aaf5f6b9f932b1a461c9bfe2"
+  },
+  {
+    "path": "app/public/icons/icon-maskable-512x512.png",
+    "size": 61,
+    "sha256": "99c88e8e242763905e3cc99ce496a947fe2449db8965ae2e04c56865e11cffe2"
+  },
+  {
+    "path": "app/public/manifest.webmanifest",
+    "size": 2200,
+    "sha256": "82f82d68364a663e528fef4764639f64a135e48780e4bdd32f70e0c823ff8961"
+  },
+  {
+    "path": "app/public/neuroflow-icon.svg",
+    "size": 1494,
+    "sha256": "ec3ee5f262074ad881334c33c9b1eba7b120a8d8b75a6a236cc4a9e407258ee7"
+  },
+  {
+    "path": "app/src/App.jsx",
+    "size": 3724,
+    "sha256": "3d0ed21cadb3d9c31c2c8c1cb93b413ad160906db90f284d4f9bcbfd90b9427c"
+  },
+  {
+    "path": "app/src/components/AnswerCard.jsx",
+    "size": 4410,
+    "sha256": "1e55128f63a4bc12014938fbf9974c392acd32b3627bd8dbfeeced3074499ac0"
+  },
+  {
+    "path": "app/src/components/AuthNav.jsx",
+    "size": 7137,
+    "sha256": "d998a4cb04d67dcafb6b13dec3318ed01cba1d0a7f5ec524c4e9ed03b26b2df3"
+  },
+  {
+    "path": "app/src/components/JourneyEntry.jsx",
+    "size": 11569,
+    "sha256": "ea407a62da197b8524a6db50fae65ad93e769f60b3651687f82a3369173f568e"
+  },
+  {
+    "path": "app/src/components/Nav.jsx",
+    "size": 2908,
+    "sha256": "c8d09a77e43e795e70d941513ec6a73601192e6f79583930a6417c28f166459c"
+  },
+  {
+    "path": "app/src/components/PatternsView.jsx",
+    "size": 12602,
+    "sha256": "5201888e825bcf8869075231960c649459a58f75ef64937e4a92b886aa3dab79"
+  },
+  {
+    "path": "app/src/components/ProtectedRoute.jsx",
+    "size": 1241,
+    "sha256": "8f2a8004c347d82061c126c1fd0c01700091b9a539ab0af0d07ec7d952bc2115"
+  },
+  {
+    "path": "app/src/components/ZoneCard.jsx",
+    "size": 2376,
+    "sha256": "4b73abad91618faed7f7d173be814585a735d6d6333ea2cdc087a74f48d15cff"
+  },
+  {
+    "path": "app/src/components/ZoneIcon.jsx",
+    "size": 487,
+    "sha256": "6a57b2073d28419ea4bb40cc835b7a3192a98ed835b26201745e2e3aa683f945"
+  },
+  {
+    "path": "app/src/index.css",
+    "size": 690,
+    "sha256": "b46c1f9b73f897ab3846f4b32ad3a8b9f79caf1e7f55c9efc994336827a3e902"
+  },
+  {
+    "path": "app/src/lib/asset_engine_validation.js",
+    "size": 8341,
+    "sha256": "372e8b6eddcaa03c4d4bcc2675a7a64c431054c595609a8a4d6bfe3f7a0a6abb"
+  },
+  {
+    "path": "app/src/lib/authContext.jsx",
+    "size": 1194,
+    "sha256": "1d1d88c50991fcc42f4224071db4507d3f4b07e5370ba9904d3626eac27098a2"
+  },
+  {
+    "path": "app/src/lib/builderEngine.js",
+    "size": 5793,
+    "sha256": "dc984114e9224057805ce866b06dca23e0494396ed50fe01d662ce29d86289b8"
+  },
+  {
+    "path": "app/src/lib/engine.js",
+    "size": 10687,
+    "sha256": "954d734ad5b495c7f0d2c09204c76ff9e59cff1eff5bac73da8ef9c7a4e4b80f"
+  },
+  {
+    "path": "app/src/lib/identity.js",
+    "size": 8488,
+    "sha256": "63368e831d3acb66d322d6336c02c47966406be312de156a7360991f10b543ee"
+  },
+  {
+    "path": "app/src/lib/moduleRegistry.js",
+    "size": 3191,
+    "sha256": "1dd646adac37bc5225af3bb20ee3876e0c90ce7ec4b4173708b648530e05da51"
+  },
+  {
+    "path": "app/src/lib/pb.js",
+    "size": 74,
+    "sha256": "30418382a4ab6596acb154dc944d20d459972541db50fd2a87a80dd3df507c37"
+  },
+  {
+    "path": "app/src/main.jsx",
+    "size": 234,
+    "sha256": "70b0f7e347ec5cbabb5c9cc42f3e1a1366be1d10d001570fd9913fcd0bf687eb"
+  },
+  {
+    "path": "app/src/pages/CheckIn.jsx",
+    "size": 14687,
+    "sha256": "704e08bf47ac4cdf5ed275b863ff20a72adcf96710824522869e33a1658a1e9f"
+  },
+  {
+    "path": "app/src/pages/DashboardPage.jsx",
+    "size": 6799,
+    "sha256": "73b667613de353a3b337f7f8f785d9d9bcc056675d42fee71815473a8028de42"
+  },
+  {
+    "path": "app/src/pages/ForgotPasswordPage.jsx",
+    "size": 4748,
+    "sha256": "c543c6cb3dcda0ceb5d07f29f07b46b591215b1fb518302ceb0864b747969cc6"
+  },
+  {
+    "path": "app/src/pages/History.jsx",
+    "size": 7242,
+    "sha256": "9896c239960bd8e9988eefeb5aea737859c78d8cbcbdcfc7c2ee030f7372117f"
+  },
+  {
+    "path": "app/src/pages/Home.jsx",
+    "size": 4633,
+    "sha256": "7605c1df0de57d08aa0473cc58ae7bfa269028bd1db400972be6689779aa6b00"
+  },
+  {
+    "path": "app/src/pages/IdentityPoc.jsx",
+    "size": 16120,
+    "sha256": "07a44d2d90551fe6c2373de69f50b570ea9cff5ad38a0861692fde277bcb3db2"
+  },
+  {
+    "path": "app/src/pages/Journey.jsx",
+    "size": 22074,
+    "sha256": "855f7b6388a5dbf41c90b3a2d55769f37df4fd36b6656146fbffe6763bdfc804"
+  },
+  {
+    "path": "app/src/pages/LoginPage.jsx",
+    "size": 7476,
+    "sha256": "249ed87e90369e914bfe35be8b28fd2fe934704b389bb61b9e0f86984c3939ff"
+  },
+  {
+    "path": "app/src/pages/ModuleBuilderPage.jsx",
+    "size": 39885,
+    "sha256": "1a7ff3e57051954c7d34cb4c19fb75c36ec1947ad5b0f8ef2f93b9b20d950fad"
+  },
+  {
+    "path": "app/src/pages/ModuleManagerPage.jsx",
+    "size": 19503,
+    "sha256": "dd49f412eadce29cae4c526ee276aa3805d3729ecb5d8ffa9fdae1179800f489"
+  },
+  {
+    "path": "app/src/pages/Privacy.jsx",
+    "size": 4941,
+    "sha256": "1ebf541d63d86c2653d8b9285665e0bd5202c9e1bbf1d4993cc313f51759f512"
+  },
+  {
+    "path": "app/src/pages/PromptLibraryPage.jsx",
+    "size": 17183,
+    "sha256": "17ca00c991b26dd587dfb0f0b0c5f7fefac8048702a8f8ac3dad51bf1e5860bb"
+  },
+  {
+    "path": "app/src/pages/RegisterPage.jsx",
+    "size": 5633,
+    "sha256": "888ebfe6b3dd5268c3082574a55f9015e2a5c529f0533499f8b9ffee6641775f"
+  },
+  {
+    "path": "app/src/pages/Result.jsx",
+    "size": 11360,
+    "sha256": "fbbd5041b550655a950f1f797e59630d6ebef241005cf48afaf9b2cebef6a24a"
+  },
+  {
+    "path": "app/src/pages/WorkspacePage.jsx",
+    "size": 18617,
+    "sha256": "86c35e380f1eb6ed3de577b3a6807a45ecb29912ec58b2d89cbf2b143c1c6127"
+  },
+  {
+    "path": "app/tailwind.config.cjs",
+    "size": 193,
+    "sha256": "79055c1b1f13109ae5e93cc53f2f585ad57a45b705c5601363f10e3ff2b5b09d"
+  },
+  {
+    "path": "app/tailwind.config.js",
+    "size": 193,
+    "sha256": "79055c1b1f13109ae5e93cc53f2f585ad57a45b705c5601363f10e3ff2b5b09d"
+  },
+  {
+    "path": "app/vite.config.js",
+    "size": 112,
+    "sha256": "f6f5832dfe352e02f376431094f6bd1162a787255563da501c88ad7533afe7a5"
+  }
+]

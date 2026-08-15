@@ -1,0 +1,70 @@
+{
+  "name": "tournaments",
+  "type": "base",
+  "fields": [
+    {
+      "name": "title",
+      "type": "text",
+      "required": true
+    },
+    {
+      "name": "subtitle",
+      "type": "text",
+      "required": false
+    },
+    {
+      "name": "description",
+      "type": "editor",
+      "required": false
+    },
+    {
+      "name": "event_date",
+      "type": "date",
+      "required": true
+    },
+    {
+      "name": "registration_deadline",
+      "type": "date",
+      "required": false
+    },
+    {
+      "name": "start_time",
+      "type": "text",
+      "required": true
+    },
+    {
+      "name": "end_time",
+      "type": "text",
+      "required": false
+    },
+    {
+      "name": "status",
+      "type": "select",
+      "required": true,
+      "values": [
+        "planning",
+        "registration",
+        "draw",
+        "running",
+        "finished"
+      ]
+    },
+    {
+      "name": "max_players",
+      "type": "number",
+      "required": false
+    },
+    {
+      "name": "logo",
+      "type": "file",
+      "required": false,
+      "maxSelect": 1
+    },
+    {
+      "name": "hero_image",
+      "type": "file",
+      "required": false,
+      "maxSelect": 1
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "artifact_id": "TT-DEV-0001-C003-R001",
+  "type": "deployment_repair",
+  "repairs": "TT-DEV-0001-C003",
+  "deployment_root": "htdocs/TT-DEV/",
+  "packaging_rule": "archive entries are relative to repository root; no extra top-level project directory",
+  "contains_env_file": false,
+  "contains_env_example": true,
+  "local_tests": {
+    "php_lint": "passed",
+    "backend_tests": "3 passed, 0 failed"
+  },
+  "target_environment_test": "pending T002 rerun on STRATO"
+}

@@ -1,0 +1,163 @@
+{
+  "name": "npl_personal_inventory_items",
+  "type": "base",
+  "fields": [
+    {
+      "name": "id",
+      "type": "text",
+      "required": true,
+      "id": "text_id_001",
+      "autogeneratePattern": "[a-z0-9]{15}",
+      "max": 15,
+      "min": 15,
+      "pattern": "^[a-z0-9]+$",
+      "primaryKey": true,
+      "presentable": false
+    },
+    {
+      "name": "inventory_id",
+      "type": "text",
+      "required": true,
+      "id": "text_inv_id",
+      "presentable": true
+    },
+    {
+      "name": "sequence_number",
+      "type": "number",
+      "required": false,
+      "id": "number_seq"
+    },
+    {
+      "name": "item_type",
+      "type": "text",
+      "required": true,
+      "id": "text_item_type",
+      "presentable": true
+    },
+    {
+      "name": "category",
+      "type": "text",
+      "required": true,
+      "id": "text_category",
+      "presentable": true
+    },
+    {
+      "name": "title",
+      "type": "text",
+      "required": true,
+      "id": "text_title",
+      "presentable": true
+    },
+    {
+      "name": "publisher",
+      "type": "text",
+      "required": false,
+      "id": "text_publisher",
+      "presentable": true
+    },
+    {
+      "name": "alternative_publisher",
+      "type": "text",
+      "required": false,
+      "id": "text_alt_publisher"
+    },
+    {
+      "name": "identification_status",
+      "type": "text",
+      "required": true,
+      "id": "text_id_status",
+      "presentable": true
+    },
+    {
+      "name": "original_status",
+      "type": "text",
+      "required": false,
+      "id": "text_orig_status"
+    },
+    {
+      "name": "notes",
+      "type": "text",
+      "required": false,
+      "id": "text_notes"
+    },
+    {
+      "name": "edition_status",
+      "type": "text",
+      "required": false,
+      "id": "text_edition"
+    },
+    {
+      "name": "needs_review",
+      "type": "bool",
+      "required": false,
+      "id": "bool_needs_review",
+      "presentable": true
+    },
+    {
+      "name": "quantity_minimum",
+      "type": "number",
+      "required": false,
+      "id": "number_qty_min"
+    },
+    {
+      "name": "is_group_record",
+      "type": "bool",
+      "required": false,
+      "id": "bool_is_group"
+    },
+    {
+      "name": "parent_inventory_id",
+      "type": "text",
+      "required": false,
+      "id": "text_parent_inv_id"
+    },
+    {
+      "name": "source_file",
+      "type": "text",
+      "required": true,
+      "id": "text_source_file"
+    },
+    {
+      "name": "source_method",
+      "type": "text",
+      "required": true,
+      "id": "text_source_method"
+    },
+    {
+      "name": "inventory_version",
+      "type": "text",
+      "required": true,
+      "id": "text_inv_version"
+    },
+    {
+      "name": "recorded_at",
+      "type": "date",
+      "required": false,
+      "id": "date_recorded_at"
+    },
+    {
+      "name": "created",
+      "type": "autodate",
+      "onCreate": true,
+      "onUpdate": false,
+      "id": "autodate_created",
+      "presentable": false
+    },
+    {
+      "name": "updated",
+      "type": "autodate",
+      "onCreate": true,
+      "onUpdate": true,
+      "id": "autodate_updated",
+      "presentable": false
+    }
+  ],
+  "indexes": [
+    "CREATE UNIQUE INDEX `idx_inventory_id_unique` ON `npl_personal_inventory_items` (`inventory_id`)"
+  ],
+  "listRule": null,
+  "viewRule": null,
+  "createRule": null,
+  "updateRule": null,
+  "deleteRule": null
+}
