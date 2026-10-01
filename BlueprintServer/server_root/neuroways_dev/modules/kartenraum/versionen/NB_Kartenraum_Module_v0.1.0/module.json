@@ -1,0 +1,63 @@
+{
+  "module_code": "nb_kartenraum",
+  "module_name": "NeuroBalance Kartenraum",
+  "version": "0.1.0",
+  "status": "dev-pilot",
+  "core_compatibility": ">=0.1.0",
+  "architecture_basis": "NW-ARCH-008_STRATO_Server_Blueprint_v0.1.0_Draft-Pilot",
+  "leading_architecture_reference": "NW-ARCH-007 (per NW-ARCH-008; not included in this package)",
+  "entrypoints": {
+    "backend": "backend/application/DrawCardHandler.php",
+    "frontend": "public-assets/preview/index.html"
+  },
+  "capabilities": [
+    "card_room",
+    "daily_draw",
+    "card_reveal",
+    "self_perception",
+    "review",
+    "journal",
+    "connections",
+    "deck_overview"
+  ],
+  "dependencies": [
+    {
+      "type": "core-contract",
+      "name": "persistence",
+      "status": "required-for-production"
+    },
+    {
+      "type": "core-contract",
+      "name": "identity-scope",
+      "status": "required-for-production"
+    },
+    {
+      "type": "core-component",
+      "name": "navigation",
+      "status": "reuse-target"
+    },
+    {
+      "type": "core-css",
+      "name": "design-tokens",
+      "status": "reuse-target"
+    }
+  ],
+  "public_routes": [
+    "/",
+    "/ziehung",
+    "/rueckblick",
+    "/journal",
+    "/verbindungen",
+    "/decks"
+  ],
+  "requires_database": true,
+  "database_status": "contract-only-no-production-migration",
+  "supports_custom_css": true,
+  "contains_secrets": false,
+  "preview": {
+    "mode": "standalone-static",
+    "uses_dev_fixtures": true,
+    "persistence": "browser-localStorage-preview-only",
+    "production_equivalent": false
+  }
+}

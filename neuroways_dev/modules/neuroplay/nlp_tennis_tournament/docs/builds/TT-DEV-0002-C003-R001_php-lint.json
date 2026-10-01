@@ -1,0 +1,17 @@
+[
+  {
+    "file": "backend/tests/Foundation/ComposerReproducibilityTest.php",
+    "ok": true,
+    "output": "No syntax errors detected in /mnt/data/TT-DEV-0002-C003-R001/backend/tests/Foundation/ComposerReproducibilityTest.php"
+  },
+  {
+    "file": "backend/tests/composer-status.php",
+    "ok": true,
+    "output": "No syntax errors detected in /mnt/data/TT-DEV-0002-C003-R001/backend/tests/composer-status.php"
+  },
+  {
+    "file": "backend/tests/run-c003.php",
+    "ok": true,
+    "output": "No syntax errors detected in /mnt/data/TT-DEV-0002-C003-R001/backend/tests/run-c003.php"
+  }
+]

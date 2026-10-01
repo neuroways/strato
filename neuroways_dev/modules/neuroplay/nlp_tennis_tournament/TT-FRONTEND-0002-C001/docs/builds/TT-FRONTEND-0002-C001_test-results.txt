@@ -1,0 +1,4 @@
+[PASS] PublicTournamentViewModelTest
+[PASS] PublicTournamentServiceTest
+
+TT-FRONTEND-0002-C001 tests: 2 passed, 0 failed

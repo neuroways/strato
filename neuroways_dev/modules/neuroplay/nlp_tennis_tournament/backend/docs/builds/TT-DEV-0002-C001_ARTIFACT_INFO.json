@@ -1,0 +1,10 @@
+{
+  "artifact": "TT-DEV-0002-C001",
+  "ticket": "TT-DEV-0002",
+  "title": "Composer / Backend Foundation – Composer package definition",
+  "deployment_root": "htdocs/TT-DEV/",
+  "incremental": true,
+  "requires": ["TT-DEV-0001-C004", "TT-DEV-0001-C003-R001"],
+  "target_php": "8.x",
+  "status": "built-local-target-test-pending"
+}

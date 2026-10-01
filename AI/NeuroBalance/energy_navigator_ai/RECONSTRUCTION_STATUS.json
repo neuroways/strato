@@ -1,0 +1,10 @@
+{
+  "name": "NeuroWays Energy Navigator complete reconstruction",
+  "generated_from": [
+    "NeuroWays_Energy_Navigator_Sicherung(2).zip",
+    "source files and code supplied in the current conversation"
+  ],
+  "scope": "Application files and folders available in the conversation",
+  "database_included": false,
+  "note": "No live PocketBase database/schema export was available, therefore no database backup is included."
+}

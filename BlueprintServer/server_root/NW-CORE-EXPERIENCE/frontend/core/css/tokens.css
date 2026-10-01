@@ -1,0 +1,9 @@
+:root {
+  --nw-navy: #0a1f44;
+  --nw-teal: #008ca8;
+  --nw-violet: #7b4ba2;
+  --nw-gold: #e2a83b;
+  --nw-radius-card: 28px;
+  --nw-focus: 0 0 0 3px rgba(0, 140, 168, .32);
+}
+

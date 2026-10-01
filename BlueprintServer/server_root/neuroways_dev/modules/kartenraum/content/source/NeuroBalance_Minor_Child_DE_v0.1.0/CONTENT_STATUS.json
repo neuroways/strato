@@ -1,0 +1,18 @@
+{
+  "records": 56,
+  "audience_code": "CHILD",
+  "language_code": "de",
+  "status": "draft-review",
+  "suits": {
+    "wands": 14,
+    "swords": 14,
+    "cups": 14,
+    "pentacles": 14
+  },
+  "content_master_after_merge": {
+    "adult_de": 78,
+    "child_de": 78,
+    "total": 156
+  },
+  "next_step": "Merge all 156 content records and generate MariaDB schema + seed inserts."
+}

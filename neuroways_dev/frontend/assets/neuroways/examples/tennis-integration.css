@@ -1,0 +1,33 @@
+/* Tennis-specific layer
+   Import AFTER the NeuroWays Web Style Core. */
+
+@import "../css/index.css";
+
+:root {
+  /* Tennis may define module-specific semantic tokens here */
+  --tt-court-surface: var(--nw-color-pale-blue);
+  --tt-result-highlight: var(--nw-color-teal);
+}
+
+/* Examples */
+.tt-page {
+  min-height: 100vh;
+  background: var(--nw-bg-page);
+}
+
+.tt-match-card {
+  /* shared NeuroWays visual language + tennis layout */
+  border: 1px solid var(--nw-border);
+  border-radius: var(--nw-radius-lg);
+  background: var(--nw-bg-surface);
+  box-shadow: var(--nw-shadow-soft);
+}
+
+.tt-score {
+  font-variant-numeric: tabular-nums;
+  font-weight: 750;
+  color: var(--nw-heading);
+}
+
+/* Tennis-specific states should remain in the module,
+   not in the global Web Style Core. */

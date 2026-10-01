@@ -1,0 +1,18 @@
+{
+  "module": "nb_kartenraum",
+  "version": "0.3.6",
+  "type": "api-frontend",
+  "backend": "../NB_Kartenraum_Backend_v0.3.3/api",
+  "cards_source": "MariaDB nb_card",
+  "texts_source": "MariaDB nb_card_text",
+  "asset_base": "../cards/",
+  "audiences": [
+    "ADULT",
+    "CHILD"
+  ],
+  "languages": [
+    "de"
+  ],
+  "personal_persistence": "browser-localStorage-preview-only",
+  "fix": "DB descriptions explicitly visible after opening the card room"
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="NeuroQuest" />
+    <meta name="theme-color" content="#3d5a47" />
+    <meta name="msapplication-TileColor" content="#3d5a47" />
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/icon-192.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+    
+    <title>NeuroQuest — Digitales Kinderbuch zum Lernen</title>
+    <meta name="description" content="NeuroQuest ist ein interaktives Kinderbuch für Kinder mit ADHS und Autismus. Lerne mit Caspar und Lumi in fünf täglichen Aufgaben — jeder kleine Schritt zählt." />
+    
+    <style>
+      html {
+        background: #faf8f3;
+      }
+      
+      @supports (padding: max(0px)) {
+        body {
+          padding-left: max(12px, env(safe-area-inset-left));
+          padding-right: max(12px, env(safe-area-inset-right));
+          padding-top: max(12px, env(safe-area-inset-top));
+          padding-bottom: max(12px, env(safe-area-inset-bottom));
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/service-worker.js').catch(() => {
+          console.log('Service Worker registration failed, app will still work');
+        });
+      }
+    </script>
+  </body>
+</html>

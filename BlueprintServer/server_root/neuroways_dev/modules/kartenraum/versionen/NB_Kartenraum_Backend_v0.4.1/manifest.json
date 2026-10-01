@@ -1,0 +1,24 @@
+{
+  "module": "nb_kartenraum",
+  "version": "0.4.1",
+  "type": "read-only-backend",
+  "database": {
+    "cards": 78,
+    "texts": 156,
+    "adult_de": 78,
+    "child_de": 78
+  },
+  "api": [
+    "health",
+    "cards",
+    "card",
+    "text"
+  ],
+  "writes": false,
+  "secrets_in_package": false,
+  "database_config": "/config/database.php",
+  "connection_key": "platform",
+  "module_local_database_config": false,
+  "knowledge_api": "api/knowledge.php",
+  "knowledge_rows": 156
+}

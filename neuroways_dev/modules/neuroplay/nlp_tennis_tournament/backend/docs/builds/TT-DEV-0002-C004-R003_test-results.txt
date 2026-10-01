@@ -1,0 +1,7 @@
+{
+    "test": "TT-DEV-0002-C004-R003",
+    "status": "ok",
+    "default_connection": "platform",
+    "named_connection_support": true,
+    "failures": []
+}

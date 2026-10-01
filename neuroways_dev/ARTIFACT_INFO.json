@@ -1,0 +1,10 @@
+{
+  "artifact": "TT-DEV-0003-C001",
+  "ticket": "TT-DEV-0003",
+  "commit": "C001",
+  "purpose": "React/Vite frontend foundation",
+  "repository_root": "neuroways_dev/modules/neuroplay/nlp_tennis_tournament/",
+  "frontend_root": "frontend/",
+  "contains_node_modules": false,
+  "contains_package_lock": false
+}

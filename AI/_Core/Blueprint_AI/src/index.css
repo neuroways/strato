@@ -1,0 +1,114 @@
+@import "tailwindcss";
+@config "../tailwind.config.cjs";
+
+/* NeuroWays Design System – Global Styles */
+
+:root {
+  --nw-color-navy: #0A1F44;
+  --nw-color-teal: #008CA8;
+  --nw-color-violet: #7B4BA2;
+  --nw-color-gold: #E2A83B;
+  --nw-color-white: #FFFFFF;
+  --nw-color-soft-white: #F6F4F1;
+  --nw-color-warm-white: #F8F7F3;
+  --nw-color-light-gray: #E5E5E5;
+  --nw-color-section-gray: #F0F1F3;
+  --nw-color-pale-blue: #F1F6FA;
+  --nw-color-sand: #F6EFE6;
+  --nw-color-charcoal: #1A1A1A;
+
+  --nw-color-text-primary: var(--nw-color-charcoal);
+  --nw-color-heading: var(--nw-color-navy);
+  --nw-color-action-primary: var(--nw-color-navy);
+  --nw-color-action-secondary: var(--nw-color-teal);
+  --nw-color-page: var(--nw-color-soft-white);
+  --nw-color-surface: var(--nw-color-white);
+
+  --nw-space-1: 4px;
+  --nw-space-2: 8px;
+  --nw-space-3: 12px;
+  --nw-space-4: 16px;
+  --nw-space-5: 24px;
+  --nw-space-6: 32px;
+  --nw-space-7: 48px;
+  --nw-space-8: 64px;
+  --nw-space-9: 96px;
+
+  --nw-radius-small: 6px;
+  --nw-radius-medium: 10px;
+  --nw-radius-large: 12px;
+
+  --nw-motion-fast: 150ms;
+  --nw-motion-page: 300ms;
+  --nw-motion-progress: 600ms;
+  --nw-motion-zone: 800ms;
+}
+
+html {
+  background: var(--nw-color-soft-white);
+  color: var(--nw-color-text-primary);
+  font-family: "DM Sans", "Atkinson Hyperlegible", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+}
+
+body {
+  background: var(--nw-color-soft-white);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--nw-color-heading);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+h1 { font-size: clamp(2rem, 4vw, 2.5rem); }
+h2 { font-size: clamp(1.5rem, 3vw, 1.75rem); }
+h3 { font-size: clamp(1.125rem, 2vw, 1.375rem); }
+
+a {
+  color: var(--nw-color-action-primary);
+  text-decoration: none;
+  transition: color var(--nw-motion-fast) ease-in-out;
+}
+
+a:hover {
+  color: var(--nw-color-action-secondary);
+}
+
+a:focus-visible {
+  outline: 3px solid var(--nw-color-teal);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+button, [role="button"] {
+  transition: all var(--nw-motion-fast) ease-in-out;
+  border-radius: var(--nw-radius-medium);
+}
+
+button:focus-visible, [role="button"]:focus-visible {
+  outline: 3px solid var(--nw-color-teal);
+  outline-offset: 3px;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  border-radius: var(--nw-radius-medium);
+  border: 1px solid var(--nw-color-light-gray);
+  padding: var(--nw-space-3) var(--nw-space-4);
+  transition: border-color var(--nw-motion-fast) ease-in-out;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: 3px solid var(--nw-color-teal);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

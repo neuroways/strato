@@ -1,0 +1,2 @@
+<?php
+return ['environment' => 'pro', 'debug' => false, 'connection_profile' => 'pro_primary'];

@@ -1,0 +1,32 @@
+{
+  "package": "NW-ARCH-008_STRATO_Server_Blueprint",
+  "version": "0.1.0",
+  "status": "DRAFT_PILOT",
+  "target_reference": "STRATO_SHARED_HOSTING",
+  "leading_architecture": "NW-ARCH-007",
+  "principles": [
+    "module_definition_ne_module_version_ne_installed_module",
+    "registry_is_technical_operational_truth",
+    "installation_ne_activation",
+    "public_route_ne_physical_path",
+    "available_version_ne_installed_version",
+    "environment_isolation",
+    "instance_installation_isolation",
+    "frontend_logic_persistence_separation",
+    "core_managed_persistence",
+    "layered_css_core_module_installation",
+    "reuse_before_specialization",
+    "document_architecture_decisions",
+    "default_deny"
+  ],
+  "root_directories": [
+    "config",
+    "_packages",
+    "_blueprints",
+    "_instances",
+    "neuroways_dev",
+    "neuroways",
+    "_git_backup"
+  ],
+  "notes": "No secrets. Example files are non-active. Direct-root migration requires separate approval/review."
+}

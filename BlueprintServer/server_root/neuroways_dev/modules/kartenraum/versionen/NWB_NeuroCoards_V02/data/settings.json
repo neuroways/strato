@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "cardBack": {
+    "sheet": "SheetR.png",
+    "position": 5
+  },
+  "frame": {
+    "enabled": true,
+    "asset": "assets/ui/frame.svg"
+  },
+  "sheetGrid": {
+    "columns": 3,
+    "rows": 2,
+    "expectedWidth": 1254,
+    "expectedHeight": 1254,
+    "panelWidth": 418,
+    "panelHeight": 627
+  },
+  "canonical": {
+    "major_00_to_05": "SheetA-2.png",
+    "alternative_archive": "SheetA-1.png"
+  }
+}

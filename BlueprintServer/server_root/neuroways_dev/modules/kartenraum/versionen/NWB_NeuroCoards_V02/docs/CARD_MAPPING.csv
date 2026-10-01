@@ -1,0 +1,79 @@
+id;title_de;sheet;position
+major-00;0 · Der Narr;SheetA-2.png;1
+major-01;I · Der Magier;SheetA-2.png;2
+major-02;II · Die Hohepriesterin;SheetA-2.png;3
+major-03;III · Die Herrscherin;SheetA-2.png;4
+major-04;IV · Der Herrscher;SheetA-2.png;5
+major-05;V · Der Hierophant;SheetA-2.png;6
+major-06;VI · Die Liebenden;SheetB.png;1
+major-07;VII · Der Wagen;SheetB.png;2
+major-08;VIII · Die Kraft;SheetB.png;3
+major-09;IX · Der Eremit;SheetB.png;4
+major-10;X · Das Rad des Schicksals;SheetB.png;5
+major-11;XI · Die Gerechtigkeit;SheetB.png;6
+major-12;XII · Der Gehängte;SheetC.png;1
+major-13;XIII · Der Tod;SheetC.png;2
+major-14;XIV · Die Mäßigkeit;SheetC.png;3
+major-15;XV · Der Teufel;SheetC.png;4
+major-16;XVI · Der Turm;SheetC.png;5
+major-17;XVII · Der Stern;SheetC.png;6
+major-18;XVIII · Der Mond;SheetD.png;1
+major-19;XIX · Die Sonne;SheetD.png;2
+major-20;XX · Das Gericht;SheetD.png;3
+major-21;XXI · Die Welt;SheetD.png;4
+wands-ace;Ass der Stäbe;SheetE.png;1
+wands-02;Zwei der Stäbe;SheetE.png;2
+wands-03;Drei der Stäbe;SheetE.png;3
+wands-04;Vier der Stäbe;SheetE.png;4
+wands-05;Fünf der Stäbe;SheetE.png;5
+wands-06;Sechs der Stäbe;SheetE.png;6
+wands-07;Sieben der Stäbe;SheetF.png;1
+wands-08;Acht der Stäbe;SheetF.png;2
+wands-09;Neun der Stäbe;SheetF.png;3
+wands-10;Zehn der Stäbe;SheetF.png;4
+wands-page;Bube der Stäbe;SheetG.png;1
+wands-knight;Ritter der Stäbe;SheetG.png;2
+wands-queen;Königin der Stäbe;SheetG.png;3
+wands-king;König der Stäbe;SheetG.png;4
+cups-ace;Ass der Kelche;SheetH.png;1
+cups-02;Zwei der Kelche;SheetH.png;2
+cups-03;Drei der Kelche;SheetH.png;3
+cups-04;Vier der Kelche;SheetH.png;4
+cups-05;Fünf der Kelche;SheetH.png;5
+cups-06;Sechs der Kelche;SheetH.png;6
+cups-07;Sieben der Kelche;SheetI.png;1
+cups-08;Acht der Kelche;SheetI.png;2
+cups-09;Neun der Kelche;SheetI.png;3
+cups-10;Zehn der Kelche;SheetI.png;4
+cups-page;Bube der Kelche;SheetJ.png;1
+cups-knight;Ritter der Kelche;SheetJ.png;2
+cups-queen;Königin der Kelche;SheetJ.png;3
+cups-king;König der Kelche;SheetJ.png;4
+swords-ace;Ass der Schwerter;SheetK.png;1
+swords-02;Zwei der Schwerter;SheetK.png;2
+swords-03;Drei der Schwerter;SheetK.png;3
+swords-04;Vier der Schwerter;SheetK.png;4
+swords-05;Fünf der Schwerter;SheetK.png;5
+swords-06;Sechs der Schwerter;SheetK.png;6
+swords-07;Sieben der Schwerter;SheetL.png;1
+swords-08;Acht der Schwerter;SheetL.png;2
+swords-09;Neun der Schwerter;SheetL.png;3
+swords-10;Zehn der Schwerter;SheetL.png;4
+swords-page;Bube der Schwerter;sheetM.png;1
+swords-knight;Ritter der Schwerter;sheetM.png;2
+swords-queen;Königin der Schwerter;sheetM.png;3
+swords-king;König der Schwerter;sheetM.png;4
+pentacles-ace;Ass der Münzen;SheetN.png;1
+pentacles-02;Zwei der Münzen;SheetN.png;2
+pentacles-03;Drei der Münzen;SheetN.png;3
+pentacles-04;Vier der Münzen;SheetN.png;4
+pentacles-05;Fünf der Münzen;SheetN.png;5
+pentacles-06;Sechs der Münzen;SheetN.png;6
+pentacles-07;Sieben der Münzen;SheetO.png;1
+pentacles-08;Acht der Münzen;SheetO.png;2
+pentacles-09;Neun der Münzen;SheetO.png;3
+pentacles-10;Zehn der Münzen;SheetO.png;4
+pentacles-page;Bube der Münzen;SheetP.png;1
+pentacles-knight;Ritter der Münzen;SheetP.png;2
+pentacles-queen;Königin der Münzen;SheetP.png;3
+pentacles-king;König der Münzen;SheetP.png;4

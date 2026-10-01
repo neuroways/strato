@@ -1,0 +1,39 @@
+{
+  "code": "neuroways_world",
+  "collectionId": "pbc_3419911228",
+  "collectionName": "world_versions",
+  "created": "2026-07-23 17:28:35.315Z",
+  "extension_rules": "**Grundregel:** Die bestehende Welt wächst. Sie verändert sich nicht.\n\n**Jede neue NeuroWays-Methode erhält:**\n\n1. Eine eigene Region innerhalb derselben Welt (am Rand der bestehenden Landschaft)\n2. Eine eigene Zonenfarbe, die harmonisch in die bestehende Palette passt (kein Neon, kein Schwarz, kein reines Weiß)\n3. Einen eigenen Orientierungspunkt (natürlich, einfach, unverwechselbar)\n4. Dieselbe Illustrationssprache (Stil, Perspektive, Licht, Textur)\n5. Dieselbe Energiestufen-Symbolik (`<EnergyWave level={1–5} />`)\n6. Eigene result_rules in der Datenhaltung — keine Änderung am bestehenden Code\n\n**Verboten bei Erweiterungen:**\n- Bestehende Regionen umbenennen oder umfärben\n- Bestehende Zonenfarben für neue Regionen verwenden\n- Den Illustrationsstil ändern (kein Comic, kein Foto-Realismus, kein 3D)\n- Personen, Tiere oder Text in Illustrationen einführen\n- Gamification-Elemente (Punkte, Abzeichen, Ranglisten, Fortschrittsbalken mit Belohnungscharakter)\n\n**Versionierung:**\n- Der Design Standard wird bei jeder strukturellen Änderung versioniert (v1.x.0)\n- Kosmetische Anpassungen (Farbnuancen, Schriftgröße) erhöhen nur die Patch-Version (v1.1.x)\n- Neue Module oder Regionen erhöhen die Minor-Version (v1.x.0)\n\n---",
+  "guiding_principle": "**Die NeuroWays World ist eine visuelle Orientierungshilfe.**\n\nSie bildet innere Zustände in einer gemeinsamen Bildsprache ab. Jede Region steht für einen Zustand, der real ist und der seine Berechtigung hat.\n\n**Es gibt keine guten oder schlechten Regionen.**\n\nDas Festland ist nicht besser als die Insel. Das Meer ist keine Gefahr. Die Insel ist kein Scheitern. Jede Region hat ihre eigene Funktion, ihre eigene Ruhe, ihre eigene Bedeutung.\n\n**Jede Region besitzt ihre eigene Funktion:**\n\n| Region | Funktion |\n|--------|----------|\n| Festland | Gestalten und Bewegen |\n| Wald | Fließen und Verbrauchen |\n| Küste | Innehalten und Wenden |\n| Meer | Schützen und Halten |\n| Insel | Ruhen und Regenerieren |\n\n**Ziel ist Orientierung, Selbstbeobachtung und Verständnis — niemals Leistung, Wettbewerb oder Optimierung.**\n\nDie Welt soll Ruhe vermitteln.\n\n---",
+  "id": "3hbx5gsy932l77e",
+  "open_decisions": [
+    {
+      "note": "Werden in separatem Animations-Prototype entschieden",
+      "status": "offen",
+      "topic": "Animierte Wassereffekte"
+    },
+    {
+      "note": "Noch nicht definiert — eigenes Kapitel bei Bedarf",
+      "status": "offen",
+      "topic": "Dunkel-Modus (Dark Mode)"
+    },
+    {
+      "note": "Entstehen mit der jeweiligen Methode",
+      "status": "offen",
+      "topic": "Weitere Methoden-Regionen"
+    },
+    {
+      "note": "Bewusst ausgeklammert",
+      "status": "offen",
+      "topic": "Sound / Haptik"
+    }
+  ],
+  "released_at": "2026-07-23",
+  "status": "published",
+  "superseded_at": "",
+  "superseded_by_id": "",
+  "updated": "2026-07-23 17:28:35.315Z",
+  "version": "1.1.0",
+  "vision": "NeuroWays World ist eine visuelle Sprache für innere Zustände.\n\nSie gibt Menschen Orientierung, ohne sie zu beurteilen. Sie zeigt, wo jemand gerade steht — nicht, wo er oder sie stehen sollte. Sie bewertet nicht. Sie drängt nicht. Sie wartet.\n\nDie Welt entstand aus der Überzeugung, dass Menschen mit unterschiedlichen Denk-, Wahrnehmungs- und Energiemustern klare, ruhige Bilder brauchen — Bilder, die sie wiedererkennen, ohne dass viele Worte nötig sind.\n\nNeuroWays World ist keine Spielwelt. Sie hat kein Ziel, keinen Fortschritt, keine Punkte. Sie ist ein Spiegel.\n\n---",
+  "world_description": "NeuroWays World ist eine durchgehende Küstenlandschaft. Alle Regionen sind Ausschnitte derselben Welt.\n\nEin Panorama, das vom offenen Inland hinaus aufs Meer und schließlich zur stillen Insel führt.\n\n**Das verbindende Element ist Wasser.**\n\nEin Fluss beginnt auf dem Festland als klarer Bach. Er wird breiter im Wald. Er mündet an der Küste ins Meer. Das Meer trägt ihn weiter bis zur Insel, wo das Wasser wieder still und ruhig liegt.\n\nDas Wasser fließt immer. Es steht nie still aus Erschöpfung. Es ruht aus Tiefe.\n\n**Die Welt ist menschenleer.**\n\nKeine Personen, keine Silhouetten, keine Spuren. Der Betrachtende ist selbst der einzige Mensch darin. Die Welt gehört ihm oder ihr vollständig.\n\n**Die Welt hat kein Ende.**\n\nJenseits der Insel beginnt eine neue Ruhe. Hinter dem Festland liegt weiteres Land. Die Welt ist offen.\n\n---"
+}

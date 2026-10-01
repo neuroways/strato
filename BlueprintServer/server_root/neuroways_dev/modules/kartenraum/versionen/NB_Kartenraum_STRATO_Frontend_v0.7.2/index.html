@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#07111f">
+<title>NeuroBalance · Persönlicher Kartenraum · v0.7.2</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<!-- ==========================================================
+     PUBLIC LANDING / INTRO
+     ========================================================== -->
+<main id="introScreen" class="landing">
+  <div class="landing-stars" aria-hidden="true"></div>
+
+  <nav class="public-nav shell">
+    <a class="nw-brand" href="https://flowisaurus.com/" aria-label="NeuroWays">
+      <span class="nw-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" role="img">
+          <circle cx="32" cy="32" r="27"></circle>
+          <path d="M41 14c-12 2-20 12-20 24 0 6 2 11 6 15-10-3-17-12-17-23C10 15 21 5 35 5c3 0 5 0 8 1l-2 8Z"></path>
+          <path d="M44 24l2.5 5.5L52 32l-5.5 2.5L44 40l-2.5-5.5L36 32l5.5-2.5L44 24Z"></path>
+        </svg>
+      </span>
+      <span><strong>NeuroWays</strong><small>NeuroBalance · Kartenraum</small></span>
+    </a>
+    <span class="public-principle">Reflexion statt Vorhersage.</span>
+  </nav>
+
+  <section class="landing-hero shell">
+    <div class="hero-copy">
+      <div class="eyebrow">DEIN PERSÖNLICHER KARTENRAUM</div>
+      <h1><span id="landingGreeting">Guten Tag.</span><br><em>Was siehst du?</em></h1>
+      <p class="hero-lead">Ein stiller Ort für Bilder, Wahrnehmung und persönliche Bedeutung. Du begegnest zuerst der Karte – und erst danach dem, was über sie geschrieben wurde.</p>
+
+      <button class="hero-cta" id="enterCardRoom">
+        <span class="hero-cta-symbol" aria-hidden="true">✦</span>
+        <span><strong>Kartenraum betreten</strong><small>Deine Wahrnehmung bleibt deine.</small></span>
+        <span aria-hidden="true">→</span>
+      </button>
+    </div>
+
+    <div class="hero-orbit" aria-hidden="true">
+      <div class="orbit-ring ring-a"></div>
+      <div class="orbit-ring ring-b"></div>
+      <div class="portal-card">
+        <div class="portal-moon"></div>
+        <div class="portal-cat">
+          <span class="ear e1"></span><span class="ear e2"></span>
+          <span class="cat-head"></span>
+          <span class="cat-body"></span>
+          <span class="cat-eye eye-a"></span><span class="cat-eye eye-b"></span>
+        </div>
+        <span class="portal-star ps1">✦</span><span class="portal-star ps2">✧</span><span class="portal-star ps3">✦</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="landing-philosophy shell">
+    <div class="philosophy-rule">
+      <span>01</span>
+      <div><strong>Zuerst sehen.</strong><p>Was fällt dir auf, bevor jemand eine Bedeutung anbietet?</p></div>
+    </div>
+    <div class="philosophy-rule">
+      <span>02</span>
+      <div><strong>Dann festhalten.</strong><p>Deine erste Wahrnehmung bekommt einen eigenen Platz.</p></div>
+    </div>
+    <div class="philosophy-rule">
+      <span>03</span>
+      <div><strong>Erst dann vertiefen.</strong><p>Frage, Alltagsmoment und Kartenwissen sind freiwillige nächste Ebenen.</p></div>
+    </div>
+  </section>
+
+  <section class="tarot-intro shell">
+    <div class="section-kicker">TAROT · KURZ EINGEORDNET</div>
+    <div class="intro-grid">
+      <article><span class="fact-number">78</span><h2>Ein klassisches Deck</h2><p>22 Karten der Großen Arkana und 56 Karten der Kleinen Arkana bilden zusammen ein klassisches Tarotdeck.</p></article>
+      <article><span class="fact-icon">◐</span><h2>Bilder mit Geschichte</h2><p>Tarot entwickelte sich aus europäischen Kartenspielen. Heute werden die Bilder in sehr unterschiedlichen Kontexten genutzt.</p></article>
+      <article><span class="fact-icon">✦</span><h2>Eine Karte für heute</h2><p>Eine Tagesziehung sagt nicht voraus, was geschehen wird. Sie bietet ein Bild, an dem du deine aktuelle Wahrnehmung beobachten kannst.</p></article>
+    </div>
+  </section>
+
+  <footer class="public-footer shell">
+    <span>NeuroWays · NeuroBalance · Persönlicher Kartenraum</span>
+    <strong>Deine Deutung bleibt deine.</strong>
+  </footer>
+</main>
+
+<!-- ==========================================================
+     ACCESS CHOICE
+     ========================================================== -->
+<main id="accessScreen" class="access-screen" hidden>
+  <section class="access-wrap">
+    <button class="back-link" id="backToIntro">← Zurück</button>
+    <div class="subbrand">
+      <span class="small-mark">☾</span>
+      <span><b>NeuroBalance</b><small>Persönlicher Kartenraum</small></span>
+    </div>
+    <div class="eyebrow">DEIN ZUGANG</div>
+    <h1>Warst du schon einmal hier?</h1>
+    <p>Dein persönlicher Bereich verbindet deine Ziehungen mit deinen eigenen Wahrnehmungen.</p>
+
+    <div class="access-choices">
+      <button class="access-choice" id="chooseNewProfile">
+        <span class="access-icon">✦</span>
+        <strong>Neu hier</strong>
+        <span>Einen persönlichen Kartenraum anlegen</span>
+        <i>→</i>
+      </button>
+      <button class="access-choice" id="chooseExistingProfile">
+        <span class="access-icon">⌂</span>
+        <strong>Mein Kartenraum</strong>
+        <span>Mit Nutzername und persönlichem Code öffnen</span>
+        <i>→</i>
+      </button>
+    </div>
+    <div class="access-note"><strong>Wichtig:</strong> Nutzername und persönlicher Code gehören zusammen. Bewahre den Code sicher auf.</div>
+  </section>
+</main>
+
+<!-- ==========================================================
+     AUTH
+     ========================================================== -->
+<main id="profileGate" class="profile-gate" hidden>
+  <section class="gate-shell">
+    <button class="back-link" id="backFromGate">← Zurück</button>
+    <div class="subbrand"><span class="small-mark">☾</span><span><b>NeuroBalance</b><small>Persönlicher Kartenraum</small></span></div>
+
+    <div id="gateStart" class="gate-actions" hidden></div>
+
+    <section id="profileCreateForm" class="gate-panel" hidden>
+      <div class="eyebrow">NEUER KARTENRAUM</div>
+      <h1>Dein Raum.<br>Dein Zugang.</h1>
+      <label class="field">Nutzername<input id="newUsername" maxlength="64" autocomplete="username"></label>
+      <fieldset class="audience-choice">
+        <legend>Welche Sprachebene soll dein Kartenraum verwenden?</legend>
+        <label><input type="radio" name="newAudience" value="ADULT" checked><span><b>Erwachsene</b><small>Reflektiert und differenziert</small></span></label>
+        <label><input type="radio" name="newAudience" value="CHILD"><span><b>Kind</b><small>Klar, konkret und verständlich</small></span></label>
+      </fieldset>
+      <p id="profileError" class="status error"></p>
+      <button class="primary full" id="createProfile">Kartenraum erstellen</button>
+    </section>
+
+    <section id="accessSaveStep" class="gate-panel" hidden>
+      <div class="eyebrow">DEIN PERSÖNLICHER SCHLÜSSEL</div>
+      <h1>Bitte sicher speichern.</h1>
+      <p class="lead">Du brauchst <strong>Nutzername und Code zusammen</strong>, um später wieder auf deine gespeicherten Daten zuzugreifen.</p>
+      <div class="warning-box">Der persönliche Code wird nicht im Klartext gespeichert. Ein verlorener Code kann nicht angezeigt oder wiederhergestellt werden.</div>
+      <div class="access-card">
+        <span>Nutzername</span><strong id="createdUsername"></strong>
+        <span>Persönlicher Code</span><strong class="access-code" id="createdCode"></strong>
+      </div>
+      <textarea id="accessPackage" readonly></textarea>
+      <button class="secondary full" id="copyAccess">Zugang kopieren</button>
+      <p id="copyMsg" class="status"></p>
+      <label class="confirm-save"><input type="checkbox" id="accessSavedCheck"><span>Ich habe Nutzername und Code sicher gespeichert.</span></label>
+      <button class="primary full" id="confirmSavedAccess">Weiter in meinen Kartenraum</button>
+    </section>
+
+    <section id="profileLoginForm" class="gate-panel" hidden>
+      <div class="eyebrow">WILLKOMMEN ZURÜCK</div>
+      <h1>Öffne deinen Kartenraum.</h1>
+      <label class="field">Nutzername<input id="loginUsername" autocomplete="username"></label>
+      <label class="field">Persönlicher Code<input id="loginCode" autocomplete="current-password" placeholder="ABCD-EFGH"></label>
+
+      <aside class="test-access">
+        <div class="test-access-head">
+          <span class="test-badge">TEST</span>
+          <div><strong>Testzugang Erwachsene</strong><small>Für Funktions- und UI-Tests</small></div>
+        </div>
+        <div class="test-credentials">
+          <span>Nutzername</span><code>Test_E</code>
+          <span>Code</span><code>SP6K-95GK</code>
+        </div>
+        <button type="button" class="secondary full" id="fillAdultTestLogin">Testzugang eintragen</button>
+      </aside>
+
+      <p id="loginError" class="status error"></p>
+      <button class="primary full" id="loginProfile">Kartenraum öffnen</button>
+    </section>
+  </section>
+</main>
+
+<!-- ==========================================================
+     PRIVATE APP HEADER
+     ========================================================== -->
+<header id="appHeader" class="app-header" hidden>
+  <div class="shell app-head-inner">
+    <button class="brand-button" id="goHome" aria-label="Zum Kartenraum">
+      <span class="small-mark">☾</span>
+      <span><b>NeuroWays</b><small>NeuroBalance · Kartenraum</small></span>
+    </button>
+    <div class="profile-pill"><span>◌</span><span id="profileName"></span></div>
+  </div>
+</header>
+
+<!-- ==========================================================
+     PERSONAL HOME
+     ========================================================== -->
+<main id="homeScreen" class="private-view" hidden>
+  <section class="private-home shell">
+    <div class="private-hero">
+      <div>
+        <div class="eyebrow">DEIN PERSÖNLICHER KARTENRAUM</div>
+        <h1><span id="homeGreeting">Guten Tag.</span><br><em>Welchen Raum brauchst du?</em></h1>
+        <p>Du musst heute nicht alles öffnen. Wähle nur den Raum, der gerade passt.</p>
+      </div>
+      <button class="daily-draw-card" id="homeDraw">
+        <span class="daily-symbol">✦</span>
+        <span><b>Karte ziehen</b><small>Begegne zuerst dem Bild.</small></span>
+        <span>→</span>
+      </button>
+    </div>
+
+    <div class="room-grid">
+      <button class="room-card primary-room" id="roomDraw"><span>✦</span><div><b>Karte ziehen</b><small>Eine Karte ziehen und ihr zuerst selbst begegnen.</small></div><i>→</i></button>
+      <button class="room-card" id="roomJournal"><span>⌁</span><div><b>Journal</b><small>Deine bisherigen Ziehungen und Wahrnehmungen bewahren.</small></div><i>→</i></button>
+      <button class="room-card" id="roomReview"><span>◐</span><div><b>Rückblick</b><small>Zur letzten Karte und deiner Wahrnehmung zurückkehren.</small></div><i>→</i></button>
+      <div class="room-card muted-room"><span>∞</span><div><b>Verbindungen</b><small>Wiederkehrende Karten und Motive entdecken.</small></div><i>später</i></div>
+      <div class="room-card muted-room"><span>◇</span><div><b>Meine Decks</b><small>Eigene Kartensammlungen verwalten.</small></div><i>später</i></div>
+      <div class="room-card muted-room"><span>♡</span><div><b>Favoriten</b><small>Besonders passende Ziehungen sammeln.</small></div><i>später</i></div>
+    </div>
+
+    <div class="private-principle"><span>☾</span><p><strong>Reflexion statt Vorhersage.</strong> Deine Wahrnehmung bleibt zuerst sichtbar. Kartenwissen ist eine mögliche Perspektive – keine Vorgabe.</p></div>
+  </section>
+</main>
+
+<!-- ==========================================================
+     DRAW FLOW
+     ========================================================== -->
+<main id="appRoot" class="private-view shell app-root" hidden>
+  <div class="flow-top">
+    <button class="back-link" id="flowBackHome">← Kartenraum</button>
+    <nav class="flow-steps" aria-label="Kartenraum Schritte">
+      <span class="flow-step active" data-step-indicator="draw"><i>1</i><b>Ziehen</b></span>
+      <span class="flow-step" data-step-indicator="perception"><i>2</i><b>Wahrnehmen</b></span>
+      <span class="flow-step" data-step-indicator="meaning"><i>3</i><b>Vertiefen</b></span>
+    </nav>
+  </div>
+
+  <section id="stepDraw" class="experience-step">
+    <div class="step-head">
+      <div class="eyebrow">BEGEGNUNG</div>
+      <h1>Zieh deine Karte.</h1>
+      <p class="lead">Nur ein Klick. Erst die Rückseite, dann ein kurzer magischer Moment – und danach begegnet dir deine Karte.</p>
+    </div>
+
+    <div class="draw-filter">
+      <label>Kartenraum
+        <select id="filter">
+          <option value="all">Alle 78 Karten</option>
+          <option value="major">Große Arkana</option>
+          <option value="wands">Stäbe</option>
+          <option value="cups">Kelche</option>
+          <option value="swords">Schwerter</option>
+          <option value="pentacles">Münzen</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="card-stage">
+      <div class="magic-overlay" id="magicOverlay" hidden aria-hidden="true">
+        <span class="spark s1">✦</span><span class="spark s2">✧</span><span class="spark s3">✦</span><span class="spark s4">✧</span><span class="spark s5">✦</span>
+      </div>
+      <div class="card-shell">
+        <div id="flip" class="card-flip" role="img" aria-label="Tarotkarte">
+          <div class="face back"><div id="backCrop" class="sheet-crop"></div><div class="card-shine"></div></div>
+          <div class="face front"><div id="frontCrop" class="sheet-crop"></div><div class="card-shine"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="draw-primary-action">
+      <button class="draw-orb" id="drawMagic" aria-label="Zufällige Karte ziehen"><span>✦</span></button>
+      <span>Zufällige Karte ziehen</span>
+    </div>
+
+    <div id="orientationNotice" class="orientation-notice" hidden></div>
+    <button class="turn-link" id="turnForViewing" hidden><span>↻</span> Zur Betrachtung drehen</button>
+
+    <div class="card-meta">
+      <h2 id="cardTitle">Die Rückseite wartet auf dich.</h2>
+      <p id="cardTech"></p>
+    </div>
+  </section>
+
+  <section id="stepPerception" class="experience-step" hidden>
+    <button class="back-link" id="backToDraw">← Karte ansehen</button>
+    <div class="step-head">
+      <div class="eyebrow">DEINE WAHRNEHMUNG</div>
+      <h1>Was fällt dir auf?</h1>
+      <p class="lead">Noch keine Erklärung. Halte fest, was du selbst siehst, fühlst oder bemerkst.</p>
+    </div>
+
+    <div class="compact-card-row">
+      <button class="mini-card card-preview-button" id="openPerceptionCard" aria-label="Karte groß ansehen">
+        <div id="perceptionMiniCrop" class="mini-crop"></div><span class="zoom-badge">⤢</span>
+      </button>
+      <div class="summary-copy"><strong id="perceptionCardTitle"></strong><span id="perceptionOrientation"></span><button class="view-card-link" id="openPerceptionCardText">Karte groß ansehen</button></div>
+    </div>
+
+    <section class="reflection-box">
+      <label for="perception">Was siehst, fühlst oder bemerkst du zuerst?</label>
+      <textarea id="perception" placeholder="Deine Gedanken gehören zuerst dir …"></textarea>
+      <p id="saveMsg" class="status"></p>
+      <button class="primary full" id="savePerception">Gedanken speichern</button>
+    </section>
+  </section>
+
+  <section id="stepMeaning" class="experience-step" hidden>
+    <button class="back-link" id="backToPerception">← Meine Wahrnehmung</button>
+    <div class="step-head">
+      <div class="eyebrow">DEINE KARTE · DEINE TIEFE</div>
+      <h1 id="meaningCardTitle">Deine Karte</h1>
+      <p class="lead" id="meaningOrientation"></p>
+    </div>
+
+    <div class="meaning-layout">
+      <button class="meaning-card card-preview-button" id="openMeaningCard" aria-label="Karte groß ansehen">
+        <div id="meaningMiniCrop" class="mini-crop"></div><span class="zoom-badge">⤢</span>
+      </button>
+
+      <div class="meaning-stack">
+        <section class="quick-layer">
+          <div class="depth-label"><span>01</span> Kurz</div>
+          <div class="question-card"><small>Eine Frage</small><blockquote id="knowledgeQuestion">Was möchtest du aus dieser Karte mitnehmen?</blockquote></div>
+          <div class="moment-card"><small>Ein Moment</small><p id="knowledgeMoment">Vielleicht bemerkst du einen Gedanken, der sich mit deinem heutigen Tag verbindet.</p></div>
+        </section>
+
+        <button class="depth-toggle" id="toggleMeaning" aria-expanded="false"><span><small>02</small><b>Mehr erfahren</b></span><i>＋</i></button>
+        <section id="meaningDepth" class="depth-panel" hidden>
+          <div id="interpretationContent"></div>
+        </section>
+
+        <button class="depth-toggle" id="toggleDetail" aria-expanded="false"><span><small>03</small><b>Tiefer eintauchen</b></span><i>＋</i></button>
+        <section id="detailDepth" class="depth-panel" hidden>
+          <div id="knowledgeContent"><p class="status">Detailwissen wird geladen …</p></div>
+        </section>
+      </div>
+    </div>
+
+    <section class="own-voice">
+      <span>◌</span><div><strong>Deine eigene Deutung bleibt wichtig.</strong><p>Vergleiche Kartenwissen mit deiner Wahrnehmung. Es ist eine Perspektive, keine Vorgabe.</p></div>
+    </section>
+
+    <div class="meaning-actions">
+      <button class="secondary full" id="openMeaningCardText">Karte groß ansehen</button>
+      <button class="primary full" id="drawAnother">Neue Karte ziehen</button>
+      <button class="text-action full" id="finishToHome">Zurück in meinen Kartenraum</button>
+    </div>
+  </section>
+</main>
+
+<!-- ==========================================================
+     JOURNAL
+     ========================================================== -->
+<main id="journalScreen" class="private-view" hidden>
+  <section class="journal-shell shell">
+    <button class="back-link" id="journalBackHome">← Kartenraum</button>
+    <div class="eyebrow">DEIN PERSÖNLICHES JOURNAL</div>
+    <h1>Deine Kartenmomente.</h1>
+    <p class="journal-lead">Hier bleiben Ziehungsdatum, Orientierung und deine erste Wahrnehmung miteinander verbunden.</p>
+    <div id="journalList" class="journal-list"><p class="status">Journal wird geladen …</p></div>
+  </section>
+</main>
+
+<!-- ==========================================================
+     CARD VIEWER
+     ========================================================== -->
+<div class="card-viewer" id="cardViewer" hidden role="dialog" aria-modal="true" aria-labelledby="viewerCardTitle">
+  <div class="card-viewer-backdrop" id="cardViewerBackdrop"></div>
+  <div class="card-viewer-shell">
+    <div class="viewer-topbar">
+      <div><div class="eyebrow">DEINE GEZOGENE KARTE</div><h2 id="viewerCardTitle"></h2><span id="viewerOrientation"></span></div>
+      <button class="viewer-close" id="closeCardViewer" aria-label="Schließen">×</button>
+    </div>
+    <div class="physical-card-stage" id="physicalCardStage">
+      <div class="physical-card" id="physicalCard">
+        <div class="physical-card-art" id="viewerCardCrop"></div>
+        <div class="physical-card-gloss"></div>
+        <div class="physical-card-edge"></div>
+      </div>
+    </div>
+    <p class="viewer-hint">Bewege oder berühre die Karte leicht.</p>
+    <button class="viewer-turn" id="viewerTurn" hidden>↻ Zur Betrachtung drehen</button>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

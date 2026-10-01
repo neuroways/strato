@@ -1,0 +1,114 @@
+/* TT-WEB-STYLE-INTEGRATION-001 v0.2
+   Tennisspezifische Schicht.
+   Gemeinsame NeuroWays-Regeln kommen aus:
+   /assets/neuroways/css/index.css
+*/
+
+.tt-page {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 88% 4%, rgba(0, 140, 168, 0.10), transparent 25rem),
+    var(--nw-bg-page);
+}
+
+.tt-container {
+  padding-block: clamp(2rem, 6vw, 4rem);
+}
+
+.tt-header {
+  max-width: 760px;
+}
+
+.tt-header h1 {
+  margin-bottom: var(--nw-space-4);
+}
+
+.tt-lead {
+  max-width: 680px;
+  color: var(--nw-text-muted);
+  font-size: var(--nw-font-size-lg);
+}
+
+#content {
+  margin-top: var(--nw-space-8);
+}
+
+.container {
+  width: min(calc(100% - 2rem), var(--nw-content-max));
+  margin-inline: auto;
+  padding-block: clamp(2rem, 6vw, 4rem);
+}
+
+.tag {
+  color: var(--nw-accent);
+  font-size: 0.8rem;
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.card {
+  margin-top: var(--nw-space-6);
+  padding: clamp(1.25rem, 4vw, 1.75rem);
+  border: 1px solid var(--nw-border);
+  border-radius: var(--nw-radius-lg);
+  background: var(--nw-bg-surface);
+  color: var(--nw-text);
+  box-shadow: var(--nw-shadow-soft);
+}
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--nw-space-2);
+  padding: 0.35rem 0.55rem;
+  border-radius: var(--nw-radius-pill);
+  background: rgba(0, 140, 168, 0.10);
+  color: #006F84;
+  font-size: var(--nw-font-size-xs);
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.courts {
+  display: flex;
+  gap: var(--nw-space-3);
+  flex-wrap: wrap;
+}
+
+.courts span {
+  min-height: var(--nw-touch-min);
+  display: inline-flex;
+  align-items: center;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--nw-border);
+  border-radius: var(--nw-radius-md);
+  background: var(--nw-bg-subtle);
+  color: var(--nw-heading);
+  font-weight: 650;
+}
+
+.hint {
+  color: var(--nw-text-muted);
+}
+
+.tt-footer,
+footer {
+  margin-top: var(--nw-space-10);
+  padding-top: var(--nw-space-5);
+  border-top: 1px solid var(--nw-border);
+  color: var(--nw-text-muted);
+  font-size: var(--nw-font-size-sm);
+}
+
+@media (max-width: 620px) {
+  .tt-container,
+  .container {
+    padding-block: var(--nw-space-8);
+  }
+
+  .card {
+    padding: var(--nw-space-5);
+  }
+}

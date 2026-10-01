@@ -1,0 +1,40 @@
+{
+  "module_code": "nb_kartenraum",
+  "module_name": "NeuroBalance Kartenraum",
+  "version": "0.1.0",
+  "status": "reconstruction_specification",
+  "core_compatibility": ">=0.1.0",
+  "architecture_reference": "NW-ARCH-008_STRATO_Server_Blueprint_v0.1.0_Draft-Pilot",
+  "leading_architecture_reference": "NW-ARCH-007",
+  "entrypoints": {
+    "backend": null,
+    "frontend": "frontend/pages/room"
+  },
+  "capabilities": [
+    "daily_card_draw",
+    "card_reveal",
+    "self_perception_capture",
+    "card_content_display",
+    "daily_review",
+    "journal",
+    "connection_patterns",
+    "deck_management"
+  ],
+  "dependencies": [
+    "neuroways_core_runtime",
+    "neuroways_core_security_context",
+    "neuroways_core_persistence_contracts",
+    "neuroways_core_design_tokens"
+  ],
+  "public_routes": [
+    "/kartenraum",
+    "/kartenraum/ziehen",
+    "/kartenraum/rueckblick",
+    "/kartenraum/journal",
+    "/kartenraum/verbindungen",
+    "/kartenraum/decks"
+  ],
+  "requires_database": true,
+  "supports_custom_css": true,
+  "contains_secrets": false
+}

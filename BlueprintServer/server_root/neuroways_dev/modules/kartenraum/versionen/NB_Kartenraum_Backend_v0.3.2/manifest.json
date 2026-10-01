@@ -1,0 +1,19 @@
+{
+  "module": "nb_kartenraum",
+  "version": "0.3.2",
+  "type": "read-only-backend",
+  "database": {
+    "cards": 78,
+    "texts": 156,
+    "adult_de": 78,
+    "child_de": 78
+  },
+  "api": [
+    "health",
+    "cards",
+    "card",
+    "text"
+  ],
+  "writes": false,
+  "secrets_in_package": false
+}

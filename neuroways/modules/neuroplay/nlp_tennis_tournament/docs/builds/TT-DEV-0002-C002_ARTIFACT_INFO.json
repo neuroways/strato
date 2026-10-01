@@ -1,0 +1,14 @@
+{
+  "artifact_id": "TT-DEV-0002-C002",
+  "ticket": "TT-DEV-0002",
+  "title": "Composer Autoload Integration",
+  "version": "0.0.1-dev",
+  "target_root": "htdocs/TT-DEV/",
+  "created_at_utc": "2026-08-08T20:34:00Z",
+  "status": "built",
+  "notes": [
+    "Integrates Composer vendor/autoload.php into backend/bootstrap.php.",
+    "Keeps a temporary deployment-safe PSR-4 fallback until composer install is verified on STRATO.",
+    "Does not include vendor/ or composer.lock."
+  ]
+}

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0A1F44">
+  <meta name="description" content="NeuroWays – menschzentrierte digitale Werkzeuge für Lernen, Spielen und Entwicklung.">
+  <title>NeuroWays</title>
+  <link rel="stylesheet" href="/assets/neuroways/css/index.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="nw-skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="site-header">
+    <div class="nw-shell header-inner">
+      <a class="brand" href="/" aria-label="NeuroWays Startseite">
+        <span class="brand-mark" aria-hidden="true">N</span>
+        <span class="brand-name">NeuroWays</span>
+      </a>
+      <span class="header-label">Single Front Door</span>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="nw-shell hero-grid">
+        <div class="hero-copy">
+          <p class="nw-eyebrow">Willkommen bei NeuroWays</p>
+          <h1>Verstehen. Entdecken.<br>Eigene Wege finden.</h1>
+          <p class="lead">
+            Menschzentrierte digitale Werkzeuge für Lernen, Spielen und Entwicklung –
+            mit Orientierung, Wahlmöglichkeiten und Raum für unterschiedliche Menschen.
+          </p>
+          <a class="nw-button primary-action" href="#module">NeuroWays entdecken <span aria-hidden="true">↓</span></a>
+        </div>
+
+        <aside class="nw-card orientation-card" aria-label="Wofür NeuroWays steht">
+          <p class="orientation-kicker">Orientierung statt Vorgabe</p>
+          <p>
+            NeuroWays verbindet spezialisierte Werkzeuge und Erlebnisse.
+            Jedes Modul bleibt eigenständig – das Portal zeigt den Weg.
+          </p>
+          <div class="orientation-points">
+            <span>🧭 Orientierung</span>
+            <span>🌱 Entwicklung</span>
+            <span>✨ Neugier</span>
+          </div>
+        </aside>
+      </div>
+
+      <div class="brand-wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 90" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="nwGradient" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0%" stop-color="#0A1F44"/>
+              <stop offset="34%" stop-color="#008CA8"/>
+              <stop offset="68%" stop-color="#7B4BA2"/>
+              <stop offset="100%" stop-color="#E2A83B"/>
+            </linearGradient>
+          </defs>
+          <path d="M0 52 C180 12, 360 84, 540 46 S900 18, 1080 52 S1260 82, 1440 40"
+                fill="none" stroke="url(#nwGradient)" stroke-width="7" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="module-section" id="module" aria-labelledby="module-title">
+      <div class="nw-shell">
+        <div class="section-heading">
+          <p class="nw-eyebrow">NeuroWays entdecken</p>
+          <h2 id="module-title">Module & Anwendungen</h2>
+          <p>Wähle den Bereich, der gerade zu dir passt. Weitere Zugänge wachsen nach und nach dazu.</p>
+        </div>
+
+        <div id="module-grid" class="module-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="principle-section">
+      <div class="nw-shell principle">
+        <div>
+          <p class="nw-eyebrow">Ein Portal, viele Wege</p>
+          <h2>Die Startseite ersetzt keine Anwendung.</h2>
+        </div>
+        <p>
+          NeuroWays ist die gemeinsame Eingangstür. Fachlogik, Daten und Erlebnisse
+          bleiben in den jeweiligen Modulen. So können neue Anwendungen unabhängig
+          entstehen und trotzdem als Teil derselben Welt erreichbar sein.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="nw-shell footer-inner">
+      <span>NeuroWays</span>
+      <span>Public Portal · v0.1</span>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

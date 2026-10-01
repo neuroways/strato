@@ -1,0 +1,11 @@
+NEUROWAYS REPOSITORY – UPLOAD-HINWEIS
+
+1. ZIP-Datei lokal entpacken.
+2. Den enthaltenen Ordner „neuroways_repository_template_v0.1.0“ vollständig auf den Server hochladen.
+3. Der endgültige Serverpfad ist noch projektspezifisch festzulegen.
+4. Nach dem Upload muss geprüft werden:
+   - Sind alle Ordner vorhanden?
+   - Ist in jedem Ordner eine README.txt vorhanden?
+   - Sind Dateirechte und Schreibrechte korrekt?
+   - Ist der Repository-Root eindeutig erreichbar?
+5. Diese Struktur ist eine Arbeitsbaseline und noch kein formal freigegebener Repositorystandard.

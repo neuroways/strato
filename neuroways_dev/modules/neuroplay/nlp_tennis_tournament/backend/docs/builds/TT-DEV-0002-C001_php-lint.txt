@@ -1,0 +1,2 @@
+No syntax errors detected in /mnt/data/TT-DEV-0002-C001/backend/tests/Foundation/ComposerConfigurationTest.php
+No syntax errors detected in /mnt/data/TT-DEV-0002-C001/backend/tests/run-c001.php

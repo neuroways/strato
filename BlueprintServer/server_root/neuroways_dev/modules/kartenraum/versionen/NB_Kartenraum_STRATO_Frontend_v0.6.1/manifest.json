@@ -1,0 +1,26 @@
+{
+  "module": "nb_kartenraum",
+  "version": "0.6.1",
+  "backend": "../NB_Kartenraum_Backend_v0.5.0/api",
+  "experience_flow": [
+    "draw",
+    "perception",
+    "meaning"
+  ],
+  "meaning_after_perception_save": true,
+  "card_viewer": {
+    "perception_step": true,
+    "meaning_step": true,
+    "physical_depth": true,
+    "touch_tilt": true,
+    "reversed_status_preserved": true
+  },
+  "intro_flow": {
+    "before_auth": true,
+    "before_draw": true,
+    "tarot_78_cards": true,
+    "daily_draw_explanation": true,
+    "perception_first": true
+  },
+  "legacy_knowledge_ui_enabled": false
+}

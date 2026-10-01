@@ -1,0 +1,92 @@
+[
+  {
+    "id": "what-is-midi",
+    "title": "Was ist MIDI?",
+    "category": "Grundlagen",
+    "content": "MIDI (Musical Instrument Digital Interface) ist ein Kommunikationsprotokoll zwischen Musikinstrumenten und Computern. Es überträgt keine Audio-Signale, sondern Steuerdaten wie Noten, Anschlagstärke und Modulation.",
+    "keyPoints": [
+      "MIDI überträgt Noten und Steuerdaten, kein Audio",
+      "5-pin DIN oder USB",
+      "Ermöglicht Kommunikation zwischen Instrumenten und DAW",
+      "Sehr stabil und fehlerresistent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "what-is-audio",
+    "title": "Was ist Audio?",
+    "category": "Grundlagen",
+    "content": "Audio ist ein analoges oder digitales Signal, das Schall darstellt. Im Studio wird Audio von Instrumenten über Kabel zu Mischpulten und Monitoren übertragen.",
+    "keyPoints": [
+      "Audio braucht hohe Bandbreite",
+      "Wird über XLR, RCA oder Digital übertragen",
+      "Balanced (XLR) besser als unbalanced (RCA) über lange Strecken",
+      "Pegel muss korrekt gesetzt sein"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "routing-basics",
+    "title": "Was ist Routing?",
+    "category": "Konzepte",
+    "content": "Routing bedeutet, Audiosignale von einer Quelle zu einem Ziel zu leiten. Im Studio entscheidest du, welche Instrumente zu welchen Mischern und Effekten gehen.",
+    "keyPoints": [
+      "Direktes Routing: Instrument → Mixer",
+      "Indirektes Routing: Instrument → Effekt → Mixer",
+      "Bus-Routing: Mehrere Kanäle zu einem Mix-Bus",
+      "Feedback-Routing: Ausgabe zurück in Eingang (Vorsicht!)"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "synthesizer-vs-sampler",
+    "title": "Synthesizer vs. Sampler vs. Rompler",
+    "category": "Instrumente",
+    "content": "Es gibt drei Arten von elektronischen Instrumenten: Synthesizer erzeugen Sounds aus Oszillatoren, Sampler spielen aufgenommene Sounds ab, Rompler sind vorgefertigte Sound-Module.",
+    "keyPoints": [
+      "Synthesizer: Sound wird erzeugt und gelehrt (TG500)",
+      "Sampler: Echte Sounds werden aufgenommen und gespielt",
+      "Rompler: Factory Sounds, weniger flexibel (JV1010)"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "latency",
+    "title": "Was ist Latenz?",
+    "category": "Performance",
+    "content": "Latenz ist die Verzögerung zwischen einer Eingabe und der hörbaren Reaktion. Im Studio muss Latenz minimiert werden, damit Spieler das Timing nicht verlieren.",
+    "keyPoints": [
+      "Typisch: 5-20ms ist akzeptabel",
+      "USB-Verbindungen haben mehr Latenz als MIDI",
+      "Buffer-Größe beeinflusst Latenz",
+      "Kopfhörer-Monitoring reduziert wahrgenommene Latenz"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "clock-sync",
+    "title": "Was ist Clock und Sync?",
+    "category": "Synchronisierung",
+    "content": "Clock ist das Zeitsignal, das mehrere Geräte synchron hält. Wichtig für Sequenzer, Effekte und Drum Machines, die zusammen laufen sollen.",
+    "keyPoints": [
+      "MIDI Clock überträgt Timing-Informationen",
+      "Word Clock für Audiogeräte",
+      "Alle Geräte müssen auf die gleiche Clock hören",
+      "Master Device setzt das Tempo"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "phantom-power",
+    "title": "Phantomspannung",
+    "category": "Audio-Technik",
+    "content": "Phantomspannung (48V) wird über XLR-Kabel zu Mikrofonen gesendet, um diese mit Strom zu versorgen. Vorsicht: Nicht alle Geräte vertragen Phantomspannung!",
+    "keyPoints": [
+      "Standard 48V für Kondensator-Mikrofone",
+      "Wird über Pin 2 und 3 gesendet",
+      "Dynamische Mikrofone nicht beschädigt",
+      "Immer prüfen, ob Gerät dies braucht"
+    ],
+    "difficulty": "intermediate"
+  }
+]

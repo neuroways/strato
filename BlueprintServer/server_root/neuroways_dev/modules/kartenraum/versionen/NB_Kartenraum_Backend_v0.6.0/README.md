@@ -1,0 +1,27 @@
+# NB Kartenraum Backend v0.6.0
+
+Neu:
+- Profil erstellen (`profile-create.php`)
+- Login mit Nutzername + Code (`login.php`)
+- Session-Token (30 Tage)
+- Ziehung serverseitig speichern (`draw-create.php`)
+- UPRIGHT / REVERSED
+- `drawn_at` automatisch in MariaDB
+- Wahrnehmung speichern (`perception-save.php`)
+- persönliches Journal lesen (`journal.php`)
+- Rate-Limit: 10 fehlgeschlagene Loginversuche / 15 Minuten je Nutzer/IP
+
+Zugangscode:
+- wird nur einmal an den Nutzer ausgegeben
+- wird in DB ausschließlich gehasht gespeichert
+- kann nicht wiederhergestellt werden
+
+
+## v0.6.0
+- persistentes Erfahrungstagebuch pro Ziehung
+- `experience-save.php`
+- `experience-list.php`
+- serverseitige Eigentumsprüfung jeder `draw_id`
+- `reflection_question` und `everyday_moment` in Knowledge API
+- Health prüft `nb_card_experience`
+- Migration unter `database/migrations/060_card_experience.sql`

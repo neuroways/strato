@@ -1,0 +1,57 @@
+{
+  "module": "nb_kartenraum",
+  "version": "0.7.5",
+  "based_on": "NB_Kartenraum_STRATO_Frontend_v0.6.1",
+  "backend": "../NB_Kartenraum_Backend_v0.6.0/api",
+  "visual_reference": "https://neurobalance-kartenraum.neuroways.chatgpt.site/",
+  "features": {
+    "neuroways_hierarchy": true,
+    "public_landing": true,
+    "tarot_intro": true,
+    "personal_home": true,
+    "single_click_draw": true,
+    "reversed_cards": true,
+    "perception_first": true,
+    "three_depth_knowledge": true,
+    "physical_card_viewer": true,
+    "journal_existing_api": true,
+    "responsive": true
+  },
+  "prepared_not_active": [
+    "connections",
+    "decks",
+    "favorites"
+  ],
+  "test_login": {
+    "visible_on_login": true,
+    "audience": "ADULT",
+    "username": "Test_E",
+    "quick_fill": true
+  },
+  "viewport_draw_layout": {
+    "card_and_draw_button_without_scroll": true,
+    "uses_dynamic_viewport_height": true,
+    "responsive_to_short_screens": true
+  },
+  "draw_interaction": {
+    "card_itself_is_primary_control": true,
+    "touch_press_feedback": true,
+    "touch_ripple": true,
+    "lift_before_reveal": true,
+    "keyboard_accessible": true
+  },
+  "review_and_journal": {
+    "review": "latest draw only",
+    "journal": "chronological collection"
+  },
+  "living_journal": {
+    "per_draw": true,
+    "first_perception_preserved": true,
+    "later_entries_multiple": true,
+    "book_overlay": true,
+    "current_persistence": "MariaDB via Backend v0.6.0",
+    "api_list": "experience-list.php",
+    "api_save": "experience-save.php",
+    "cross_device": true
+  }
+}

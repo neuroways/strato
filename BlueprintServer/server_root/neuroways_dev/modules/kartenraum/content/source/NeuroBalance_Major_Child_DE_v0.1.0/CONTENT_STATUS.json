@@ -1,0 +1,13 @@
+{
+  "recommended_db_key": [
+    "card_id",
+    "audience_code",
+    "language_code",
+    "content_version"
+  ],
+  "audience_code": "CHILD",
+  "language_code": "de",
+  "records": 22,
+  "review_status": "draft-review",
+  "next_after_review": "Generate ADULT+DE minor arcana, then CHILD+DE minor arcana, then SQL seed."
+}

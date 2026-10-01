@@ -1,0 +1,25 @@
+{
+  "version": "0.2.2",
+  "required": [
+    "SheetA-2.png",
+    "SheetB.png",
+    "SheetC.png",
+    "SheetD.png",
+    "SheetE.png",
+    "SheetF.png",
+    "SheetG.png",
+    "SheetH.png",
+    "SheetI.png",
+    "SheetJ.png",
+    "SheetK.png",
+    "SheetL.png",
+    "sheetM.png",
+    "SheetN.png",
+    "SheetO.png",
+    "SheetP.png",
+    "SheetR.png"
+  ],
+  "optional": [
+    "SheetA-1.png"
+  ]
+}

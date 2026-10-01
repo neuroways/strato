@@ -1,0 +1,10 @@
+{
+  "artifact": "TT-DEV-0001-C004",
+  "ticket": "TT-DEV-0001",
+  "type": "repository-artifact",
+  "scope": "backend-application-bootstrap",
+  "deployment_root": "htdocs/TT-DEV/",
+  "requires": ["TT-DEV-0001-C003-R001"],
+  "target_runtime": "PHP 8.x / STRATO CGI-FCGI / MariaDB",
+  "status": "built-and-locally-tested"
+}

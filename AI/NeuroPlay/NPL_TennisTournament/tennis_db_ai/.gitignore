@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables (NO SECRETS)
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+dist-preview/
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Testing
+coverage/
+.nyc_output/
+
+# Database (local SQLite, not for git)
+*.db
+*.db-shm
+*.db-wal
+
+# PocketBase (not for git, managed via API)
+pb_migrations/
+pb_data/
+
+# Build artifacts
+dist/
+
+# Credentials (NEVER commit)
+.env.production.local
+.env.test.local
+.POCKETBASE_TOKEN
+.GITHUB_TOKEN

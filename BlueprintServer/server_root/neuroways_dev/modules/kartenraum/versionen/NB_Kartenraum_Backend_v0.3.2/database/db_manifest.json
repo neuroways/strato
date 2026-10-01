@@ -1,0 +1,12 @@
+{
+  "package": "NB_Kartenraum_DB_v0.3.1",
+  "db": "MariaDB",
+  "charset": "utf8mb4",
+  "cards": 78,
+  "texts": 156,
+  "adult_de": 78,
+  "child_de": 78,
+  "major_adult_source": "NeuroBalance_Grosse_Arkana_NeuroWays_Sprache_v0.1(1).docx",
+  "major_adult_records": 22,
+  "status": "complete-first-content-master"
+}

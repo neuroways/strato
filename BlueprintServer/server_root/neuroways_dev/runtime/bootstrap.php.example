@@ -1,0 +1,3 @@
+<?php
+// Contract placeholder – keine produktive Implementierung.
+// Reihenfolge: Environment -> Instance -> Auth -> Installation -> Module Version -> Application.

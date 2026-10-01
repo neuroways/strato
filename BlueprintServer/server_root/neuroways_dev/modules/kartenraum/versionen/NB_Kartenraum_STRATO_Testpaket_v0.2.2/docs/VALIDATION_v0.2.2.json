@@ -1,0 +1,14 @@
+{
+  "version": "0.2.2",
+  "registered_cards": 78,
+  "unique_card_ids": true,
+  "canonical_sheet_A2_only": true,
+  "placeholder_positions_registered": false,
+  "required_sheet_count": 17,
+  "health_endpoint": "health.php",
+  "asset_status_endpoint": "status.php",
+  "database_writes": false,
+  "secrets": false,
+  "shared_asset_path": "../cards/",
+  "local_sheet_copies": false
+}

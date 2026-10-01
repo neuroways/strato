@@ -1,0 +1,31 @@
+{
+  "package_code": "NEUROHOME_MARIADB_MIGRATIONS",
+  "version": "0.4.0",
+  "status": "dev_ready_prod_blocked",
+  "created_at": "2026-08-24T00:00:00+02:00",
+  "database": "MariaDB",
+  "runtime": "PHP 8.4 CLI",
+  "table_prefix": "NHO_",
+  "table_count": 41,
+  "migration_count": 5,
+  "prod_blocker": "Formal registry approval for the NHO area code is still required.",
+  "files": {
+    ".gitignore": "c6461ce38a6132b40f50034a410d7664979fd85c00680a85cf0272fc36749eec",
+    ".htaccess": "75b546ecdb87fb5127eb98a6391b6792c50f609e6f5f40e0527655176b1b159e",
+    "CHANGELOG.md": "9fd46ee0e86aca0c4a952402367568de52d9895f6388d1f6816b6bff8398390c",
+    "README.md": "fcbc20c0048be715267d6352ec4bb99690706c779f419fb27d17c132f1d03b7d",
+    "bin/migrate.php": "ef4adadacd4514f6cf34747e93534ecb272b1d079b10b59aec7d7113af45ee97",
+    "bin/verify.php": "1388f53737663ff85a44e907925bb684c988db671d57d2e2680af13e7286b742",
+    "config/database.example.php": "0f3e1b8d4ce48ab9877c9ea085ddd9f60f2bf3e331aa701d5d4589bd8ae7d897",
+    "docs/DEV_ACCEPTANCE.md": "6c286b1e8bdd3d5e81ec51f3ba48e8fc4be40b98cefb699b2d5cbfd77fd516d8",
+    "docs/PREFIX_DECISION.md": "2082709b0295fb9a3b5df0ad74ea49562491670e74bcbecf48bbe816137d3696",
+    "docs/SOURCE_NOTES.md": "b83d2e075362b7de14737553ee5d567eaceb7819fd623caa06eaba7df032d041",
+    "migrations/0001_foundation.sql": "ceea10b52394232288ddcb1be49bc2d15222a233548d8292b08c2ebb3c324f14",
+    "migrations/0002_places_inventory.sql": "3f1b60cbd250e7f7cc6c3b1e9ddadff80f061a8e67a426c219b1ea08a5f0a15b",
+    "migrations/0003_activities_methods.sql": "a1008334bac37e5aaee56fb9fc45c0e34a12c723d3a7da4722d2b204936c4197",
+    "migrations/0004_sessions_history_search.sql": "6263f9b317fd451bba9909dc6cd4f57bea677d9e8ffd557dc64cad0efa08f088",
+    "migrations/0005_seed_catalogs_methods.sql": "5e6361f9f51afef0be030467995867c865165b54d34686f3c509be366284e41e",
+    "sql/smoke_kitchen.sql": "ca695453f2791bb697b09e0cd0fc52fb4c22b51bd9c5ec2ecc4863aa85b62fcd",
+    "sql/verify_schema.sql": "614bb0bcfbca0d276b5226756cefe4735b8651093e27ef272f7069a4ac7c77f6"
+  }
+}

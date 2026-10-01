@@ -1,0 +1,167 @@
+/* NeuroWays Design Tokens – Official Brand Palette */
+
+:root {
+  /* Brand Colors (NeuroWays Official) */
+  --nw-navy: #0A1F44;
+  --nw-teal: #008CA8;
+  --nw-violet: #7B4BA2;
+  --nw-gold: #E2A83B;
+
+  /* Primary Colors (Navy as primary) */
+  --nw-primary: #0A1F44;
+  --nw-primary-dark: #051020;
+  --nw-primary-light: #1a3a66;
+
+  /* Secondary Colors (Teal as secondary) */
+  --nw-secondary: #008CA8;
+  --nw-secondary-dark: #006680;
+  --nw-secondary-light: #00a8cc;
+
+  /* Accent Colors (Violet & Gold) */
+  --nw-accent: #7B4BA2;
+  --nw-accent-dark: #5a3678;
+  --nw-accent-light: #9b6bb8;
+
+  --nw-highlight: #E2A83B;
+  --nw-highlight-dark: #c4932f;
+  --nw-highlight-light: #ead94d;
+
+  /* Semantic Colors */
+  --nw-success: #16a34a;
+  --nw-success-light: #22c55e;
+  --nw-success-bg: #f0fdf4;
+
+  --nw-warning: #ea580c;
+  --nw-warning-light: #fb923c;
+  --nw-warning-bg: #fff7ed;
+
+  --nw-error: #dc2626;
+  --nw-error-light: #ef4444;
+  --nw-error-bg: #fef2f2;
+
+  --nw-info: #008CA8;
+  --nw-info-light: #00a8cc;
+  --nw-info-bg: #e6f5f9;
+
+  /* Neutral Colors */
+  --nw-bg-primary: #ffffff;
+  --nw-bg-secondary: #f8fafc;
+  --nw-bg-tertiary: #f1f5f9;
+
+  --nw-surface: #ffffff;
+  --nw-surface-dark: #f8fafc;
+  --nw-surface-darker: #f1f5f9;
+
+  --nw-border: #e2e8f0;
+  --nw-border-dark: #cbd5e1;
+
+  --nw-text-primary: #0f172a;
+  --nw-text-secondary: #64748b;
+  --nw-text-tertiary: #94a3b8;
+
+  --nw-text-inverse: #ffffff;
+  --nw-text-inverse-secondary: #f1f5f9;
+
+  /* Dark Mode */
+  --nw-dark-bg-primary: #0f172a;
+  --nw-dark-bg-secondary: #1e293b;
+  --nw-dark-bg-tertiary: #334155;
+
+  --nw-dark-surface: #1e293b;
+  --nw-dark-surface-dark: #0f172a;
+  --nw-dark-surface-darker: #020617;
+
+  --nw-dark-border: #334155;
+  --nw-dark-border-dark: #1e293b;
+
+  --nw-dark-text-primary: #f8fafc;
+  --nw-dark-text-secondary: #cbd5e1;
+  --nw-dark-text-tertiary: #94a3b8;
+
+  /* Spacing */
+  --nw-space-xs: 0.25rem;
+  --nw-space-sm: 0.5rem;
+  --nw-space-md: 1rem;
+  --nw-space-lg: 1.5rem;
+  --nw-space-xl: 2rem;
+  --nw-space-2xl: 3rem;
+  --nw-space-3xl: 4rem;
+
+  /* Border Radius */
+  --nw-radius-sm: 0.375rem;
+  --nw-radius-md: 0.5rem;
+  --nw-radius-lg: 0.75rem;
+  --nw-radius-xl: 1rem;
+  --nw-radius-2xl: 1.5rem;
+  --nw-radius-full: 9999px;
+
+  /* Typography */
+  --nw-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --nw-font-mono: "Menlo", "Monaco", "Courier New", monospace;
+
+  --nw-font-size-xs: 0.75rem;
+  --nw-font-size-sm: 0.875rem;
+  --nw-font-size-base: 1rem;
+  --nw-font-size-lg: 1.125rem;
+  --nw-font-size-xl: 1.25rem;
+  --nw-font-size-2xl: 1.5rem;
+  --nw-font-size-3xl: 1.875rem;
+  --nw-font-size-4xl: 2.25rem;
+
+  --nw-font-weight-regular: 400;
+  --nw-font-weight-medium: 500;
+  --nw-font-weight-semibold: 600;
+  --nw-font-weight-bold: 700;
+
+  --nw-line-height-tight: 1.25;
+  --nw-line-height-normal: 1.5;
+  --nw-line-height-relaxed: 1.75;
+
+  /* Shadows */
+  --nw-shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --nw-shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --nw-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --nw-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --nw-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  /* Transitions */
+  --nw-transition-fast: 150ms ease-in-out;
+  --nw-transition-normal: 200ms ease-in-out;
+  --nw-transition-slow: 300ms ease-in-out;
+
+  /* Z-Index */
+  --nw-z-dropdown: 1000;
+  --nw-z-sticky: 1020;
+  --nw-z-fixed: 1030;
+  --nw-z-modal-backdrop: 1040;
+  --nw-z-modal: 1050;
+  --nw-z-popover: 1060;
+  --nw-z-tooltip: 1070;
+
+  /* Breakpoints (for reference) */
+  /* --nw-breakpoint-sm: 640px; */
+  /* --nw-breakpoint-md: 768px; */
+  /* --nw-breakpoint-lg: 1024px; */
+  /* --nw-breakpoint-xl: 1280px; */
+  /* --nw-breakpoint-2xl: 1536px; */
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --nw-bg-primary: var(--nw-dark-bg-primary);
+    --nw-bg-secondary: var(--nw-dark-bg-secondary);
+    --nw-bg-tertiary: var(--nw-dark-bg-tertiary);
+
+    --nw-surface: var(--nw-dark-surface);
+    --nw-surface-dark: var(--nw-dark-surface-dark);
+    --nw-surface-darker: var(--nw-dark-surface-darker);
+
+    --nw-border: var(--nw-dark-border);
+    --nw-border-dark: var(--nw-dark-border-dark);
+
+    --nw-text-primary: var(--nw-dark-text-primary);
+    --nw-text-secondary: var(--nw-dark-text-secondary);
+    --nw-text-tertiary: var(--nw-dark-text-tertiary);
+  }
+}

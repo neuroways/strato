@@ -1,0 +1,12 @@
+{
+  "package": "NW-PORTAL-0001",
+  "version": "0.2.0",
+  "name": "Public Portal Static Slice",
+  "integrates": {
+    "NW-WEB-STYLE-CORE-001": "0.1.0"
+  },
+  "deployment_target": "neuroways_dev/frontend/",
+  "preserve_paths": [
+    "/tennis/"
+  ]
+}

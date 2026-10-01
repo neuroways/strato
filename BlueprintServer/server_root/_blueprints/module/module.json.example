@@ -1,0 +1,15 @@
+{
+  "module_code": "replace_me",
+  "module_name": "Replace Me",
+  "version": "0.1.0",
+  "core_compatibility": ">=0.1.0",
+  "entrypoints": {
+    "backend": null,
+    "frontend": null
+  },
+  "capabilities": [],
+  "dependencies": [],
+  "public_routes": [],
+  "requires_database": false,
+  "supports_custom_css": true
+}

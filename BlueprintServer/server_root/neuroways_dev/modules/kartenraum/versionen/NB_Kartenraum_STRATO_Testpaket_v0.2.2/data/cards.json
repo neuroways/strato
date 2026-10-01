@@ -1,0 +1,1076 @@
+{
+  "version": "0.2.0",
+  "count": 78,
+  "cards": [
+    {
+      "id": "major-00",
+      "arcana": "major",
+      "title_de": "0 · Der Narr",
+      "titleKey": "cards.major-00.title",
+      "contentKey": "cards.major-00",
+      "image": {
+        "sheet": "SheetA-2.png",
+        "position": 1
+      },
+      "status": "active",
+      "number": 0
+    },
+    {
+      "id": "major-01",
+      "arcana": "major",
+      "title_de": "I · Der Magier",
+      "titleKey": "cards.major-01.title",
+      "contentKey": "cards.major-01",
+      "image": {
+        "sheet": "SheetA-2.png",
+        "position": 2
+      },
+      "status": "active",
+      "number": 1
+    },
+    {
+      "id": "major-02",
+      "arcana": "major",
+      "title_de": "II · Die Hohepriesterin",
+      "titleKey": "cards.major-02.title",
+      "contentKey": "cards.major-02",
+      "image": {
+        "sheet": "SheetA-2.png",
+        "position": 3
+      },
+      "status": "active",
+      "number": 2
+    },
+    {
+      "id": "major-03",
+      "arcana": "major",
+      "title_de": "III · Die Herrscherin",
+      "titleKey": "cards.major-03.title",
+      "contentKey": "cards.major-03",
+      "image": {
+        "sheet": "SheetA-2.png",
+        "position": 4
+      },
+      "status": "active",
+      "number": 3
+    },
+    {
+      "id": "major-04",
+      "arcana": "major",
+      "title_de": "IV · Der Herrscher",
+      "titleKey": "cards.major-04.title",
+      "contentKey": "cards.major-04",
+      "image": {
+        "sheet": "SheetA-2.png",
+        "position": 5
+      },
+      "status": "active",
+      "number": 4
+    },
+    {
+      "id": "major-05",
+      "arcana": "major",
+      "title_de": "V · Der Hierophant",
+      "titleKey": "cards.major-05.title",
+      "contentKey": "cards.major-05",
+      "image": {
+        "sheet": "SheetA-2.png",
+        "position": 6
+      },
+      "status": "active",
+      "number": 5
+    },
+    {
+      "id": "major-06",
+      "arcana": "major",
+      "title_de": "VI · Die Liebenden",
+      "titleKey": "cards.major-06.title",
+      "contentKey": "cards.major-06",
+      "image": {
+        "sheet": "SheetB.png",
+        "position": 1
+      },
+      "status": "active",
+      "number": 6
+    },
+    {
+      "id": "major-07",
+      "arcana": "major",
+      "title_de": "VII · Der Wagen",
+      "titleKey": "cards.major-07.title",
+      "contentKey": "cards.major-07",
+      "image": {
+        "sheet": "SheetB.png",
+        "position": 2
+      },
+      "status": "active",
+      "number": 7
+    },
+    {
+      "id": "major-08",
+      "arcana": "major",
+      "title_de": "VIII · Die Kraft",
+      "titleKey": "cards.major-08.title",
+      "contentKey": "cards.major-08",
+      "image": {
+        "sheet": "SheetB.png",
+        "position": 3
+      },
+      "status": "active",
+      "number": 8
+    },
+    {
+      "id": "major-09",
+      "arcana": "major",
+      "title_de": "IX · Der Eremit",
+      "titleKey": "cards.major-09.title",
+      "contentKey": "cards.major-09",
+      "image": {
+        "sheet": "SheetB.png",
+        "position": 4
+      },
+      "status": "active",
+      "number": 9
+    },
+    {
+      "id": "major-10",
+      "arcana": "major",
+      "title_de": "X · Das Rad des Schicksals",
+      "titleKey": "cards.major-10.title",
+      "contentKey": "cards.major-10",
+      "image": {
+        "sheet": "SheetB.png",
+        "position": 5
+      },
+      "status": "active",
+      "number": 10
+    },
+    {
+      "id": "major-11",
+      "arcana": "major",
+      "title_de": "XI · Die Gerechtigkeit",
+      "titleKey": "cards.major-11.title",
+      "contentKey": "cards.major-11",
+      "image": {
+        "sheet": "SheetB.png",
+        "position": 6
+      },
+      "status": "active",
+      "number": 11
+    },
+    {
+      "id": "major-12",
+      "arcana": "major",
+      "title_de": "XII · Der Gehängte",
+      "titleKey": "cards.major-12.title",
+      "contentKey": "cards.major-12",
+      "image": {
+        "sheet": "SheetC.png",
+        "position": 1
+      },
+      "status": "active",
+      "number": 12
+    },
+    {
+      "id": "major-13",
+      "arcana": "major",
+      "title_de": "XIII · Der Tod",
+      "titleKey": "cards.major-13.title",
+      "contentKey": "cards.major-13",
+      "image": {
+        "sheet": "SheetC.png",
+        "position": 2
+      },
+      "status": "active",
+      "number": 13
+    },
+    {
+      "id": "major-14",
+      "arcana": "major",
+      "title_de": "XIV · Die Mäßigkeit",
+      "titleKey": "cards.major-14.title",
+      "contentKey": "cards.major-14",
+      "image": {
+        "sheet": "SheetC.png",
+        "position": 3
+      },
+      "status": "active",
+      "number": 14
+    },
+    {
+      "id": "major-15",
+      "arcana": "major",
+      "title_de": "XV · Der Teufel",
+      "titleKey": "cards.major-15.title",
+      "contentKey": "cards.major-15",
+      "image": {
+        "sheet": "SheetC.png",
+        "position": 4
+      },
+      "status": "active",
+      "number": 15
+    },
+    {
+      "id": "major-16",
+      "arcana": "major",
+      "title_de": "XVI · Der Turm",
+      "titleKey": "cards.major-16.title",
+      "contentKey": "cards.major-16",
+      "image": {
+        "sheet": "SheetC.png",
+        "position": 5
+      },
+      "status": "active",
+      "number": 16
+    },
+    {
+      "id": "major-17",
+      "arcana": "major",
+      "title_de": "XVII · Der Stern",
+      "titleKey": "cards.major-17.title",
+      "contentKey": "cards.major-17",
+      "image": {
+        "sheet": "SheetC.png",
+        "position": 6
+      },
+      "status": "active",
+      "number": 17
+    },
+    {
+      "id": "major-18",
+      "arcana": "major",
+      "title_de": "XVIII · Der Mond",
+      "titleKey": "cards.major-18.title",
+      "contentKey": "cards.major-18",
+      "image": {
+        "sheet": "SheetD.png",
+        "position": 1
+      },
+      "status": "active",
+      "number": 18
+    },
+    {
+      "id": "major-19",
+      "arcana": "major",
+      "title_de": "XIX · Die Sonne",
+      "titleKey": "cards.major-19.title",
+      "contentKey": "cards.major-19",
+      "image": {
+        "sheet": "SheetD.png",
+        "position": 2
+      },
+      "status": "active",
+      "number": 19
+    },
+    {
+      "id": "major-20",
+      "arcana": "major",
+      "title_de": "XX · Das Gericht",
+      "titleKey": "cards.major-20.title",
+      "contentKey": "cards.major-20",
+      "image": {
+        "sheet": "SheetD.png",
+        "position": 3
+      },
+      "status": "active",
+      "number": 20
+    },
+    {
+      "id": "major-21",
+      "arcana": "major",
+      "title_de": "XXI · Die Welt",
+      "titleKey": "cards.major-21.title",
+      "contentKey": "cards.major-21",
+      "image": {
+        "sheet": "SheetD.png",
+        "position": 4
+      },
+      "status": "active",
+      "number": 21
+    },
+    {
+      "id": "wands-ace",
+      "arcana": "minor",
+      "title_de": "Ass der Stäbe",
+      "titleKey": "cards.wands-ace.title",
+      "contentKey": "cards.wands-ace",
+      "image": {
+        "sheet": "SheetE.png",
+        "position": 1
+      },
+      "status": "active",
+      "suit": "wands",
+      "rank": "ace"
+    },
+    {
+      "id": "wands-02",
+      "arcana": "minor",
+      "title_de": "Zwei der Stäbe",
+      "titleKey": "cards.wands-02.title",
+      "contentKey": "cards.wands-02",
+      "image": {
+        "sheet": "SheetE.png",
+        "position": 2
+      },
+      "status": "active",
+      "suit": "wands",
+      "rank": 2
+    },
+    {
+      "id": "wands-03",
+      "arcana": "minor",
+      "title_de": "Drei der Stäbe",
+      "titleKey": "cards.wands-03.title",
+      "contentKey": "cards.wands-03",
+      "image": {
+        "sheet": "SheetE.png",
+        "position": 3
+      },
+      "status": "active",
+      "suit": "wands",
+      "rank": 3
+    },
+    {
+      "id": "wands-04",
+      "arcana": "minor",
+      "title_de": "Vier der Stäbe",
+      "titleKey": "cards.wands-04.title",
+      "contentKey": "cards.wands-04",
+      "image": {
+        "sheet": "SheetE.png",
+        "position": 4
+      },
+      "status": "active",
+      "suit": "wands",
+      "rank": 4
+    },
+    {
+      "id": "wands-05",
+      "arcana": "minor",
+      "title_de": "Fünf der Stäbe",
+      "titleKey": "cards.wands-05.title",
+      "contentKey": "cards.wands-05",
+      "image": {
+        "sheet": "SheetE.png",
+        "position": 5
+      },
+      "status": "active",
+      "suit": "wands",
+      "rank": 5
+    },
+    {
+      "id": "wands-06",
+      "arcana": "minor",
+      "title_de": "Sechs der Stäbe",
+      "titleKey": "cards.wands-06.title",
+      "contentKey": "cards.wands-06",
+      "image": {
+        "sheet": "SheetE.png",
+        "position": 6
+      },
+      "status": "active",
+      "suit": "wands",
+      "rank": 6
+    },
+    {
+      "id": "wands-07",
+      "arcana": "minor",
+      "title_de": "Sieben der Stäbe",
+      "titleKey": "cards.wands-07.title",
+      "contentKey": "cards.wands-07",
+      "image": {
+        "sheet": "SheetF.png",
+        "position": 1
+      },
+      "status": "active",
+      "suit": "wands",
+      "rank": 7
+    },
+    {
+      "id": "wands-08",
+      "arcana": "minor",
+      "title_de": "Acht der Stäbe",
+      "titleKey": "cards.wands-08.title",
+      "contentKey": "cards.wands-08",
+      "image": {
+        "sheet": "SheetF.png",
+        "position": 2
+      },
+      "status": "active",
+      "suit": "wands",
+      "rank": 8
+    },
+    {
+      "id": "wands-09",
+      "arcana": "minor",
+      "title_de": "Neun der Stäbe",
+      "titleKey": "cards.wands-09.title",
+      "contentKey": "cards.wands-09",
+      "image": {
+        "sheet": "SheetF.png",
+        "position": 3
+      },
+      "status": "active",
+      "suit": "wands",
+      "rank": 9
+    },
+    {
+      "id": "wands-10",
+      "arcana": "minor",
+      "title_de": "Zehn der Stäbe",
+      "titleKey": "cards.wands-10.title",
+      "contentKey": "cards.wands-10",
+      "image": {
+        "sheet": "SheetF.png",
+        "position": 4
+      },
+      "status": "active",
+      "suit": "wands",
+      "rank": 10
+    },
+    {
+      "id": "wands-page",
+      "arcana": "minor",
+      "title_de": "Bube der Stäbe",
+      "titleKey": "cards.wands-page.title",
+      "contentKey": "cards.wands-page",
+      "image": {
+        "sheet": "SheetG.png",
+        "position": 1
+      },
+      "status": "active",
+      "suit": "wands",
+      "rank": "page"
+    },
+    {
+      "id": "wands-knight",
+      "arcana": "minor",
+      "title_de": "Ritter der Stäbe",
+      "titleKey": "cards.wands-knight.title",
+      "contentKey": "cards.wands-knight",
+      "image": {
+        "sheet": "SheetG.png",
+        "position": 2
+      },
+      "status": "active",
+      "suit": "wands",
+      "rank": "knight"
+    },
+    {
+      "id": "wands-queen",
+      "arcana": "minor",
+      "title_de": "Königin der Stäbe",
+      "titleKey": "cards.wands-queen.title",
+      "contentKey": "cards.wands-queen",
+      "image": {
+        "sheet": "SheetG.png",
+        "position": 3
+      },
+      "status": "active",
+      "suit": "wands",
+      "rank": "queen"
+    },
+    {
+      "id": "wands-king",
+      "arcana": "minor",
+      "title_de": "König der Stäbe",
+      "titleKey": "cards.wands-king.title",
+      "contentKey": "cards.wands-king",
+      "image": {
+        "sheet": "SheetG.png",
+        "position": 4
+      },
+      "status": "active",
+      "suit": "wands",
+      "rank": "king"
+    },
+    {
+      "id": "cups-ace",
+      "arcana": "minor",
+      "title_de": "Ass der Kelche",
+      "titleKey": "cards.cups-ace.title",
+      "contentKey": "cards.cups-ace",
+      "image": {
+        "sheet": "SheetH.png",
+        "position": 1
+      },
+      "status": "active",
+      "suit": "cups",
+      "rank": "ace"
+    },
+    {
+      "id": "cups-02",
+      "arcana": "minor",
+      "title_de": "Zwei der Kelche",
+      "titleKey": "cards.cups-02.title",
+      "contentKey": "cards.cups-02",
+      "image": {
+        "sheet": "SheetH.png",
+        "position": 2
+      },
+      "status": "active",
+      "suit": "cups",
+      "rank": 2
+    },
+    {
+      "id": "cups-03",
+      "arcana": "minor",
+      "title_de": "Drei der Kelche",
+      "titleKey": "cards.cups-03.title",
+      "contentKey": "cards.cups-03",
+      "image": {
+        "sheet": "SheetH.png",
+        "position": 3
+      },
+      "status": "active",
+      "suit": "cups",
+      "rank": 3
+    },
+    {
+      "id": "cups-04",
+      "arcana": "minor",
+      "title_de": "Vier der Kelche",
+      "titleKey": "cards.cups-04.title",
+      "contentKey": "cards.cups-04",
+      "image": {
+        "sheet": "SheetH.png",
+        "position": 4
+      },
+      "status": "active",
+      "suit": "cups",
+      "rank": 4
+    },
+    {
+      "id": "cups-05",
+      "arcana": "minor",
+      "title_de": "Fünf der Kelche",
+      "titleKey": "cards.cups-05.title",
+      "contentKey": "cards.cups-05",
+      "image": {
+        "sheet": "SheetH.png",
+        "position": 5
+      },
+      "status": "active",
+      "suit": "cups",
+      "rank": 5
+    },
+    {
+      "id": "cups-06",
+      "arcana": "minor",
+      "title_de": "Sechs der Kelche",
+      "titleKey": "cards.cups-06.title",
+      "contentKey": "cards.cups-06",
+      "image": {
+        "sheet": "SheetH.png",
+        "position": 6
+      },
+      "status": "active",
+      "suit": "cups",
+      "rank": 6
+    },
+    {
+      "id": "cups-07",
+      "arcana": "minor",
+      "title_de": "Sieben der Kelche",
+      "titleKey": "cards.cups-07.title",
+      "contentKey": "cards.cups-07",
+      "image": {
+        "sheet": "SheetI.png",
+        "position": 1
+      },
+      "status": "active",
+      "suit": "cups",
+      "rank": 7
+    },
+    {
+      "id": "cups-08",
+      "arcana": "minor",
+      "title_de": "Acht der Kelche",
+      "titleKey": "cards.cups-08.title",
+      "contentKey": "cards.cups-08",
+      "image": {
+        "sheet": "SheetI.png",
+        "position": 2
+      },
+      "status": "active",
+      "suit": "cups",
+      "rank": 8
+    },
+    {
+      "id": "cups-09",
+      "arcana": "minor",
+      "title_de": "Neun der Kelche",
+      "titleKey": "cards.cups-09.title",
+      "contentKey": "cards.cups-09",
+      "image": {
+        "sheet": "SheetI.png",
+        "position": 3
+      },
+      "status": "active",
+      "suit": "cups",
+      "rank": 9
+    },
+    {
+      "id": "cups-10",
+      "arcana": "minor",
+      "title_de": "Zehn der Kelche",
+      "titleKey": "cards.cups-10.title",
+      "contentKey": "cards.cups-10",
+      "image": {
+        "sheet": "SheetI.png",
+        "position": 4
+      },
+      "status": "active",
+      "suit": "cups",
+      "rank": 10
+    },
+    {
+      "id": "cups-page",
+      "arcana": "minor",
+      "title_de": "Bube der Kelche",
+      "titleKey": "cards.cups-page.title",
+      "contentKey": "cards.cups-page",
+      "image": {
+        "sheet": "SheetJ.png",
+        "position": 1
+      },
+      "status": "active",
+      "suit": "cups",
+      "rank": "page"
+    },
+    {
+      "id": "cups-knight",
+      "arcana": "minor",
+      "title_de": "Ritter der Kelche",
+      "titleKey": "cards.cups-knight.title",
+      "contentKey": "cards.cups-knight",
+      "image": {
+        "sheet": "SheetJ.png",
+        "position": 2
+      },
+      "status": "active",
+      "suit": "cups",
+      "rank": "knight"
+    },
+    {
+      "id": "cups-queen",
+      "arcana": "minor",
+      "title_de": "Königin der Kelche",
+      "titleKey": "cards.cups-queen.title",
+      "contentKey": "cards.cups-queen",
+      "image": {
+        "sheet": "SheetJ.png",
+        "position": 3
+      },
+      "status": "active",
+      "suit": "cups",
+      "rank": "queen"
+    },
+    {
+      "id": "cups-king",
+      "arcana": "minor",
+      "title_de": "König der Kelche",
+      "titleKey": "cards.cups-king.title",
+      "contentKey": "cards.cups-king",
+      "image": {
+        "sheet": "SheetJ.png",
+        "position": 4
+      },
+      "status": "active",
+      "suit": "cups",
+      "rank": "king"
+    },
+    {
+      "id": "swords-ace",
+      "arcana": "minor",
+      "title_de": "Ass der Schwerter",
+      "titleKey": "cards.swords-ace.title",
+      "contentKey": "cards.swords-ace",
+      "image": {
+        "sheet": "SheetK.png",
+        "position": 1
+      },
+      "status": "active",
+      "suit": "swords",
+      "rank": "ace"
+    },
+    {
+      "id": "swords-02",
+      "arcana": "minor",
+      "title_de": "Zwei der Schwerter",
+      "titleKey": "cards.swords-02.title",
+      "contentKey": "cards.swords-02",
+      "image": {
+        "sheet": "SheetK.png",
+        "position": 2
+      },
+      "status": "active",
+      "suit": "swords",
+      "rank": 2
+    },
+    {
+      "id": "swords-03",
+      "arcana": "minor",
+      "title_de": "Drei der Schwerter",
+      "titleKey": "cards.swords-03.title",
+      "contentKey": "cards.swords-03",
+      "image": {
+        "sheet": "SheetK.png",
+        "position": 3
+      },
+      "status": "active",
+      "suit": "swords",
+      "rank": 3
+    },
+    {
+      "id": "swords-04",
+      "arcana": "minor",
+      "title_de": "Vier der Schwerter",
+      "titleKey": "cards.swords-04.title",
+      "contentKey": "cards.swords-04",
+      "image": {
+        "sheet": "SheetK.png",
+        "position": 4
+      },
+      "status": "active",
+      "suit": "swords",
+      "rank": 4
+    },
+    {
+      "id": "swords-05",
+      "arcana": "minor",
+      "title_de": "Fünf der Schwerter",
+      "titleKey": "cards.swords-05.title",
+      "contentKey": "cards.swords-05",
+      "image": {
+        "sheet": "SheetK.png",
+        "position": 5
+      },
+      "status": "active",
+      "suit": "swords",
+      "rank": 5
+    },
+    {
+      "id": "swords-06",
+      "arcana": "minor",
+      "title_de": "Sechs der Schwerter",
+      "titleKey": "cards.swords-06.title",
+      "contentKey": "cards.swords-06",
+      "image": {
+        "sheet": "SheetK.png",
+        "position": 6
+      },
+      "status": "active",
+      "suit": "swords",
+      "rank": 6
+    },
+    {
+      "id": "swords-07",
+      "arcana": "minor",
+      "title_de": "Sieben der Schwerter",
+      "titleKey": "cards.swords-07.title",
+      "contentKey": "cards.swords-07",
+      "image": {
+        "sheet": "SheetL.png",
+        "position": 1
+      },
+      "status": "active",
+      "suit": "swords",
+      "rank": 7
+    },
+    {
+      "id": "swords-08",
+      "arcana": "minor",
+      "title_de": "Acht der Schwerter",
+      "titleKey": "cards.swords-08.title",
+      "contentKey": "cards.swords-08",
+      "image": {
+        "sheet": "SheetL.png",
+        "position": 2
+      },
+      "status": "active",
+      "suit": "swords",
+      "rank": 8
+    },
+    {
+      "id": "swords-09",
+      "arcana": "minor",
+      "title_de": "Neun der Schwerter",
+      "titleKey": "cards.swords-09.title",
+      "contentKey": "cards.swords-09",
+      "image": {
+        "sheet": "SheetL.png",
+        "position": 3
+      },
+      "status": "active",
+      "suit": "swords",
+      "rank": 9
+    },
+    {
+      "id": "swords-10",
+      "arcana": "minor",
+      "title_de": "Zehn der Schwerter",
+      "titleKey": "cards.swords-10.title",
+      "contentKey": "cards.swords-10",
+      "image": {
+        "sheet": "SheetL.png",
+        "position": 4
+      },
+      "status": "active",
+      "suit": "swords",
+      "rank": 10
+    },
+    {
+      "id": "swords-page",
+      "arcana": "minor",
+      "title_de": "Bube der Schwerter",
+      "titleKey": "cards.swords-page.title",
+      "contentKey": "cards.swords-page",
+      "image": {
+        "sheet": "sheetM.png",
+        "position": 1
+      },
+      "status": "active",
+      "suit": "swords",
+      "rank": "page"
+    },
+    {
+      "id": "swords-knight",
+      "arcana": "minor",
+      "title_de": "Ritter der Schwerter",
+      "titleKey": "cards.swords-knight.title",
+      "contentKey": "cards.swords-knight",
+      "image": {
+        "sheet": "sheetM.png",
+        "position": 2
+      },
+      "status": "active",
+      "suit": "swords",
+      "rank": "knight"
+    },
+    {
+      "id": "swords-queen",
+      "arcana": "minor",
+      "title_de": "Königin der Schwerter",
+      "titleKey": "cards.swords-queen.title",
+      "contentKey": "cards.swords-queen",
+      "image": {
+        "sheet": "sheetM.png",
+        "position": 3
+      },
+      "status": "active",
+      "suit": "swords",
+      "rank": "queen"
+    },
+    {
+      "id": "swords-king",
+      "arcana": "minor",
+      "title_de": "König der Schwerter",
+      "titleKey": "cards.swords-king.title",
+      "contentKey": "cards.swords-king",
+      "image": {
+        "sheet": "sheetM.png",
+        "position": 4
+      },
+      "status": "active",
+      "suit": "swords",
+      "rank": "king"
+    },
+    {
+      "id": "pentacles-ace",
+      "arcana": "minor",
+      "title_de": "Ass der Münzen",
+      "titleKey": "cards.pentacles-ace.title",
+      "contentKey": "cards.pentacles-ace",
+      "image": {
+        "sheet": "SheetN.png",
+        "position": 1
+      },
+      "status": "active",
+      "suit": "pentacles",
+      "rank": "ace"
+    },
+    {
+      "id": "pentacles-02",
+      "arcana": "minor",
+      "title_de": "Zwei der Münzen",
+      "titleKey": "cards.pentacles-02.title",
+      "contentKey": "cards.pentacles-02",
+      "image": {
+        "sheet": "SheetN.png",
+        "position": 2
+      },
+      "status": "active",
+      "suit": "pentacles",
+      "rank": 2
+    },
+    {
+      "id": "pentacles-03",
+      "arcana": "minor",
+      "title_de": "Drei der Münzen",
+      "titleKey": "cards.pentacles-03.title",
+      "contentKey": "cards.pentacles-03",
+      "image": {
+        "sheet": "SheetN.png",
+        "position": 3
+      },
+      "status": "active",
+      "suit": "pentacles",
+      "rank": 3
+    },
+    {
+      "id": "pentacles-04",
+      "arcana": "minor",
+      "title_de": "Vier der Münzen",
+      "titleKey": "cards.pentacles-04.title",
+      "contentKey": "cards.pentacles-04",
+      "image": {
+        "sheet": "SheetN.png",
+        "position": 4
+      },
+      "status": "active",
+      "suit": "pentacles",
+      "rank": 4
+    },
+    {
+      "id": "pentacles-05",
+      "arcana": "minor",
+      "title_de": "Fünf der Münzen",
+      "titleKey": "cards.pentacles-05.title",
+      "contentKey": "cards.pentacles-05",
+      "image": {
+        "sheet": "SheetN.png",
+        "position": 5
+      },
+      "status": "active",
+      "suit": "pentacles",
+      "rank": 5
+    },
+    {
+      "id": "pentacles-06",
+      "arcana": "minor",
+      "title_de": "Sechs der Münzen",
+      "titleKey": "cards.pentacles-06.title",
+      "contentKey": "cards.pentacles-06",
+      "image": {
+        "sheet": "SheetN.png",
+        "position": 6
+      },
+      "status": "active",
+      "suit": "pentacles",
+      "rank": 6
+    },
+    {
+      "id": "pentacles-07",
+      "arcana": "minor",
+      "title_de": "Sieben der Münzen",
+      "titleKey": "cards.pentacles-07.title",
+      "contentKey": "cards.pentacles-07",
+      "image": {
+        "sheet": "SheetO.png",
+        "position": 1
+      },
+      "status": "active",
+      "suit": "pentacles",
+      "rank": 7
+    },
+    {
+      "id": "pentacles-08",
+      "arcana": "minor",
+      "title_de": "Acht der Münzen",
+      "titleKey": "cards.pentacles-08.title",
+      "contentKey": "cards.pentacles-08",
+      "image": {
+        "sheet": "SheetO.png",
+        "position": 2
+      },
+      "status": "active",
+      "suit": "pentacles",
+      "rank": 8
+    },
+    {
+      "id": "pentacles-09",
+      "arcana": "minor",
+      "title_de": "Neun der Münzen",
+      "titleKey": "cards.pentacles-09.title",
+      "contentKey": "cards.pentacles-09",
+      "image": {
+        "sheet": "SheetO.png",
+        "position": 3
+      },
+      "status": "active",
+      "suit": "pentacles",
+      "rank": 9
+    },
+    {
+      "id": "pentacles-10",
+      "arcana": "minor",
+      "title_de": "Zehn der Münzen",
+      "titleKey": "cards.pentacles-10.title",
+      "contentKey": "cards.pentacles-10",
+      "image": {
+        "sheet": "SheetO.png",
+        "position": 4
+      },
+      "status": "active",
+      "suit": "pentacles",
+      "rank": 10
+    },
+    {
+      "id": "pentacles-page",
+      "arcana": "minor",
+      "title_de": "Bube der Münzen",
+      "titleKey": "cards.pentacles-page.title",
+      "contentKey": "cards.pentacles-page",
+      "image": {
+        "sheet": "SheetP.png",
+        "position": 1
+      },
+      "status": "active",
+      "suit": "pentacles",
+      "rank": "page"
+    },
+    {
+      "id": "pentacles-knight",
+      "arcana": "minor",
+      "title_de": "Ritter der Münzen",
+      "titleKey": "cards.pentacles-knight.title",
+      "contentKey": "cards.pentacles-knight",
+      "image": {
+        "sheet": "SheetP.png",
+        "position": 2
+      },
+      "status": "active",
+      "suit": "pentacles",
+      "rank": "knight"
+    },
+    {
+      "id": "pentacles-queen",
+      "arcana": "minor",
+      "title_de": "Königin der Münzen",
+      "titleKey": "cards.pentacles-queen.title",
+      "contentKey": "cards.pentacles-queen",
+      "image": {
+        "sheet": "SheetP.png",
+        "position": 3
+      },
+      "status": "active",
+      "suit": "pentacles",
+      "rank": "queen"
+    },
+    {
+      "id": "pentacles-king",
+      "arcana": "minor",
+      "title_de": "König der Münzen",
+      "titleKey": "cards.pentacles-king.title",
+      "contentKey": "cards.pentacles-king",
+      "image": {
+        "sheet": "SheetP.png",
+        "position": 4
+      },
+      "status": "active",
+      "suit": "pentacles",
+      "rank": "king"
+    }
+  ]
+}

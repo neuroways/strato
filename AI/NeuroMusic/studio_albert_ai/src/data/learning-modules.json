@@ -1,0 +1,187 @@
+{
+  "module": [
+    {
+      "id": "audio-basics",
+      "titel": "Was ist Audio?",
+      "beschreibung": "Lerne, was Audio ist und wie es sich von MIDI unterscheidet.",
+      "zielklasse": 8,
+      "kategorie": "grundlagen",
+      "kapitel": [
+        {
+          "id": "audio-01",
+          "nummer": 1,
+          "titel": "Hörbare Schall in der Elektronik",
+          "inhalt": "Audio ist der fertige, hörbare Klang. Wenn du Musik über einen Lautsprecher hörst, ist das Audio. Audio ist ein analoges oder digitales Signal, das Schallwellen darstellt.",
+          "einfacheErklärung": "Audio = hörbare Musik",
+          "technischeErklärung": "Audio ist ein kontinuierliches analoges Signal (oder digitalisiertes äquivalent) mit variabler Amplitude und Frequenz.",
+          "vergleiche": [
+            "Audio ist wie ein fertiges Lied auf einer CD",
+            "MIDI ist wie die Noten auf Papier"
+          ],
+          "schlüsselkonzepte": ["Schallwelle", "Amplitude", "Frequenz"],
+          "häufigeFehler": [
+            "Audio und MIDI verwechseln",
+            "Pegel mit Qualität verwechseln"
+          ]
+        },
+        {
+          "id": "audio-02",
+          "nummer": 2,
+          "titel": "Audio im Studio",
+          "inhalt": "Im Studio wird Audio von Instrumenten über Kabel zu Mischpulten und Lautsprechern übertragen. Audio braucht hohe Bandbreite.",
+          "einfacheErklärung": "Audio fließt von der Quelle zum Ziel über spezialisierte Kabel.",
+          "vergleiche": [
+            "Audiokabell sind wie Wasserleitungen – je breiter, desto mehr Wasser (Signal) passt rein"
+          ],
+          "schlüsselkonzepte": ["Audioausgang", "Audioeingang", "Kabeltyp"],
+          "häufigeFehler": [
+            "Falscher Kabeltyp",
+            "Pegel nicht gesetzt"
+          ]
+        }
+      ],
+      "aufgaben": [
+        {
+          "id": "audio-aufg-01",
+          "titel": "Audio im Alltag",
+          "beschreibung": "Nennen drei Dinge in deinem Zimmer, die Audio ausgeben.",
+          "aufgabentyp": "nachdenken",
+          "tipps": ["Denke an Musik", "Denke an Sprache"],
+          "lösung": "z.B. Lautsprecher, Kopfhörer, Musikanlage"
+        }
+      ]
+    },
+    {
+      "id": "midi-basics",
+      "titel": "Was ist MIDI?",
+      "beschreibung": "MIDI ist wie eine Spielanleitung für Instrumente. Lerne, wie MIDI funktioniert.",
+      "zielklasse": 8,
+      "kategorie": "grundlagen",
+      "kapitel": [
+        {
+          "id": "midi-01",
+          "nummer": 1,
+          "titel": "MIDI überträgt Spielanweisungen",
+          "inhalt": "MIDI überträgt keinen hörbaren Klang, sondern Steuerdaten wie Noten, Anschlagstärke und Effekte. MIDI ist digital und sehr kompakt.",
+          "einfacheErklärung": "MIDI sagt einem Gerät: 'Spiel die Note C3 mit Stärke 100'",
+          "technischeErklärung": "MIDI ist ein serielles digitales Protokoll, das Note On/Off, Velocity, CC und andere Ereignisse übertragen kann.",
+          "vergleiche": [
+            "MIDI ist wie die Noten in einem Musikbuch",
+            "Audio ist wie der fertige Klang eines Instruments"
+          ],
+          "schlüsselkonzepte": ["Note", "Velocity", "MIDI-Kanal"],
+          "häufigeFehler": [
+            "MIDI für einen Lautsprecher benutzen",
+            "Erwarten, dass MIDI sofort Klang produziert"
+          ]
+        },
+        {
+          "id": "midi-02",
+          "nummer": 2,
+          "titel": "Wofür wird MIDI benutzt?",
+          "inhalt": "MIDI wird benutzt, um Synthesizer, Sampler und Drums zu steuern. Du spielst eine Taste, und MIDI sagt dem Gerät, welche Note es spielen soll.",
+          "einfacheErklärung": "MIDI verbindet Controller mit Klanggerӓten.",
+          "vergleiche": [
+            "MIDI ist wie Fernbedienung für Musikinstrumente"
+          ],
+          "schlüsselkonzepte": ["MIDI In", "MIDI Out", "Latentz"],
+          "häufigeFehler": []
+        }
+      ],
+      "aufgaben": [
+        {
+          "id": "midi-aufg-01",
+          "titel": "Erkenne MIDI vs Audio",
+          "beschreibung": "Welche dieser Ausgänge ist MIDI? Lautsprecher, Synthesizer, Kopfhörer",
+          "aufgabentyp": "nachdenken",
+          "lösung": "Synthesizer (MIDI In), Lautsprecher und Kopfhörer brauchen Audio"
+        }
+      ]
+    },
+    {
+      "id": "x32-basics",
+      "titel": "Das Behringer X32 verstehen",
+      "beschreibung": "Eine umfassende Einführung in das Mischpult des Studios.",
+      "zielklasse": 9,
+      "kategorie": "x32",
+      "kapitel": [
+        {
+          "id": "x32-01",
+          "nummer": 1,
+          "titel": "Warum gibt es ein Mischpult?",
+          "inhalt": "Viele Geräte im Studio senden gleichzeitig Musik aus. Das Mischpult sammelt all diese Signale und entscheidet, wie sie weitergeleitet werden. Es mischt also die verschiedenen Klänge.",
+          "einfacheErklärung": "Das X32 ist wie eine Verkehrszentrale: Viele Autos (Signale) kommen rein. Die Zentrale sortiert sie und schickt sie zum richtigen Ort.",
+          "technischeErklärung": "Das X32 ist ein digitales Mischpult mit 32 Analogeingängen, digitalen I/Os und USB-Audio.",
+          "vergleiche": [
+            "Das X32 ist wie ein Regler für mehrere Lautstärkeregler",
+            "Das X32 ist wie eine Ampel in der Audiowelt"
+          ],
+          "schlüsselkonzepte": ["Kanal", "Fader", "Main LR"],
+          "häufigeFehler": [
+            "Pegel vorhanden, aber kein Ton",
+            "Falscher Bus",
+            "Main LR nicht aktiviert"
+          ]
+        },
+        {
+          "id": "x32-02",
+          "nummer": 2,
+          "titel": "Die Eingänge des X32",
+          "inhalt": "Das X32 hat 32 Eingänge. Jeder Eingang kann ein Signal aufnehmen. Ein Pegel (grüner Balken) zeigt, dass ein Signal ankommt.",
+          "einfacheErklärung": "Jeder Eingang ist wie eine Tür. Das Signal kommt rein und wird empfangen.",
+          "technischeErklärung": "Die physikalischen XLR/6,35mm Eingänge werden auf digitale Kanäle abgebildet. Der Gain bestimmt die Eingangsverstärkung.",
+          "vergleiche": [
+            "Der Gain ist wie die Lautstärke beim Aufzählen von vorne"
+          ],
+          "schlüsselkonzepte": ["Gain", "Pegel", "Eingang"],
+          "häufigeFehler": [
+            "Gain zu niedrig = zu wenig Pegel",
+            "Gain zu hoch = Clipping"
+          ]
+        },
+        {
+          "id": "x32-03",
+          "nummer": 3,
+          "titel": "Der Kanalzug",
+          "inhalt": "Jeder Kanal hat eine Reihe von Werkzeugen: Gain, Equalizer, Kompressor und einen Fader. Der Fader regelt die Lautstärke.",
+          "einfacheErklärung": "Der Fader ist der Regler für deine Lautstärke. Je höher, desto lauter.",
+          "technischeErklärung": "Der Kanalzug ist die Signalkette: IN -> EQ -> Kompressor -> Fader -> Routing.",
+          "vergleiche": [],
+          "schlüsselkonzepte": ["Fader", "Equalizer", "Kompressor"],
+          "häufigeFehler": [
+            "Fader auf Minimum",
+            "Mute aktiviert"
+          ]
+        },
+        {
+          "id": "x32-04",
+          "nummer": 4,
+          "titel": "Busse und Routing",
+          "inhalt": "Ein Bus sammelt mehrere Signale an ein Ziel. Das X32 hat verschiedene Busse für verschiedene Aufgaben: Main LR für die Lautsprecher, Aux für Kopfhörer, Effekt-Busse für Effekte.",
+          "einfacheErklärung": "Ein Bus ist wie ein Überlandbus – mehrere Passagiere (Signale) steigen auf und fahren zusammen zu einem Ziel.",
+          "technischeErklärung": "Busse sind Summen-Knoten in der digitalen Signalverarbeitung.",
+          "vergleiche": [
+            "Main LR ist der Hauptbus zu den Lautsprechern"
+          ],
+          "schlüsselkonzepte": ["Bus", "Main LR", "Aux", "Routing"],
+          "häufigeFehler": [
+            "Signal nicht zu Main LR geroutet",
+            "Falscher Bus"
+          ]
+        },
+        {
+          "id": "x32-05",
+          "nummer": 5,
+          "titel": "Main LR und Ausgänge",
+          "inhalt": "Main LR ist normalerweise die Hauptmischung für die Lautsprecher. Wenn dein Signal auf Main LR ankommt, wird es zu den Lautsprechern gesendet.",
+          "einfacheErklärung": "Main LR = Hauptausgang zu den Lautsprechern.",
+          "technischeErklärung": "Main LR ist ein stereo-Bus, der auf XLR-Ausgänge 1 und 2 abgebildet ist.",
+          "vergleiche": [],
+          "schlüsselkonzepte": ["Main LR", "Ausgang"],
+          "häufigeFehler": []
+        }
+      ],
+      "aufgaben": []
+    }
+  ]
+}

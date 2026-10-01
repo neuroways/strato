@@ -1,0 +1,1 @@
+/usr/lib/sfs-assistant-dev/server.js

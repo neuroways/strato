@@ -1,0 +1,30 @@
+[
+  {
+    "changelog": "6 Fragen (inkl. transitions), Ergebnisskala 6-30, Methodenversion 1.1.0, Validierung für fehlende Antwortoptionen, sequenzielle Antwortspeicherung.",
+    "collectionId": "pbc_1197793597",
+    "collectionName": "pkg_module_versions",
+    "compatible_base_versions": ">=v0.1.0",
+    "created": "2026-07-23 19:58:58.092Z",
+    "created_by": "",
+    "id": "4kdjlzlbsebu0ec",
+    "module_id": "notrnocy6rfikoc",
+    "published_at": "2026-07-23T19:58:58.043Z",
+    "status": "PUBLISHED",
+    "updated": "2026-07-23 19:58:58.092Z",
+    "version": "v1.1.0"
+  },
+  {
+    "changelog": "Testversion",
+    "collectionId": "pbc_1197793597",
+    "collectionName": "pkg_module_versions",
+    "compatible_base_versions": "",
+    "created": "2026-07-23 19:57:46.812Z",
+    "created_by": "",
+    "id": "9ed210393jezwn9",
+    "module_id": "odnh58a92t9ip5r",
+    "published_at": "2026-07-23T19:57:46.811Z",
+    "status": "PUBLISHED",
+    "updated": "2026-07-23 19:57:46.812Z",
+    "version": "0.0.1"
+  }
+]

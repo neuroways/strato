@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#29483A">
+  <title>NeuroQuest Administration</title>
+  <link rel="stylesheet" href="assets/css/admin.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">NeuroWays / NeuroQuest</p>
+        <h1>Admin Dashboard</h1>
+        <p class="intro">
+          Technischer Zustand und fachlicher Datenbestand der NeuroQuest-Datenbank.
+        </p>
+      </div>
+
+      <button id="refreshButton" class="primary-button" type="button">
+        Neu prüfen
+      </button>
+    </header>
+
+    <section id="loadingState" class="notice" aria-live="polite">
+      <span class="pulse" aria-hidden="true"></span>
+      Datenbankstatus wird geprüft.
+    </section>
+
+    <section id="errorState" class="notice error" hidden aria-live="assertive">
+      <h2>Prüfung nicht möglich</h2>
+      <p id="errorMessage">Die Daten konnten nicht geladen werden.</p>
+    </section>
+
+    <section id="dashboard" hidden>
+      <div class="status-row">
+        <article class="status-card">
+          <div class="status-heading">
+            <span id="connectionDot" class="status-dot" aria-hidden="true"></span>
+            <div>
+              <p class="card-label">Datenbankverbindung</p>
+              <h2 id="connectionStatus">Unbekannt</h2>
+            </div>
+          </div>
+          <dl>
+            <div>
+              <dt>Antwortzeit</dt>
+              <dd id="latency">–</dd>
+            </div>
+            <div>
+              <dt>Version</dt>
+              <dd id="serverVersion">–</dd>
+            </div>
+            <div>
+              <dt>Zeichensatz</dt>
+              <dd id="charset">–</dd>
+            </div>
+          </dl>
+        </article>
+
+        <article class="metric-card">
+          <p class="card-label">Tabellen</p>
+          <strong id="tableCount">0</strong>
+          <span>in der aktuellen Datenbank</span>
+        </article>
+
+        <article class="metric-card">
+          <p class="card-label">Datenbankgröße</p>
+          <strong id="databaseSize">0 MB</strong>
+          <span>Tabellen und Indizes</span>
+        </article>
+
+        <article class="metric-card">
+          <p class="card-label">Mögliche Geschichten</p>
+          <strong id="storyCount">0</strong>
+          <span id="storyCountHint">automatisch erkannt</span>
+        </article>
+      </div>
+
+      <section class="panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Fachlicher Bestand</p>
+            <h2>NeuroQuest-Inhalte</h2>
+          </div>
+          <p id="detectedStoryTables" class="muted">Noch keine Story-Tabelle erkannt.</p>
+        </div>
+
+        <div id="contentMetrics" class="content-grid"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Datenbankstruktur</p>
+            <h2>Tabellen und Datensätze</h2>
+          </div>
+          <label class="search">
+            <span class="sr-only">Tabellen filtern</span>
+            <input id="tableSearch" type="search" placeholder="Tabelle suchen">
+          </label>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Tabelle</th>
+                <th scope="col">Datensätze</th>
+                <th scope="col">Größe</th>
+                <th scope="col">Einordnung</th>
+              </tr>
+            </thead>
+            <tbody id="tablesBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <span id="checkedAt">Letzte Prüfung: –</span>
+        <span>NeuroQuest Admin Dashboard · v0.1.0</span>
+      </footer>
+    </section>
+  </main>
+
+  <script type="module" src="assets/js/admin.js"></script>
+</body>
+</html>

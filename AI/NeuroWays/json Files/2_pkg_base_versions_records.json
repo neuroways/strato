@@ -1,0 +1,28 @@
+[
+  {
+    "base_id": "rlu6t94lzfcv52b",
+    "changelog": "Erste veröffentlichte Basisversion. Enthält Identity-POC (NW-IDENTITY-POC-001 bestanden), Navigation, App Shell, Backend-Anbindung, Styling.",
+    "collectionId": "pbc_2817397215",
+    "collectionName": "pkg_base_versions",
+    "created": "2026-07-23 19:58:58.062Z",
+    "created_by": "",
+    "id": "dpimou6okk6ut22",
+    "published_at": "2026-07-23T19:58:58.043Z",
+    "status": "PUBLISHED",
+    "updated": "2026-07-23 19:58:58.062Z",
+    "version": "v0.1.0"
+  },
+  {
+    "base_id": "bvqgvhr5h3epcti",
+    "changelog": "VERÄNDERT",
+    "collectionId": "pbc_2817397215",
+    "collectionName": "pkg_base_versions",
+    "created": "2026-07-23 19:57:46.808Z",
+    "created_by": "",
+    "id": "85ar4ri5801c79t",
+    "published_at": "2026-07-23T19:57:46.806Z",
+    "status": "PUBLISHED",
+    "updated": "2026-07-23 19:57:46.856Z",
+    "version": "0.0.1"
+  }
+]

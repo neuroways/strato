@@ -1,0 +1,9 @@
+<?php
+declare(strict_types=1);
+
+return [
+    'database' => [
+        'user' => 'DEIN_ECHTER_BENUTZER',
+        'password' => 'DEIN_ECHTES_PASSWORT',
+    ],
+];

@@ -1,0 +1,16 @@
+{
+  "package": "NW-WEB-STYLE-CORE-001",
+  "version": "0.1.0",
+  "status": "draft",
+  "purpose": "Shared NeuroWays web visual foundation",
+  "files": [
+    "css/tokens.css",
+    "css/base.css",
+    "css/components.css",
+    "css/utilities.css",
+    "css/index.css",
+    "examples/tennis-integration.css",
+    "examples/example.html",
+    "README.md"
+  ]
+}

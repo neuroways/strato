@@ -1,0 +1,22 @@
+<?php
+// Beispiel / Contract – NICHT produktiv verwenden.
+// Die reale /config/database.php bleibt außerhalb von Modulpaketen und Git.
+// Ziel: zentrale Auflösung benannter Connection Profiles.
+return [
+    'connections' => [
+        'dev_primary' => [
+            'driver' => 'mysql',
+            'host' => 'SET_OUTSIDE_REPOSITORY',
+            'database' => 'SET_OUTSIDE_REPOSITORY',
+            'username' => 'SET_OUTSIDE_REPOSITORY',
+            'password' => 'SET_OUTSIDE_REPOSITORY',
+        ],
+        'pro_primary' => [
+            'driver' => 'mysql',
+            'host' => 'SET_OUTSIDE_REPOSITORY',
+            'database' => 'SET_OUTSIDE_REPOSITORY',
+            'username' => 'SET_OUTSIDE_REPOSITORY',
+            'password' => 'SET_OUTSIDE_REPOSITORY',
+        ],
+    ],
+];

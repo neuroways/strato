@@ -1,0 +1,9 @@
+6f759f065dd5e8d0b19503fdda113f0d6e85c8b7df9b8ec62834f16a07c0d12a  ./backend/bootstrap.php
+2b7b2e0e61677f626e20168bb1e86b38024acb1a1ad9e8a12b5e37fd8fef16bd  ./backend/tests/Foundation/ComposerAutoloadIntegrationTest.php
+bebc6b3c20ac35c9a9c2d381ddf2e940b84d48890eabe0877600244129e8950c  ./backend/tests/run-c002.php
+909864d7bf75d92b2d6478f4845ad9031e5c467f69407d4dba6a2c79c5810a67  ./docs/builds/TT-DEV-0002-C002_ARTIFACT_INFO.json
+642c31f0ea990d63fe804db74696a0fe37dd5e9ba01fcc306f06635e1bfb07e0  ./docs/builds/TT-DEV-0002-C002_BUILD_REPORT.md
+a6be6ba8ec1024e25519829f69254c1ddd856006e4ef17f0abf7c98240f44ba8  ./docs/builds/TT-DEV-0002-C002_README.md
+cc4f9d482189263ac6a2d1599f36a471eb0bd541959b4714fbd23196f1efad60  ./docs/builds/TT-DEV-0002-C002_bootstrap-smoke.json
+473be9353c60fd5c85acf20cb7098212604a04f4767650964180c9cc4140dc34  ./docs/builds/TT-DEV-0002-C002_php-lint.txt
+99c5585bfcb251f9b9c9cbb1c760022febe18cdfcb65d8139ce427ae757bcca4  ./docs/builds/TT-DEV-0002-C002_test-results.txt

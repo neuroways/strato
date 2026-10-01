@@ -1,0 +1,6 @@
+Options -Indexes
+DirectoryIndex index.html
+
+<FilesMatch "\.(md|csv)$">
+  Require all denied
+</FilesMatch>

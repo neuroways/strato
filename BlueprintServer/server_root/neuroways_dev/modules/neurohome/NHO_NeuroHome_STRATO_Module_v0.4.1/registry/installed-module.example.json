@@ -1,0 +1,10 @@
+{
+  "installation_id": "neurohome-default",
+  "instance_id": "replace-with-instance-id",
+  "environment": "dev",
+  "module_code": "nho_neurohome",
+  "module_version": "0.4.1",
+  "enabled": false,
+  "public_route": "/neurohome",
+  "health": "unknown"
+}

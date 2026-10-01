@@ -1,0 +1,8 @@
+No syntax errors detected in /mnt/data/TT-DEV-0001-C004/backend/bootstrap.php
+No syntax errors detected in /mnt/data/TT-DEV-0001-C004/backend/public/index.php
+No syntax errors detected in /mnt/data/TT-DEV-0001-C004/backend/src/Application/Application.php
+No syntax errors detected in /mnt/data/TT-DEV-0001-C004/backend/src/Infrastructure/Http/JsonResponse.php
+No syntax errors detected in /mnt/data/TT-DEV-0001-C004/backend/tests/Application/ApplicationTest.php
+No syntax errors detected in /mnt/data/TT-DEV-0001-C004/backend/tests/BootstrapFilesTest.php
+No syntax errors detected in /mnt/data/TT-DEV-0001-C004/backend/tests/Infrastructure/Http/JsonResponseTest.php
+No syntax errors detected in /mnt/data/TT-DEV-0001-C004/backend/tests/run-c004.php

@@ -1,0 +1,16 @@
+{
+  "contract_version": "0.1.0",
+  "rules": {
+    "public_route_is_not_physical_path": true,
+    "public_route_is_not_authorization": true,
+    "default_deny_on_unresolved_context": true
+  },
+  "routes": [
+    {"id":"NBKR-R001","path":"/kartenraum","page":"room","purpose":"Orientierung und Einstieg","auth":"installation_policy"},
+    {"id":"NBKR-R002","path":"/kartenraum/ziehen","page":"draw","purpose":"Morgenkarte ziehen und aufdecken","auth":"installation_policy"},
+    {"id":"NBKR-R003","path":"/kartenraum/rueckblick","page":"review","purpose":"Spätere Reflexion auf einen Kartenmoment","auth":"installation_policy"},
+    {"id":"NBKR-R004","path":"/kartenraum/journal","page":"journal","purpose":"Persönliche Kartenmomente bewahren","auth":"installation_policy"},
+    {"id":"NBKR-R005","path":"/kartenraum/verbindungen","page":"connections","purpose":"Wiederkehrende Muster und Motive erkunden","auth":"installation_policy"},
+    {"id":"NBKR-R006","path":"/kartenraum/decks","page":"decks","purpose":"Eigene Decks verwalten","auth":"installation_policy"}
+  ]
+}

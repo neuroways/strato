@@ -1,0 +1,5 @@
+[PASS] ConfigurationTest
+[PASS] DatabaseConnectionTest
+[PASS] DatabaseHealthCheckTest
+
+Tests: 3 passed, 0 failed

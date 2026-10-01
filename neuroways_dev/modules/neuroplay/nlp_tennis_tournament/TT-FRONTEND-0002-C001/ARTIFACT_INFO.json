@@ -1,0 +1,9 @@
+{
+  "artifact": "TT-FRONTEND-0002-C001",
+  "work_package": "TT-FRONTEND-0002",
+  "purpose": "Public Tournament View Model API",
+  "repository_root": "neuroways_dev/modules/neuroplay/nlp_tennis_tournament/",
+  "tables": ["TT_TOURNAMENT", "TT_LOCATION"],
+  "react_business_logic_added": false,
+  "database_migration_added": false
+}

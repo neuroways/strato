@@ -1,0 +1,5 @@
+[PASS] BootstrapFilesTest
+[PASS] ApplicationTest
+[PASS] JsonResponseTest
+
+C004 tests: 3 passed, 0 failed

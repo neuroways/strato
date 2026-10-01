@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-07-24T17:20:32.959Z",
+  "version": "v0.7.0",
+  "publishers_processed": 32,
+  "games_processed": 924,
+  "rule_sources_created": 924,
+  "import_batches_created": 1,
+  "verification_records_created": 924,
+  "warnings": [],
+  "errors": []
+}

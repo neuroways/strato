@@ -1,0 +1,36 @@
+{
+  "module": "nb_kartenraum",
+  "version": "0.7.2",
+  "based_on": "NB_Kartenraum_STRATO_Frontend_v0.6.1",
+  "backend": "../NB_Kartenraum_Backend_v0.5.0/api",
+  "visual_reference": "https://neurobalance-kartenraum.neuroways.chatgpt.site/",
+  "features": {
+    "neuroways_hierarchy": true,
+    "public_landing": true,
+    "tarot_intro": true,
+    "personal_home": true,
+    "single_click_draw": true,
+    "reversed_cards": true,
+    "perception_first": true,
+    "three_depth_knowledge": true,
+    "physical_card_viewer": true,
+    "journal_existing_api": true,
+    "responsive": true
+  },
+  "prepared_not_active": [
+    "connections",
+    "decks",
+    "favorites"
+  ],
+  "test_login": {
+    "visible_on_login": true,
+    "audience": "ADULT",
+    "username": "Test_E",
+    "quick_fill": true
+  },
+  "viewport_draw_layout": {
+    "card_and_draw_button_without_scroll": true,
+    "uses_dynamic_viewport_height": true,
+    "responsive_to_short_screens": true
+  }
+}

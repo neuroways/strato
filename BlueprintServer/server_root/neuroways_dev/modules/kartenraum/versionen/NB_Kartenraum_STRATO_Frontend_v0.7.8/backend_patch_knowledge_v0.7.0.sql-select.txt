@@ -1,0 +1,27 @@
+<?php
+/*
+ * NeuroBalance Kartenraum – optionaler v0.7.0 Knowledge-API Patch
+ *
+ * Ziel:
+ * Die bereits vorhandenen DB-Felder
+ *   reflection_question
+ *   everyday_moment
+ * über knowledge.php an das Frontend ausliefern.
+ *
+ * Datei im bestehenden Backend:
+ * backend/infrastructure/MariaDbCardRepository.php
+ *
+ * Ersetze dort NUR die SELECT-Feldliste der Methode findKnowledge()
+ * durch die unten dokumentierte Feldliste.
+ */
+
+SELECT card_knowledge_id, card_id, audience_code, language_code, content_version,
+       theme, keywords_json, reflection_question, everyday_moment,
+       meaning_text, symbolism_text, other_direction_text,
+       status_code, provenance_code
+FROM nb_card_knowledge
+WHERE card_id = :card_id
+  AND audience_code = :audience
+  AND language_code = :language
+ORDER BY card_knowledge_id DESC
+LIMIT 1;

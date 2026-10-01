@@ -1,0 +1,11 @@
+{
+  "module": "nb_kartenraum",
+  "version": "0.4.0",
+  "layer": "card-knowledge",
+  "rows": 156,
+  "adult_de": 78,
+  "child_de": 78,
+  "status": "draft-review",
+  "source": "Mystische Katzen(2).xlsx",
+  "symbolism_status": "pending-illustration-review"
+}

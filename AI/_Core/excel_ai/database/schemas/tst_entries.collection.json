@@ -1,0 +1,69 @@
+{
+  "name": "tst_entries",
+  "type": "base",
+  "fields": [
+    {
+      "name": "id",
+      "type": "text",
+      "required": true,
+      "id": "text7321457378",
+      "autogeneratePattern": "[a-z0-9]{15}",
+      "max": 15,
+      "min": 15,
+      "primaryKey": true,
+      "pattern": "^[a-z0-9]+$",
+      "presentable": false
+    },
+    {
+      "name": "title",
+      "type": "text",
+      "required": true,
+      "id": "text5785495831",
+      "max": 0,
+      "min": 0,
+      "pattern": "",
+      "presentable": false
+    },
+    {
+      "name": "notes",
+      "type": "text",
+      "required": false,
+      "id": "text5379057707",
+      "max": 0,
+      "min": 0,
+      "pattern": "",
+      "presentable": false
+    },
+    {
+      "name": "category",
+      "type": "relation",
+      "required": true,
+      "id": "relation7433090973",
+      "collectionId": "pbc_400465203",
+      "maxSelect": 1,
+      "cascadeDelete": false,
+      "presentable": false
+    },
+    {
+      "name": "created",
+      "type": "autodate",
+      "onCreate": true,
+      "onUpdate": false,
+      "id": "autodate1802035690",
+      "presentable": false
+    },
+    {
+      "name": "updated",
+      "type": "autodate",
+      "onCreate": true,
+      "onUpdate": true,
+      "id": "autodate2908844771",
+      "presentable": false
+    }
+  ],
+  "listRule": null,
+  "viewRule": null,
+  "createRule": null,
+  "updateRule": null,
+  "deleteRule": null
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "collectionId": "pbc_2117582167",
+    "collectionName": "identity_audit_log",
+    "created": "2026-07-24 11:09:12.890Z",
+    "email_hash": "",
+    "event_type": "REGISTRATION",
+    "id": "o0nbnqeomhu6prk",
+    "ip_hint": "",
+    "note": "",
+    "success": true,
+    "updated": "2026-07-24 11:09:12.890Z",
+    "user_id": "lzcoicdl3dnsrrb"
+  },
+  {
+    "collectionId": "pbc_2117582167",
+    "collectionName": "identity_audit_log",
+    "created": "2026-07-24 11:08:50.130Z",
+    "email_hash": "",
+    "event_type": "REGISTRATION",
+    "id": "w147pae4ehvhfcy",
+    "ip_hint": "",
+    "note": "registration_failed",
+    "success": false,
+    "updated": "2026-07-24 11:08:50.130Z",
+    "user_id": ""
+  },
+  {
+    "collectionId": "pbc_2117582167",
+    "collectionName": "identity_audit_log",
+    "created": "2026-07-24 11:08:32.324Z",
+    "email_hash": "",
+    "event_type": "LOGIN_FAILED",
+    "id": "fo7nz32p0c363aj",
+    "ip_hint": "",
+    "note": "invalid_credentials",
+    "success": false,
+    "updated": "2026-07-24 11:08:32.324Z",
+    "user_id": ""
+  },
+  {
+    "collectionId": "pbc_2117582167",
+    "collectionName": "identity_audit_log",
+    "created": "2026-07-23 21:37:14.013Z",
+    "email_hash": "",
+    "event_type": "REGISTRATION",
+    "id": "tv2yh2g2aedgbld",
+    "ip_hint": "",
+    "note": "",
+    "success": true,
+    "updated": "2026-07-23 21:37:14.013Z",
+    "user_id": "0fk139p2ekdhwaj"
+  },
+  {
+    "collectionId": "pbc_2117582167",
+    "collectionName": "identity_audit_log",
+    "created": "2026-07-23 20:33:51.357Z",
+    "email_hash": "",
+    "event_type": "REGISTRATION",
+    "id": "mpxturnmy05fdw5",
+    "ip_hint": "",
+    "note": "",
+    "success": true,
+    "updated": "2026-07-23 20:33:51.357Z",
+    "user_id": "9z3hxyz1zdp87eq"
+  }
+]

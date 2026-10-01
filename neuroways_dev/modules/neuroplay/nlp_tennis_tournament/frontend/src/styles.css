@@ -1,0 +1,94 @@
+* { box-sizing: border-box; }
+
+:root {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #111827;
+  background: #f8fafc;
+}
+
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+
+.app-shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.app-header,
+.app-footer,
+.app-main {
+  width: min(100% - 2rem, 72rem);
+  margin-inline: auto;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-block: 1.5rem 1rem;
+}
+
+.app-header h1,
+.hero-card h2 { margin: 0; }
+
+.eyebrow,
+.section-kicker {
+  margin: 0 0 .35rem;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.version-badge {
+  padding: .35rem .65rem;
+  border: 1px solid #d1d5db;
+  border-radius: 999px;
+  background: #fff;
+  font-size: .8rem;
+  font-weight: 700;
+}
+
+.app-main { padding-block: 1rem 3rem; }
+
+.hero-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  background: #fff;
+  padding: clamp(1.5rem, 3vw, 3rem);
+}
+
+.hero-card > p:not(.section-kicker) {
+  max-width: 42rem;
+  line-height: 1.6;
+}
+
+.status-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.status-grid article {
+  display: grid;
+  gap: .4rem;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: .75rem;
+  background: #f8fafc;
+}
+
+.app-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-block: 1rem 1.5rem;
+  border-top: 1px solid #e5e7eb;
+  font-size: .8rem;
+}
+
+@media (max-width: 720px) {
+  .status-grid { grid-template-columns: 1fr; }
+  .app-header, .app-footer { flex-direction: column; }
+}

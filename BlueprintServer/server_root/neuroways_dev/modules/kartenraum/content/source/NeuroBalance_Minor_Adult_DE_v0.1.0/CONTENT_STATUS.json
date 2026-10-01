@@ -1,0 +1,13 @@
+{
+  "records": 56,
+  "audience_code": "ADULT",
+  "language_code": "de",
+  "status": "draft-review",
+  "suits": {
+    "wands": 14,
+    "swords": 14,
+    "cups": 14,
+    "pentacles": 14
+  },
+  "next_after_review": "Generate CHILD+DE minor arcana, then combine 156 content records and produce MariaDB schema + seed inserts."
+}

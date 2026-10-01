@@ -1,0 +1,15 @@
+f736e4bbc96dec6e5dfe10b07c71095fe6d2763a15a1d2dab2d393b25982a68c  ./backend/bootstrap.php
+d62ee209c3dd1749e65a3f635bc6cdd3fdba7d0568aaad7ed3c9d025b5aed471  ./backend/public/index.php
+641bcbdd207c2a7c5ac4e0dfb32f6d0294b8750ba90f5185cb7e2457cda90aea  ./backend/src/Application/Application.php
+ed48a76c1512f9d26c0de7b84cdab5357f7b8f956bc8aa64c7895f2d655375b2  ./backend/src/Infrastructure/Http/JsonResponse.php
+192fe1acc61eae53beec1bbfe3ee1d216b61c4591caf8f0591001a9ce50fc9df  ./backend/tests/Application/ApplicationTest.php
+cb69ec6dad44051c49eb7dc93101821a2d6cc4ad3f8f4d44db2ae0ff03293367  ./backend/tests/BootstrapFilesTest.php
+1fcd2cbf1fb285ed2e967b973995b1e892ef07a5a4f72b3967b85ba271e871a4  ./backend/tests/Infrastructure/Http/JsonResponseTest.php
+90d0866f674ac2f64ac4c89b6d5d53966d86e973f012660c460f324ad7b8a425  ./backend/tests/run-c004.php
+fdf8e7654ca54cb2a629feb60d81da667846d845a65c48f189150e33ca6b9834  ./docs/builds/TT-DEV-0001-C004_ARTIFACT_INFO.json
+7156f3a1df1cbc7052a935d5e697a4fb78b8c99529bc1581eec00be88a1c905d  ./docs/builds/TT-DEV-0001-C004_BUILD_REPORT.md
+a52cf370b478146911888f0f04bef61a4f51b1997607f32edf99e9c90fbda919  ./docs/builds/TT-DEV-0001-C004_C003-test-results.txt
+ff58c5b66b3a54d463b6414b96450f33c25e89b3dd06a3f31fe902ec7b2e9830  ./docs/builds/TT-DEV-0001-C004_README.md
+7f27bc2a0f0f55fa898d5218e18a35df527dad8339e516e9ad4848765f86743f  ./docs/builds/TT-DEV-0001-C004_bootstrap-smoke.json
+e48633f0d05384ada844167ec1cd8857a1c34b4d5663a09bb1e8ef00beeccc7b  ./docs/builds/TT-DEV-0001-C004_php-lint.txt
+5099bf6783edb6d0b5d4512acbcbfeab1a821ae47c0f3bdfc5cbc4824fd59982  ./docs/builds/TT-DEV-0001-C004_test-results.txt

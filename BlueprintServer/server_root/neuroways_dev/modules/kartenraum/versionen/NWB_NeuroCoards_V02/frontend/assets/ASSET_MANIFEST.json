@@ -1,0 +1,43 @@
+{
+  "manifest_version": "0.1.0",
+  "status": "reconstruction_placeholder",
+  "rules": {
+    "no_remote_chatgpt_asset_dependency_in_target": true,
+    "module_assets_are_versioned": true,
+    "installation_custom_assets_live_outside_module_package": true
+  },
+  "asset_groups": [
+    {
+      "code": "nbkr_brand_module",
+      "items": [
+        "Kartenraum-spezifisches Logo/Icon, sofern eigenständig vorhanden",
+        "Kartenrückseite",
+        "atmosphärische Hintergrundelemente"
+      ],
+      "target": "frontend/assets or public-assets"
+    },
+    {
+      "code": "nbkr_deck_cards",
+      "items": [
+        "Kartenillustrationen je Deck",
+        "optionale Deck-Cover"
+      ],
+      "target": "versioned module/content asset package"
+    },
+    {
+      "code": "nw_shared",
+      "items": [
+        "NeuroWays Linie",
+        "globale UI-Icons",
+        "globale Design Tokens"
+      ],
+      "target": "CORE",
+      "must_not_be_duplicated": true
+    }
+  ],
+  "unresolved": [
+    "Originaldateien aller aktuell auf der ChatGPT-Site verwendeten Kartenbilder",
+    "Lizenz-/Source-Metadaten pro Kartenasset",
+    "finale Asset-IDs"
+  ]
+}

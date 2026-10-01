@@ -1,0 +1,1074 @@
+{
+  "analysis_timestamp": "2026-07-24T16:39:43.901Z",
+  "file_path": "/home/www/aibuilder-514nc/uploads/7ae5285e-514d-4aa6-89e0-04a81fcb0b7b-NeuroPlay_Brettspielanleitungen_Quellenkatalog_v0.5.0.xlsx",
+  "structure": {
+    "sheets": [
+      "Übersicht",
+      "Verlage",
+      "Spiele und Anleitungen",
+      "Datenmodell",
+      "Top 200 Abgleich",
+      "Metadaten-Abgleich"
+    ],
+    "sheet_count": 6
+  },
+  "sheets": {
+    "Übersicht": {
+      "row_count": 27,
+      "column_count": 2,
+      "columns": [
+        {
+          "index": 1,
+          "name": "NeuroPlay – Quellenkatalog Brettspielanleitungen v0.5.0",
+          "letter": "A"
+        },
+        {
+          "index": 2,
+          "name": "Column_2",
+          "letter": "B"
+        }
+      ],
+      "data_types": {
+        "NeuroPlay – Quellenkatalog Brettspielanleitungen v0.5.0": {
+          "empty": 4,
+          "text": 22
+        },
+        "Column_2": {
+          "empty": 16,
+          "text": 3,
+          "number": 7
+        }
+      },
+      "empty_cells": 20,
+      "empty_cells_by_column": {
+        "NeuroPlay – Quellenkatalog Brettspielanleitungen v0.5.0": 4,
+        "Column_2": 16
+      },
+      "duplicates": {}
+    },
+    "Verlage": {
+      "row_count": 33,
+      "column_count": 10,
+      "columns": [
+        {
+          "index": 1,
+          "name": "Verlag-ID",
+          "letter": "A"
+        },
+        {
+          "index": 2,
+          "name": "Priorität",
+          "letter": "B"
+        },
+        {
+          "index": 3,
+          "name": "Verlag",
+          "letter": "C"
+        },
+        {
+          "index": 4,
+          "name": "Land",
+          "letter": "D"
+        },
+        {
+          "index": 5,
+          "name": "Startseite",
+          "letter": "E"
+        },
+        {
+          "index": 6,
+          "name": "Spieleübersicht",
+          "letter": "F"
+        },
+        {
+          "index": 7,
+          "name": "Anleitungsquelle",
+          "letter": "G"
+        },
+        {
+          "index": 8,
+          "name": "Relevanz",
+          "letter": "H"
+        },
+        {
+          "index": 9,
+          "name": "Status",
+          "letter": "I"
+        },
+        {
+          "index": 10,
+          "name": "Hinweis",
+          "letter": "J"
+        }
+      ],
+      "data_types": {
+        "Verlag-ID": {
+          "text": 32
+        },
+        "Priorität": {
+          "number": 32
+        },
+        "Verlag": {
+          "text": 32
+        },
+        "Land": {
+          "text": 32
+        },
+        "Startseite": {
+          "url": 32
+        },
+        "Spieleübersicht": {
+          "url": 32
+        },
+        "Anleitungsquelle": {
+          "text": 1,
+          "url": 31
+        },
+        "Relevanz": {
+          "text": 32
+        },
+        "Status": {
+          "text": 32
+        },
+        "Hinweis": {
+          "text": 32
+        }
+      },
+      "empty_cells": 0,
+      "empty_cells_by_column": {
+        "Verlag-ID": 0,
+        "Priorität": 0,
+        "Verlag": 0,
+        "Land": 0,
+        "Startseite": 0,
+        "Spieleübersicht": 0,
+        "Anleitungsquelle": 0,
+        "Relevanz": 0,
+        "Status": 0,
+        "Hinweis": 0
+      },
+      "duplicates": {
+        "Priorität": {
+          "1": 8,
+          "2": 4,
+          "3": 20
+        },
+        "Land": {
+          "Deutschland": 18,
+          "International": 4,
+          "Frankreich": 3
+        },
+        "Relevanz": {
+          "Sehr hoch": 9,
+          "Hoch": 20,
+          "Mittel": 3
+        },
+        "Status": {
+          "Begonnen": 7,
+          "Vorgemerkt": 4,
+          "Katalog erweitert": 20
+        }
+      }
+    },
+    "Spiele und Anleitungen": {
+      "row_count": 845,
+      "column_count": 17,
+      "columns": [
+        {
+          "index": 1,
+          "name": "Datensatz-ID",
+          "letter": "A"
+        },
+        {
+          "index": 2,
+          "name": "Verlag / Marke",
+          "letter": "B"
+        },
+        {
+          "index": 3,
+          "name": "Spiel",
+          "letter": "C"
+        },
+        {
+          "index": 4,
+          "name": "Kategorie",
+          "letter": "D"
+        },
+        {
+          "index": 5,
+          "name": "Sprache",
+          "letter": "E"
+        },
+        {
+          "index": 6,
+          "name": "Linktyp",
+          "letter": "F"
+        },
+        {
+          "index": 7,
+          "name": "Anleitung / Regelquelle",
+          "letter": "G"
+        },
+        {
+          "index": 8,
+          "name": "Produkt- oder Katalogseite",
+          "letter": "H"
+        },
+        {
+          "index": 9,
+          "name": "Artikelnummer / EAN",
+          "letter": "I"
+        },
+        {
+          "index": 10,
+          "name": "Prüfstatus",
+          "letter": "J"
+        },
+        {
+          "index": 11,
+          "name": "Geprüft am",
+          "letter": "K"
+        },
+        {
+          "index": 12,
+          "name": "Hinweis",
+          "letter": "L"
+        },
+        {
+          "index": 13,
+          "name": "Erscheinungsjahr",
+          "letter": "M"
+        },
+        {
+          "index": 14,
+          "name": "Kurzbeschreibung",
+          "letter": "N"
+        },
+        {
+          "index": 15,
+          "name": "Metadatenquelle",
+          "letter": "O"
+        },
+        {
+          "index": 16,
+          "name": "Metadatenstatus",
+          "letter": "P"
+        },
+        {
+          "index": 17,
+          "name": "Anleitungsstatus",
+          "letter": "Q"
+        }
+      ],
+      "data_types": {
+        "Datensatz-ID": {
+          "text": 844
+        },
+        "Verlag / Marke": {
+          "text": 844
+        },
+        "Spiel": {
+          "text": 844
+        },
+        "Kategorie": {
+          "text": 844
+        },
+        "Sprache": {
+          "text": 844
+        },
+        "Linktyp": {
+          "text": 844
+        },
+        "Anleitung / Regelquelle": {
+          "url": 292,
+          "empty": 552
+        },
+        "Produkt- oder Katalogseite": {
+          "url": 844
+        },
+        "Artikelnummer / EAN": {
+          "integer_string": 33,
+          "text": 1,
+          "empty": 810
+        },
+        "Prüfstatus": {
+          "text": 844
+        },
+        "Geprüft am": {
+          "text": 844
+        },
+        "Hinweis": {
+          "text": 844
+        },
+        "Erscheinungsjahr": {
+          "empty": 351,
+          "number": 493
+        },
+        "Kurzbeschreibung": {
+          "empty": 597,
+          "text": 247
+        },
+        "Metadatenquelle": {
+          "empty": 310,
+          "url": 534
+        },
+        "Metadatenstatus": {
+          "text": 844
+        },
+        "Anleitungsstatus": {
+          "text": 844
+        }
+      },
+      "empty_cells": 2620,
+      "empty_cells_by_column": {
+        "Datensatz-ID": 0,
+        "Verlag / Marke": 0,
+        "Spiel": 0,
+        "Kategorie": 0,
+        "Sprache": 0,
+        "Linktyp": 0,
+        "Anleitung / Regelquelle": 552,
+        "Produkt- oder Katalogseite": 0,
+        "Artikelnummer / EAN": 810,
+        "Prüfstatus": 0,
+        "Geprüft am": 0,
+        "Hinweis": 0,
+        "Erscheinungsjahr": 351,
+        "Kurzbeschreibung": 597,
+        "Metadatenquelle": 310,
+        "Metadatenstatus": 0,
+        "Anleitungsstatus": 0
+      },
+      "duplicates": {
+        "Verlag / Marke": {
+          "Schmidt Spiele": 31,
+          "HABA": 30,
+          "AMIGO": 26,
+          "Hans im Glück": 26,
+          "KOSMOS": 26,
+          "Pegasus Spiele": 26,
+          "Asmodee Deutschland / Libellud": 2,
+          "Asmodee Deutschland / Days of Wonder": 2,
+          "Asmodee Deutschland": 21,
+          "Ravensburger": 20,
+          "Feuerland Spiele": 20,
+          "Queen Games": 20,
+          "Nürnberger-Spielkarten-Verlag (NSV)": 20,
+          "Lookout Spiele": 20,
+          "Piatnik": 20,
+          "Mattel Games": 20,
+          "Hasbro Gaming": 20,
+          "Jumbo": 20,
+          "Zoch Verlag": 20,
+          "Noris-Spiele": 20,
+          "HUCH!": 20,
+          "moses. Verlag": 20,
+          "Drei Magier Spiele": 20,
+          "ABACUSSPIELE": 20,
+          "Oink Games": 20,
+          "Helvetiq": 20,
+          "Blue Orange Games": 20,
+          "IELLO": 20,
+          "Czech Games Edition": 20,
+          "Stonemaier Games": 20,
+          "Devir": 20,
+          "Ludonaute": 20,
+          "Bombyx": 20,
+          "Days of Wonder": 20,
+          "Mehrere / deutsche Ausgabe prüfen": 152
+        },
+        "Spiel": {
+          "Mogel Motte": 2,
+          "Carcassonne": 2,
+          "Die kleinen Zauberlehrlinge": 2,
+          "Dodelido": 2,
+          "Saboteur – Das Duell": 2,
+          "Kingdomino": 2,
+          "Kingdomino Origins": 2,
+          "Codenames": 2,
+          "Bohnanza": 2,
+          "Saboteur": 2,
+          "Scythe": 2,
+          "Tapestry": 2,
+          "Charterstone": 2,
+          "Pendulum": 2
+        },
+        "Kategorie": {
+          "Familienspiel": 76,
+          "Kinderspiel": 29,
+          "Kennerspiel": 47,
+          "Würfelspiel": 2,
+          "Kartenspiel": 51,
+          "Gesellschaftsspiel": 480,
+          "Top-200-Ranglistenspiel": 152
+        },
+        "Sprache": {
+          "Deutsch": 277,
+          "Mehrsprachig": 10,
+          "Deutsch/International": 400,
+          "Deutsch / Verfügbarkeit prüfen": 152
+        },
+        "Linktyp": {
+          "Direkt-PDF": 32,
+          "Regelkatalog-Eintrag": 10,
+          "Produktseite mit Regel": 6,
+          "Offizieller Verlagskatalog": 240,
+          "Offizielle Katalogseite": 400,
+          "BGG-Rangliste": 152
+        },
+        "Anleitung / Regelquelle": {
+          "https://www.haba-play.com/de-de/s/service-vorteile/spieleanleitungen-produktinfos/spieleanleitungen": 30,
+          "https://blog.amigo-spiele.de/spielregeln/": 21,
+          "https://pegasus.de/Produkte/Downloads/": 2,
+          "https://www.kosmos.de/collections/spiele": 20,
+          "https://www.ravensburger.de/de-DE/produkte/spiele": 20,
+          "https://www.schmidtspiele.de/spielanleitungen.html": 20,
+          "https://pegasus.de/Sortiment/Spiele/": 20,
+          "https://www.asmodee.de/produkte": 20,
+          "https://www.hans-im-glueck.de/spiele/": 20,
+          "https://www.feuerland-spiele.de/spiele/": 20,
+          "https://new.queen-games.com/de/spiele/": 20,
+          "https://www.nsv.de/spiele/": 20,
+          "https://www.lookout-spiele.de/de/games.php": 20
+        },
+        "Produkt- oder Katalogseite": {
+          "https://www.schmidtspiele.de/spielanleitungen.html": 32,
+          "https://www.haba-play.com/de-de/s/service-vorteile/spieleanleitungen-produktinfos/spieleanleitungen": 30,
+          "https://blog.amigo-spiele.de/spielregeln/": 26,
+          "https://www.kosmos.de/": 5,
+          "https://pegasus.de/Produkte/Downloads/": 2,
+          "https://pegasus.de/": 4,
+          "https://www.kosmos.de/collections/spiele": 20,
+          "https://www.ravensburger.de/de-DE/produkte/spiele": 20,
+          "https://pegasus.de/Sortiment/Spiele/": 20,
+          "https://www.asmodee.de/produkte": 20,
+          "https://www.hans-im-glueck.de/spiele/": 20,
+          "https://www.feuerland-spiele.de/spiele/": 20,
+          "https://new.queen-games.com/de/spiele/": 20,
+          "https://www.nsv.de/spiele/": 20,
+          "https://www.lookout-spiele.de/de/games.php": 20,
+          "https://www.piatnik.com/spiele/gesellschaftsspiele": 20,
+          "https://shopping.mattel.com/de-de/collections/games": 20,
+          "https://shop.hasbro.com/de-de/games": 20,
+          "https://jumboplay.com/de-de/collections/spiele": 20,
+          "https://www.zoch-verlag.com/zoch_de/kategorien/spiele/": 20,
+          "https://www.noris-spiele.de/noris_de/kategorien/spiele/": 20,
+          "https://hutter-trade.com/marken/huch/": 20,
+          "https://www.moses-verlag.de/Spiele/": 20,
+          "https://www.dreimagier.de/spiele/": 20,
+          "https://abacusspiele.de/spiele/": 20,
+          "https://oinkgames.com/en/games/": 20,
+          "https://helvetiq.com/ch_de/spiele": 20,
+          "https://www.blueorangegames.com/games/": 20,
+          "https://iello.fr/jeux/": 20,
+          "https://czechgames.com/en/games/": 20,
+          "https://stonemaiergames.com/games/": 20,
+          "https://devirgames.com/games": 20,
+          "https://ludonaute.fr/jeux/": 20,
+          "https://studiobombyx.com/en/games/": 20,
+          "https://www.daysofwonder.com/en/games/": 20,
+          "https://boardgamegeek.com/browse/boardgame/page/1": 72,
+          "https://boardgamegeek.com/browse/boardgame/page/2": 80
+        },
+        "Prüfstatus": {
+          "offiziell geprüft": 32,
+          "Katalog geprüft": 253,
+          "Produktseite geprüft": 7,
+          "Titel recherchiert – Einzelquelle offen": 400,
+          "Top-200-Abgleich – Einzelquelle offen": 152
+        },
+        "Geprüft am": {
+          "2026-07-24": 844
+        },
+        "Hinweis": {
+          "PDF erreichbar": 21,
+          "Mehrsprachige Anleitung": 3,
+          "Edition beachten": 2,
+          "Download im offiziellen Katalog": 10,
+          "Offizieller Regel-Download unter Zusatzmaterial": 4,
+          "Titel über offiziellen Verlags-/Spielekatalog belegt; konkrete Edition, Artikelnummer und Einzelanleitung noch separat prüfen": 240,
+          "Offizieller Verlagskatalog als Ausgangsquelle; Edition, Sprache, Artikelnummer/EAN und konkrete Regelquelle noch tiefenprüfen": 400
+        },
+        "Erscheinungsjahr": {
+          "1978": 2,
+          "1983": 2,
+          "1985": 2,
+          "1988": 2,
+          "1990": 2,
+          "1991": 2,
+          "1992": 3,
+          "1993": 2,
+          "1994": 2,
+          "1995": 2,
+          "1997": 9,
+          "1999": 4,
+          "2000": 6,
+          "2001": 2,
+          "2002": 6,
+          "2003": 7,
+          "2004": 10,
+          "2005": 8,
+          "2006": 5,
+          "2007": 10,
+          "2008": 12,
+          "2009": 8,
+          "2010": 9,
+          "2011": 15,
+          "2012": 13,
+          "2013": 11,
+          "2014": 26,
+          "2015": 37,
+          "2016": 38,
+          "2017": 53,
+          "2018": 40,
+          "2019": 49,
+          "2020": 45,
+          "2021": 34
+        },
+        "Kurzbeschreibung": {
+          "Gestalte die mittelalterliche Landschaft Frankreichs und beanspruche Städte, Klöster und Bauernhöfe.": 2,
+          "Finde die kleinen Spuren, um die großen Fälle zu lösen.": 2,
+          "Baue ein Königreich mit abwechslungsreichen Landschaften auf domino-förmigen Plättchen in diesem schnellen Familienspiel.": 2,
+          "Gib deinem Team clevere Hinweise, um eure Agenten im Feld zu finden.": 2,
+          "Baue Bohnen an, ernte Felder und handle clever, um in diesem Kartenspielklassiker reich zu werden.": 2,
+          "Fünf Fraktionen kämpfen um die Vorherrschaft in einem vom Krieg zerrissenen, mechgefüllten dieselpunkigen Europa der 1920er Jahre.": 2,
+          "Führe eine einzigartige Zivilisation durch kulturelle und technologische Fortschritte zur Größe.": 2
+        },
+        "Metadatenquelle": {
+          "https://boardgamegeek.com/boardgame/822": 2,
+          "https://boardgamegeek.com/boardgame/204583": 2,
+          "https://boardgamegeek.com/boardgame/340041": 2,
+          "https://boardgamegeek.com/boardgame/178900": 2,
+          "https://boardgamegeek.com/boardgame/11": 2,
+          "https://boardgamegeek.com/boardgame/9220": 2,
+          "https://boardgamegeek.com/boardgame/169786": 2,
+          "https://boardgamegeek.com/boardgame/286096": 2,
+          "https://boardgamegeek.com/boardgame/197376": 2,
+          "https://boardgamegeek.com/boardgame/312804": 2,
+          "https://boardgamegeek.com/boardgame/157354": 2
+        },
+        "Metadatenstatus": {
+          "Metadaten noch zu recherchieren": 311,
+          "Jahr und Kurzbeschreibung ergänzt": 207,
+          "Erscheinungsjahr ergänzt; Beschreibung offen": 286,
+          "Kurzbeschreibung ergänzt; Erscheinungsjahr offen": 40
+        },
+        "Anleitungsstatus": {
+          "Direktanleitung vorhanden": 31,
+          "Offizielle Spielseite mit Anleitung": 7,
+          "Offizielles Regelportal – Direktlink offen": 12,
+          "Einzelanleitung noch zu ergänzen": 641,
+          "Anleitung fehlt": 152
+        }
+      }
+    },
+    "Datenmodell": {
+      "row_count": 24,
+      "column_count": 6,
+      "columns": [
+        {
+          "index": 1,
+          "name": "Feld",
+          "letter": "A"
+        },
+        {
+          "index": 2,
+          "name": "Bedeutung",
+          "letter": "B"
+        },
+        {
+          "index": 3,
+          "name": "Pflicht im Zielmodell",
+          "letter": "C"
+        },
+        {
+          "index": 4,
+          "name": "Column_4",
+          "letter": "D"
+        },
+        {
+          "index": 5,
+          "name": "Column_5",
+          "letter": "E"
+        },
+        {
+          "index": 6,
+          "name": "Column_6",
+          "letter": "F"
+        }
+      ],
+      "data_types": {
+        "Feld": {
+          "text": 22,
+          "empty": 1
+        },
+        "Bedeutung": {
+          "text": 21,
+          "empty": 2
+        },
+        "Pflicht im Zielmodell": {
+          "text": 21,
+          "empty": 2
+        },
+        "Column_4": {
+          "empty": 17,
+          "text": 6
+        },
+        "Column_5": {
+          "empty": 17,
+          "text": 6
+        },
+        "Column_6": {
+          "empty": 17,
+          "text": 6
+        }
+      },
+      "empty_cells": 56,
+      "empty_cells_by_column": {
+        "Feld": 1,
+        "Bedeutung": 2,
+        "Pflicht im Zielmodell": 2,
+        "Column_4": 17,
+        "Column_5": 17,
+        "Column_6": 17
+      },
+      "duplicates": {
+        "Bedeutung": {
+          "Spiel": 3
+        },
+        "Pflicht im Zielmodell": {
+          "Ja": 9,
+          "Später ja": 4,
+          "Wenn vorhanden": 2,
+          "Status": 2
+        },
+        "Column_4": {
+          "Nein": 3,
+          "Ja": 2
+        },
+        "Column_5": {
+          "Ableitung": 2
+        }
+      }
+    },
+    "Top 200 Abgleich": {
+      "row_count": 201,
+      "column_count": 9,
+      "columns": [
+        {
+          "index": 1,
+          "name": "BGG-Rang",
+          "letter": "A"
+        },
+        {
+          "index": 2,
+          "name": "BGG-Titel",
+          "letter": "B"
+        },
+        {
+          "index": 3,
+          "name": "Katalogtitel vor Abgleich",
+          "letter": "C"
+        },
+        {
+          "index": 4,
+          "name": "Status vor Abgleich",
+          "letter": "D"
+        },
+        {
+          "index": 5,
+          "name": "Aktion v0.4.0",
+          "letter": "E"
+        },
+        {
+          "index": 6,
+          "name": "Status nach Abgleich",
+          "letter": "F"
+        },
+        {
+          "index": 7,
+          "name": "Ranglistenquelle",
+          "letter": "G"
+        },
+        {
+          "index": 8,
+          "name": "Geprüft am",
+          "letter": "H"
+        },
+        {
+          "index": 9,
+          "name": "DACH-Hinweis",
+          "letter": "I"
+        }
+      ],
+      "data_types": {
+        "BGG-Rang": {
+          "number": 200
+        },
+        "BGG-Titel": {
+          "text": 200
+        },
+        "Katalogtitel vor Abgleich": {
+          "empty": 152,
+          "text": 48
+        },
+        "Status vor Abgleich": {
+          "text": 200
+        },
+        "Aktion v0.4.0": {
+          "text": 200
+        },
+        "Status nach Abgleich": {
+          "text": 200
+        },
+        "Ranglistenquelle": {
+          "url": 200
+        },
+        "Geprüft am": {
+          "text": 200
+        },
+        "DACH-Hinweis": {
+          "text": 200
+        }
+      },
+      "empty_cells": 152,
+      "empty_cells_by_column": {
+        "BGG-Rang": 0,
+        "BGG-Titel": 0,
+        "Katalogtitel vor Abgleich": 152,
+        "Status vor Abgleich": 0,
+        "Aktion v0.4.0": 0,
+        "Status nach Abgleich": 0,
+        "Ranglistenquelle": 0,
+        "Geprüft am": 0,
+        "DACH-Hinweis": 0
+      },
+      "duplicates": {
+        "Katalogtitel vor Abgleich": {
+          "Great Western Trail": 2,
+          "Agricola": 2,
+          "7 Wonders": 2
+        },
+        "Status vor Abgleich": {
+          "fehlte": 152,
+          "vorhanden": 48
+        },
+        "Aktion v0.4.0": {
+          "neu übernommen": 152,
+          "keine Änderung": 48
+        },
+        "Status nach Abgleich": {
+          "im Katalog": 200
+        },
+        "Ranglistenquelle": {
+          "https://boardgamegeek.com/browse/boardgame/page/1": 100,
+          "https://boardgamegeek.com/browse/boardgame/page/2": 100
+        },
+        "Geprüft am": {
+          "2026-07-24": 200
+        },
+        "DACH-Hinweis": {
+          "Deutscher Verlag, Edition und Regelquelle noch einzeln zu verifizieren": 152,
+          "Titel-/Editionsabgleich durchgeführt": 48
+        }
+      }
+    },
+    "Metadaten-Abgleich": {
+      "row_count": 24,
+      "column_count": 4,
+      "columns": [
+        {
+          "index": 1,
+          "name": "NeuroPlay – Metadaten- und Anleitungsabgleich v0.5.0",
+          "letter": "A"
+        },
+        {
+          "index": 2,
+          "name": "Column_2",
+          "letter": "B"
+        },
+        {
+          "index": 3,
+          "name": "Column_3",
+          "letter": "C"
+        },
+        {
+          "index": 4,
+          "name": "Column_4",
+          "letter": "D"
+        }
+      ],
+      "data_types": {
+        "NeuroPlay – Metadaten- und Anleitungsabgleich v0.5.0": {
+          "empty": 5,
+          "text": 14,
+          "integer_string": 4
+        },
+        "Column_2": {
+          "empty": 5,
+          "text": 12,
+          "number": 6
+        },
+        "Column_3": {
+          "empty": 12,
+          "text": 11
+        },
+        "Column_4": {
+          "empty": 12,
+          "text": 11
+        }
+      },
+      "empty_cells": 34,
+      "empty_cells_by_column": {
+        "NeuroPlay – Metadaten- und Anleitungsabgleich v0.5.0": 5,
+        "Column_2": 5,
+        "Column_3": 12,
+        "Column_4": 12
+      },
+      "duplicates": {
+        "Column_4": {
+          "offen": 4
+        }
+      }
+    }
+  },
+  "statistics": {
+    "Übersicht": {
+      "data_rows": 26,
+      "columns": 2,
+      "total_cells": 54,
+      "empty_cells_count": 20,
+      "empty_cells_percentage": 37.04
+    },
+    "Verlage": {
+      "data_rows": 32,
+      "columns": 10,
+      "total_cells": 330,
+      "empty_cells_count": 0,
+      "empty_cells_percentage": 0
+    },
+    "Spiele und Anleitungen": {
+      "data_rows": 844,
+      "columns": 17,
+      "total_cells": 14365,
+      "empty_cells_count": 2620,
+      "empty_cells_percentage": 18.24
+    },
+    "Datenmodell": {
+      "data_rows": 23,
+      "columns": 6,
+      "total_cells": 144,
+      "empty_cells_count": 56,
+      "empty_cells_percentage": 38.89
+    },
+    "Top 200 Abgleich": {
+      "data_rows": 200,
+      "columns": 9,
+      "total_cells": 1809,
+      "empty_cells_count": 152,
+      "empty_cells_percentage": 8.4
+    },
+    "Metadaten-Abgleich": {
+      "data_rows": 23,
+      "columns": 4,
+      "total_cells": 96,
+      "empty_cells_count": 34,
+      "empty_cells_percentage": 35.42
+    }
+  },
+  "quality_issues": [],
+  "samples": {
+    "Übersicht": [
+      {
+        "NeuroPlay – Quellenkatalog Brettspielanleitungen v0.5.0": null,
+        "Column_2": null
+      },
+      {
+        "NeuroPlay – Quellenkatalog Brettspielanleitungen v0.5.0": "Kennzahl",
+        "Column_2": "Stand"
+      },
+      {
+        "NeuroPlay – Quellenkatalog Brettspielanleitungen v0.5.0": "Priorisierte Verlage",
+        "Column_2": 32
+      }
+    ],
+    "Verlage": [
+      {
+        "Verlag-ID": "P01",
+        "Priorität": 1,
+        "Verlag": "KOSMOS",
+        "Land": "Deutschland",
+        "Startseite": "https://www.kosmos.de/",
+        "Spieleübersicht": "https://www.kosmos.de/collections/spiele",
+        "Anleitungsquelle": "Produktseiten und CMS-PDFs",
+        "Relevanz": "Sehr hoch",
+        "Status": "Begonnen",
+        "Hinweis": "Großes Familien-, Kenner-, Kinder- und EXIT-Programm"
+      },
+      {
+        "Verlag-ID": "P02",
+        "Priorität": 1,
+        "Verlag": "Ravensburger",
+        "Land": "Deutschland",
+        "Startseite": "https://www.ravensburger.de/de-DE",
+        "Spieleübersicht": "https://www.ravensburger.de/de-DE/produkte/spiele",
+        "Anleitungsquelle": "https://www.ravensburger.de/de-DE/service/spielanleitungen",
+        "Relevanz": "Sehr hoch",
+        "Status": "Portal erfasst",
+        "Hinweis": "Zentrale Suchseite, PDF-Link wird dynamisch ermittelt"
+      },
+      {
+        "Verlag-ID": "P03",
+        "Priorität": 1,
+        "Verlag": "Schmidt Spiele",
+        "Land": "Deutschland",
+        "Startseite": "https://www.schmidtspiele.de/",
+        "Spieleübersicht": "https://www.schmidtspiele.de/produkte.html",
+        "Anleitungsquelle": "https://www.schmidtspiele.de/spielanleitungen.html",
+        "Relevanz": "Sehr hoch",
+        "Status": "Begonnen",
+        "Hinweis": "Sehr gut erschließbares zentrales Regelarchiv"
+      }
+    ],
+    "Spiele und Anleitungen": [
+      {
+        "Datensatz-ID": "G0001",
+        "Verlag / Marke": "Schmidt Spiele",
+        "Spiel": "Kniffel",
+        "Kategorie": "Familienspiel",
+        "Sprache": "Deutsch",
+        "Linktyp": "Direkt-PDF",
+        "Anleitung / Regelquelle": "https://www.schmidtspiele.de/files/Produkte/4/49030%20-%20Kniffel/49030_Kniffel_DE.pdf",
+        "Produkt- oder Katalogseite": "https://www.schmidtspiele.de/spielanleitungen.html",
+        "Artikelnummer / EAN": "49030",
+        "Prüfstatus": "offiziell geprüft",
+        "Geprüft am": "2026-07-24",
+        "Hinweis": "PDF erreichbar",
+        "Erscheinungsjahr": null,
+        "Kurzbeschreibung": null,
+        "Metadatenquelle": null,
+        "Metadatenstatus": "Metadaten noch zu recherchieren",
+        "Anleitungsstatus": "Direktanleitung vorhanden"
+      },
+      {
+        "Datensatz-ID": "G0002",
+        "Verlag / Marke": "Schmidt Spiele",
+        "Spiel": "Geistertreppe",
+        "Kategorie": "Kinderspiel",
+        "Sprache": "DE/FR/GB/IT",
+        "Linktyp": "Direkt-PDF",
+        "Anleitung / Regelquelle": "https://www.schmidtspiele.de/files/Retail/72dpi_PNG/40811_Geistertreppe_DE_FR_GB_IT.pdf",
+        "Produkt- oder Katalogseite": "https://www.schmidtspiele.de/spielanleitungen.html",
+        "Artikelnummer / EAN": "40811",
+        "Prüfstatus": "offiziell geprüft",
+        "Geprüft am": "2026-07-24",
+        "Hinweis": "Mehrsprachige Anleitung",
+        "Erscheinungsjahr": null,
+        "Kurzbeschreibung": null,
+        "Metadatenquelle": null,
+        "Metadatenstatus": "Metadaten noch zu recherchieren",
+        "Anleitungsstatus": "Direktanleitung vorhanden"
+      },
+      {
+        "Datensatz-ID": "G0003",
+        "Verlag / Marke": "Schmidt Spiele",
+        "Spiel": "Tippi Toppi",
+        "Kategorie": "Familienspiel",
+        "Sprache": "Deutsch",
+        "Linktyp": "Direkt-PDF",
+        "Anleitung / Regelquelle": "https://www.schmidtspiele.de/files/Produkte/7/75051%20-%20Tippi%20Toppi/75051_Tippi_Toppi_DE.pdf",
+        "Produkt- oder Katalogseite": "https://www.schmidtspiele.de/spielanleitungen.html",
+        "Artikelnummer / EAN": "75051",
+        "Prüfstatus": "offiziell geprüft",
+        "Geprüft am": "2026-07-24",
+        "Hinweis": "PDF erreichbar",
+        "Erscheinungsjahr": null,
+        "Kurzbeschreibung": null,
+        "Metadatenquelle": null,
+        "Metadatenstatus": "Metadaten noch zu recherchieren",
+        "Anleitungsstatus": "Direktanleitung vorhanden"
+      }
+    ],
+    "Datenmodell": [
+      {
+        "Feld": "publisher_id",
+        "Bedeutung": "Stabile interne Kennung des Verlags",
+        "Pflicht im Zielmodell": "Ja",
+        "Column_4": null,
+        "Column_5": null,
+        "Column_6": null
+      },
+      {
+        "Feld": "publisher_name",
+        "Bedeutung": "Verlag bzw. verantwortliche Marke",
+        "Pflicht im Zielmodell": "Ja",
+        "Column_4": null,
+        "Column_5": null,
+        "Column_6": null
+      },
+      {
+        "Feld": "game_title",
+        "Bedeutung": "Titel des Spiels",
+        "Pflicht im Zielmodell": "Ja",
+        "Column_4": null,
+        "Column_5": null,
+        "Column_6": null
+      }
+    ],
+    "Top 200 Abgleich": [
+      {
+        "BGG-Rang": 1,
+        "BGG-Titel": "Brass: Birmingham",
+        "Katalogtitel vor Abgleich": null,
+        "Status vor Abgleich": "fehlte",
+        "Aktion v0.4.0": "neu übernommen",
+        "Status nach Abgleich": "im Katalog",
+        "Ranglistenquelle": "https://boardgamegeek.com/browse/boardgame/page/1",
+        "Geprüft am": "2026-07-24",
+        "DACH-Hinweis": "Deutscher Verlag, Edition und Regelquelle noch einzeln zu verifizieren"
+      },
+      {
+        "BGG-Rang": 2,
+        "BGG-Titel": "Ark Nova",
+        "Katalogtitel vor Abgleich": "Arche Nova",
+        "Status vor Abgleich": "vorhanden",
+        "Aktion v0.4.0": "keine Änderung",
+        "Status nach Abgleich": "im Katalog",
+        "Ranglistenquelle": "https://boardgamegeek.com/browse/boardgame/page/1",
+        "Geprüft am": "2026-07-24",
+        "DACH-Hinweis": "Titel-/Editionsabgleich durchgeführt"
+      },
+      {
+        "BGG-Rang": 3,
+        "BGG-Titel": "Pandemic Legacy: Season 1",
+        "Katalogtitel vor Abgleich": null,
+        "Status vor Abgleich": "fehlte",
+        "Aktion v0.4.0": "neu übernommen",
+        "Status nach Abgleich": "im Katalog",
+        "Ranglistenquelle": "https://boardgamegeek.com/browse/boardgame/page/1",
+        "Geprüft am": "2026-07-24",
+        "DACH-Hinweis": "Deutscher Verlag, Edition und Regelquelle noch einzeln zu verifizieren"
+      }
+    ],
+    "Metadaten-Abgleich": [
+      {
+        "NeuroPlay – Metadaten- und Anleitungsabgleich v0.5.0": null,
+        "Column_2": null,
+        "Column_3": null,
+        "Column_4": null
+      },
+      {
+        "NeuroPlay – Metadaten- und Anleitungsabgleich v0.5.0": "Kennzahl",
+        "Column_2": "Stand",
+        "Column_3": null,
+        "Column_4": null
+      },
+      {
+        "NeuroPlay – Metadaten- und Anleitungsabgleich v0.5.0": "Katalogeinträge",
+        "Column_2": 844,
+        "Column_3": null,
+        "Column_4": null
+      }
+    ]
+  }
+}

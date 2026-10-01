@@ -1,0 +1,17 @@
+{
+  "answers": {
+    "decisions": 4,
+    "effort": 3,
+    "energy": 3,
+    "flexibility": 4,
+    "sensitivity": 4
+  },
+  "collectionId": "pbc_1562851765",
+  "collectionName": "checkin_results",
+  "created": "2026-07-23 12:02:40.716Z",
+  "id": "9bgwohyl1tf4sd6",
+  "score": 18,
+  "session_date": "2026-07-23",
+  "updated": "2026-07-23 12:02:40.716Z",
+  "zone": "meer"
+}

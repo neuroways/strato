@@ -1,0 +1,480 @@
+{
+  "fragen": [
+    {
+      "id": "q1-01",
+      "titel": "Gerätekategorie: Klangerzeuger",
+      "frage": "Der Roland JV-1010 erzeugt Klang aus MIDI-Befehlen. Welche Kategorie gehört er an?",
+      "aufgabentyp": "kategorisierung",
+      "schwierigkeitsstufe": 1,
+      "themenIds": ["geräte", "audio-midi"],
+      "geräteIds": ["roland-jv1010"],
+      "antworten": [
+        {
+          "id": "a1",
+          "text": "Klangerzeuger",
+          "korrekt": true,
+          "feedback": "Richtig! Der JV-1010 empfängt MIDI-Spielbefehle und erzeugt daraus hörbares Audio. Er ist ein reiner Klangerzeuger ohne eigene Tastatur."
+        },
+        {
+          "id": "a2",
+          "text": "Lautsprecher",
+          "korrekt": false,
+          "warumNichtKorrekt": "Lautsprecher geben Audio aus. Der JV-1010 erzeugt Audio. Das ist ein großer Unterschied."
+        },
+        {
+          "id": "a3",
+          "text": "Mischpult",
+          "korrekt": false,
+          "warumNichtKorrekt": "Ein Mischpult sammelt und verteilt Audio. Der JV-1010 erzeugt Audio aus MIDI."
+        },
+        {
+          "id": "a4",
+          "text": "Steuergerät",
+          "korrekt": false,
+          "warumNichtKorrekt": "Ein Steuergerät bedient andere Geräte. Der JV-1010 wird selbst von anderen Geräten gesteuert."
+        }
+      ],
+      "richtigeAntwortIds": ["a1"],
+      "mehrereAntwortenMöglich": false,
+      "lösungserklärung": "Klangerzeuger empfangen MIDI und machen daraus hörbaren Klang. Das ist genau die Aufgabe des JV-1010.",
+      "hinweis": "Denk daran: MIDI ist keine Musik, sondern eine Spielanweisung.",
+      "geräteIds": ["roland-jv1010"],
+      "lernmodulIds": ["audio", "midi"],
+      "bestätigungsstatus": "bestätigt",
+      "aktiv": true,
+      "erstelltAm": "2026-07-27T00:00:00Z",
+      "geändertAm": "2026-07-27T00:00:00Z"
+    },
+    {
+      "id": "q1-02",
+      "titel": "Audio und MIDI unterscheiden",
+      "frage": "Was wird bei einer MIDI-Aufnahme gespeichert?",
+      "aufgabentyp": "audio-midi",
+      "schwierigkeitsstufe": 1,
+      "themenIds": ["audio-midi", "aufnahme"],
+      "antworten": [
+        {
+          "id": "a1",
+          "text": "Der fertige Klang",
+          "korrekt": false,
+          "warumNichtKorrekt": "Das ist Audio-Aufnahme, nicht MIDI. Audio speichert den hörbaren Sound."
+        },
+        {
+          "id": "a2",
+          "text": "Gespielte Noten und Steuerinformationen",
+          "korrekt": true,
+          "feedback": "Genau! MIDI speichert, welche Tasten wann und wie fest gespielt wurden. Der Klang wird später von einem Instrument erzeugt."
+        },
+        {
+          "id": "a3",
+          "text": "Nur die Lautstärke",
+          "korrekt": false,
+          "warumNichtKorrekt": "MIDI speichert viel mehr als nur Lautstärke – Noten, Timing, Anschlagstärke und noch mehr."
+        },
+        {
+          "id": "a4",
+          "text": "Das Mikrofonbild",
+          "korrekt": false,
+          "warumNichtKorrekt": "Das ist Audio. MIDI und Mikrofon haben nichts miteinander zu tun."
+        }
+      ],
+      "richtigeAntwortIds": ["a2"],
+      "mehrereAntwortenMöglich": false,
+      "lösungserklärung": "MIDI = Spielanweisung. Audio = hörbarer Klang. Das ist der Unterschied!",
+      "hinweis": "MIDI speichert Information, nicht Sound.",
+      "lernmodulIds": ["audio", "midi"],
+      "bestätigungsstatus": "bestätigt",
+      "aktiv": true,
+      "erstelltAm": "2026-07-27T00:00:00Z",
+      "geändertAm": "2026-07-27T00:00:00Z"
+    },
+    {
+      "id": "q1-03",
+      "titel": "Verbindung verstehen",
+      "frage": "Das Kawai ES920 ist ein Keyboard. Wohin führt sein MIDI-Ausgang?",
+      "aufgabentyp": "verbindung",
+      "schwierigkeitsstufe": 1,
+      "themenIds": ["verbindungen", "audio-midi"],
+      "geräteIds": ["kawai-es920", "roland-jv1010"],
+      "antworten": [
+        {
+          "id": "a1",
+          "text": "Zu einem Synthesizer oder Soundmodul",
+          "korrekt": true,
+          "feedback": "Richtig! Der MIDI-Ausgang steuert andere Instrumente wie den JV-1010. Das Kawai liefert die Spielanweisung, der JV-1010 macht den Klang."
+        },
+        {
+          "id": "a2",
+          "text": "Zu einem Lautsprecher",
+          "korrekt": false,
+          "warumNichtKorrekt": "Lautsprecher brauchen Audio, nicht MIDI. MIDI ist nur Datenfluss, kein Klang."
+        },
+        {
+          "id": "a3",
+          "text": "Zu einem Mikrofon",
+          "korrekt": false,
+          "warumNichtKorrekt": "Mikrofone nehmen Sound auf. Sie brauchen kein MIDI."
+        },
+        {
+          "id": "a4",
+          "text": "Zu einem Mischpult",
+          "korrekt": false,
+          "warumNichtKorrekt": "Ein Mischpult braucht Audio, nicht MIDI. (Es sei denn, das Pult hat spezielle MIDI-Eingänge, aber das ist selten.)"
+        }
+      ],
+      "richtigeAntwortIds": ["a1"],
+      "mehrereAntwortenMöglich": false,
+      "lösungserklärung": "MIDI-Ausgänge führen zu Instrumenten, die aus den Spielanweisungen Klang machen.",
+      "lernmodulIds": ["midi"],
+      "bestätigungsstatus": "bestätigt",
+      "aktiv": true,
+      "erstelltAm": "2026-07-27T00:00:00Z",
+      "geändertAm": "2026-07-27T00:00:00Z"
+    },
+    {
+      "id": "q1-04",
+      "titel": "Aufnahmeart: Audio vs MIDI",
+      "frage": "Du hast Klavier auf dem Kawai ES920 gespielt und möchtest es jetzt aufnehmen. Welche Aufnahmeart ist sinnvoll?",
+      "aufgabentyp": "aufnahme",
+      "schwierigkeitsstufe": 1,
+      "themenIds": ["aufnahme", "audio-midi"],
+      "geräteIds": ["kawai-es920"],
+      "antworten": [
+        {
+          "id": "a1",
+          "text": "Audio-Aufnahme",
+          "korrekt": true,
+          "feedback": "Ja! Der echte Klavierklang des Kawai wird gespeichert. Die Aufnahme klingt genauso, wie es gerade klang."
+        },
+        {
+          "id": "a2",
+          "text": "MIDI-Aufnahme",
+          "korrekt": true,
+          "feedback": "Auch gut! Du speicherst, welche Tasten du wann gespielt hast. Später kannst du den Sound ändern oder Fehler korrigieren."
+        },
+        {
+          "id": "a3",
+          "text": "Beides zusammen",
+          "korrekt": true,
+          "feedback": "Perfekt! Das ist die professionelle Lösung. Du hast den echten Klang UND die Kontrolle über die Noten."
+        },
+        {
+          "id": "a4",
+          "text": "Keine der Optionen",
+          "korrekt": false,
+          "warumNichtKorrekt": "Das Kawai ist ein Instrument. Es hat Audio. Es kann MIDI senden. Beide Aufnahmearten passen."
+        }
+      ],
+      "richtigeAntwortIds": ["a1", "a2", "a3"],
+      "mehrereAntwortenMöglich": true,
+      "lösungserklärung": "Audio und MIDI-Aufnahme haben unterschiedliche Vorteile. Du kannst beide gleichzeitig machen!",
+      "lernmodulIds": ["aufnahme"],
+      "bestätigungsstatus": "bestätigt",
+      "aktiv": true,
+      "erstelltAm": "2026-07-27T00:00:00Z",
+      "geändertAm": "2026-07-27T00:00:00Z"
+    },
+    {
+      "id": "q1-05",
+      "titel": "Sampler verstehen",
+      "frage": "Der Akai S2000 ist ein Sampler. Was macht er?",
+      "aufgabentyp": "kategorisierung",
+      "schwierigkeitsStufe": 1,
+      "themenIds": ["geräte", "sampler"],
+      "geräteIds": ["akai-s2000"],
+      "antworten": [
+        {
+          "id": "a1",
+          "text": "Er nimmt Klänge auf, speichert sie und spielt sie wieder ab",
+          "korrekt": true,
+          "feedback": "Genau! Ein Sampler ist wie ein digitales Aufnahmegerät. Du kannst jeden Sound aufnehmen und dann mit MIDI auf verschiedenen Tonhöhen spielen."
+        },
+        {
+          "id": "a2",
+          "text": "Er erzeugt Klänge selbst",
+          "korrekt": false,
+          "warumNichtKorrekt": "Das tut ein Synthesizer. Ein Sampler arbeitet mit aufgenommenen Klängen."
+        },
+        {
+          "id": "a3",
+          "text": "Er verteilt Audio-Signale",
+          "korrekt": false,
+          "warumNichtKorrekt": "Das ist die Aufgabe eines Mischpults oder Verteilers, nicht eines Samplers."
+        },
+        {
+          "id": "a4",
+          "text": "Er speichert nur MIDI",
+          "korrekt": false,
+          "warumNichtKorrekt": "Ein Sampler speichert Audio – echte Klänge, nicht nur MIDI-Noten."
+        }
+      ],
+      "richtigeAntwortIds": ["a1"],
+      "mehrereAntwortenMöglich": false,
+      "lösungserklärung": "Sampler = Record + Playback. Du kannst jeden Sound aufnehmen und ihn dann spielen.",
+      "lernmodulIds": ["sampler"],
+      "bestätigungsstatus": "bestätigt",
+      "aktiv": true,
+      "erstelltAm": "2026-07-27T00:00:00Z",
+      "geändertAm": "2026-07-27T00:00:00Z"
+    },
+    {
+      "id": "q2-01",
+      "titel": "X32: Eingänge und Kanäle",
+      "frage": "Am Behringer X32 ist ein Audio-Signal angekommen. Du siehst den Pegel im Kanal. Was ist der nächste Schritt zum Hören?",
+      "aufgabentyp": "x32",
+      "schwierigkeitsStufe": 2,
+      "themenIds": ["x32", "verbindungen"],
+      "geräteIds": ["behringer-x32"],
+      "antworten": [
+        {
+          "id": "a1",
+          "text": "Das Signal zu Main LR routen und den Fader öffnen",
+          "korrekt": true,
+          "feedback": "Genau! Ein Pegel bedeutet nur, dass das Signal ankommt. Um es zu hören, muss es zu Main LR (dem Hauptausgang) gehen und der Fader muss oben sein."
+        },
+        {
+          "id": "a2",
+          "text": "Direkt die Lautstärke erhöhen",
+          "korrekt": false,
+          "warumNichtKorrekt": "Das reicht nicht. Das Signal muss zuerst zu Main LR. Ohne Routing höre ich nichts."
+        },
+        {
+          "id": "a3",
+          "text": "Das MIDI-Gerät verbinden",
+          "korrekt": false,
+          "warumNichtKorrekt": "Das ist Audio, nicht MIDI. MIDI hat hier nichts zu tun."
+        },
+        {
+          "id": "a4",
+          "text": "Den Kanal aufnehmen",
+          "korrekt": false,
+          "warumNichtKorrekt": "Erst muss ich es hören können, dann kann ich es aufnehmen."
+        }
+      ],
+      "richtigeAntwortIds": ["a1"],
+      "mehrereAntwortenMöglich": false,
+      "lösungserklärung": "Pegel ≠ Klang. Der Klang kommt erst, wenn das Signal zu Main LR geroutet ist.",
+      "hinweis": "Das ist die häufigste Fehlerquelle im Studio: Pegel vorhanden, aber kein Ton.",
+      "lernmodulIds": ["x32"],
+      "bestätigungsstatus": "bestätigt",
+      "aktiv": true,
+      "erstelltAm": "2026-07-27T00:00:00Z",
+      "geändertAm": "2026-07-27T00:00:00Z"
+    },
+    {
+      "id": "q2-02",
+      "titel": "Kabel auswählen",
+      "frage": "Welches Kabel verbindest du zwischen der MIDI Out des Kawai ES920 und dem MIDI In des Yamaha TG500?",
+      "aufgabentyp": "kabel",
+      "schwierigkeitsStufe": 2,
+      "themenIds": ["verbindungen", "kabel"],
+      "geräteIds": ["kawai-es920", "yamaha-tg500"],
+      "antworten": [
+        {
+          "id": "a1",
+          "text": "DIN-MIDI-Kabel",
+          "korrekt": true,
+          "feedback": "Richtig! Das ist der Klassiker. 5-pin DIN MIDI ist der Standard für MIDI-Verbindungen zwischen Instrumenten."
+        },
+        {
+          "id": "a2",
+          "text": "USB-Kabel",
+          "korrekt": false,
+          "warumNichtKorrekt": "USB-MIDI ist nur für Computer und USB-fähige Geräte. Das TG500 hat kein USB."
+        },
+        {
+          "id": "a3",
+          "text": "XLR-Kabel",
+          "korrekt": false,
+          "warumNichtKorrekt": "XLR ist für Audio. MIDI braucht ein eigenes Kabel."
+        },
+        {
+          "id": "a4",
+          "text": "Klinken-Kabel",
+          "korrekt": false,
+          "warumNichtKorrekt": "Klinken-Kabel sind für Audio, nicht MIDI."
+        }
+      ],
+      "richtigeAntwortIds": ["a1"],
+      "mehrereAntwortenMöglich": false,
+      "lösungserklärung": "MIDI braucht 5-pin DIN Kabel. Das ist der Standard seit Jahrzehnten.",
+      "lernmodulIds": ["midi"],
+      "bestätigungsstatus": "bestätigt",
+      "aktiv": true,
+      "erstelltAm": "2026-07-27T00:00:00Z",
+      "geändertAm": "2026-07-27T00:00:00Z"
+    },
+    {
+      "id": "q2-03",
+      "titel": "Fehlersuche: Kein Ton",
+      "frage": "Das TG500 wird vom Kawai gesteuert. Du siehst am X32 einen Pegel, aber auf den Lautsprechern ist nichts zu hören. Was ist wahrscheinlich falsch?",
+      "aufgabentyp": "fehler",
+      "schwierigkeitsStufe": 2,
+      "themenIds": ["fehlersuche", "x32"],
+      "geräteIds": ["yamaha-tg500", "kawai-es920", "behringer-x32"],
+      "antworten": [
+        {
+          "id": "a1",
+          "text": "Der Kanal ist nicht auf Main LR geroutet",
+          "korrekt": true,
+          "feedback": "Das ist die wahrscheinlichste Ursache. Der Pegel zeigt, dass das Signal ankommt, aber es geht nicht zum Hauptausgang."
+        },
+        {
+          "id": "a2",
+          "text": "Der Kanal ist stummgeschaltet (Mute)",
+          "korrekt": true,
+          "feedback": "Auch möglich! Schau nach der Mute-Taste des Kanals."
+        },
+        {
+          "id": "a3",
+          "text": "Main LR ist nicht aktiviert",
+          "korrekt": true,
+          "feedback": "Gut gedacht! Wenn Main LR-Fader auf Minimum ist oder Mute aktiv, höre ich nichts."
+        },
+        {
+          "id": "a4",
+          "text": "Das Kabel ist defekt",
+          "korrekt": false,
+          "warumNichtKorrekt": "Wahrscheinlicher ist ein Routing-Fehler. Teste erst, bevor du das Kabel verdächtigst."
+        }
+      ],
+      "richtigeAntwortIds": ["a1", "a2", "a3"],
+      "mehrereAntwortenMöglich": true,
+      "lösungserklärung": "Bei Audio-Problemen: Erst Routing prüfen, dann Mute und Fader, dann Kabel verdächtigen.",
+      "lernmodulIds": ["x32"],
+      "bestätigungsstatus": "bestätigt",
+      "aktiv": true,
+      "erstelltAm": "2026-07-27T00:00:00Z",
+      "geändertAm": "2026-07-27T00:00:00Z"
+    },
+    {
+      "id": "q3-01",
+      "titel": "X32-Routing verstehen",
+      "frage": "Du willst 3 verschiedene Synthesizer gleichzeitig im Studio abhören: JV-1010 auf Kanal 3, TG500 auf Kanal 5, und später noch den Sampler. Wie stellst du das auf dem X32 ein?",
+      "aufgabentyp": "x32",
+      "schwierigkeitsStufe": 3,
+      "themenIds": ["x32", "routing"],
+      "geräteIds": ["behringer-x32", "roland-jv1010", "yamaha-tg500", "akai-s2000"],
+      "antworten": [
+        {
+          "id": "a1",
+          "text": "Alle drei Kanäle auf Main LR routen",
+          "korrekt": true,
+          "feedback": "Genau! Alle Kanäle gehen zum Main LR-Bus. Das ist der Hauptmischbus, den man hört."
+        },
+        {
+          "id": "a2",
+          "text": "Jeder auf einen eigenen separaten Ausgang",
+          "korrekt": false,
+          "warumNichtKorrekt": "Du wolltest sie gleichzeitig abhören, nicht nacheinander auf verschiedene Ausgänge."
+        },
+        {
+          "id": "a3",
+          "text": "Alle auf einen Aux-Bus",
+          "korrekt": false,
+          "warumNichtKorrekt": "Aux-Busse sind für Kopfhörer oder spezielle Aufnahmen. Main LR ist die normale Lösung."
+        },
+        {
+          "id": "a4",
+          "text": "Keinen Routing – die Kanäle sind automatisch gekoppelt",
+          "korrekt": false,
+          "warumNichtKorrekt": "Beim X32 muss ich das Routing aktiv einrichten. Nichts ist automatisch gekoppelt."
+        }
+      ],
+      "richtigeAntwortIds": ["a1"],
+      "mehrereAntwortenMöglich": false,
+      "lösungserklärung": "Main LR sammelt alle Kanäle, die du dorthin routest. Das ist die Standard-Mischung.",
+      "lernmodulIds": ["x32"],
+      "bestätigungsstatus": "bestätigt",
+      "aktiv": true,
+      "erstelltAm": "2026-07-27T00:00:00Z",
+      "geändertAm": "2026-07-27T00:00:00Z"
+    },
+    {
+      "id": "q3-02",
+      "titel": "Unmögliche Verbindung erkennen",
+      "frage": "Warum kannst du die MIDI Out des Kawai NICHT direkt mit einem Lautsprecher verbinden?",
+      "aufgabentyp": "unmöglich",
+      "schwierigkeitsStufe": 3,
+      "themenIds": ["verbindungen", "audio-midi"],
+      "geräteIds": ["kawai-es920"],
+      "antworten": [
+        {
+          "id": "a1",
+          "text": "MIDI ist eine Datenleitung, kein hörbarer Klang. Lautsprecher brauchen Audio.",
+          "korrekt": true,
+          "feedback": "Exakt! Das ist der fundamentale Unterschied. MIDI = Spielanweisung. Audio = hörbarer Klang."
+        },
+        {
+          "id": "a2",
+          "text": "Das Kabel ist zu kurz",
+          "korrekt": false,
+          "warumNichtKorrekt": "Das ist kein physisches Problem. Das Gerät ist fundamental inkompatibel."
+        },
+        {
+          "id": "a3",
+          "text": "Der Stecker passt nicht",
+          "korrekt": false,
+          "warumNichtKorrekt": "Manchmal passen Stecker nicht, aber das ist nicht die hauptsächliche Ursache. Das Hauptproblem ist das Signal selbst."
+        },
+        {
+          "id": "a4",
+          "text": "Du brauchst zuerst den X32",
+          "korrekt": false,
+          "warumNichtKorrekt": "Auch ohne X32: MIDI bleibt MIDI. Ein Lautsprecher kann es nicht verstehen."
+        }
+      ],
+      "richtigeAntwortIds": ["a1"],
+      "mehrereAntwortenMöglich": false,
+      "lösungserklärung": "Die wichtigste Faustregel: MIDI-Ausgänge führen zu Instrumenten, nicht zu Lautsprechern.",
+      "lernmodulIds": ["midi"],
+      "bestätigungsstatus": "bestätigt",
+      "aktiv": true,
+      "erstelltAm": "2026-07-27T00:00:00Z",
+      "geändertAm": "2026-07-27T00:00:00Z"
+    },
+    {
+      "id": "q4-01",
+      "titel": "Kompletter Signalweg",
+      "frage": "Ordne die Stationen richtig: Eine Schülerin spielt Synthesizer-Pads auf dem Kawai, will sie aufnehmen und gleichzeitig über Kopfhörer hören.",
+      "aufgabentyp": "signalweg",
+      "schwierigkeitsStufe": 4,
+      "themenIds": ["signalfluss", "aufnahme", "x32"],
+      "geräteIds": ["kawai-es920", "behringer-x32", "macbook-pro"],
+      "antworten": [
+        {
+          "id": "a1",
+          "text": "Kawai Audio → X32 Kanal 1 → Main LR → Lautsprecher (Monitoring). X32 USB → Cubase → Aufnahme.",
+          "korrekt": true,
+          "feedback": "Perfekt! Das ist die professionelle Studio-Lösung. Audio zum Mischpult, von dort zum Monitoring UND zur Aufnahme."
+        },
+        {
+          "id": "a2",
+          "text": "Kawai Audio → direkt zu Cubase → Kopfhörer",
+          "korrekt": false,
+          "warumNichtKorrekt": "Das X32 ist das Zentralhirn. Der Klang geht immer durchs Mischpult, nicht daran vorbei."
+        },
+        {
+          "id": "a3",
+          "text": "Kawai Audio → Kopfhörer → X32 → Cubase",
+          "korrekt": false,
+          "warumNichtKorrekt": "Die Reihenfolge ist falsch. Kopfhörer kommen NACH dem Mischpult, nicht davor."
+        },
+        {
+          "id": "a4",
+          "text": "Kawai MIDI → X32 → Cubase USB",
+          "korrekt": false,
+          "warumNichtKorrekt": "Das ist ein MIDI-Fluss, nicht Audio. Die Kawai sendet hier Audio, nicht nur MIDI."
+        }
+      ],
+      "richtigeAntwortIds": ["a1"],
+      "mehrereAntwortenMöglich": false,
+      "lösungserklärung": "Das X32 ist das Zentrum. Audio rein → verarbeitet → aufgenommen + gehört.",
+      "lernmodulIds": ["x32", "aufnahme"],
+      "bestätigungsstatus": "bestätigt",
+      "aktiv": true,
+      "erstelltAm": "2026-07-27T00:00:00Z",
+      "geändertAm": "2026-07-27T00:00:00Z"
+    }
+  ]
+}

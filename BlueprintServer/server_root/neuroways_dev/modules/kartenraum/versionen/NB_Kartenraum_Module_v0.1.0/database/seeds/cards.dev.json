@@ -1,0 +1,31 @@
+{
+  "fixture_status": "DEV_ONLY_NOT_PRODUCT_CONTENT",
+  "deck": {
+    "id": "dev_neurobalance",
+    "name": "DEV Deck",
+    "description": "Technische Platzhalterkarten für die Funktionsprüfung."
+  },
+  "cards": [
+    {
+      "id": "dev_card_01",
+      "deck_id": "dev_neurobalance",
+      "title": "Testkarte I",
+      "short_text": "Ein ruhiger Platzhalter für die technische Kartenaufdeckung.",
+      "image_ref": "assets/card-placeholder-1.svg"
+    },
+    {
+      "id": "dev_card_02",
+      "deck_id": "dev_neurobalance",
+      "title": "Testkarte II",
+      "short_text": "Diese Karte enthält bewusst keinen finalen NeuroBalance-Inhalt.",
+      "image_ref": "assets/card-placeholder-2.svg"
+    },
+    {
+      "id": "dev_card_03",
+      "deck_id": "dev_neurobalance",
+      "title": "Testkarte III",
+      "short_text": "Sie prüft ausschließlich Ziehung, Wahrnehmung, Rückblick und Journal.",
+      "image_ref": "assets/card-placeholder-3.svg"
+    }
+  ]
+}

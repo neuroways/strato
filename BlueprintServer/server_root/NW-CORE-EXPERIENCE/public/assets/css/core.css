@@ -1,0 +1,5 @@
+:root{--nw-navy:#0a1f44;--nw-teal:#008ca8;--nw-violet:#7b4ba2;--nw-gold:#e2a83b;--nw-focus:0 0 0 3px rgba(0,140,168,.32)}
+button:focus-visible,a:focus-visible{outline:0;box-shadow:var(--nw-focus)}
+[hidden]{display:none!important}
+.motion-reduced *,.mode-reduziert *{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+

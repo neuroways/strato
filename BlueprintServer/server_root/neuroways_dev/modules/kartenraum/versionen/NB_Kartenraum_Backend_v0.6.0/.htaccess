@@ -1,0 +1,6 @@
+Options -Indexes
+DirectoryIndex api/index.php
+
+<FilesMatch "config\.local\.php$">
+  Require all denied
+</FilesMatch>

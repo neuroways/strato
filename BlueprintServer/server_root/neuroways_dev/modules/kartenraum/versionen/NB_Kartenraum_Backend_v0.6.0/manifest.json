@@ -1,0 +1,42 @@
+{
+  "module": "nb_kartenraum",
+  "version": "0.6.0",
+  "type": "read-write-backend",
+  "database": {
+    "cards": 78,
+    "texts": 156,
+    "adult_de": 78,
+    "child_de": 78
+  },
+  "api": [
+    "card",
+    "cards",
+    "draw-create",
+    "experience-list",
+    "experience-save",
+    "health",
+    "journal",
+    "knowledge",
+    "login",
+    "perception-save",
+    "profile-create",
+    "text"
+  ],
+  "writes": true,
+  "secrets_in_package": false,
+  "database_config": "/config/database.php",
+  "connection_key": "platform",
+  "module_local_database_config": false,
+  "knowledge_api": "api/knowledge.php",
+  "knowledge_rows": 156,
+  "profiles": true,
+  "journal": true,
+  "write_api": true,
+  "plain_access_codes_stored": false,
+  "experience_journal": true,
+  "experience_table": "nb_card_experience",
+  "knowledge_fields_added": [
+    "reflection_question",
+    "everyday_moment"
+  ]
+}

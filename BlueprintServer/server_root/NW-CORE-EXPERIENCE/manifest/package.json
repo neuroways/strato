@@ -1,0 +1,15 @@
+{
+  "package": "NW-CORE-EXPERIENCE",
+  "version": "0.1.0-pilot",
+  "status": "MIGRATION_PILOT",
+  "target_environment": "STRATO_SHARED_HOSTING_DEV",
+  "runtime": ["PHP >= 8.1", "ES2020 browser"],
+  "package_type": "CORE_EXPERIENCE_CANDIDATE",
+  "leading_architecture": "NW-ARCH-007",
+  "placement_reference": "NW-ARCH-008 v0.1.0 Draft-Pilot",
+  "persistence": "NONE",
+  "activation": "MANUAL_REVIEW_REQUIRED",
+  "production_approved": false,
+  "open_decisions": ["CHECKIN_PLACEMENT", "MY_PATH_PLACEMENT", "CORE_RUNTIME_INTEGRATION"]
+}
+

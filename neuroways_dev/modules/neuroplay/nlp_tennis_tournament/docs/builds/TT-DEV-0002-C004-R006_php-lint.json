@@ -1,0 +1,12 @@
+[
+  {
+    "file": "backend/tests/pdo-2002-transport-diagnostic.php",
+    "ok": true,
+    "output": "No syntax errors detected in /mnt/data/TT-DEV-0002-C004-R006/backend/tests/pdo-2002-transport-diagnostic.php"
+  },
+  {
+    "file": "backend/tests/run-c004-r006.php",
+    "ok": true,
+    "output": "No syntax errors detected in /mnt/data/TT-DEV-0002-C004-R006/backend/tests/run-c004-r006.php"
+  }
+]

@@ -1,0 +1,249 @@
+.admin-database-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.admin-header {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.admin-back-button {
+  padding: 0.5rem 1rem;
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+}
+
+.admin-back-button:hover {
+  background: #e5e5e5;
+}
+
+.admin-header-content {
+  flex: 1;
+}
+
+.admin-header h1 {
+  font-size: 2rem;
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.admin-subtitle {
+  margin: 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.admin-error {
+  background: #fee;
+  border: 1px solid #fcc;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  color: #c33;
+}
+
+.admin-loading {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #666;
+}
+
+.admin-empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #f9f9f9;
+  border-radius: 4px;
+  color: #666;
+}
+
+.admin-hint {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.admin-collections-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.admin-collection-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.admin-collection-card:hover {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  border-color: #0066cc;
+}
+
+.admin-collection-card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  color: #0066cc;
+}
+
+.admin-collection-card p {
+  margin: 0 0 1rem 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.admin-collection-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+  font-size: 0.85rem;
+}
+
+.admin-meta-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.admin-meta-value {
+  font-family: monospace;
+  color: #666;
+  word-break: break-all;
+}
+
+.admin-records-view {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.admin-records-info {
+  padding: 1rem 1.5rem;
+  background: #f9f9f9;
+  border-bottom: 1px solid #eee;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.admin-records-table {
+  overflow-x: auto;
+}
+
+.admin-records-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-records-table th {
+  background: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.admin-records-table td {
+  border-bottom: 1px solid #eee;
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  color: #666;
+  word-break: break-word;
+}
+
+.admin-records-table tr:hover {
+  background: #fafafa;
+}
+
+.admin-actions-header {
+  width: 200px;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.admin-btn-small {
+  padding: 0.35rem 0.75rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.admin-btn-view {
+  background: #0066cc;
+  color: white;
+}
+
+.admin-btn-view:hover {
+  background: #0052a3;
+}
+
+.admin-btn-edit {
+  background: #00aa44;
+  color: white;
+}
+
+.admin-btn-edit:hover {
+  background: #008833;
+}
+
+.admin-btn-delete {
+  background: #cc3300;
+  color: white;
+}
+
+.admin-btn-delete:hover {
+  background: #aa2200;
+}
+
+@media (max-width: 768px) {
+  .admin-database-container {
+    padding: 1rem;
+  }
+
+  .admin-header {
+    flex-direction: column;
+  }
+
+  .admin-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .admin-collections-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-records-table table {
+    font-size: 0.85rem;
+  }
+
+  .admin-records-table th,
+  .admin-records-table td {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .admin-actions {
+    flex-direction: column;
+  }
+
+  .admin-btn-small {
+    width: 100%;
+  }
+}

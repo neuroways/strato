@@ -1,0 +1,43 @@
+{
+  "module_code": "nb_kartenraum",
+  "version": "0.1.0",
+  "route_contract": [
+    {
+      "name": "room",
+      "path": "/",
+      "method": "GET",
+      "capability": "card_room"
+    },
+    {
+      "name": "draw",
+      "path": "/ziehung",
+      "method": "GET",
+      "capability": "daily_draw"
+    },
+    {
+      "name": "review",
+      "path": "/rueckblick",
+      "method": "GET",
+      "capability": "review"
+    },
+    {
+      "name": "journal",
+      "path": "/journal",
+      "method": "GET",
+      "capability": "journal"
+    },
+    {
+      "name": "connections",
+      "path": "/verbindungen",
+      "method": "GET",
+      "capability": "connections"
+    },
+    {
+      "name": "decks",
+      "path": "/decks",
+      "method": "GET",
+      "capability": "deck_overview"
+    }
+  ],
+  "security_note": "Routes are not permissions. Runtime must resolve environment, instance, auth, installation and module version before dispatch."
+}

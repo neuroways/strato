@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f6f4f1" />
+  <title>NeuroWays Core – Visual Prototype</title>
+  <meta name="description" content="Visueller NeuroWays-Core-Prototyp ohne Funktion." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Hauptnavigation">
+      <a class="brand" href="#" aria-label="NeuroWays Start">
+        <span class="brand-mark" aria-hidden="true">
+          <i></i><i></i><i></i>
+        </span>
+        <span>
+          <strong>NeuroWays</strong>
+          <small>Ein Eingang. Viele Wege.</small>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a class="nav-item active" href="#"><span>⌂</span>Start</a>
+        <a class="nav-item" href="#"><span>⌁</span>Mein Weg</a>
+        <a class="nav-item" href="#"><span>◇</span>Projekte</a>
+        <a class="nav-item" href="#"><span>◎</span>Wissen</a>
+        <a class="nav-item" href="#"><span>↗</span>Entwicklung</a>
+        <a class="nav-item" href="#"><span>✧</span>Expedition</a>
+      </nav>
+
+      <div class="sidebar-spacer"></div>
+
+      <div class="quiet-card">
+        <span class="mini-wave" aria-hidden="true"></span>
+        <div>
+          <strong>Standard</strong>
+          <small>Ruhig · offen · lebendig</small>
+        </div>
+      </div>
+
+      <div class="profile">
+        <div class="avatar">S</div>
+        <div>
+          <strong>Dein Raum</strong>
+          <small>privat & persönlich</small>
+        </div>
+        <span class="profile-chevron">⌄</span>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">NEUROWAYS CORE</p>
+          <h1>Vielleicht brauchst du keinen besseren Weg.<br><span>Sondern deinen.</span></h1>
+          <p class="lead">Lass uns gemeinsam hinschauen.</p>
+        </div>
+        <div class="top-actions">
+          <button class="ghost-button" type="button">◐ <span>Ansicht</span></button>
+          <button class="round-button" type="button" aria-label="Dein Moment"></button>
+        </div>
+      </header>
+
+      <section class="world-card" aria-label="Abstrakte NeuroWays-Welt">
+        <div class="sun-glow"></div>
+
+        <div class="mountain mountain-back"></div>
+        <div class="mountain mountain-mid"></div>
+        <div class="mountain mountain-front"></div>
+
+        <div class="river"></div>
+
+        <svg class="path-line" viewBox="0 0 1200 250" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="nwGradient" x1="0" x2="1">
+              <stop offset="0%" stop-color="#0A1F44"/>
+              <stop offset="32%" stop-color="#008CA8"/>
+              <stop offset="64%" stop-color="#7B4BA2"/>
+              <stop offset="100%" stop-color="#E2A83B"/>
+            </linearGradient>
+          </defs>
+          <path class="path-halo"
+                d="M0,135 C110,52 220,224 338,126 C460,25 555,192 690,117 C815,48 920,183 1200,98" />
+          <path class="path-core"
+                d="M0,135 C110,52 220,224 338,126 C460,25 555,192 690,117 C815,48 920,183 1200,98" />
+        </svg>
+
+        <div class="moment" aria-label="Hier bist du gerade">
+          <span></span>
+        </div>
+
+        <div class="world-copy">
+          <span class="world-kicker">Dein Moment</span>
+          <strong>Du musst noch keine Antwort haben.</strong>
+          <p>Wir können einfach dort anfangen, wo du gerade bist.</p>
+        </div>
+
+        <button class="primary-cta" type="button">
+          Check-in beginnen
+          <span>→</span>
+        </button>
+
+        <button class="soft-link" type="button">
+          Ich weiß gerade nicht, wo ich anfangen soll
+        </button>
+      </section>
+
+      <section class="content-grid">
+        <article class="panel next-step">
+          <div class="panel-heading">
+            <div>
+              <span class="section-label">SANFTER EINSTIEG</span>
+              <h2>Was wäre gerade hilfreich?</h2>
+            </div>
+            <span class="tiny-pill">ohne Bewertung</span>
+          </div>
+
+          <div class="choice-grid">
+            <div class="choice-card">
+              <span class="choice-icon">◌</span>
+              <div>
+                <strong>Nur anschauen</strong>
+                <small>Es darf erstmal einfach da sein.</small>
+              </div>
+            </div>
+            <div class="choice-card">
+              <span class="choice-icon">≈</span>
+              <div>
+                <strong>Etwas Entlastung</strong>
+                <small>Weniger Reize. Mehr Raum.</small>
+              </div>
+            </div>
+            <div class="choice-card">
+              <span class="choice-icon">✦</span>
+              <div>
+                <strong>Etwas erzählen</strong>
+                <small>Ohne gleich eine Lösung zu brauchen.</small>
+              </div>
+            </div>
+            <div class="choice-card">
+              <span class="choice-icon">⌁</span>
+              <div>
+                <strong>Gemeinsam erkunden</strong>
+                <small>Nur so tief, wie es für dich passt.</small>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <aside class="panel moment-panel">
+          <span class="section-label">DEIN MOMENT</span>
+          <div class="moment-state">
+            <span class="state-wave"></span>
+            <div>
+              <strong>Klarheit</strong>
+              <small>ruhig · offen · fokussiert</small>
+            </div>
+          </div>
+          <p>Die Oberfläche darf sich verändern, damit sie gerade besser zu dir passt.</p>
+          <a href="#">Moment verändern →</a>
+        </aside>
+      </section>
+
+      <section class="rooms">
+        <div class="rooms-heading">
+          <div>
+            <span class="section-label">DEINE RÄUME</span>
+            <h2>Eine Welt. Verschiedene Wege.</h2>
+          </div>
+          <p>Du entscheidest, was heute sichtbar sein darf.</p>
+        </div>
+
+        <div class="room-grid">
+          <article class="room-card">
+            <span class="room-icon">◇</span>
+            <strong>Projekte</strong>
+            <small>Aktive Vorhaben</small>
+          </article>
+          <article class="room-card">
+            <span class="room-icon">▱</span>
+            <strong>Wissen</strong>
+            <small>Gesichertes Wissen</small>
+          </article>
+          <article class="room-card">
+            <span class="room-icon">↗</span>
+            <strong>Entwicklung</strong>
+            <small>Wachsen & Lernen</small>
+          </article>
+          <article class="room-card">
+            <span class="room-icon">✧</span>
+            <strong>Expedition</strong>
+            <small>Langzeit & Zukunft</small>
+          </article>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <span class="footer-line"></span>
+        <p>NeuroWays. Ein Eingang. Viele Wege. Du führst. Wir begleiten.</p>
+      </footer>
+    </main>
+  </div>
+
+  <nav class="mobile-nav" aria-label="Mobile Navigation">
+    <a class="active" href="#"><span>⌂</span><small>Start</small></a>
+    <a href="#"><span>⌁</span><small>Mein Weg</small></a>
+    <a class="mobile-checkin" href="#"><span>●</span><small>Check-in</small></a>
+    <a href="#"><span>◎</span><small>Wissen</small></a>
+    <a href="#"><span>•••</span><small>Mehr</small></a>
+  </nav>
+</body>
+</html>

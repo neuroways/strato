@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#07111f">
+<title>NeuroBalance Kartenraum · v0.5.6</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header id="appHeader" hidden>
+  <div class="wrap head">
+    <div class="brand"><strong>NeuroBalance</strong><small>Persönlicher Kartenraum · <span id="profileName"></span></small></div>
+  </div>
+</header>
+
+<main id="profileGate" class="profile-gate">
+  <section class="gate-shell">
+    <div class="eyebrow">Dein persönlicher Kartenraum</div>
+    <h1>Willkommen.</h1>
+    <p class="lead">Deine Ziehungen und Wahrnehmungen können dauerhaft in deinem Kartenraum gespeichert werden.</p>
+
+    <div id="gateStart" class="gate-actions">
+      <button class="primary" id="showCreate">Neu hier</button>
+      <button class="secondary" id="showLogin">Ich war schon hier</button>
+    </div>
+
+    <section id="profileCreateForm" class="gate-panel" hidden>
+      <h2>Kartenraum anlegen</h2>
+      <label class="field">Nutzername<input id="newUsername" maxlength="64" autocomplete="username"></label>
+      <fieldset class="audience-choice">
+        <legend>Für wen ist dieser Kartenraum?</legend>
+        <label><input type="radio" name="newAudience" value="ADULT" checked> Erwachsene</label>
+        <label><input type="radio" name="newAudience" value="CHILD"> Kind</label>
+      </fieldset>
+      <p id="profileError" class="status error"></p>
+      <button class="primary full" id="createProfile">Kartenraum erstellen</button>
+      <button class="text-btn" id="backFromCreate">Zurück</button>
+    </section>
+
+    <section id="accessSaveStep" class="gate-panel" hidden>
+      <div class="eyebrow">Sehr wichtig</div>
+      <h2>Speichere deinen Zugang unbedingt.</h2>
+      <p class="lead"><strong>Du brauchst Nutzername und Code zusammen</strong>, um später wieder auf deine Ziehungen, Wahrnehmungen und dein Kartenjournal zuzugreifen.</p>
+      <div class="warning-box">Wir speichern deinen Code nicht im Klartext. Wenn du ihn verlierst, können wir ihn später nicht für dich nachschauen oder wiederherstellen.</div>
+      <div class="access-card">
+        <span>Nutzername</span><strong id="createdUsername"></strong>
+        <span>Persönlicher Code</span><strong class="access-code" id="createdCode"></strong>
+      </div>
+      <textarea id="accessPackage" readonly></textarea>
+      <button class="secondary full" id="copyAccess">Zugang kopieren</button>
+      <p id="copyMsg" class="status"></p>
+      <label class="confirm-save"><input type="checkbox" id="accessSavedCheck"><span>Ich habe Nutzername und Code an einem sicheren Ort gespeichert.</span></label>
+      <button class="primary full" id="confirmSavedAccess">Weiter in meinen Kartenraum</button>
+    </section>
+
+    <section id="profileLoginForm" class="gate-panel" hidden>
+      <h2>Zurück in deinen Kartenraum</h2>
+      <label class="field">Nutzername<input id="loginUsername" autocomplete="username"></label>
+      <label class="field">Persönlicher Code<input id="loginCode" autocomplete="current-password" placeholder="ABCD-EFGH"></label>
+      <p class="status">Bei einer falschen Kombination wird nicht verraten, ob Name oder Code falsch ist.</p>
+      <p id="loginError" class="status error"></p>
+      <button class="primary full" id="loginProfile">Kartenraum öffnen</button>
+      <button class="text-btn" id="backFromLogin">Zurück</button>
+    </section>
+  </section>
+</main>
+
+<main id="appRoot" class="wrap app-root" hidden>
+  <div class="grid">
+    <section>
+      <div class="eyebrow">Persönlicher Kartenraum</div>
+      <h1>Eine Karte.<br>Deine Wahrnehmung zuerst.</h1>
+      <div class="toolbar">
+        <select id="filter">
+          <option value="all">Alle 78 Karten</option>
+          <option value="major">Große Arkana</option>
+          <option value="wands">Stäbe</option>
+          <option value="cups">Kelche</option>
+          <option value="swords">Schwerter</option>
+          <option value="pentacles">Münzen</option>
+        </select>
+        <span class="draw-hint">Ziehe eine Karte mit ✦</span>
+      </div>
+
+      <section id="perceptionPanel" class="panel" hidden>
+        <div class="eyebrow">Deine Wahrnehmung zuerst</div>
+        <h3>Was fällt dir auf?</h3>
+        <textarea id="perception" placeholder="Was siehst, fühlst oder bemerkst du zuerst?"></textarea>
+        <div class="controls">
+          <button class="secondary" id="savePerception">Wahrnehmung speichern</button>
+          <button class="primary" id="openRoom">Kartenraum öffnen</button>
+        </div>
+        <p id="saveMsg" class="status"></p>
+      </section>
+
+      <section id="interpretationPanel" class="panel" hidden><div id="interpretationContent"></div>
+        <div class="knowledge-action"><button class="secondary" id="openKnowledge">Mehr über diese Karte erfahren</button></div>
+      </section>
+      <section id="knowledgePanel" class="panel" hidden><div id="knowledgeContent"></div></section>
+    </section>
+
+    <section>
+      <div class="card-stage">
+        <div class="magic-overlay" id="magicOverlay" hidden aria-hidden="true">
+          <span class="spark s1">✦</span>
+          <span class="spark s2">✧</span>
+          <span class="spark s3">✦</span>
+          <span class="spark s4">✧</span>
+          <span class="spark s5">✦</span>
+        </div>
+      <div class="card-shell">
+        <div id="flip" class="card-flip" role="button" tabindex="0">
+          <div class="face"><div id="backCrop" class="back-face"></div></div>
+          <div class="face front"><div id="frontCrop" class="sheet-crop"></div></div>
+        </div>
+      </div>
+      </div>
+      <div class="controls center draw-controls">
+        <button class="icon-button primary-icon" id="drawMagic" aria-label="Karte ziehen" title="Karte ziehen">
+          <span aria-hidden="true">✦</span>
+        </button>
+        <button class="icon-button secondary-icon" id="turnForViewing" hidden aria-label="Karte zur Betrachtung drehen" title="Karte zur Betrachtung drehen">
+          <span aria-hidden="true">↻</span>
+        </button>
+      </div>
+      <div id="orientationNotice" class="orientation-notice" hidden></div>
+      <div class="card-meta">
+        <h2 id="cardTitle">Noch keine Karte gezogen</h2>
+        <p id="cardTech"></p>
+      </div>
+    </section>
+  </div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

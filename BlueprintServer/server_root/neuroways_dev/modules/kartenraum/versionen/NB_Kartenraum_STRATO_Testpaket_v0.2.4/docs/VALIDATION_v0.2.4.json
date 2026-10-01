@@ -1,0 +1,9 @@
+{
+  "version": "0.2.4",
+  "renderer_asset_path": "../cards/",
+  "shared_public_path": "/modules/kartenraum/cards/",
+  "legacy_local_asset_path_present": false,
+  "registered_cards": 78,
+  "database_writes": false,
+  "secrets": false
+}

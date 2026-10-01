@@ -1,0 +1,69 @@
+{
+  "module": "nb_kartenraum",
+  "version": "0.6.2",
+  "type": "read-write-backend",
+  "database": {
+    "cards": 78,
+    "texts": 156,
+    "adult_de": 78,
+    "child_de": 78
+  },
+  "api": [
+    "card",
+    "cards",
+    "draw-create",
+    "experience-list",
+    "experience-save",
+    "health",
+    "journal",
+    "journal-entry-delete",
+    "journal-entry-list",
+    "journal-entry-save",
+    "journal-entry-update",
+    "knowledge",
+    "login",
+    "logout",
+    "perception-save",
+    "profile-create",
+    "text"
+  ],
+  "writes": true,
+  "secrets_in_package": false,
+  "database_config": "/config/database.php",
+  "connection_key": "platform",
+  "module_local_database_config": false,
+  "knowledge_api": "api/knowledge.php",
+  "knowledge_rows": 156,
+  "profiles": true,
+  "journal": true,
+  "write_api": true,
+  "plain_access_codes_stored": false,
+  "experience_journal": true,
+  "experience_table": "nb_card_experience",
+  "knowledge_fields_added": [
+    "reflection_question",
+    "everyday_moment"
+  ],
+  "journal_entries": {
+    "table": "nb_card_journal_entry",
+    "entry_types": [
+      "THOUGHT",
+      "INSIGHT",
+      "QUESTION",
+      "GOAL",
+      "EXPERIENCE"
+    ],
+    "depth_codes": [
+      "QUESTION",
+      "MOMENT",
+      "MEANING",
+      "SYMBOLISM",
+      "OTHER_DIRECTION",
+      null
+    ],
+    "legacy_experience_compatible": true,
+    "editable": true,
+    "deletable": true
+  },
+  "session_logout": "server-side revoke current token"
+}

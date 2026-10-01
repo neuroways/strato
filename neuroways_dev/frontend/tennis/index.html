@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="theme-color" content="#0A1F44">
+<title>Tennisturnier Neindorf</title>
+
+<link rel="stylesheet" href="/assets/neuroways/css/index.css?v=0.2.0">
+<link rel="stylesheet" href="styles.css?v=0.2.0">
+</head>
+<body class="tt-page">
+<a class="nw-skip-link" href="#main">Zum Inhalt springen</a>
+
+<header class="nw-app-header">
+  <div class="nw-app-header__inner">
+    <a class="nw-back-link" href="/">
+      <span class="nw-back-link__arrow" aria-hidden="true">←</span>
+      <span>NeuroWays</span>
+    </a>
+    <span class="nw-app-header__brand">NeuroPlay · Tennis</span>
+  </div>
+</header>
+
+<div class="nw-brand-wave nw-brand-wave--compact" aria-hidden="true">
+  <svg viewBox="0 0 1440 90" preserveAspectRatio="none">
+    <defs>
+      <linearGradient id="nwBrandGradientTennis" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#0A1F44"/>
+        <stop offset="34%" stop-color="#008CA8"/>
+        <stop offset="68%" stop-color="#7B4BA2"/>
+        <stop offset="100%" stop-color="#E2A83B"/>
+      </linearGradient>
+    </defs>
+    <path d="M0 52 C180 12, 360 84, 540 46 S900 18, 1080 52 S1260 82, 1440 40"
+          fill="none"
+          stroke="url(#nwBrandGradientTennis)"
+          stroke-width="7"
+          stroke-linecap="round"/>
+  </svg>
+</div>
+
+<main id="main" class="nw-shell tt-container">
+<header class="tt-header">
+<div class="nw-eyebrow">Tennisturnier Neindorf</div>
+<h1>Ein Tag für alle!</h1>
+<p class="tt-lead">Live-Turnieransicht aus der NeuroWays-Pilotarchitektur.</p>
+</header>
+
+<section id="content" aria-live="polite">Turnierdaten werden geladen ...</section>
+
+<footer class="tt-footer">NeuroWays Tennis Pilot <span id="api"></span></footer>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

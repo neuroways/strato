@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07111f">
+<title>NeuroBalance Kartenraum · Frontend v0.3.6</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header>
+  <div class="wrap head">
+    <div class="brand">
+      <strong>NeuroBalance</strong>
+      <small>Kartenraum · API Frontend v0.3.6</small>
+    </div>
+    <div class="audience-switch" aria-label="Ansicht">
+      <button class="audience-btn" data-audience="ADULT" aria-pressed="true">Erwachsene</button>
+      <button class="audience-btn" data-audience="CHILD" aria-pressed="false">Kinder</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="grid">
+    <section>
+      <div class="eyebrow">Datenbankgestützter Kartenraum</div>
+      <h1>Eine Karte.<br>Deine Wahrnehmung zuerst.</h1>
+      <p class="lead">
+        Karte, Bild und Inhalt bleiben getrennt. Die Karte wird aus dem gemeinsamen Sheet gerendert,
+        der Kartenraum-Text erst nach deiner eigenen Wahrnehmung aus MariaDB geladen.
+      </p>
+
+      <div class="toolbar">
+        <select id="filter" aria-label="Karten filtern">
+          <option value="all">Alle 78 Karten</option>
+          <option value="major">Große Arkana</option>
+          <option value="wands">Stäbe</option>
+          <option value="cups">Kelche</option>
+          <option value="swords">Schwerter</option>
+          <option value="pentacles">Münzen</option>
+        </select>
+        <button class="primary" id="draw">Zufällige Karte ziehen</button>
+      </div>
+
+      <div class="panel">
+        <div class="notice">
+          <strong>Backend</strong>
+          <div class="status" id="apiStatus">Lade …</div>
+        </div>
+        <div class="notice" style="margin-top:14px">
+          <strong>Assets</strong>
+          <div class="status" id="assetStatus">Prüfe verwendete Sheets …</div>
+        </div>
+      </div>
+
+      <div class="panel" id="perceptionPanel" hidden>
+        <div class="eyebrow">Deine Wahrnehmung zuerst</div>
+        <h3>Was fällt dir auf?</h3>
+        <textarea id="perception" placeholder="Was siehst, fühlst oder bemerkst du zuerst?"></textarea>
+        <div class="controls">
+          <button class="secondary" id="savePerception">Wahrnehmung bewahren</button>
+          <button class="primary" id="openRoom">Kartenraum öffnen</button>
+        </div>
+        <div class="status" id="saveMsg">
+          Die persönliche Wahrnehmung bleibt in v0.3.6 noch lokal im Browser.
+        </div>
+      </div>
+
+      <div class="panel interpretation" id="interpretationPanel" hidden>
+        <div id="interpretationContent"></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="card-shell">
+        <div class="card-flip" id="flip" role="button" tabindex="0" aria-label="Tarotkarte aufdecken">
+          <div class="face">
+            <div class="back-face" id="backCrop"></div>
+            <img class="frame" src="assets/ui/frame.svg" alt="" aria-hidden="true">
+          </div>
+          <div class="face front">
+            <div class="sheet-crop" id="frontCrop"></div>
+            <img class="frame" src="assets/ui/frame.svg" alt="" aria-hidden="true">
+          </div>
+        </div>
+      </div>
+      <div class="controls" style="justify-content:center">
+        <button class="primary" id="reveal">Karte sanft aufdecken</button>
+      </div>
+      <div class="card-meta">
+        <h2 id="cardTitle">–</h2>
+        <p id="cardTech">–</p>
+      </div>
+    </section>
+  </div>
+
+  <section class="catalog">
+    <div class="eyebrow">Karten aus MariaDB</div>
+    <h2>Alle Karten</h2>
+    <p class="lead">
+      Sheet und Position kommen aus <code>nb_card</code>; der Kartenraum-Inhalt aus <code>nb_card_text</code>.
+    </p>
+    <div class="cards-list" id="catalog"></div>
+  </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

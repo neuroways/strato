@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-07-24T17:08:05.533Z",
+  "source_file": "7ae5285e-514d-4aa6-89e0-04a81fcb0b7b-NeuroPlay_Brettspielanleitungen_Quellenkatalog_v0.5.0.xlsx",
+  "sheets_processed": [
+    "Verlage",
+    "Spiele und Anleitungen"
+  ],
+  "games_imported": 844,
+  "publishers_imported": 32,
+  "categories_imported": 14,
+  "rule_sources_imported": 844,
+  "duplicates_found": 0,
+  "errors": [],
+  "warnings": []
+}

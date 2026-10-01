@@ -1,0 +1,10 @@
+{
+  "version": "0.5.0",
+  "tables": 5,
+  "stores_plain_access_code": false,
+  "server_side_draw_timestamp": true,
+  "orientation": [
+    "UPRIGHT",
+    "REVERSED"
+  ]
+}

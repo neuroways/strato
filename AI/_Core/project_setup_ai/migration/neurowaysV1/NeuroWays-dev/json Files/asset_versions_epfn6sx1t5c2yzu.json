@@ -1,0 +1,17 @@
+{
+  "asset_type": "illustration",
+  "code": "test_world_asset",
+  "collectionId": "pbc_3160158149",
+  "collectionName": "asset_versions",
+  "created": "2026-07-23 17:53:42.868Z",
+  "description": "Technischer Testdatensatz für das Asset-Modell",
+  "id": "epfn6sx1t5c2yzu",
+  "released_at": "2026-07-23",
+  "status": "archived",
+  "superseded_at": "2026-07-23",
+  "superseded_by_id": "",
+  "title": "Neutraler Asset-Test",
+  "updated": "2026-07-23 17:55:31.069Z",
+  "version": "0.0.1",
+  "world_version_id": "3hbx5gsy932l77e"
+}

@@ -1,0 +1,483 @@
+{
+  "version": "0.1.0",
+  "audience": "CHILD",
+  "language": "de",
+  "status": "draft-review",
+  "source_basis": [
+    "NeuroBalance_Grosse_Arkana_NeuroWays_Sprache_v0.1.docx",
+    "NeuroBalance_Kartenregister_Mystische_Katzen_v0.1.docx"
+  ],
+  "content_schema": [
+    "what_do_you_see",
+    "card_room",
+    "helpful_side",
+    "difficult_side",
+    "context_questions",
+    "own_card_language",
+    "possible_next_step"
+  ],
+  "cards": [
+    {
+      "card_id": "major-00",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "0",
+      "title": "Der Narr",
+      "subtitle": "Ein kleiner Schritt ins Neue",
+      "what_do_you_see": "Schau dir die Karte erst einmal ganz in Ruhe an. Was entdeckst du zuerst? Was wirkt spannend, lustig, seltsam oder vielleicht ein bisschen unsicher?",
+      "card_room": "Der Narr steht am Anfang eines Weges, den er noch nicht kennt. Vielleicht hat er Lust loszugehen. Vielleicht weiß er auch noch gar nicht, was kommt. Diese Karte kann dich daran erinnern: Du musst nicht schon alles wissen, bevor du etwas Neues ausprobierst.",
+      "helpful_side": "Neugier kann dir helfen, einen ersten Schritt zu machen. Du darfst ausprobieren, fragen, umkehren oder deine Meinung ändern.",
+      "difficult_side": "Etwas Neues kann auch zu viel oder zu unübersichtlich sein. Mut bedeutet nicht, dass du ohne Hilfe losgehen musst. Mehr Informationen, Zeit oder Begleitung können den Weg sicherer machen.",
+      "context_questions": [
+        "Gibt es etwas, das du gern ausprobieren möchtest?",
+        "Was würde dir helfen, dich dabei sicherer zu fühlen?",
+        "Möchtest du wirklich losgehen – oder denken andere, dass du es solltest?"
+      ],
+      "own_card_language": "Was bedeutet „etwas Neues ausprobieren“ heute für dich?",
+      "possible_next_step": "Du könntest dir nur den allerersten kleinen Schritt anschauen. Mehr musst du heute noch nicht entscheiden.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-01",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "I",
+      "title": "Der Magier",
+      "subtitle": "Entdecken, was du schon kannst",
+      "what_do_you_see": "Was fällt dir auf? Welche Dinge, Werkzeuge oder Zeichen siehst du? Was davon würdest du gern genauer anschauen?",
+      "card_room": "Vor dem Magier liegen verschiedene Dinge, die er benutzen kann. Die Karte kann dich fragen: Was kannst du schon? Was weißt du? Wer oder was kann dir helfen?",
+      "helpful_side": "Manchmal ist schon vieles da, was du für eine Idee brauchst: Wissen, Fantasie, Übung, ein Werkzeug oder ein Mensch, den du fragen kannst.",
+      "difficult_side": "Du musst nicht alles allein können. Auch wenn du etwas gut kannst, musst du es nicht immer benutzen. Und niemand muss perfekt sein, bevor etwas beginnen darf.",
+      "context_questions": [
+        "Was kannst du schon, das dir heute helfen könnte?",
+        "Welches Werkzeug oder welche Hilfe wäre praktisch?",
+        "Wen könntest du um Unterstützung bitten?"
+      ],
+      "own_card_language": "Wann fühlst du dich wirksam – also so, als könntest du wirklich etwas verändern?",
+      "possible_next_step": "Wähle eine Sache aus, die dir schon zur Verfügung steht, und probiere damit etwas Kleines.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-02",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "II",
+      "title": "Die Hohepriesterin",
+      "subtitle": "Hören, was leise ist",
+      "what_do_you_see": "Was wirkt auf dieser Karte still oder geheimnisvoll? Gibt es etwas, das du erst beim zweiten Hinsehen bemerkst?",
+      "card_room": "Die Hohepriesterin erinnert an Dinge, die wir manchmal spüren, bevor wir sie erklären können. Vielleicht fühlt sich etwas gut, komisch, ruhig oder unpassend an, obwohl du noch nicht weißt, warum.",
+      "helpful_side": "Ruhe und genaues Beobachten können helfen, feine Signale wahrzunehmen. Du darfst etwas erst einmal bemerken, ohne sofort eine Antwort zu brauchen.",
+      "difficult_side": "Ein Gefühl kann wichtig sein, aber es weiß nicht immer alles. Manchmal hilft es, zusätzlich nachzufragen, Informationen zu sammeln oder mit jemandem zu sprechen.",
+      "context_questions": [
+        "Gibt es etwas, das du gerade spürst, aber noch nicht erklären kannst?",
+        "Brauchst du eher Ruhe oder jemanden zum Reden?",
+        "Was möchtest du erst einmal nur beobachten?"
+      ],
+      "own_card_language": "Wie fühlt sich deine innere Stimme heute an?",
+      "possible_next_step": "Du könntest eine Beobachtung aufschreiben oder malen, ohne gleich entscheiden zu müssen, was sie bedeutet.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-03",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "III",
+      "title": "Die Kaiserin",
+      "subtitle": "Was wachsen darf",
+      "what_do_you_see": "Was wirkt lebendig, warm oder gemütlich? Was scheint auf dieser Karte gut versorgt zu sein?",
+      "card_room": "Die Kaiserin steht für Wachsen, Versorgen, Gestalten und Genießen. Sie kann fragen: Was braucht gerade Aufmerksamkeit, Nahrung, Ruhe oder Zeit?",
+      "helpful_side": "Dinge können leichter wachsen, wenn ihre Bedürfnisse gesehen werden. Das gilt für Pflanzen, Ideen, Freundschaften – und auch für dich.",
+      "difficult_side": "Sich kümmern kann anstrengend werden, besonders wenn du immer nur für andere da bist. Auch zu viel von etwas Schönem kann irgendwann zu viel sein.",
+      "context_questions": [
+        "Was braucht heute ein bisschen Pflege?",
+        "Was tut dir gut?",
+        "Wo darfst du selbst etwas bekommen, statt nur zu geben?"
+      ],
+      "own_card_language": "Was bedeutet Fürsorge für dich?",
+      "possible_next_step": "Du könntest heute eine kleine Sache tun, die dir oder etwas Wichtigem gut tut.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-04",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "IV",
+      "title": "Der Kaiser",
+      "subtitle": "Struktur, die Sicherheit geben kann",
+      "what_do_you_see": "Was wirkt fest, geordnet oder stark? Gibt es etwas, das dir Sicherheit vermittelt?",
+      "card_room": "Der Kaiser steht für Regeln, Grenzen und Verantwortung. Manche Strukturen helfen uns zu wissen, was passiert und wer für was zuständig ist.",
+      "helpful_side": "Klare Regeln und Abläufe können beruhigen. Eine gute Grenze kann schützen und es leichter machen, zu handeln.",
+      "difficult_side": "Regeln passen nicht immer zu jeder Situation. Eine Struktur soll Menschen helfen – nicht Menschen zwingen, in eine Struktur zu passen.",
+      "context_questions": [
+        "Welche Regel hilft dir gerade?",
+        "Wo brauchst du eine klarere Grenze?",
+        "Gibt es eine Regel, die nicht mehr gut passt?"
+      ],
+      "own_card_language": "Welche Art von Ordnung fühlt sich für dich sicher an?",
+      "possible_next_step": "Du könntest eine einzige Regel oder Grenze benennen, die dir heute helfen würde.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-05",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "V",
+      "title": "Der Hierophant",
+      "subtitle": "Prüfen, was andere dir zeigen",
+      "what_do_you_see": "Was sieht auf der Karte nach Wissen, Lernen oder Tradition aus? Wer scheint etwas zu erklären oder weiterzugeben?",
+      "card_room": "Der Hierophant steht für Wissen, Regeln und Dinge, die Menschen schon lange miteinander teilen. Du darfst von anderen lernen – und trotzdem prüfen, ob etwas zu dir passt.",
+      "helpful_side": "Erfahrungen anderer können hilfreich sein. Du musst nicht alles selbst herausfinden, wenn jemand etwas schon gut erklären kann.",
+      "difficult_side": "Nur weil viele Menschen etwas so machen, muss es nicht für alle richtig sein. Manche Regeln dürfen verändert werden.",
+      "context_questions": [
+        "Von wem lernst du gern?",
+        "Welche Regel hilft dir?",
+        "Welche Regel würdest du gern genauer prüfen?"
+      ],
+      "own_card_language": "Was möchtest du behalten – und was möchtest du anders machen?",
+      "possible_next_step": "Nimm eine Regel und frage: Wem hilft sie eigentlich, und passt sie gerade noch?",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-06",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "VI",
+      "title": "Die Liebenden",
+      "subtitle": "Verbunden sein und trotzdem du bleiben",
+      "what_do_you_see": "Welche Wesen, Menschen oder Dinge scheinen miteinander verbunden zu sein? Was fühlt sich nah oder freundlich an?",
+      "card_room": "Die Liebenden stehen für Verbindung und wichtige Entscheidungen. Dabei kann es um Freundschaft, Familie, Zusammenarbeit oder die Beziehung zu dir selbst gehen.",
+      "helpful_side": "Eine gute Verbindung kann sich sicher und echt anfühlen. Unterschiede dürfen trotzdem bleiben.",
+      "difficult_side": "Nähe ist nicht gut, wenn du dabei deine eigenen Bedürfnisse oder Grenzen vergessen musst. Du darfst auch in einer Verbindung Nein sagen.",
+      "context_questions": [
+        "Mit wem fühlst du dich verbunden?",
+        "Was ist dir in einer Freundschaft oder Beziehung wichtig?",
+        "Kannst du du selbst bleiben, wenn du mit jemandem zusammen bist?"
+      ],
+      "own_card_language": "Wie fühlt sich eine gute Verbindung für dich an?",
+      "possible_next_step": "Du könntest einer Person sagen, was dir in eurer Verbindung wichtig ist.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-07",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "VII",
+      "title": "Der Wagen",
+      "subtitle": "Deine Richtung finden",
+      "what_do_you_see": "Wo scheint es auf der Karte hinzugehen? Wirkt die Bewegung schnell, ruhig, schwierig oder klar?",
+      "card_room": "Der Wagen steht für Bewegung und Richtung. Manchmal ziehen verschiedene Wünsche gleichzeitig an uns. Dann kann es helfen zu überlegen: Wohin möchte ich eigentlich?",
+      "helpful_side": "Eine Richtung kann dir helfen, deine Kraft nicht überall gleichzeitig einzusetzen. Du musst dafür nicht schnell sein.",
+      "difficult_side": "Wenn du nur noch vorwärts willst, kannst du übersehen, dass du müde bist oder eine Pause brauchst. Tempo und Richtung sind zwei verschiedene Dinge.",
+      "context_questions": [
+        "Wohin möchtest du gerade?",
+        "Was zieht dich in verschiedene Richtungen?",
+        "Welches Tempo passt heute zu dir?"
+      ],
+      "own_card_language": "Woran merkst du, dass eine Richtung wirklich deine ist?",
+      "possible_next_step": "Entscheide zuerst nur die Richtung. Wie schnell du gehst, kannst du später bestimmen.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-08",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "VIII",
+      "title": "Die Kraft",
+      "subtitle": "Stark sein kann auch sanft sein",
+      "what_do_you_see": "Was wirkt stark? Was wirkt gleichzeitig ruhig oder vorsichtig?",
+      "card_room": "Die Kraft erinnert daran, dass Stärke nicht nur laut, schnell oder mutig aussehen muss. Stark kann auch sein: ruhig bleiben, Hilfe holen, eine Pause machen oder eine Grenze schützen.",
+      "helpful_side": "Gefühle müssen nicht weggedrückt werden. Wenn du verstehst, was in dir passiert, kannst du oft besser damit umgehen.",
+      "difficult_side": "Du musst nicht alles aushalten, um stark zu sein. Immer weiterzumachen kann Kraft kosten, statt Kraft zu zeigen.",
+      "context_questions": [
+        "Welche Kraft spürst du gerade?",
+        "Braucht sie Bewegung, Ruhe oder Schutz?",
+        "Wo wäre freundlich mit dir sein hilfreicher als Druck?"
+      ],
+      "own_card_language": "Was bedeutet Stärke für dich?",
+      "possible_next_step": "Du könntest heute deine Kraft so einsetzen, dass noch etwas davon für später übrig bleibt.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-09",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "IX",
+      "title": "Der Eremit",
+      "subtitle": "Ein eigener ruhiger Raum",
+      "what_do_you_see": "Was wirkt still oder weit weg? Wo ist Licht? Wie fühlt sich das Alleinsein auf der Karte an?",
+      "card_room": "Der Eremit zieht sich für eine Weile zurück. Alleinsein kann helfen, wenn es zu laut, zu voll oder zu anstrengend geworden ist.",
+      "helpful_side": "Ein eigener Raum kann dir helfen, Gedanken und Gefühle wieder besser zu hören. Du darfst gern allein sein.",
+      "difficult_side": "Alleinsein ist etwas anderes als sich allein gelassen fühlen. Wenn du eigentlich Nähe brauchst, darf Hilfe erreichbar bleiben.",
+      "context_questions": [
+        "Möchtest du gerade lieber allein sein oder mit jemandem zusammen?",
+        "Was wird leichter, wenn es ruhiger ist?",
+        "Wer darf trotzdem erreichbar bleiben?"
+      ],
+      "own_card_language": "Was findest du leichter heraus, wenn es stiller wird?",
+      "possible_next_step": "Schaffe dir einen kleinen ruhigen Raum und entscheide selbst, wann du wieder herauskommen möchtest.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-10",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "X",
+      "title": "Das Rad des Schicksals",
+      "subtitle": "Dinge verändern sich",
+      "what_do_you_see": "Was bewegt sich auf der Karte? Was könnte sich drehen, wiederholen oder verändern?",
+      "card_room": "Das Rad erinnert daran, dass nicht alles immer gleich bleibt. Manche Veränderungen machen wir selbst. Andere passieren, weil Zeit vergeht oder sich etwas um uns herum verändert.",
+      "helpful_side": "Ein schwieriger Moment ist nicht für immer. Veränderungen können neue Möglichkeiten bringen.",
+      "difficult_side": "Es kann unangenehm sein, wenn sich etwas verändert, das du gern gleich behalten möchtest. Und nicht jede Veränderung muss sofort einen Sinn haben.",
+      "context_questions": [
+        "Was verändert sich gerade?",
+        "Was kannst du beeinflussen?",
+        "Was kannst du gerade nicht bestimmen?"
+      ],
+      "own_card_language": "Wie fühlt sich Veränderung für dich heute an?",
+      "possible_next_step": "Trenne eine Sache, die du beeinflussen kannst, von einer Sache, die du gerade nur beobachten kannst.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-11",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "XI",
+      "title": "Die Gerechtigkeit",
+      "subtitle": "Was ist wirklich fair?",
+      "what_do_you_see": "Was sieht auf der Karte nach Abwägen, Entscheiden oder Vergleichen aus?",
+      "card_room": "Die Gerechtigkeit fragt nicht nur: Bekommen alle genau dasselbe? Sie fragt auch: Was braucht jemand, damit es wirklich fair wird?",
+      "helpful_side": "Klare und erklärbare Entscheidungen können Sicherheit schaffen. Fair kann bedeuten, dass unterschiedliche Menschen unterschiedliche Hilfe bekommen.",
+      "difficult_side": "Eine Regel kann unfair wirken, wenn wichtige Unterschiede vergessen werden. Auch mit dir selbst kannst du zu streng sein.",
+      "context_questions": [
+        "Was wäre hier fair?",
+        "Fehlt noch eine wichtige Information?",
+        "Bist du zu dir genauso fair wie zu anderen?"
+      ],
+      "own_card_language": "Was bedeutet Fairness in dieser Situation für dich?",
+      "possible_next_step": "Schau dir die Situation aus zwei verschiedenen Blickwinkeln an, bevor du entscheidest.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-12",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "XII",
+      "title": "Der Gehängte",
+      "subtitle": "Ein anderer Blick",
+      "what_do_you_see": "Was ist auf dieser Karte andersherum oder ungewöhnlich? Wie verändert das deinen Blick?",
+      "card_room": "Der Gehängte zeigt einen Moment, in dem Weiterkämpfen vielleicht nicht hilft. Manchmal sieht man etwas Neues, wenn man kurz aufhört, es sofort lösen zu wollen.",
+      "helpful_side": "Eine Pause kann eine echte Entscheidung sein. Dein Gehirn darf Zeit bekommen, etwas anders zu sortieren.",
+      "difficult_side": "Warten ist schwer, wenn du gar keine Wahl hast. Eine Pause bedeutet auch nicht, dass du Hilfe oder eine wichtige Veränderung aufgeben musst.",
+      "context_questions": [
+        "Was sieht anders aus, wenn du es aus einer anderen Richtung anschaust?",
+        "Ist deine Pause freiwillig?",
+        "Was darf kurz ruhen?"
+      ],
+      "own_card_language": "Wie fühlt es sich für dich an, etwas gerade nicht lösen zu müssen?",
+      "possible_next_step": "Du könntest eine Sache bewusst auf später verschieben und festlegen, wann du wieder hinschaust.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-13",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "XIII",
+      "title": "Der Tod",
+      "subtitle": "Etwas endet, etwas verändert sich",
+      "what_do_you_see": "Was wirkt auf der Karte wie Abschied oder Veränderung? Gibt es auch etwas, das nach Neubeginn aussieht?",
+      "card_room": "Der Name dieser Karte klingt erst einmal groß oder vielleicht gruselig. Im Tarot geht es hier normalerweise nicht darum, dass jemand stirbt. Die Karte steht für Dinge, die enden oder sich so stark verändern, dass etwas Neues entstehen kann.",
+      "helpful_side": "Du darfst merken: Etwas ist vorbei. Ein Ende löscht nicht, was vorher wichtig war. Es kann aber Platz für einen neuen Abschnitt schaffen.",
+      "difficult_side": "Abschiede können traurig, wütend oder verwirrend machen. Du musst nicht sofort bereit für etwas Neues sein.",
+      "context_questions": [
+        "Was verändert sich gerade?",
+        "Was möchtest du von vorher behalten?",
+        "Was braucht Zeit, bevor etwas Neues beginnen kann?"
+      ],
+      "own_card_language": "Was bedeutet Abschied oder Veränderung für dich?",
+      "possible_next_step": "Du könntest eine Sache benennen, die vorbei ist, und eine Sache, die du davon mitnehmen möchtest.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-14",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "XIV",
+      "title": "Die Mäßigkeit",
+      "subtitle": "Die passende Mischung finden",
+      "what_do_you_see": "Was wird auf der Karte gemischt oder verbunden? Wirkt es ruhig, genau oder vorsichtig?",
+      "card_room": "Die Mäßigkeit fragt nach der passenden Menge. Nicht immer braucht man mehr oder weniger von allem – manchmal braucht man genau die Mischung, die heute passt.",
+      "helpful_side": "Du darfst Dinge ausprobieren und neu dosieren: Aktivität und Pause, Nähe und Alleinsein, Laut und Leise.",
+      "difficult_side": "Du musst nicht immer perfekt ausgeglichen sein. Manchmal brauchst du keine Mitte, sondern ganz klar mehr Schutz oder eine Grenze.",
+      "context_questions": [
+        "Wovon brauchst du heute mehr?",
+        "Wovon brauchst du weniger?",
+        "Brauchst du Balance oder eher Schutz?"
+      ],
+      "own_card_language": "Wie sieht deine passende Mischung heute aus?",
+      "possible_next_step": "Verändere nur eine kleine Menge: ein bisschen mehr von etwas Hilfreichem oder ein bisschen weniger von etwas Anstrengendem.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-15",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "XV",
+      "title": "Der Teufel",
+      "subtitle": "Muster entdecken, die festhalten",
+      "what_do_you_see": "Was wirkt auf der Karte anziehend, festgebunden oder schwer loszulassen?",
+      "card_room": "Der Teufel kann Dinge zeigen, die uns festhalten: Gewohnheiten, Erwartungen, Ängste oder etwas, das sich gleichzeitig gut und schwierig anfühlt.",
+      "helpful_side": "Wenn du ein Muster bemerkst, hast du mehr Möglichkeiten, damit umzugehen. Manche Gewohnheiten haben einmal geholfen, auch wenn sie heute nicht mehr so gut passen.",
+      "difficult_side": "Du bist nicht schuld, nur weil etwas schwer zu verändern ist. Manche Situationen brauchen Unterstützung und sichere Alternativen.",
+      "context_questions": [
+        "Was gibt dir dieses Muster?",
+        "Was macht es schwieriger?",
+        "Welche kleine andere Möglichkeit wäre sicher genug zum Ausprobieren?"
+      ],
+      "own_card_language": "Wo möchtest du mehr auswählen können?",
+      "possible_next_step": "Beobachte das Muster erst einmal, ohne von dir zu verlangen, es sofort zu verändern.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-16",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "XVI",
+      "title": "Der Turm",
+      "subtitle": "Wenn etwas plötzlich nicht mehr hält",
+      "what_do_you_see": "Was passiert auf der Karte? Was wirkt unsicher? Was könnte jetzt Schutz brauchen?",
+      "card_room": "Der Turm zeigt einen Moment, in dem etwas, das sicher wirkte, plötzlich wackelt oder zusammenbricht. Das kann eine Idee, ein Plan oder eine Situation sein.",
+      "helpful_side": "Wenn etwas nicht mehr trägt, kann sichtbar werden, was wirklich gebraucht wird. Später kann etwas Passenderes aufgebaut werden.",
+      "difficult_side": "Plötzliche Veränderungen können Angst machen. Dann muss nicht sofort nach einer Bedeutung gesucht werden. Sicherheit und Hilfe sind zuerst wichtig.",
+      "context_questions": [
+        "Was fühlt sich gerade unsicher an?",
+        "Was würde dir jetzt Stabilität geben?",
+        "Was muss heute noch gar nicht neu aufgebaut werden?"
+      ],
+      "own_card_language": "Was möchtest du schützen, auch wenn sich etwas verändert?",
+      "possible_next_step": "Kümmere dich zuerst um Sicherheit. Was danach kommt, darf später entschieden werden.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-17",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "XVII",
+      "title": "Der Stern",
+      "subtitle": "Ein kleines Licht behalten",
+      "what_do_you_see": "Wo siehst du Licht? Was wirkt ruhig, hoffnungsvoll oder weit?",
+      "card_room": "Der Stern kann wie ein kleines Licht nach einer schwierigen Zeit sein. Er verspricht nicht, dass alles sofort gut wird. Er erinnert daran, dass es trotzdem etwas geben kann, das dich weiterträgt.",
+      "helpful_side": "Hoffnung darf klein sein. Vielleicht ist es ein Mensch, ein Ort, eine Idee oder etwas, auf das du dich freust.",
+      "difficult_side": "Du musst nicht schnell wieder fröhlich sein. Erholen braucht bei jedem Menschen unterschiedlich viel Zeit.",
+      "context_questions": [
+        "Was macht dir ein kleines bisschen Hoffnung?",
+        "Wo kannst du einfach du sein?",
+        "Was hilft dir beim Erholen?"
+      ],
+      "own_card_language": "Welches kleine Licht möchtest du heute nicht übersehen?",
+      "possible_next_step": "Suche eine kleine Sache auf, die dir Ruhe, Hoffnung oder Kraft gibt.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-18",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "XVIII",
+      "title": "Der Mond",
+      "subtitle": "Wenn noch nicht alles klar ist",
+      "what_do_you_see": "Was sieht im Mondlicht anders aus? Was ist deutlich und was bleibt im Schatten?",
+      "card_room": "Der Mond zeigt eine Welt, in der nicht alles klar zu erkennen ist. Gefühle, Erinnerungen und Fantasie können dann besonders stark sein.",
+      "helpful_side": "Du darfst etwas fühlen, auch wenn du es noch nicht erklären kannst. Fantasie und feine Wahrnehmung können dir wichtige Hinweise geben.",
+      "difficult_side": "Wenn vieles unklar ist, kann dein Kopf Lücken mit Sorgen füllen. Dann helfen manchmal Licht, Informationen, Zeit oder ein vertrauter Mensch.",
+      "context_questions": [
+        "Was ist gerade noch unklar?",
+        "Was weißt du wirklich – und was vermutest du nur?",
+        "Was würde dir helfen, dich sicherer zu fühlen?"
+      ],
+      "own_card_language": "Wie gehst du damit um, wenn du etwas noch nicht weißt?",
+      "possible_next_step": "Du könntest eine Sache als „weiß ich“ und eine andere als „weiß ich noch nicht“ benennen.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-19",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "XIX",
+      "title": "Die Sonne",
+      "subtitle": "Freude darf sichtbar sein",
+      "what_do_you_see": "Was wirkt hell, warm oder lebendig? Was macht dir beim Anschauen Freude?",
+      "card_room": "Die Sonne steht für Lebendigkeit, Sichtbarkeit und Freude. Sie kann fragen, was in dir gerade Platz haben möchte, ohne sich dafür entschuldigen zu müssen.",
+      "helpful_side": "Freude, Spiel und Stolz können Kraft geben. Du darfst etwas mögen, einfach weil du es magst.",
+      "difficult_side": "Nicht jeder Tag fühlt sich sonnig an. Du musst nicht fröhlich wirken, wenn du es nicht bist. Und sichtbar sein ist nur dann schön, wenn es sich sicher anfühlt.",
+      "context_questions": [
+        "Was macht dir gerade Freude?",
+        "Was möchtest du zeigen?",
+        "Wo möchtest du lieber für dich bleiben?"
+      ],
+      "own_card_language": "Was darf heute einfach schön sein?",
+      "possible_next_step": "Mach für einen kleinen Moment Platz für etwas, das dir wirklich Freude macht.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-20",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "XX",
+      "title": "Das Gericht",
+      "subtitle": "Etwas neu erkennen",
+      "what_do_you_see": "Was scheint auf der Karte zu rufen, zu wecken oder Aufmerksamkeit zu bekommen?",
+      "card_room": "Das Gericht kann einen Moment zeigen, in dem du etwas plötzlich anders verstehst. Vielleicht merkst du: So möchte ich es weiter machen – oder genau so nicht mehr.",
+      "helpful_side": "Neue Erkenntnisse können dir helfen, eine Entscheidung bewusster zu treffen. Du darfst aus Erfahrungen lernen, ohne dich dafür zu verurteilen.",
+      "difficult_side": "Eine Erkenntnis muss nicht sofort zu einer großen Veränderung führen. Und du musst dich nicht bestrafen, weil du früher etwas noch nicht wusstest.",
+      "context_questions": [
+        "Was verstehst du heute anders als früher?",
+        "Was möchtest du damit machen?",
+        "Was darf trotzdem noch Zeit brauchen?"
+      ],
+      "own_card_language": "Welche Erkenntnis ist gerade wichtig für dich?",
+      "possible_next_step": "Schreibe oder sage einen Satz: „Heute weiß ich …“ – ohne daraus sofort eine große Aufgabe zu machen.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    },
+    {
+      "card_id": "major-21",
+      "audience_code": "CHILD",
+      "language_code": "de",
+      "number": "XXI",
+      "title": "Die Welt",
+      "subtitle": "Etwas darf vollständig sein",
+      "what_do_you_see": "Was wirkt rund, verbunden oder abgeschlossen? Wo scheint alles zusammenzukommen?",
+      "card_room": "Die Welt steht für Ankommen und Vollständigkeit. Nicht alles muss perfekt sein, damit etwas fertig oder wichtig genug sein darf.",
+      "helpful_side": "Du darfst sehen, was du geschafft, gelernt oder erlebt hast. Ein Abschluss kann dir helfen, einen Abschnitt wirklich zu würdigen.",
+      "difficult_side": "Fertigwerden kann sich auch komisch anfühlen. Vielleicht fehlt plötzlich etwas, woran du lange gearbeitet hast. Ein Abschluss darf gleichzeitig schön und traurig sein.",
+      "context_questions": [
+        "Was hast du geschafft oder beendet?",
+        "Was möchtest du davon mitnehmen?",
+        "Was darf jetzt einfach fertig sein, ohne noch verbessert zu werden?"
+      ],
+      "own_card_language": "Woran merkst du, dass etwas für dich vollständig ist?",
+      "possible_next_step": "Halte kurz fest, was zu diesem Abschnitt gehört und was du daraus mitnehmen möchtest.",
+      "content_version": "0.1.0",
+      "status": "draft-review"
+    }
+  ]
+}

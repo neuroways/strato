@@ -1,0 +1,10 @@
+{
+  "installation_id": "example-installation",
+  "instance_id": "example-instance",
+  "environment": "pro",
+  "module_code": "nlp_tennis_tournament",
+  "module_version": "2.0.0",
+  "enabled": true,
+  "public_route": "/tennis",
+  "health": "unknown"
+}

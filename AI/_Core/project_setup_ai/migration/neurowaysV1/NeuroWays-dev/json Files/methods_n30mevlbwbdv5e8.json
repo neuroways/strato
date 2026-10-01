@@ -1,0 +1,14 @@
+{
+  "code": "energy_navigator",
+  "collectionId": "pbc_3350300803",
+  "collectionName": "methods",
+  "created": "2026-07-23 12:12:04.190Z",
+  "description": "Beobachtung des aktuellen Energie- und Belastungszustands",
+  "id": "n30mevlbwbdv5e8",
+  "is_active": true,
+  "name": "Energy Navigator",
+  "sort_order": 10,
+  "status": "active",
+  "updated": "2026-07-24 08:35:26.816Z",
+  "version": "1.1.0"
+}

@@ -1,0 +1,336 @@
+.excel-import-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.excel-import-header {
+  margin-bottom: 2rem;
+}
+
+.excel-import-header h1 {
+  font-size: 2rem;
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.excel-import-header p {
+  margin: 0;
+  color: #666;
+}
+
+.excel-import-steps {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+
+.excel-import-steps .step {
+  flex: 1;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #666;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.excel-import-steps .step.active {
+  background: #0066cc;
+  color: white;
+  border-color: #0066cc;
+}
+
+.excel-import-content {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.excel-step {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.excel-step h2 {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.excel-file-input {
+  display: block;
+  padding: 1rem;
+  border: 2px dashed #0066cc;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.excel-file-selected {
+  color: #00aa44;
+  font-weight: 600;
+}
+
+.excel-upload-status {
+  margin: 1rem 0;
+  padding: 0.75rem;
+  background: #f0f8ff;
+  border-left: 3px solid #0066cc;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.excel-mode-selector {
+  margin-bottom: 1.5rem;
+}
+
+.excel-new-collections-info {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.excel-mode-info {
+  background: #f0f8ff;
+  border: 1px solid #bfe0ff;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+}
+
+.excel-new-collections-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.result-card {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.excel-sheet-selector,
+.excel-collection-selector {
+  margin-bottom: 1.5rem;
+}
+
+.excel-sheet-selector label,
+.excel-collection-selector label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.excel-sheet-selector select,
+.excel-collection-selector select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.excel-analysis {
+  background: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.excel-analysis p {
+  margin: 0.25rem 0;
+  color: #666;
+}
+
+.excel-columns-preview {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.excel-columns-preview th,
+.excel-columns-preview td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.excel-columns-preview th {
+  background: #f0f0f0;
+  font-weight: 600;
+}
+
+.excel-columns-preview tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.excel-collection-info {
+  background: #f0f8ff;
+  border: 1px solid #aaccee;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.excel-collection-info p {
+  margin: 0.25rem 0;
+}
+
+.excel-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+  font-weight: 600;
+}
+
+.excel-btn-next,
+.excel-btn-import,
+.excel-btn-restart {
+  background: #0066cc;
+  color: white;
+}
+
+.excel-btn-next:hover,
+.excel-btn-import:hover,
+.excel-btn-restart:hover {
+  background: #0052a3;
+}
+
+.excel-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  color: #999;
+}
+
+.excel-dry-run-results,
+.excel-import-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.result-stat {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.result-label {
+  display: block;
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.result-value {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.excel-preview {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  overflow-x: auto;
+}
+
+.excel-preview h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.excel-preview pre {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: #666;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.excel-errors {
+  background: #fee;
+  border: 1px solid #fcc;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.excel-errors h3 {
+  margin: 0 0 1rem 0;
+  color: #c33;
+}
+
+.excel-errors ul {
+  margin: 0;
+  padding-left: 1.5rem;
+  color: #c33;
+}
+
+.excel-errors li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .excel-import-container {
+    padding: 1rem;
+  }
+
+  .excel-import-steps {
+    flex-wrap: wrap;
+  }
+
+  .excel-import-steps .step {
+    flex: 1 1 48%;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+
+  .excel-import-content {
+    padding: 1rem;
+  }
+
+  .excel-dry-run-results,
+  .excel-import-results {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .excel-step h2 {
+    font-size: 1.2rem;
+  }
+}

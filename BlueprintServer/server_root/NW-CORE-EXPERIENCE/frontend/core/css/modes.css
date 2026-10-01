@@ -1,0 +1,8 @@
+.mode-standard { --nw-mode-intensity: 1; }
+.mode-ruhe { --nw-mode-intensity: .75; }
+.mode-nacht { --nw-mode-intensity: .65; }
+.mode-neugier { --nw-mode-intensity: 1.12; }
+.mode-aktivierung { --nw-mode-intensity: 1.16; }
+.mode-reduziert { --nw-mode-intensity: .28; }
+.motion-reduced *, .mode-reduziert * { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
+

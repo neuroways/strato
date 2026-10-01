@@ -1,0 +1,6 @@
+{
+    "test": "TT-DEV-0002-C004-R004",
+    "status": "ok",
+    "compatibility_shape": "database.*",
+    "failures": []
+}

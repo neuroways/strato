@@ -1,0 +1,49 @@
+NEUROWAYS SERVER-DATEIINVENTAR
+================================
+
+Inventarversion: 0.1.0
+Erzeugt: 2026-08-04T14:30:59+02:00
+Account-Root: /home/www
+Repository: /home/www/neuroways
+Produktivsystem: /home/www/htdocs
+
+ERGEBNIS
+--------
+Objekte gesamt: 733
+Dateien: 421
+Ordner: 312
+Sonstige Objekte: 0
+Dateien unter neuroways: 82
+Dateien unter htdocs: 339
+Nicht lesbare Objekte: 0
+Hash-Fehler: 0
+Duplikatgruppen nach SHA-256: 44
+Dateien in Duplikatgruppen: 162
+
+DATEITYPEN
+----------
+css: 11
+csv: 6
+ds_store: 18
+example: 2
+gitkeep: 74
+htaccess: 12
+html: 35
+jpg: 5
+js: 17
+json: 3
+jsx: 28
+md: 21
+php: 101
+png: 10
+sql: 8
+svg: 1
+txt: 67
+webmanifest: 1
+xml: 1
+
+HINWEIS
+-------
+Dieses Inventar verändert keine Quelldateien.
+Ausgabedateien wurden ausschließlich im Repositorybereich erzeugt.
+Die fachliche Klassifikation und Migration erfolgt in einem späteren Schritt.

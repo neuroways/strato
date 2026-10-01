@@ -1,0 +1,10 @@
+No syntax errors detected in /mnt/data/TT-FRONTEND-0002-C001/backend/tests/bootstrap.php
+No syntax errors detected in /mnt/data/TT-FRONTEND-0002-C001/backend/tests/run-frontend-0002-c001.php
+No syntax errors detected in /mnt/data/TT-FRONTEND-0002-C001/backend/tests/Application/PublicTournament/PublicTournamentServiceTest.php
+No syntax errors detected in /mnt/data/TT-FRONTEND-0002-C001/backend/tests/Application/PublicTournament/PublicTournamentViewModelTest.php
+No syntax errors detected in /mnt/data/TT-FRONTEND-0002-C001/backend/src/Domain/Tournament/PublicTournamentRecord.php
+No syntax errors detected in /mnt/data/TT-FRONTEND-0002-C001/backend/src/Domain/Tournament/PublicTournamentRepository.php
+No syntax errors detected in /mnt/data/TT-FRONTEND-0002-C001/backend/src/Infrastructure/Persistence/PDO/Tournament/PdoPublicTournamentRepository.php
+No syntax errors detected in /mnt/data/TT-FRONTEND-0002-C001/backend/src/Application/PublicTournament/PublicTournamentViewModel.php
+No syntax errors detected in /mnt/data/TT-FRONTEND-0002-C001/backend/src/Application/PublicTournament/PublicTournamentService.php
+No syntax errors detected in /mnt/data/TT-FRONTEND-0002-C001/backend/public/api/public/tournament.php

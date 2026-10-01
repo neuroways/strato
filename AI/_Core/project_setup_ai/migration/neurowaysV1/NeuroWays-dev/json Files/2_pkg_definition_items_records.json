@@ -1,0 +1,24 @@
+[
+  {
+    "collectionId": "pbc_180296191",
+    "collectionName": "pkg_definition_items",
+    "created": "2026-07-23 20:01:49.795Z",
+    "definition_id": "hmug0n8erzmlbeq",
+    "id": "iwqjsf7ynv1cwmk",
+    "is_required": false,
+    "module_code": "ENERGY_NAVIGATOR",
+    "module_version": "v1.1.0",
+    "updated": "2026-07-23 20:01:49.795Z"
+  },
+  {
+    "collectionId": "pbc_180296191",
+    "collectionName": "pkg_definition_items",
+    "created": "2026-07-23 19:57:46.823Z",
+    "definition_id": "aw1l5vo2pvi1ozq",
+    "id": "l9wp92krz1c4tpy",
+    "is_required": false,
+    "module_code": "TEST_MODULE",
+    "module_version": "0.0.1",
+    "updated": "2026-07-23 19:57:46.823Z"
+  }
+]

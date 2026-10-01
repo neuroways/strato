@@ -1,0 +1,154 @@
+/* NeuroWays Color System – Tailwind Mapping */
+
+/* Primary (Türkis – NeuroWays Identität) */
+.nw-primary { --color: var(--nw-primary); }
+.bg-nw-primary { background-color: var(--nw-primary); }
+.text-nw-primary { color: var(--nw-primary); }
+.border-nw-primary { border-color: var(--nw-primary); }
+
+/* Primary Dark */
+.bg-nw-primary-dark { background-color: var(--nw-primary-dark); }
+.text-nw-primary-dark { color: var(--nw-primary-dark); }
+
+/* Primary Light */
+.bg-nw-primary-light { background-color: var(--nw-primary-light); }
+.text-nw-primary-light { color: var(--nw-primary-light); }
+
+/* Success (Grün) */
+.bg-nw-success { background-color: var(--nw-success); }
+.text-nw-success { color: var(--nw-success); }
+.border-nw-success { border-color: var(--nw-success); }
+.bg-nw-success-light { background-color: var(--nw-success-light); }
+.text-nw-success-light { color: var(--nw-success-light); }
+
+/* Warning (Orange) */
+.bg-nw-warning { background-color: var(--nw-warning); }
+.text-nw-warning { color: var(--nw-warning); }
+.border-nw-warning { border-color: var(--nw-warning); }
+.bg-nw-warning-light { background-color: var(--nw-warning-light); }
+.text-nw-warning-light { color: var(--nw-warning-light); }
+
+/* Error (Rot) */
+.bg-nw-error { background-color: var(--nw-error); }
+.text-nw-error { color: var(--nw-error); }
+.border-nw-error { border-color: var(--nw-error); }
+.bg-nw-error-light { background-color: var(--nw-error-light); }
+.text-nw-error-light { color: var(--nw-error-light); }
+
+/* Neutral / Secondary */
+.bg-nw-secondary { background-color: var(--nw-secondary); }
+.text-nw-secondary { color: var(--nw-secondary); }
+.border-nw-secondary { border-color: var(--nw-secondary); }
+
+/* Surface */
+.bg-nw-surface { background-color: var(--nw-surface); }
+.bg-nw-surface-dark { background-color: var(--nw-surface-dark); }
+.bg-nw-surface-darker { background-color: var(--nw-surface-darker); }
+
+/* Text */
+.text-nw-primary { color: var(--nw-text-primary); }
+.text-nw-secondary { color: var(--nw-text-secondary); }
+.text-nw-tertiary { color: var(--nw-text-tertiary); }
+
+/* Border */
+.border-nw-default { border-color: var(--nw-border); }
+.border-nw-dark { border-color: var(--nw-border-dark); }
+
+/* Hover States */
+.hover\:bg-nw-primary:hover { background-color: var(--nw-primary); }
+.hover\:bg-nw-primary-dark:hover { background-color: var(--nw-primary-dark); }
+.hover\:text-nw-primary:hover { color: var(--nw-primary); }
+
+/* Buttons – Standardisiert */
+.btn-primary {
+  background-color: var(--nw-primary);
+  color: white;
+  border: none;
+  border-radius: var(--nw-radius-md);
+  padding: 0.5rem 1rem;
+  font-weight: var(--nw-font-weight-semibold);
+  transition: all var(--nw-transition-normal);
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: var(--nw-primary-dark);
+}
+
+.btn-secondary {
+  background-color: var(--nw-secondary);
+  color: white;
+  border: none;
+  border-radius: var(--nw-radius-md);
+  padding: 0.5rem 1rem;
+  font-weight: var(--nw-font-weight-semibold);
+  transition: all var(--nw-transition-normal);
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: var(--nw-secondary-dark);
+}
+
+.btn-success {
+  background-color: var(--nw-success);
+  color: white;
+  border: none;
+  border-radius: var(--nw-radius-md);
+  padding: 0.5rem 1rem;
+  font-weight: var(--nw-font-weight-semibold);
+  transition: all var(--nw-transition-normal);
+  cursor: pointer;
+}
+
+.btn-success:hover {
+  background-color: var(--nw-success-light);
+}
+
+.btn-error {
+  background-color: var(--nw-error);
+  color: white;
+  border: none;
+  border-radius: var(--nw-radius-md);
+  padding: 0.5rem 1rem;
+  font-weight: var(--nw-font-weight-semibold);
+  transition: all var(--nw-transition-normal);
+  cursor: pointer;
+}
+
+.btn-error:hover {
+  background-color: var(--nw-error-light);
+}
+
+/* Alert Boxes */
+.alert-success {
+  background-color: var(--nw-success-bg);
+  border-left: 4px solid var(--nw-success);
+  color: var(--nw-success);
+  padding: 1rem;
+  border-radius: var(--nw-radius-md);
+}
+
+.alert-warning {
+  background-color: var(--nw-warning-bg);
+  border-left: 4px solid var(--nw-warning);
+  color: var(--nw-warning);
+  padding: 1rem;
+  border-radius: var(--nw-radius-md);
+}
+
+.alert-error {
+  background-color: var(--nw-error-bg);
+  border-left: 4px solid var(--nw-error);
+  color: var(--nw-error);
+  padding: 1rem;
+  border-radius: var(--nw-radius-md);
+}
+
+.alert-info {
+  background-color: var(--nw-info-bg);
+  border-left: 4px solid var(--nw-info);
+  color: var(--nw-info);
+  padding: 1rem;
+  border-radius: var(--nw-radius-md);
+}

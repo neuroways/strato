@@ -1,0 +1,5 @@
+/* Module CSS example
+ * Nur modulespezifische Styles.
+ * Core-Tokens/-Komponenten nicht kopieren.
+ * Installation Custom CSS liegt außerhalb der Module Version.
+ */

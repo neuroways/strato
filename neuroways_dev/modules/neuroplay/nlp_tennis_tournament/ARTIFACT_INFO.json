@@ -1,0 +1,8 @@
+{
+  "artifact": "TT-FRONTEND-0002-C001-R001",
+  "workflow": "Strato-First",
+  "existing_endpoint": "/api/v1/tournaments/",
+  "new_endpoint": "/api/v1/tournaments/public/",
+  "database_migration_added": false,
+  "react_business_logic_added": false
+}

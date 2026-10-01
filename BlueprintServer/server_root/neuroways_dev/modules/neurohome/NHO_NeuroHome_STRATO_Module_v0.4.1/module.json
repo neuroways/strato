@@ -1,0 +1,30 @@
+{
+  "module_code": "nho_neurohome",
+  "module_name": "NeuroHome",
+  "version": "0.4.1",
+  "status": "dev_candidate",
+  "core_compatibility": ">=0.1.0",
+  "entrypoints": {
+    "backend": null,
+    "frontend": null
+  },
+  "capabilities": [
+    "home_structure",
+    "room_state",
+    "inventory_search",
+    "teacch_paths",
+    "reset_methods",
+    "session_progress"
+  ],
+  "dependencies": [
+    "neuroways.core.persistence",
+    "neuroways.core.security_context",
+    "neuroways.core.module_registry"
+  ],
+  "public_routes": [],
+  "requires_database": true,
+  "database_connection_profile": "platform",
+  "database_table_prefix": "NHO_",
+  "supports_custom_css": true,
+  "installation_target": "/modules/neurohome/NHO_NeuroHome_STRATO_Module_v0.4.1/"
+}
