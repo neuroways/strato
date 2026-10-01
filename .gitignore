@@ -31,3 +31,4 @@
 *.db
 **/dist/
 AI/NeuroPlay/BrettspielCoach/brettspielcoach_ai/src/lib/server-init.js
+**/__MACOSX/
